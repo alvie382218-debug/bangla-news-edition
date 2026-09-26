@@ -105,7 +105,17 @@ const notes = [];
 let realRoot = ROOT;
 try { realRoot = fs.realpathSync(ROOT); } catch (e) { /* যেমন আছে */ }
 
-if (realRoot !== CANONICAL) {
+/* ★ CI-সচেতন ★
+   GitHub Actions-এ চেকআউট হয় /home/runner/work/<repo>/<repo>-এ — অর্থাৎ
+   Mac-এর ক্যানোনিক্যাল পাথের সাথে মেলানো অসম্ভব। поэтому CI-তে কঠোর পাথ-
+   যাচাই বাদ দেওয়া হয়, কিন্তু ফাইল-স্তরের নিষিদ্ধ-প্যাটার্ন যাচাই তখনও চলে
+   (সেটিই আসল সুরক্ষা)। লোকাল মেশিনে পাথ-যাচাই আগের মতোই কঠোর। */
+const IS_CI = !!(process.env.CI || process.env.GITHUB_ACTIONS ||
+                 /^\/(home|github)\/runner\//.test(realRoot));
+
+if (IS_CI) {
+  notes.push('CI পরিবেশ শনাক্ত — পাথ-যাচাই বাদ (ফাইল-যাচাই চালু) · ' + realRoot);
+} else if (realRoot !== CANONICAL) {
   problems.push(
     'ভুল কপি থেকে ডিপ্লয়ের চেষ্টা!\n' +
     '      এখনকার পাথ : ' + realRoot + '\n' +

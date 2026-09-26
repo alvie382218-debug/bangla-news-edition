@@ -53,10 +53,32 @@ jobs:
             echo "::error::NETLIFY_AUTH_TOKEN_BD / NETLIFY_SITE_ID_BD সেট করা নেই — ডিপ্লয় করা সম্ভব নয়।"
             exit 1
           fi
+          # ★ ক্যানোনিক্যাল-পাথ গার্ড ★
+          # এই স্ক্রিপ্ট নিশ্চিত করে যে বিল্ড হয় প্রকৃত সোর্স থেকে — ভুল/পুরনো
+          # কপি থেকে নয়। কোনো নিষিদ্ধ প্যাটার্ন পাওয়া গেলে প্রসেস থামে।
+          node tools/verify-canonical.js
+
           # সাইটের ঠিকানা সব ফাইলে বসানো (canonical, og:url, gn-feed, টুল-ডিফল্ট)
           node tools/set-site-origin.js
+
           # প্রতি সংবাদের সাথে সামঞ্জস্যপূর্ণ ছবি (ব্যর্থ হলেও থামে না)
           node tools/enrich-images.js || echo "::warning::ছবি সমৃদ্ধকরণ ব্যর্থ — আগের ছবি নিয়েই এগোনো হচ্ছে।"
+
+          # ফাংশনের বান্ডল-ডেটা (SSR /api/config এর সোর্স)
           node tools/sync-function-data.js
+
+          # ★ নিজস্ব হালকা কনফিগ (data/site.json) + পূর্ণ সংবাদ-তালিকা ★
+          # নইলে GitHub পুশে পুরনো ডেটা দিয়েই ডিপ্লয় হয়ে যেত।
+          node tools/build-site-data.js || echo "::warning::site-data ব্যর্থ"
+
+          # ★ হোমপেজ প্রি-রেন্ডার — প্রথম বাইটেই H1 + রিয়েল-পাথ লিংক ★
+          node tools/prerender-home.js || echo "::warning::prerender ব্যর্থ"
+
+          # ★ sitemap.xml + news-sitemap.xml (নিজের হোস্টে) ★
+          node tools/build-sitemap.js || echo "::warning::sitemap ব্যর্থ"
+
+          # ★ স্ট্যাটিক পেজের canonical/OG/JSON-LD ★
+          node tools/build-static-seo.js || echo "::warning::static-seo ব্যর্থ"
+
           npm install -g netlify-cli
           netlify deploy --prod --no-build --dir . --site "$NETLIFY_SITE_ID"
