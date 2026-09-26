@@ -436,12 +436,49 @@ function resolveImage(name) {
   return `${base}/${raw.replace(/^\/+/, "")}`;
 }
 
+/* ══ ক্যাপশনে শিরোনাম দ্বিরাবৃত্তি ঠিক করা (৩৬০° অডিট) ══════════════════
+   সমস্যা (লাইভ পোস্টে প্রমাণিত — Facebook ও Telegram উভয় চ্যানেলে):
+     "পুলিশে যুক্ত হচ্ছে নতুন ইউনিট, শাখা থাকবে যেসব এলাকায়
+      পুলিশে যুক্ত হচ্ছে নতুন ইউনিট, শাখা থাকবে যেসব এলাকায় ..."
+
+   কারণ: বাংলাদেশি সংবাদ ফিডের <description> প্রায়ই শিরোনাম দিয়েই শুরু হয়
+   (তারপর সারমর্ম)। ক্যাপশন বানানো হয় title + "\n\n" + summary — ফলে একই
+   লেখা দুইবার ছাপা হয়। পাঠকের কাছে এটি অপ্রফেশনাল দেখায় এবং কার্ডে
+   মূল্যবান জায়গা নষ্ট করে।
+
+   সমাধান: সারমর্মের শুরুতে শিরোনামের পুনরাবৃত্তি থাকলে ছেঁটে ফেলা হয়।
+   একই হলে সারমর্ম সম্পূর্ণ বাদ (শুধু শিরোনামই থাকবে)। */
+function dedupeTitle(title, summary) {
+  const t = String(title || "").trim();
+  let s = String(summary || "").trim();
+  if (!t || !s) return s;
+  const norm = (x) => x.replace(/\s+/g, " ").replace(/[।,\.\-–—:;|]+$/g, "").trim();
+  const nt = norm(t);
+  let ns = norm(s);
+  if (!nt || !ns) return s;
+  if (ns === nt) return "";                                  /* হুবহু একই */
+  if (ns.indexOf(nt) === 0) {                                 /* শুরুতে পুরো শিরোনাম */
+    return ns.slice(nt.length).replace(/^[\s।,\.\-–—:;|]+/g, "").trim();
+  }
+  /* "শিরোনাম - সারমর্ম" ধরনের ফিড: শিরোনাম ৩ অক্ষরের মধ্যে থাকলে ছাঁটো */
+  const idx = ns.indexOf(nt);
+  if (idx !== -1 && idx <= 3) {
+    return ns.slice(idx + nt.length).replace(/^[\s।,\.\-–—:;|]+/g, "").trim();
+  }
+  /* আংশিক: শিরোনামের প্রথম ৪০ অক্ষর দিয়ে শুরু হলে */
+  const probe = nt.slice(0, 40);
+  if (probe.length > 20 && ns.indexOf(probe) === 0) {
+    return ns.slice(probe.length).replace(/^[\s।,\.\-–—:;|]+/g, "").trim();
+  }
+  return s;
+}
+
 /* RSS আইটেম → অভিন্ন নিউজ অবজেক্ট */
 function normalizeItem(it) {
   const title = stripHtml(it.title || "");
   const link = String(it.link || it.guid || "").trim();
   if (!title || link.indexOf("http") !== 0) return null;
-  const summary = stripHtml(it.description || it.content || "").slice(0, 165);
+  const summary = dedupeTitle(title, stripHtml(it.description || it.content || "")).slice(0, 165);
   const image = extractBestImage(it);
   const ts = it.pubDate && !isNaN(Date.parse(it.pubDate)) ? Date.parse(it.pubDate) : Date.now();
   const id = hashId(link);
