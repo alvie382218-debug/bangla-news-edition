@@ -831,7 +831,14 @@ async function telegramFileUrl(fileId) {
    ══════════════════════════════════════════════════════════════════════ */
 exports.handler = async (event) => {
   /* Telegram যে গোপন হেডার পাঠায় — নইলে যে কেউ বট সেজে নির্দেশ দিতে পারত */
-  if (SECRET) {
+  /* ★ fail-closed ★ আগে SECRET খালি থাকলে যাচাইই হত না — অর্থাৎ যে কেউ
+       webhook URL জেনে বট সেজে নির্দেশ পাঠাতে পারত। এখন গোপন কী
+       না থাকলে ফাংশন কোনো অনুরোধই গ্রহণ করে না। */
+  if (!SECRET) {
+    console.error('TELEGRAM_WEBHOOK_SECRET সেট করা নেই — অনুরোধ প্রত্যাখ্যাত');
+    return { statusCode: 503, body: 'webhook secret not configured' };
+  }
+  {
     const got = (event.headers || {})['x-telegram-bot-api-secret-token']
       || (event.headers || {})['X-Telegram-Bot-Api-Secret-Token'];
     if (got !== SECRET) {
@@ -853,7 +860,13 @@ exports.handler = async (event) => {
       const fromId = String((cb.from || {}).id || '');
       await tg('answerCallbackQuery', { callback_query_id: cb.id });
 
-      if (ADMINS.length && !ADMINS.includes(fromId)) {
+      /* ★ নিরাপত্তা ফিক্স (৩৬০° অডিট) ★
+       আগে শর্ত ছিল `ADMINS.length &&` — অর্থাৎ TELEGRAM_ADMIN_IDS
+       খালি থাকলে (env var সেট না হলে) শর্তটি মিথ্যা হয়ে যেত এবং
+       **যে কেউ** বটের মাধ্যমে সাইটে সংবাদ/বিজ্ঞাপন বদলাতে পারত।
+       এখন শর্ত উল্টো — অ্যাডমিন-তালিকা খালি হলে ডিফল্টে সবাই ব্লকড।
+       (fail-closed নীতি: কনফিগ ভুল হলে সিস্টেম বন্ধ হবে, খুলে যাবে না) */
+      if (!ADMINS.length || !ADMINS.includes(fromId)) {
         await send(chatId, '⛔ এই বট কেবল অ্যাডমিনের জন্য।');
         return { statusCode: 200, body: 'ok' };
       }
@@ -872,7 +885,13 @@ exports.handler = async (event) => {
       const chatId = msg.chat.id;
       const fromId = String((msg.from || {}).id || '');
 
-      if (ADMINS.length && !ADMINS.includes(fromId)) {
+      /* ★ নিরাপত্তা ফিক্স (৩৬০° অডিট) ★
+       আগে শর্ত ছিল `ADMINS.length &&` — অর্থাৎ TELEGRAM_ADMIN_IDS
+       খালি থাকলে (env var সেট না হলে) শর্তটি মিথ্যা হয়ে যেত এবং
+       **যে কেউ** বটের মাধ্যমে সাইটে সংবাদ/বিজ্ঞাপন বদলাতে পারত।
+       এখন শর্ত উল্টো — অ্যাডমিন-তালিকা খালি হলে ডিফল্টে সবাই ব্লকড।
+       (fail-closed নীতি: কনফিগ ভুল হলে সিস্টেম বন্ধ হবে, খুলে যাবে না) */
+      if (!ADMINS.length || !ADMINS.includes(fromId)) {
         await send(chatId, '⛔ এই বট কেবল অ্যাডমিনের জন্য।\n<i>আপনার আইডি: ' + L.esc(fromId) + '</i>');
         return { statusCode: 200, body: 'ok' };
       }
