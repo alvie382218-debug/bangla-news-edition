@@ -53,6 +53,16 @@
   to = "/"
   status = 410
   force = true
+[[redirects]]
+  from = "/sw-admin.js"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/admin-sw.js"
+  to = "/"
+  status = 410
+  force = true
 
 # ══════════════════════════════════════════════════════════════════════════════
 # ৩. অভ্যন্তরীণ ফাইল কখনো সর্বজনীন নয়

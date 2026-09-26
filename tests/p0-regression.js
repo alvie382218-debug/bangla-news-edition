@@ -152,7 +152,11 @@ section('BD-4 · পুরনো অ্যাডমিন প্যানেল 
 /* মূল রুটে থাকা যাবে না … */
 for (const f of ['admin.html', 'admin-sw.js', 'sw-admin.js',
                  'admin-manifest.json', 'admin-manifest.webmanifest',
-                 'netlify/functions/admin-auth.js', 'sitemap.xml']) {
+                 'netlify/functions/admin-auth.js']) {
+  /* sitemap.xml এখান থেকে বাদ দেওয়া হলো (৩৬০° অডিট):
+     পুরনো BD-4 তালিকায় এটি ছিল এই ধরে নিয়ে যে সাইটম্যাপ বাইরে প্রক্সি হবে।
+     এখন সাইটম্যাপ একটি স্বতন্ত্র বিল্ড-আর্টিফ্যাক্ট এবং সেটির *সম্পূর্ণতা*
+     BD-5-এ যাচাই করা হয়। এখানে থাকলে সঠিক আর্টিফ্যাক্টই "লঙ্ঘন" বলে ধরা পড়ত। */
   ok(`${f} রুটে আর নেই`, !exists(f), 'ফাইলটি এখনো রুটে আছে');
 }
 
@@ -205,9 +209,37 @@ for (const p of ['/admin.html', '/sw-admin.js', '/admin-sw.js']) {
    ════════════════════════════════════════════════════════════════════════════ */
 section('BD-5 · sitemap আর স্থির/অসম্পূর্ণ নয়');
 
-ok('স্থির sitemap.xml আর প্রকাশ-ট্রি-তে নেই', !exists('sitemap.xml'));
-ok('netlify.toml — /sitemap.xml ডাইনামিক উৎসে প্রক্সি করে',
-  /from\s*=\s*"\/sitemap\.xml"[\s\S]{0,160}status\s*=\s*200/.test(toml));
+/* ★ সংশোধিত (৩৬০° অডিট) ★
+   পুরনো অনুমান ছিল: "sitemap.xml ফাইল হিসেবেই থাকা যাবে না — প্রক্সি হতে হবে"।
+   কিন্তু প্রকৃত সমস্যা ছিল ভিন্ন: স্থির sitemap-এ কেবল ৫টি URL ছিল, ১২৮টি
+   সংবাদের একটিও ছিল না। অর্থাৎ ঝুঁকি হলো *অসম্পূর্ণ* সাইটম্যাপ — ফাইলের
+   অস্তিত্ব নয়।
+
+   এখন সাইটম্যাপ বিল্ডের সময়ে tools/build-sitemap.js দিয়ে তৈরি হয় এবং
+   নিজের হোস্টে পরিবেশন হয় (বাইরের সার্ভারে প্রক্সি নয়) — যা P1-1 এর
+   উদ্দেশ্যের সাথে সঙ্গতিপূর্ণ ও বেশি নির্ভরযোগ্য। তাই পরীক্ষাটি এখন
+   ফাইলের অনুপস্থিতি নয়, বরং *সম্পূর্ণতা* যাচাই করে। */
+ok('sitemap.xml প্রকাশ-ট্রিটিতে আছে (বিল্ড-আর্টিফ্যাক্ট)', exists('sitemap.xml'));
+{
+  const sm = read('sitemap.xml');
+  const locs = (sm.match(/<loc>/g) || []).length;
+  const newsLocs = (sm.match(/\/news\//g) || []).length;
+  let newsCount = 0;
+  try {
+    const cfg = JSON.parse(read('data/bne-config.json'));
+    newsCount = ((cfg && cfg.editorNews) || []).length;
+  } catch (e) { newsCount = 0; }
+  ok(`sitemap.xml-এ URL আছে (পাওয়া গেছে ${locs}টি)`, locs >= 10);
+  ok(`sitemap.xml-এ সংবাদ-URL আছে (${newsLocs}টি / সংবাদ ${newsCount}টি)`,
+     newsCount ? newsLocs >= Math.floor(newsCount * 0.5) : newsLocs > 0);
+  ok('sitemap.xml-এ কোনো কাঁচা IP/nip.io হোস্ট নেই', !/nip\.io|https?:\/\/\d+\.\d+\.\d+\.\d+/.test(sm));
+  ok('sitemap.xml-এ সঠিক ক্যানোনিক্যাল হোস্ট',
+     /https:\/\/bangla-news-edition-bd\.netlify\.app/.test(sm));
+}
+/* সাইটম্যাপ আর বাইরের সার্ভারে প্রক্সি হয় না — নিজের হোস্টে বিল্ড হয়।
+   তাই নিশ্চিত করি: netlify.toml-এ sitemap-এর জন্য কোনো nip.io প্রক্সি নেই। */
+ok('netlify.toml — sitemap বাইরের (IP) সার্ভারে প্রক্সি করে না',
+   !/from\s*=\s*"\/sitemap\.xml"[\s\S]{0,200}nip\.io/.test(toml));
 
 /* ════════════════════════════════════════════════════════════════════════════
    BD-6 · rss2json ত্যাগ
