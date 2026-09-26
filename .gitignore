@@ -1,0 +1,20 @@
+# BNE — সংবেদনশীল ও জেনারেটেড ফাইল
+.env
+.env.*
+!.env.example
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+_image_backups/
+_unused_images/
+node_modules/
+last_posted.json
+*.log
+
+.netlify/
+
+# অপারেশনাল স্টেট (কোড নয় — ডিপ্লয়ে দরকার নেই)
+last_posted.json
+data/bot-state.json
+sponsor_leads_outreach.json
+data/prerender-report.json

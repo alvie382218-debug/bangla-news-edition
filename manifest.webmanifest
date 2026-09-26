@@ -1,0 +1,73 @@
+{
+  "name": "বাংলা নিউজ এডিশন — Bangla News Edition",
+  "short_name": "BNE নিউজ",
+  "description": "বাংলাদেশ ও বিশ্বের সর্বশেষ সংবাদ — জাতীয়, রাজনীতি, আন্তর্জাতিক, অর্থনীতি, খেলা, প্রবাস ও আরও। সত্য ও বস্তুনিষ্ঠ খবরের বিশ্বস্ত ঠিকানা।",
+  "lang": "bn-BD",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "id": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#0b1220",
+  "theme_color": "#991b1b",
+  "categories": ["news", "magazines", "education"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/images/bne-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/bne-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/bne-icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "সর্বশেষ সংবাদ",
+      "short_name": "সর্বশেষ",
+      "description": "প্রথম পাতার সর্বশেষ ও ব্রেকিং সংবাদ",
+      "url": "/",
+      "icons": [{ "src": "/images/bne-icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "জাতীয়",
+      "short_name": "জাতীয়",
+      "description": "জাতীয় বিভাগের সর্বশেষ সংবাদ",
+      "url": "/category/%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC",
+      "icons": [{ "src": "/images/bne-icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "প্রবাস বাংলা নিউজ",
+      "short_name": "প্রবাস",
+      "description": "প্রবাসীদের জন্য বিশেষায়িত ডেস্ক",
+      "url": "/desk/probashi-bangla-news",
+      "icons": [{ "src": "/images/bne-icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "খেলা",
+      "short_name": "খেলা",
+      "description": "খেলাধুলার সর্বশেষ সংবাদ",
+      "url": "/category/%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE",
+      "icons": [{ "src": "/images/bne-icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ],
+  "related_applications": [],
+  "share_target": {
+    "action": "/search/",
+    "method": "GET",
+    "params": { "text": "q" }
+  }
+}

@@ -1,0 +1,307 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# বাংলা নিউজ এডিশন (BNE) — Netlify কনফিগারেশন
+# ৩৬০° অডিট ফিক্স (P0/P1/P2) অনুযায়ী পুনর্লিখিত
+# ══════════════════════════════════════════════════════════════════════════════
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+  # বিল্ড ধাপ:
+  #   ১) সাইটের origin সব ফাইলে বসানো
+  #   ২) প্রতিটি সংবাদের ছবি যাচাই ও সমৃদ্ধকরণ
+  #   ৩) OG ফাংশনের বান্ডল করা ডেটা পুনর্গঠন
+  #   ৪) হোমপেজ প্রি-রেন্ডার (P0-3/P0-6) — প্রথম বাইটেই কনটেন্ট + রিয়েল লিংক
+  #   ৫) sitemap.xml + news-sitemap.xml তৈরি (P1-1 — নিজের হোস্টে)
+  #   ৬) নিজস্ব হালকা কনফিগ (data/site.json) + পূর্ণ সংবাদ-তালিকা (data/news.json)
+  #      → /api/config ৪০৪ হলেও সাইট সম্পূর্ণ রেন্ডার করে (P0-3)
+  #   ৭) স্ট্যাটিক পেজে canonical/OG/JSON-LD + terms ও advertise পাতা (P1-3)
+  command = "node tools/set-site-origin.js && (node tools/enrich-images.js || echo 'enrich skipped') && node tools/sync-function-data.js && (node tools/build-site-data.js || echo 'site-data skipped') && (node tools/prerender-home.js || echo 'prerender skipped') && (node tools/build-sitemap.js || echo 'sitemap skipped') && (node tools/build-static-seo.js || echo 'static-seo skipped')"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ১. LEGACY রুট — পুরনো লিংক কখনো ভাঙবে না (P1-12)
+# ══════════════════════════════════════════════════════════════════════════════
+# অডিটে পাওয়া গেছে: স্ক্রিনশটের URL ছিল …/app/news/<slug>, কিন্তু বর্তমান
+# ডিপ্লয়ে /app/* → ৪০৪। কেউ পুরনো বুকমার্ক ব্যবহার করলে "Page not found"।
+[[redirects]]
+  from = "/app/*"
+  to = "/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/app"
+  to = "/"
+  status = 301
+  force = true
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ২. নিরাপত্তা: পুরনো ক্লায়েন্ট-সাইড অ্যাডমিন প্যানেল স্থায়ীভাবে বন্ধ
+# ══════════════════════════════════════════════════════════════════════════════
+# admin.html-এ পাসকোড সরাসরি লেখা ছিল এবং তা সর্বজনীনভাবে পড়া যেত।
+[[redirects]]
+  from = "/admin.html"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/admin-manifest.json"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/admin-manifest.webmanifest"
+  to = "/"
+  status = 410
+  force = true
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ৩. অভ্যন্তরীণ ফাইল কখনো সর্বজনীন নয়
+# ══════════════════════════════════════════════════════════════════════════════
+# Netlify `--dir .` দিয়ে পুরো রেপো রুট প্রকাশ করে, তাই সোর্স-কোড, টেস্ট,
+# ওয়ার্কফ্লো ও অভ্যন্তরীণ স্ক্রিপ্ট সবই ডাউনলোডযোগ্য হয়ে যেত।
+[[redirects]]
+  from = "/tools/*"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/tests/*"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/legacy/*"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/.github/*"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/netlify/*"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/data/bot-state.json"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/sponsor_leads_outreach.json"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/sponsor_hunter.js"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/deploy.sh"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/Start_FB_Auto_Poster.command"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/FB_SETUP_GUIDE.md"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/auto_social_poster.js"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/last_posted.json"
+  to = "/"
+  status = 410
+  force = true
+[[redirects]]
+  from = "/gn-feed.xml"
+  to = "/"
+  status = 410
+  force = true
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ৪. GATE: আনস্টাইল্ড সাদা পেজ আর কখনো নয় (P0-1) — দুই স্তরের সুরক্ষা
+# ══════════════════════════════════════════════════════════════════════════════
+# অডিটের মূল আবিষ্কার: /category/style.css অনুরোধে Netlify index.html
+# (text/html) ফেরত দিত → ব্রাউজার MIME mismatch-এ CSS বাতিল করত →
+# সম্পূর্ণ আনস্টাইল্ড সাদা পেজ।
+#
+# স্তর ১ (মূল সমাধান): index.html-এ এখন সব অ্যাসেট পাথ absolute
+#   (/style.css, /core.js …)। তাই ব্রাউজার আর কখনো
+#   /category/style.css চায়ই না — সমস্যাটির উৎস শুকিয়ে যায়।
+# স্তর ২ (সুরক্ষা জাল): কোনো পুরনো ক্যাশ বা বাইরের লিংক এখনো
+#   /category/<কিছু>.css চাইলে সেটি page-ssr ফাংশনে যায়, যা
+#   বৈধ ক্যাটাগরি না পেয়ে পরিষ্কার ৪০৪ দেয় — কখনো index.html (200 +
+#   text/html) দেয় না। অর্থাৎ CSS-এর জায়গায় HTML কখনো আসবে না।
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ৫. SSR রুট — প্রথম বাইটেই সঠিক canonical, OG ও H1
+# ══════════════════════════════════════════════════════════════════════════════
+# /news/*      → article-og    : খবরের নিজের og:title/og:image/og:url
+# /category/*  → page-ssr      : self-canonical (আগে হোমপেজের canonical ছিল!),
+#                                ঠিক ১টি <h1>, রিয়েল-পাথ লিংক, CollectionPage
+# /desk/*      → page-ssr
+# /search/*    → page-ssr      : noindex,follow (সার্চ ফলাফল ইনডেক্স নয়)
+[[redirects]]
+  from = "/news/*"
+  to = "/.netlify/functions/article-og"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/category/*"
+  to = "/.netlify/functions/page-ssr"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/desk/*"
+  to = "/.netlify/functions/page-ssr"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/search/*"
+  to = "/.netlify/functions/page-ssr"
+  status = 200
+  force = true
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ৬. API — Netlify Functions
+# ══════════════════════════════════════════════════════════════════════════════
+# /api/feeds আগে ৪০৪ দিত, ফলে ফিড লোডার প্রতিবার তৃতীয় পক্ষের CORS প্রক্সিতে
+# (corsproxy.io → allorigins → codetabs) পড়ত। এখন এখানেই সার্ভার-সাইডে।
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ৭. গণমাধ্যম প্রক্সি — /img/ ও /og/
+# ══════════════════════════════════════════════════════════════════════════════
+# /og/<slug>.jpg      → Oracle ১২০০x৬৩০ ব্র্যান্ডেড কার্ড তৈরি করে দেয়।
+#                       ক্রলার আমাদের নিজের ডোমেইনই দেখে (সার্ভার-সাইড প্রক্সি),
+#                       তাই স্কিমায় দুই ডোমেইনের বিভ্রাজন আর হয় না (P1-2)।
+# /img/<file>         → প্রতিটি সংবাদের নিজস্ব ছবি। রেপোর /images/ ফোল্ডারে
+#                       থাকা ফাইল Netlify নিজেই আগে পরিবেশন করে (redirect-এর
+#                       চেয়ে স্ট্যাটিক ফাইলের অগ্রাধিকার বেশি), তাই পরিচিত
+#                       ছবি কখনো প্রক্সিতে যায় না — কেবল নতুন ছবি যায়।
+[[redirects]]
+  from = "/og/*"
+  to = "https://bne.147-224-13-31.nip.io/og/:splat"
+  status = 200
+  force = false
+
+[[redirects]]
+  from = "/img/*"
+  to = "https://bne.147-224-13-31.nip.io/img/:splat"
+  status = 200
+  force = false
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ৮. হেডার — নিরাপত্তা, ক্যাশ ও MIME
+# ══════════════════════════════════════════════════════════════════════════════
+# নোট: SSR ফাংশনগুলো এখন আর নিজে X-Content-Type-Options পাঠায় না —
+# এক জায়গা থেকেই সব হেডার আসে (P1-10: আগে হেডারটি দুইবার আসত)।
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    # P1-10 — Content-Security-Policy (allow-list ভিত্তিক)
+    Content-Security-Policy = "default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://pagead2.googlesyndication.com https://partner.googleadservices.com https://tpc.googlesyndication.com https://fundingchoicesmessages.google.com https://www.google.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https:; media-src 'self' https:; frame-src https://www.youtube-nocookie.com https://www.youtube.com https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://www.google.com https://fundingchoicesmessages.google.com; connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://pagead2.googlesyndication.com https://bne.147-224-13-31.nip.io; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests"
+
+# HTML — সর্বদা রিভ্যালিডেট (নতুন সংবাদ তাৎক্ষণিক দেখা যাবে)
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# নিজস্ব সাইট-কনফিগ ও সংবাদের ডেটা — ছোট ক্যাশ + ব্যাকগ্রাউন্ড রিফ্রেশ (P0-3)
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=60, stale-while-revalidate=86400"
+    Content-Type = "application/json; charset=utf-8"
+
+# ছবি — দীর্ঘ ক্যাশ (P1-9)
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/og/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+# ফন্ট/স্টাইল/স্ক্রিপ্ট — রিভ্যালিডেশন (ফাইলনামে content-hash নেই, তাই
+# immutable দেওয়া ভুল হবে: নতুন ডিপ্লয়ে পুরনো ক্যাশ আটকে যেত)
+[[headers]]
+  for = "/style.css"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/app.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/core.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/ssr.css"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/manifest.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json"
+    Cache-Control = "public, max-age=3600"
+
+# sitemap — মাঝারি ক্যাশ
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+    Cache-Control = "public, max-age=1800"
+
+[[headers]]
+  for = "/news-sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml; charset=utf-8"
+    Cache-Control = "public, max-age=600"
+
+# অ্যাডমিন কিছু কখনো ইনডেক্স হবে না
+[[headers]]
+  for = "/admin*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+# ══════════════════════════════════════════════════════════════════════════════
+# ৯. সময়সূচি (Netlify Scheduled Function)
+# ══════════════════════════════════════════════════════════════════════════════
+# bot-tick প্রতি ১৫ মিনিটে চলে এবং GitHub Actions-কে চালু করে:
+#   • কনটেন্ট সিঙ্ক   — ১২ মিনিটের বেশি হলে
+#   • সোশ্যাল পোস্টার  — ২৫ মিনিটের বেশি হলে
+#   • দৈনিক রিপোর্ট   — ঢাকার সময় সকাল ৯টায়
+[functions."bot-tick"]
+  schedule = "*/15 * * * *"

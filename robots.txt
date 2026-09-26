@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /search/
+Disallow: /admin
+Disallow: /admin-assets/
+Disallow: /r/
+
+# ── AI / Search crawlers: স্পষ্টভাবে অনুমোদিত (GEO/AI-সার্চ প্রস্তুতি) ──
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+Disallow: /api/
+Disallow: /search/
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# ── একমাত্র ক্যানোনিক্যাল হোস্ট — ভুল ডোমেইন নয় (-bd সহ) ──
+Sitemap: https://bangla-news-edition-bd.netlify.app/sitemap.xml
+Sitemap: https://bangla-news-edition-bd.netlify.app/news-sitemap.xml

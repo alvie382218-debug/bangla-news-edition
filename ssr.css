@@ -1,0 +1,231 @@
+/* ══════════════════════════════════════════════════════════════════════
+   BNE — Server-Rendered (SSR) পেজের নিজস্ব স্টাইলশিট
+   ──────────────────────────────────────────────────────────────────────
+   কেন এই ফাইল দরকার:
+     /news/* ও /category/* রুট Netlify Function থেকে SSR হয়ে আসে এবং
+     ভিজিটর পায় প্রথম বাইটেই সম্পূর্ণ HTML। কিন্তু আগে এই ফাইলটি রেপোতে
+     ছিল না → ব্রাউজার /ssr.css চাইত এবং ৪০৪ পেত → কোনো স্টাইল ছাড়াই
+     কনটেন্ট দেখাত (সাদা/আনস্টাইল্ড পেজ)।
+
+   নীতি:
+     - শুধু SSR-শেলের নিজস্ব ক্লাস এখানে থাকে (ssr-*)।
+     - ভিজিটর আসল থিম পায় /style.css থেকে, যা আগে লোড হয়।
+     - ডার্ক ফার্স্ট: প্রথম পেইন্টেই ডার্ক ব্যাকগ্রাউন্ড, সাদা ফ্ল্যাশ নেই।
+   ══════════════════════════════════════════════════════════════════════ */
+
+:root {
+  --ssr-bg: #0b1220;
+  --ssr-surface: #111c30;
+  --ssr-line: #1e2b45;
+  --ssr-text: #e8eef9;
+  --ssr-muted: #9fb0c9;
+  --ssr-brand: #c00000;
+  --ssr-accent: #10b981;
+}
+
+html, body.ssr-body {
+  background: var(--ssr-bg) !important;
+  color: var(--ssr-text) !important;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans Bengali", "Hind Siliguri", system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.75;
+  -webkit-text-size-adjust: 100%;
+}
+
+.ssr-body * { box-sizing: border-box; }
+
+/* ── হেডার ─────────────────────────────────────────────────────────── */
+.ssr-header {
+  background: linear-gradient(180deg, #111827 0%, #0b1220 100%);
+  border-bottom: 3px solid var(--ssr-brand);
+  padding: 0.85rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.9rem;
+}
+.ssr-brand {
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.15rem;
+  text-decoration: none;
+  letter-spacing: 0.2px;
+}
+.ssr-brand::before {
+  content: "BNE";
+  display: inline-block;
+  background: var(--ssr-brand);
+  color: #fff;
+  border-radius: 6px;
+  padding: 2px 7px;
+  margin-right: 8px;
+  font-size: 0.78rem;
+  vertical-align: middle;
+}
+.ssr-nav { display: flex; flex-wrap: wrap; gap: 0.85rem; }
+.ssr-nav a {
+  color: var(--ssr-muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+.ssr-nav a:hover { color: #fff; background: rgba(255, 255, 255, 0.08); }
+
+/* ── মূল কনটেইনার ─────────────────────────────────────────────────── */
+.ssr-main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 1.4rem 1rem 3rem;
+  background: var(--ssr-bg);
+}
+.ssr-crumb {
+  font-size: 0.8rem;
+  color: var(--ssr-muted);
+  margin-bottom: 0.7rem;
+}
+.ssr-crumb a { color: var(--ssr-accent); text-decoration: none; }
+.ssr-crumb a:hover { text-decoration: underline; }
+
+h1.ssr-title, .ssr-title {
+  font-size: clamp(1.45rem, 4.2vw, 2.15rem);
+  line-height: 1.4;
+  font-weight: 800;
+  margin: 0.2rem 0 0.7rem;
+  color: #fff;
+}
+h2.ssr-h2 {
+  font-size: 1.15rem;
+  margin: 1.6rem 0 0.6rem;
+  color: #fff;
+  border-left: 4px solid var(--ssr-brand);
+  padding-left: 0.6rem;
+}
+
+.ssr-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.82rem;
+  color: var(--ssr-muted);
+  margin-bottom: 1rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--ssr-line);
+}
+.ssr-badge {
+  background: var(--ssr-brand);
+  color: #fff;
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* ── হিরো ছবি: লেটারবক্স-মুক্ত, intrinsic অনুপাত মানে ──────────────── */
+.ssr-hero { margin: 0 0 1.2rem; }
+.ssr-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: contain;
+  border-radius: 10px;
+  background: #0f172a;
+}
+
+.ssr-content { font-size: 1.06rem; color: #dbe4f2; }
+.ssr-content p { margin: 0 0 1.05rem; }
+.ssr-content a { color: var(--ssr-accent); }
+.ssr-content img { max-width: 100%; height: auto; border-radius: 8px; }
+
+/* ── শেয়ার বার ───────────────────────────────────────────────────── */
+.share-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.6rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ssr-line);
+}
+.share-btn {
+  display: inline-block;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background: #334155;
+}
+.share-btn.fb { background: #1877f2; }
+.share-btn.wa { background: #25d366; color: #06301a; }
+.share-btn.tg { background: #229ed9; }
+.share-btn:hover { filter: brightness(1.1); }
+
+/* ── ক্যাটাগরি/সংগ্রহ পেজের গ্রিড ─────────────────────────────────── */
+.ssr-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0 0;
+}
+.ssr-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--ssr-surface);
+  border: 1px solid var(--ssr-line);
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+.ssr-card img,
+.ssr-card .ssr-card-noimg {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #16233c;
+}
+.ssr-card .ssr-card-noimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ssr-muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.ssr-card-body { padding: 0.7rem 0.8rem 0.9rem; }
+.ssr-card-body h3 {
+  font-size: 0.98rem;
+  line-height: 1.5;
+  margin: 0 0 0.4rem;
+  color: #fff;
+}
+.ssr-card-body p {
+  font-size: 0.82rem;
+  color: var(--ssr-muted);
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ── ফুটার ────────────────────────────────────────────────────────── */
+.ssr-footer {
+  border-top: 1px solid var(--ssr-line);
+  background: #0a1120;
+  color: var(--ssr-muted);
+  font-size: 0.82rem;
+  padding: 1.2rem 1rem;
+  text-align: center;
+}
+.ssr-footer a { color: var(--ssr-accent); text-decoration: none; margin: 0 0.4rem; }
+
+@media (max-width: 520px) {
+  .ssr-main { padding: 1rem 0.8rem 2.5rem; }
+  .ssr-content { font-size: 1rem; }
+}

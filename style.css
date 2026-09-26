@@ -1,0 +1,803 @@
+/* দৈনিক আজাদী মুভমেন্ট — স্ট্যাটিক সংস্করণ স্টাইলশিট */
+:root {
+  --green-950: #022c22;
+  --green-900: #064e3b;
+  --green-800: #065f46;
+  --green-700: #047857;
+  --green-200: #a7f3d0;
+  --green-100: #d1fae5;
+  --red-600: #dc2626;
+  --red-700: #b91c1c;
+  --stone-100: #f5f5f4;
+  --slate-900: #0f172a;
+  --slate-600: #475569;
+  --slate-500: #64748b;
+  --slate-200: #e2e8f0;
+  --font-sans: "Noto Sans Bengali", sans-serif;
+  --font-serif: "Noto Serif Bengali", serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+html, body { font-family: var(--font-sans); background: #0b1220; color: #e2e8f0; min-height: 100vh; display: flex; flex-direction: column; }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; display: block; }
+.container { max-width: 80rem; margin: 0 auto; padding: 0 1rem; width: 100%; }
+#app, main.container { min-height: 100vh !important; }
+
+/* ── হেডার ── */
+.site-header { position: relative; z-index: 50; box-shadow: 0 4px 18px rgba(0,0,0,.08); background: #fff; }
+.topbar { background: var(--green-950); color: #e2e8f0; font-size: .75rem; border-bottom: 1px solid rgba(255,255,255,.08); }
+.topbar-inner { display: flex; justify-content: space-between; align-items: center; padding: .35rem 1rem; }
+.topbar-left { display: flex; align-items: center; gap: .6rem; }
+.topbar-tagline { color: #94a3b8; font-size: .7rem; }
+.live-dot-wrap { display: inline-flex; align-items: center; gap: .35rem; font-weight: 600; color: #f87171; }
+.live-dot { width: 8px; height: 8px; border-radius: 50%; background: #ef4444; animation: pulse 1.5s infinite; }
+@keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
+
+.social-links { display: flex; align-items: center; gap: .6rem; }
+.social-icon { color: #cbd5e1; display: flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; background: rgba(255,255,255,.1); transition: all .2s; }
+.social-icon:hover { color: #fff; background: var(--red-600); transform: translateY(-1px); }
+
+/* ── মাস্তুল / মাস্টহেড (Tier-1 3- কলাম গ্রিড) ── */
+.masthead { background: #ffffff; color: var(--slate-900); border-bottom: 1px solid #e2e8f0; padding: 1.1rem 0; }
+.masthead-grid { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 1.5rem; }
+
+/* কলাম ১: বামে তারিখ ও অবস্থান */
+.left-col { display: flex; align-items: center; justify-content: flex-start; }
+.date-widget { display: flex; align-items: center; gap: .6rem; background: #f8fafc; padding: .45rem .85rem; border-radius: .6rem; border: 1px solid #e2e8f0; }
+.date-widget .icon { font-size: 1.1rem; }
+.date-details { display: flex; flex-direction: column; line-height: 1.35; }
+.date-main { font-size: .82rem; font-weight: 700; color: #1e293b; }
+.location { font-size: .7rem; color: #64748b; font-weight: 500; }
+
+/* কলাম ২: সেন্টারে মাস্টার লোগো (BNE ক্র্যাস্ট + টাইপোগ্রাফি) */
+.center-col { display: flex; justify-content: center; align-items: center; }
+.master-logo-link { display: flex; align-items: center; gap: .85rem; text-decoration: none; transition: transform .2s; }
+.master-logo-link:hover { transform: translateY(-1px); }
+.bne-crest { width: 52px; height: 52px; border-radius: 50%; background: linear-gradient(135deg, #ef4444 0%, #dc2626 50%, #991b1b 100%); color: #fff; font-family: sans-serif; font-weight: 900; font-size: 1.25rem; font-style: italic; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(220, 38, 38, .35); border: 2px solid #fff; outline: 2.5px solid #dc2626; flex-shrink: 0; letter-spacing: -0.5px; }
+.brand-text-block { display: flex; flex-direction: column; line-height: 1; }
+.eng-title { font-family: "Noto Serif Bengali", serif; font-size: 1.65rem; font-weight: 800; color: #0f172a; letter-spacing: .5px; }
+.bng-title { font-size: .75rem; font-weight: 700; color: var(--red-600); letter-spacing: 1px; margin-top: 4px; }
+
+/* কলাম ৩: ডানে ঘড়ি ও সার্চ */
+.right-col { display: flex; align-items: center; justify-content: flex-end; gap: .85rem; }
+.live-clock-card { display: flex; flex-direction: column; text-align: right; background: #f8fafc; padding: .35rem .75rem; border-radius: .6rem; border: 1px solid #e2e8f0; }
+.clock-label { font-size: .65rem; color: #64748b; font-weight: 600; text-transform: uppercase; }
+.clock-time { font-family: monospace, sans-serif; font-size: 1rem; font-weight: 700; color: var(--green-900); }
+
+.search-box { display: flex; align-items: center; background: #fff; border: 1px solid var(--slate-200); border-radius: 99px; padding: 2px 4px; box-shadow: inset 0 1px 2px rgba(0,0,0,.04); }
+.search-box input { padding: .35rem .65rem; font-size: .8rem; border: none; outline: none; background: transparent; color: var(--slate-900); width: 110px; }
+.search-box button { width: 30px; height: 30px; border: none; background: var(--red-600); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background .2s; }
+.search-box button:hover { background: var(--green-800); }
+@media (max-width: 860px) { .masthead-grid { grid-template-columns: 1fr; justify-items: center; gap: .8rem; } .left-col, .right-col { justify-content: center; } }
+
+/* ── নেভিগেশন বার (একক লাক্সারি ডিপ-রেড সলিড বার) ── */
+.mainnav { background: #991b1b; box-shadow: 0 4px 12px rgba(0,0,0,.15); overflow-x: auto; scrollbar-width: none; border-bottom: 2px solid #7f1d1d; }
+.mainnav::-webkit-scrollbar { display: none; }
+.mainnav ul, #nav-list { display: flex !important; list-style: none !important; list-style-type: none !important; white-space: nowrap; padding: 0 !important; margin: 0 !important; align-items: center; }
+.mainnav li, #nav-list li { list-style: none !important; list-style-type: none !important; display: inline-block !important; margin: 0; padding: 0; }
+.mainnav a { display: block; padding: .75rem 1.05rem; color: #ffffff; font-size: .88rem; font-weight: 700; transition: all .2s; border-bottom: 3px solid transparent; text-shadow: 0 1px 2px rgba(0,0,0,.2); text-decoration: none; }
+.mainnav a:hover, .mainnav a.active { background: rgba(0, 0, 0, .28); border-bottom-color: #fef08a; color: #fff; }
+.mainnav a.nav-highlight { background: rgba(254, 240, 138, .18); color: #fef08a; border-bottom-color: #fef08a; }
+.mainnav a.nav-highlight:hover { background: rgba(254, 240, 138, .32); color: #fff; }
+
+/* ── প্রবাস বাংলা নিউজ ডেস্ক স্পেশাল হিরো ব্যানার ── */
+.probashi-desk-banner { background: linear-gradient(135deg, #064e3b 0%, #047857 50%, #022c22 100%); color: #fff; border-radius: 1rem; padding: 1.5rem; margin: 1rem 0; box-shadow: 0 8px 24px rgba(6, 78, 59, .25); border: 1px solid rgba(255,255,255,.1); position: relative; overflow: hidden; }
+.probashi-desk-banner::before { content: "✈️"; position: absolute; right: -10px; bottom: -20px; font-size: 110px; opacity: .12; pointer-events: none; }
+.probashi-desk-banner h2 { font-size: 1.5rem; font-family: var(--font-serif); font-weight: 700; color: #fef08a; display: flex; align-items: center; gap: .6rem; }
+.probashi-desk-banner p { font-size: .88rem; color: #d1fae5; margin-top: .4rem; line-height: 1.6; max-width: 48rem; }
+.probashi-filter-bar { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: 1rem; }
+.probashi-filter-btn { background: rgba(255,255,255,.15); color: #fff; border: 1px solid rgba(255,255,255,.2); font-size: .78rem; font-weight: 600; padding: .4rem .85rem; border-radius: 99px; cursor: pointer; transition: all .2s; }
+.probashi-filter-btn:hover, .probashi-filter-btn.active { background: #dc2626; border-color: #ef4444; color: #fff; }
+
+/* ── টিকার ── */
+.ticker { display: flex; align-items: center; background: #fff; font-size: .85rem; overflow: hidden; }
+.ticker-label { flex-shrink: 0; background: var(--red-700); color: #fff; font-size: .72rem; font-weight: 700; padding: .5rem .8rem; z-index: 2; }
+.ticker-track { flex: 1; overflow: hidden; padding: .5rem 0; }
+.ticker-move { display: inline-block; white-space: nowrap; animation: tick 50s linear infinite; }
+.ticker-move:hover { animation-play-state: paused; }
+.ticker-move a { margin: 0 1.5rem; color: var(--slate-600); }
+.ticker-move a:hover { color: var(--green-800); }
+.ticker-move .dot { color: var(--red-600); margin-right: .4rem; }
+@keyframes tick { from { transform: translateX(100%) } to { transform: translateX(-100%) } }
+
+/* ── স্ট্যাটাস বার ── */
+.statusbar { display: flex; align-items: center; gap: .5rem; font-size: .8rem; color: var(--slate-500); padding: .75rem 1rem; }
+.statusbar.ok { color: var(--green-700); }
+.statusbar.err { color: var(--red-600); }
+.spinner { width: 14px; height: 14px; border: 2px solid var(--slate-200); border-top-color: var(--green-700); border-radius: 50%; animation: spin .8s linear infinite; flex-shrink: 0; }
+@keyframes spin { to { transform: rotate(360deg) } }
+
+/* ── স্কেলেটন ── */
+.skeleton-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); padding: 1rem 0 3rem; }
+.skeleton { height: 220px; border-radius: 12px; background: linear-gradient(90deg, #e7e5e4 25%, #f5f5f4 50%, #e7e5e4 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; }
+.hero-skel { grid-column: 1 / -1; height: 320px; }
+@keyframes shimmer { from { background-position: 200% 0 } to { background-position: -200% 0 } }
+
+/* ── হিরো ── */
+main { flex: 1; padding-bottom: 2rem; }
+.hero { display: grid; gap: 1.25rem; margin-top: .5rem; }
+@media (min-width: 1024px) { .hero { grid-template-columns: 2fr 1fr; } }
+.hero-lead { position: relative; border-radius: 1rem; overflow: hidden; display: block; box-shadow: 0 4px 14px rgba(0,0,0,.12); }
+.hero-lead img { width: 100%; aspect-ratio: 16/9; object-fit: cover; transition: transform .6s; }
+.hero-lead:hover img { transform: scale(1.04); }
+.hero-lead .overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,.85), rgba(0,0,0,.3) 55%, transparent); }
+.hero-lead .content { position: absolute; left: 0; right: 0; bottom: 0; padding: 1.5rem; }
+.hero-lead h1 { font-family: var(--font-serif); color: #fff; font-size: 1.6rem; line-height: 1.45; margin-top: .6rem; }
+@media (min-width: 640px) { .hero-lead h1 { font-size: 2rem; } }
+.hero-lead .meta { color: #cbd5e1; font-size: .75rem; margin-top: .6rem; }
+.hero-side { display: grid; gap: .9rem; align-content: start; }
+
+/* ── হিরো অটো-রোটেশন (নিউজ ১০s / বিজ্ঞাপন ৩s) ── */
+.hero-rotator { position: relative; border-radius: 1rem; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,.12); aspect-ratio: 16/9; background: #1c1917; }
+.hero-rotator .hero-slide { position: absolute; inset: 0; display: block; opacity: 0; visibility: hidden; transition: opacity .5s ease, visibility .5s; z-index: 1; }
+.hero-rotator .hero-slide.active { opacity: 1; visibility: visible; z-index: 2; }
+.hero-rotator .hero-slide img { width: 100%; height: 100%; object-fit: cover; }
+.hero-rotator .hero-slide .overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,.85), rgba(0,0,0,.3) 55%, transparent); }
+.hero-rotator .hero-slide .content { position: absolute; left: 0; right: 0; bottom: 0; padding: 1.5rem; }
+.hero-rotator .hero-slide h1 { font-family: var(--font-serif); color: #fff; font-size: 1.6rem; line-height: 1.45; margin-top: .6rem; }
+@media (min-width: 640px) { .hero-rotator .hero-slide h1 { font-size: 2rem; } }
+.hero-rotator .hero-slide .meta { color: #cbd5e1; font-size: .75rem; margin-top: .6rem; }
+.ad-flag { display: inline-block; background: #b45309; color: #fff; font-size: .68rem; font-weight: 700; padding: .22rem .6rem; border-radius: 999px; letter-spacing: .03em; }
+.hero-dots { position: absolute; bottom: .7rem; right: .9rem; display: flex; gap: .35rem; z-index: 3; }
+.hero-dots button { width: 8px; height: 8px; border-radius: 999px; border: none; background: rgba(255,255,255,.4); cursor: pointer; padding: 0; transition: width .25s, background .25s; }
+.hero-dots button.active { background: #fbbf24; width: 20px; }
+@media (prefers-reduced-motion: reduce) {
+  .hero-rotator .hero-slide { transition: none; }
+  .hero-dots button { transition: none; }
+}
+
+/* ── ব্যাজ ও কার্ড ── */
+.badge { display: inline-block; background: var(--green-800); color: #fff; font-size: .68rem; font-weight: 600; padding: .18rem .55rem; border-radius: .3rem; }
+.badge.b-red { background: var(--red-700); } .badge.b-sky { background: #0369a1; } .badge.b-amber { background: #b45309; }
+.badge.b-indigo { background: #4338ca; } .badge.b-fuchsia { background: #a21caf; } .badge.b-cyan { background: #0e7490; } .badge.b-teal { background: #0f766e; }
+
+.card-sm { display: flex; gap: .75rem; background: #fff; border: 1px solid var(--slate-200); border-radius: .8rem; padding: .7rem; transition: box-shadow .2s; }
+.card-sm:hover { box-shadow: 0 4px 12px rgba(0,0,0,.08); }
+.card-sm img { width: 108px; height: 76px; object-fit: cover; border-radius: .5rem; flex-shrink: 0; }
+.card-sm h3 { font-size: .85rem; line-height: 1.5; font-weight: 600; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card-sm:hover h3 { color: var(--green-800); }
+.card-sm .meta { font-size: .7rem; color: var(--slate-500); margin-top: .3rem; }
+.card-sm .cat { font-size: .68rem; color: var(--green-700); font-weight: 600; }
+
+.grid { display: grid; gap: 1.1rem; grid-template-columns: 1fr; }
+@media (min-width: 640px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .grid.cols-3 { grid-template-columns: repeat(3, 1fr); } .grid.cols-4 { grid-template-columns: repeat(4, 1fr); } }
+
+.card { background: #fff; border: 1px solid var(--slate-200); border-radius: .9rem; overflow: hidden; display: flex; flex-direction: column; transition: transform .2s, box-shadow .2s; }
+.card:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(0,0,0,.1); }
+.card .thumb { position: relative; aspect-ratio: 16/9; overflow: hidden; }
+.card .thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s; }
+.card:hover .thumb img { transform: scale(1.05); }
+.card .thumb .badge { position: absolute; top: .7rem; left: .7rem; }
+.card .body { padding: 1rem; display: flex; flex-direction: column; flex: 1; }
+.card h3 { font-size: 1.05rem; font-weight: 700; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card:hover h3 { color: var(--green-800); }
+.card p { font-size: .82rem; color: var(--slate-600); line-height: 1.7; margin-top: .5rem; flex: 1; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.card .meta { display: flex; justify-content: space-between; border-top: 1px solid #f1f5f9; margin-top: .8rem; padding-top: .7rem; font-size: .72rem; color: var(--slate-500); }
+
+/* ── সেকশন হেডিং ── */
+.section { margin-top: 2.5rem; }
+.section-head { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--green-800); padding-bottom: .5rem; margin-bottom: 1.1rem; }
+.section-head h2 { font-family: var(--font-serif); font-size: 1.3rem; color: var(--green-900); display: flex; align-items: center; gap: .5rem; }
+.section-head h2::before { content: ""; width: 6px; height: 18px; border-radius: 3px; background: var(--red-600); }
+.section-head a { font-size: .82rem; color: var(--green-700); font-weight: 500; }
+.section-head a:hover { color: var(--green-900); }
+
+/* ── আর্টিকেল ভিউ ── */
+.article-wrap { display: grid; gap: 2rem; margin-top: 1rem; }
+@media (min-width: 1024px) { .article-wrap { grid-template-columns: 2fr 1fr; } }
+.breadcrumb { font-size: .75rem; color: var(--slate-500); margin-bottom: .6rem; }
+.breadcrumb a:hover { color: var(--green-700); }
+.article h1 { font-family: var(--font-serif); font-size: 1.8rem; line-height: 1.5; margin-top: .8rem; }
+@media (min-width: 640px) { .article h1 { font-size: 2.2rem; } }
+.article .meta-row { display: flex; flex-wrap: wrap; gap: 1rem; border-block: 1px solid var(--slate-200); padding: .8rem 0; margin-top: 1rem; font-size: .82rem; color: var(--slate-500); }
+.article .meta-row .src { color: var(--green-800); font-weight: 600; }
+.article figure { border-radius: .9rem; overflow: hidden; margin-top: 1.2rem; }
+.article-body { font-family: var(--font-serif); font-size: 1.1rem; line-height: 2; margin-top: 1.4rem; color: #1f2937; }
+.article-body p { margin-bottom: 1.2rem; }
+.source-box { background: var(--green-100); border: 1px solid var(--green-200); border-radius: .7rem; padding: 1rem; font-size: .85rem; color: var(--green-900); margin-top: 1.4rem; }
+.source-box a { font-weight: 600; text-decoration: underline; }
+.tags { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.4rem; }
+.tags span { background: #fff; border: 1px solid var(--green-200); color: var(--green-800); font-size: .72rem; font-weight: 500; padding: .25rem .7rem; border-radius: 99px; }
+
+/* ── পেজ শিরোনাম / এম্পটি / বাটন ── */
+.page-title { border-bottom: 2px solid var(--green-800); padding-bottom: .7rem; margin: .5rem 0 1.3rem; }
+.page-title h1 { font-family: var(--font-serif); font-size: 1.9rem; color: var(--green-900); }
+.page-title p { font-size: .8rem; color: var(--slate-500); margin-top: .2rem; }
+.empty { background: #fff; border: 1px solid var(--slate-200); border-radius: .9rem; padding: 2.5rem; text-align: center; color: var(--slate-500); }
+.btn { display: inline-block; background: var(--green-800); color: #fff; font-size: .85rem; font-weight: 500; padding: .55rem 1.2rem; border-radius: .55rem; border: none; cursor: pointer; font-family: var(--font-sans); }
+.btn:hover { background: var(--green-700); }
+.btn.ghost { background: #fff; color: var(--green-800); border: 1px solid var(--slate-200); }
+
+/* ── অ্যাডমিন-অনলি এবং নিরাপত্তা ── */
+.admin-only { display: none !important; }
+body.show-admin .admin-only { display: block !important; }
+body.show-admin ul.admin-only { display: grid !important; }
+body.show-admin span.admin-only { display: inline-block !important; }
+
+/* ── বিজ্ঞাপন ব্লক ── */
+.ad-slot { margin-top: 2rem; display: grid; gap: 1rem; }
+.ad-slot.ad-article_sidebar { margin: 0 0 1.2rem; }
+.ad-slot.ad-article_bottom { margin-top: 1.4rem; }
+.ad-block { position: relative; background: #fff; border: 1px dashed var(--slate-200); border-radius: .9rem; padding: 1.6rem .9rem .9rem; overflow: hidden; }
+.ad-tag { position: absolute; top: 0; left: 0; background: #f1f5f9; color: var(--slate-500); font-size: .62rem; letter-spacing: .08em; padding: .15rem .55rem; border-radius: 0 0 .5rem 0; }
+.ad-block img { width: 100%; border-radius: .5rem; }
+.ad-video { position: relative; padding-top: 56.25%; border-radius: .5rem; overflow: hidden; }
+.ad-video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.ad-title { font-size: .8rem; color: var(--slate-600); margin-top: .5rem; text-align: center; }
+
+/* ── ফুটার ── */
+.site-footer { background: var(--green-950); color: var(--green-100); margin-top: 3rem; }
+.footer-grid { display: grid; gap: 2rem; padding: 2.5rem 1rem; grid-template-columns: 1fr; }
+@media (min-width: 768px) { .footer-grid { grid-template-columns: 2fr 1fr 1fr; } }
+.footer-brand { font-family: var(--font-serif); font-size: 1.4rem; color: #fff; margin-bottom: .6rem; }
+.footer-grid p { font-size: .82rem; line-height: 1.8; color: #6ee7b7; }
+.footer-grid h4 { font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: #34d399; margin-bottom: .7rem; }
+.footer-grid ul { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: .4rem; font-size: .82rem; }
+.footer-grid ul a:hover { color: #fff; }
+.footer-bottom { border-top: 1px solid rgba(52,211,153,.2); font-size: .72rem; color: #34d399; }
+.footer-bottom .container { padding: .9rem 1rem; }
+
+/* Highlight for diaspora news */
+.highlight { color: #c00; font-weight: bold; }
+
+/* ── BNE In-App Branded News Reader & Global Smart Ads ── */
+.bne-modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,.75); z-index: 10000; display: flex; align-items: center; justify-content: center; backdrop-filter: blur(4px); }
+.bne-modal-overlay.hidden { display: none !important; }
+
+.bne-modal-container { background: #fff; width: 95vw; height: 92vh; max-width: 1200px; border-radius: 12px; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,.3); }
+.bne-modal-header { background: var(--green-900); color: #fff; padding: .8rem 1.2rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; border-bottom: 2px solid var(--green-700); }
+.bne-modal-brand { display: flex; align-items: center; gap: .75rem; min-width: 0; }
+.bne-modal-logo { background: #dc2626; color: #fff; font-weight: 800; font-size: .75rem; padding: .2rem .5rem; border-radius: .3rem; letter-spacing: .05em; flex-shrink: 0; }
+.bne-modal-title { font-family: var(--font-serif); font-weight: 600; font-size: .95rem; color: #fef08a; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bne-modal-close { background: rgba(255,255,255,.15); color: #fff; border: 1px solid rgba(255,255,255,.2); font-size: .8rem; padding: .3rem .8rem; border-radius: 99px; cursor: pointer; flex-shrink: 0; transition: background .2s; }
+.bne-modal-close:hover { background: #dc2626; border-color: #ef4444; }
+.bne-modal-body { flex: 1; position: relative; background: #f8fafc; }
+.bne-modal-body iframe { width: 100%; height: 100%; border: none; }
+
+/* ── Task 3: Unstick Header (Natural Scroll Viewport Height) ── */
+.site-header, header, .topbar, .masthead, .mainnav, .ticker, .tabs {
+  position: relative !important;
+  top: auto !important;
+  z-index: 50;
+}
+
+/* ── Task 2: Floating Compact Corner Ad Widget with Circular Top-Right Close Button ── */
+.bne-sticky-bottom-ad {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  max-width: 300px !important;
+  width: calc(100vw - 40px) !important;
+  background: #ffffff !important;
+  z-index: 9999 !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25) !important;
+  border-radius: 12px !important;
+  overflow: visible !important;
+  border: 2px solid #047857 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.bne-sticky-bottom-ad.hidden { display: none !important; }
+
+.bne-ad-close-btn {
+  position: absolute !important;
+  top: -12px !important;
+  right: -12px !important;
+  width: 28px !important;
+  height: 28px !important;
+  background: #dc2626 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+  border-radius: 50% !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3) !important;
+  z-index: 10000 !important;
+  transition: transform 0.2s, background 0.2s !important;
+}
+.bne-ad-close-btn:hover {
+  background: #991b1b !important;
+  transform: scale(1.1) !important;
+}
+
+.bne-ad-tag-label {
+  background: #064e3b;
+  color: #fef08a;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.3rem 0.6rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.bne-ad-content { display: block; padding: 0; background: #0f172a; border-radius: 0 0 10px 10px; overflow: hidden; }
+.bne-ad-content img { width: 100%; height: auto; max-height: 130px; object-fit: cover; display: block; }
+
+/* Scroll Interstitial Popup */
+.bne-popup-ad-box { background: #fff; width: 90vw; max-width: 460px; border-radius: 12px; overflow: hidden; box-shadow: 0 16px 36px rgba(0,0,0,.25); border: 2px solid var(--green-700); }
+.bne-popup-ad-body img { width: 100%; height: 220px; object-fit: cover; display: block; }
+
+/* ── BNE Native Readability Extractor Typography (Zero iFrames) ── */
+.bne-reader-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 3rem 1.5rem;
+  font-size: 0.95rem;
+  color: var(--green-800);
+  font-weight: 600;
+}
+.bne-native-reader-content {
+  padding: 1.5rem;
+  overflow-y: auto;
+  height: 100%;
+  background: #ffffff;
+}
+.bne-native-article-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+}
+.bne-native-article-wrap h2 {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--slate-900);
+  line-height: 1.35;
+  margin-bottom: 0.6rem;
+}
+.bne-native-meta {
+  font-size: 0.8rem;
+  color: var(--slate-500);
+  padding-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid var(--slate-200);
+}
+.bne-native-body {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: #1e293b;
+}
+.bne-native-body p {
+  margin-bottom: 1.2rem;
+}
+.bne-native-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.2rem 0;
+}
+.bne-canonical-footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f8fafc;
+  border-left: 4px solid var(--green-700);
+  border-radius: 6px;
+  font-size: 0.82rem;
+  color: var(--slate-600);
+}
+
+/* ⚡ WORLD-CLASS UI/UX & AD SLOT CLS PROTECTION STYLES */
+.ad-slot.ad-home_top { min-height: 250px; }
+.ad-slot.ad-home_middle { min-height: 250px; }
+.ad-slot.ad-article_bottom { min-height: 280px; }
+.ad-slot.ad-probashi_hub { min-height: 200px; }
+.ad-slot.ad-article_sidebar { min-height: 300px; }
+
+/* 🔴 Reading Scroll Progress Bar */
+#bne-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #10b981, #047857);
+  z-index: 10000;
+  width: 0%;
+  transition: width 0.1s ease;
+}
+
+/* 📱 Mobile Drawer Menu Overlay & Drawer */
+.mobile-drawer-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15,23,42,0.6);
+  backdrop-filter: blur(4px);
+  z-index: 9998;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.mobile-drawer-overlay.active { display: block; opacity: 1; }
+
+.mobile-drawer {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 280px;
+  height: 100%;
+  background: #0f172a;
+  color: #f8fafc;
+  z-index: 9999;
+  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 1.5rem;
+  overflow-y: auto;
+  box-shadow: 4px 0 20px rgba(0,0,0,0.3);
+}
+.mobile-drawer.active { left: 0; }
+.drawer-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 1rem; border-bottom: 1px solid #1e293b; margin-bottom: 1rem; }
+.drawer-close-btn { background: none; border: none; color: #94a3b8; font-size: 1.5rem; cursor: pointer; }
+.drawer-nav-list { list-style: none; padding: 0; margin: 0; }
+.drawer-nav-list li { margin-bottom: 0.8rem; }
+.drawer-nav-list a { color: #cbd5e1; text-decoration: none; font-size: 1rem; font-weight: 500; display: block; padding: 6px 10px; border-radius: 6px; }
+.drawer-nav-list a:hover { background: #1e293b; color: #10b981; }
+
+/* 🌓 Dark Mode Theme Engine */
+body.force-dark, html.force-dark {
+  background-color: #0b1220 !important;
+  color: #e2e8f0 !important;
+}
+body.force-dark .site-header,
+body.force-dark .card,
+body.force-dark .card-sm,
+body.force-dark .legal-container,
+body.force-dark .bne-native-reader-content,
+body.force-dark .source-box,
+body.force-dark .topbar {
+  background-color: #111827 !important;
+  color: #e2e8f0 !important;
+  border-color: #1f2937 !important;
+}
+body.force-dark .article-body,
+body.force-dark .bne-native-body,
+body.force-dark .meta,
+body.force-dark .breadcrumb a {
+  color: #cbd5e1 !important;
+}
+body.force-dark .ad-block {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+/* ═══ P8: অ্যাক্সেসিবিলিটি ও ডার্ক-মোড কভারেজ সম্পূর্ণকরণ ═══ */
+
+/* Skip-link — কিবোর্ড/স্ক্রিন-রিডার ব্যবহারকারীদের জন্য */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 9999;
+  background: #047857;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0 0 8px 0;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.skip-link:focus {
+  left: 0;
+  top: 0;
+}
+
+/* কিবোর্ড-ফোকাস দৃশ্যমান (মাউস ক্লিকে নয়) */
+:focus-visible {
+  outline: 3px solid #10b981;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ডার্ক-মোড গ্যাপ: বাকি কম্পোনেন্টগুলোও কভার */
+body.force-dark .probashi-desk-banner,
+body.force-dark .page-title,
+body.force-dark .section-head,
+body.force-dark .bne-sticky-bottom-ad,
+body.force-dark .bne-scroll-popup-ad,
+body.force-dark .social-share-bar,
+body.force-dark .ad-slot,
+body.force-dark .search-box input,
+body.force-dark .newsletter-box {
+  background-color: #111827 !important;
+  color: #e2e8f0 !important;
+  border-color: #1f2937 !important;
+}
+body.force-dark .probashi-filter-btn {
+  background: #1e293b !important;
+  color: #cbd5e1 !important;
+  border-color: #334155 !important;
+}
+body.force-dark .probashi-filter-btn.active {
+  background: #047857 !important;
+  color: #fff !important;
+}
+body.force-dark .tags span {
+  background: #1e293b !important;
+  color: #94a3b8 !important;
+}
+body.force-dark .footer-bottom {
+  background-color: #0b1220 !important;
+}
+body.force-dark #newsletter-form input {
+  background: #0f172a !important;
+  color: #f1f5f9 !important;
+  border-color: #334155 !important;
+}
+
+/* motion-পছন্দকারী ব্যবহারকারীদের জন্য অ্যানিমেশন বন্ধ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* নিউজলেটার/ডেস্ক কম্পোনেন্ট হালকা থিমেও সামঞ্জস্যপূর্ণ */
+#newsletter-form input {
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  color: #0f172a;
+}
+
+
+
+
+/* ═══ Top-Tier Skeleton Loading & Dark Theme Guarantee ═══ */
+html, body {
+  background-color: #0b1220 !important;
+  color: #e2e8f0 !important;
+}
+
+.skeleton-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.2rem;
+  padding: 1.5rem 0;
+  width: 100%;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #1e293b 25%, #334155 50%, #1e293b 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s infinite;
+  border-radius: 10px;
+  min-height: 180px;
+}
+
+.skeleton.hero-skel {
+  grid-column: 1 / -1;
+  min-height: 320px;
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ═══ Ultra-Compact Floating Ad Widget ═══ */
+.bne-sticky-bottom-ad {
+  position: fixed !important;
+  bottom: 12px !important;
+  right: 12px !important;
+  max-width: 220px !important;
+  width: 220px !important;
+  background: #111827 !important;
+  border: 1px solid #1f2937 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6) !important;
+  z-index: 99999 !important;
+  overflow: hidden !important;
+  transition: all 0.3s ease !important;
+}
+
+.bne-sticky-bottom-ad .bne-ad-tag-label {
+  font-size: 0.65rem !important;
+  padding: 3px 6px !important;
+  background: #047857 !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.bne-sticky-bottom-ad .bne-ad-content img {
+  width: 100% !important;
+  max-height: 110px !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
+.bne-sticky-bottom-ad .bne-ad-close-btn {
+  position: absolute !important;
+  top: 2px !important;
+  right: 4px !important;
+  background: rgba(0,0,0,0.7) !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 50% !important;
+  width: 18px !important;
+  height: 18px !important;
+  font-size: 0.7rem !important;
+  line-height: 18px !important;
+  cursor: pointer !important;
+  z-index: 10 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* ══════════════════════════════════════════════════════════════════════════
+   BNE — ৩৬০° অডিট ফিক্স: স্টাইল-স্তরের সংশোধন (P0-5, P2-1, P2-2, P2-3, P2-4)
+   এই ব্লকটি ফাইলের শেষে যোগ করা হয়েছে যাতে আগের সব নিয়ম অটুট থাকে এবং
+   এখানের নিয়ম সেগুলোকে নির্ধারিতভাবে ওভাররাইড করে।
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* ── P2-2: খালি বিজ্ঞাপন স্লট আর কখনো ফাঁকা বক্স তৈরি করবে না ──────────────
+   আগে .ad-slot.ad-home_top{min-height:250px} … article_sidebar{300px} —
+   অর্থাৎ বিজ্ঞাপন না থাকলেও ২৫০–৩০০px ফাঁকা জায়গা থেকে যেত, তাই পাতার
+   ছন্দ ভেঙে যেত ও ব্ল্যাংক বক্স দেখা যেত। min-height সম্পূর্ণ তুলে দেওয়া
+   হলো এবং :empty নিয়মে খালি স্লট সম্পূর্ণ লুকিয়ে ফেলা হয়। */
+.ad-slot { min-height: 0 !important; }
+.ad-slot.ad-home_top,
+.ad-slot.ad-home_middle,
+.ad-slot.ad-article_bottom,
+.ad-slot.ad-probashi_hub,
+.ad-slot.ad-article_sidebar,
+.ad-slot.ad-probashi_top { min-height: 0 !important; }
+.ad-slot:empty,
+.ad-slot:not(:has(*)) { display: none !important; }
+.ad-slot .ad-block:empty { display: none !important; }
+
+/* ── P2-1 / "নিচের ভিডিওটা ছোট করতে হবে": মিডিয়া অ্যাডের মাপ ─────────────
+   আগে .ad-video{padding-top:56.25%} — অর্থাৎ উল্লম্ব/শর্ট অ্যাড ভিডিও একটি
+   কঠোর ১৬:৯ বাক্সে চাপা পড়ত, চারপাশে বিশাল কালো লেটারবক্স হত।
+   এখন aspect-ratio + object-fit:contain, আর সেকেন্ডারি (বডি-নিচের) মিডিয়া
+   অ্যাড ইচ্ছাকৃতভাবে ছোট ও কেন্দ্রীভূত — আপনার নির্দেশ অনুযায়ী। */
+.ad-video {
+  position: relative;
+  padding-top: 0 !important;
+  aspect-ratio: 16 / 9;
+  border-radius: .5rem;
+  overflow: hidden;
+  background: #000;
+}
+.ad-video video,
+.ad-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: contain;
+}
+/* বডি-নিচের/সেকেন্ডারি মিডিয়া অ্যাড — ছোট, স্থির নয় */
+.ad-article_bottom .ad-video,
+.ad-slot[data-ad-media="secondary"] .ad-video {
+  max-width: 320px;
+  margin-inline: auto;
+}
+
+/* ── P2-3: ছবি না থাকলে টাইপোগ্রাফিক ব্লক (একই ডিফল্ট ছবি নয়) ─────────── */
+.thumb-noimg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .35rem;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  color: #cbd5e1;
+  border-radius: inherit;
+}
+.thumb-noimg b { font-size: 2.4rem; line-height: 1; color: #f59e0b; font-weight: 800; }
+.thumb-noimg i { font-style: normal; font-size: .78rem; letter-spacing: .3px; opacity: .85; }
+.thumb.no-img { background: #0f172a; }
+.thumb img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+
+/* ── P2-4: শিরোনাম স্তরক্রম — H1 → H2 → H3 (এখন আর কার্ডে h3 নয়) ───────── */
+.desk-h1,
+.prerender-h1 {
+  font-size: clamp(1.3rem, 3.4vw, 1.85rem);
+  line-height: 1.45;
+  margin: .2rem 0 1rem;
+  color: inherit;
+  font-weight: 800;
+}
+.card-h2,
+.prerender-h2 {
+  font-size: 1.02rem;
+  line-height: 1.55;
+  font-weight: 700;
+  margin: 0 0 .45rem;
+  color: inherit;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.hero-title { display: block; font-size: clamp(1.1rem, 2.6vw, 1.6rem); font-weight: 800; line-height: 1.45; }
+
+/* ── অ্যাক্সেসিবিলিটি সহায়ক (WCAG 2.2) ─────────────────────────────── */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap; border: 0;
+}
+
+/* ── প্রি-রেন্ডার করা হোমপেজের স্টাইল (tools/prerender-home.js) ──────────
+   এগুলোই প্রথম পেইন্টে দৃশ্যমান হয় — অর্থাৎ কোনো সাদা স্ক্রিন বা
+   স্কেলিটন-অপেক্ষা নেই। JS চালু হলে app.js স্বাভাবিকভাবে প্রতিস্থাপন করে। */
+.prerender-lede { color: #94a3b8; margin: 0 0 1.2rem; font-size: .95rem; }
+.prerender-lead { margin-top: 1.4rem; }
+.pr-lead-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 1.2rem;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 14px;
+  overflow: hidden;
+}
+.pr-lead-card > a { display: block; }
+.pr-lead-card img { display: block; width: 100%; height: 100%; max-height: 380px; object-fit: cover; }
+.pr-lead-body { padding: 1.1rem 1.2rem; }
+.pr-lead-body h2 { font-size: clamp(1.05rem, 2.4vw, 1.45rem); line-height: 1.5; margin: .5rem 0; }
+.pr-lead-body h2 a { color: inherit; text-decoration: none; }
+.pr-lead-body h2 a:hover { color: #f59e0b; }
+.pr-lead-body p { color: #cbd5e1; font-size: .92rem; line-height: 1.75; margin: 0 0 .6rem; }
+.pr-lead-body .meta { color: #94a3b8; font-size: .8rem; }
+.pr-cat-list { list-style: none; padding: 0; margin: 1rem 0 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.pr-cat-list li a {
+  display: inline-block;
+  padding: .4rem .8rem;
+  border-radius: 999px;
+  background: rgba(148, 163, 184, 0.12);
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  color: inherit;
+  text-decoration: none;
+  font-size: .85rem;
+}
+.pr-cat-list li a:hover { background: rgba(245, 158, 11, 0.18); border-color: rgba(245, 158, 11, 0.45); }
+.pr-count { opacity: .7; font-size: .78rem; }
+@media (max-width: 720px) {
+  .pr-lead-card { grid-template-columns: 1fr; }
+  .pr-lead-card img { max-height: 240px; }
+}
+
+/* ── থিম: ডিফল্ট ডার্ক, কিন্তু পাঠকের পছন্দ মানা হয় ─────────────────────
+   index.html-এ force-dark / force-light ক্লাস প্রথম পেইন্টের আগেই বসে,
+   তাই আর কখনো "সাদা ফ্ল্যাশ" (FOUC) হয় না। */
+html.force-light, body.force-light { background: #f1f5f9 !important; color: #0f172a !important; }
+html.force-light .site-header, body.force-light .site-header { background: #fff; }
+html.force-light .card, body.force-light .card,
+html.force-light .card-sm, body.force-light .card-sm { background: #fff; color: #0f172a; }
+html.force-light .article-body, body.force-light .article-body { color: #1f2937; }
+html.force-light .prerender-lede, body.force-light .prerender-lede { color: #475569; }
+html.force-light .pr-lead-body p, body.force-light .pr-lead-body p { color: #334155; }
+
+/* ── P2-8: টিকার — গতি কমানোর পছন্দ মানুন (prefers-reduced-motion) ──────── */
+@media (prefers-reduced-motion: reduce) {
+  .ticker-move, .skeleton, .hero-slide, .live-dot { animation: none !important; }
+  * { scroll-behavior: auto !important; }
+}
+
+/* ── স্ট্যাটিক পেজ (about / privacy / contact / terms / advertise) ──────── */
+.legal-container h1 { font-size: clamp(1.4rem, 3.4vw, 2rem); line-height: 1.4; }
+.legal-container h2 { font-size: 1.15rem; margin-top: 1.6rem; }

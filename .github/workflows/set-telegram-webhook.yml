@@ -1,0 +1,118 @@
+name: Set Telegram Webhook (BNE)
+
+# ══════════════════════════════════════════════════════════════════════════
+# ★ কেন এই ওয়ার্কফ্লো ★
+#
+# অ্যাডমিন বটের কোড Netlify Function হিসেবে লাইভ, কিন্তু Telegram-এর webhook
+# ভুল একটি ঠিকানায় (tele.goldenherd.com) বসানো ছিল — যেটি কোনো উত্তর দেয় না।
+# ফলে বটের কাছে কোনো বার্তাই পৌঁছাত না।
+#
+# webhook বসাতে Telegram-কে TELEGRAM_WEBHOOK_SECRET-এর হুবহু মান দিতে হয়,
+# কারণ ফাংশনটি সেই মান দিয়ে যাচাই করে (নইলে যে কেউ বট সেজে নির্দেশ দিতে পারত)।
+# কিন্তু সেই মান Netlify-এর পরিবেশ-চলকে, যা ড্যাশবোর্ড ছাড়া পড়া যায় না।
+#
+# এই ওয়ার্কফ্লো সেটি রানারের ভেতরেই পড়ে, Telegram-কে পাঠায়, এবং কোথাও
+# ছাপায় না — শুধু ফলাফল ছাপায়।
+#
+# ★ ভবিষ্যতে ডোমেইন বদলালে ★
+#   Actions → Set Telegram Webhook (BNE) → Run workflow → origin-এ নতুন ঠিকানা।
+# ══════════════════════════════════════════════════════════════════════════
+
+on:
+  push:
+    paths:
+      - '.github/workflows/set-telegram-webhook.yml'
+  workflow_dispatch:
+    inputs:
+      origin:
+        description: 'সাইটের origin — webhook এখানেই বসবে'
+        required: false
+        default: 'https://bangla-news-edition-bd.netlify.app'
+
+permissions:
+  contents: read
+
+jobs:
+  set-webhook:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resolve the webhook secret from Netlify, then set the webhook
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN_BD }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID_BD }}
+          ORIGIN: ${{ inputs.origin || 'https://bangla-news-edition-bd.netlify.app' }}
+        run: |
+          set -uo pipefail
+
+          if [ -z "${BOT_TOKEN:-}" ]; then
+            echo "::error::TELEGRAM_BOT_TOKEN GitHub Secret নেই — webhook বসানো সম্ভব নয়।"
+            exit 1
+          fi
+          echo "::add-mask::$BOT_TOKEN"
+          echo "origin: $ORIGIN"
+
+          SECRET=""
+          if [ -n "${NETLIFY_AUTH_TOKEN:-}" ] && [ -n "${NETLIFY_SITE_ID:-}" ]; then
+            ACCOUNT=$(curl -s -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
+              "https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID" | jq -r '.account_slug // ""')
+            echo "netlify account resolved: $([ -n "$ACCOUNT" ] && echo yes || echo no)"
+            if [ -n "$ACCOUNT" ]; then
+              SECRET=$(curl -s -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
+                "https://api.netlify.com/api/v1/accounts/$ACCOUNT/env?site_id=$NETLIFY_SITE_ID" \
+                | jq -r 'if type=="array" then (map(select(.key=="TELEGRAM_WEBHOOK_SECRET")) | .[0] | ((.values // []) | map(.value) | map(select(. != null and . != "")) | .[0]) // .value // "") else "" end')
+            fi
+          else
+            echo "Netlify credentials absent — webhook will be set without a secret"
+          fi
+
+          if [ -n "$SECRET" ] && [ "$SECRET" != "null" ]; then
+            echo "webhook secret: found (value hidden)"
+            echo "::add-mask::$SECRET"
+          else
+            SECRET=""
+            echo "::warning::TELEGRAM_WEBHOOK_SECRET পাওয়া যায়নি — সিক্রেট ছাড়াই সেট করা হচ্ছে"
+          fi
+
+          URL="$ORIGIN/.netlify/functions/telegram"
+          echo "webhook url: $URL"
+
+          if [ -n "$SECRET" ]; then
+            RES=$(curl -s -X POST "https://api.telegram.org/bot$BOT_TOKEN/setWebhook" \
+              --data-urlencode "url=$URL" \
+              --data-urlencode "secret_token=$SECRET" \
+              --data-urlencode "drop_pending_updates=false" \
+              --data-urlencode 'allowed_updates=["message","edited_message","callback_query"]')
+          else
+            RES=$(curl -s -X POST "https://api.telegram.org/bot$BOT_TOKEN/setWebhook" \
+              --data-urlencode "url=$URL" \
+              --data-urlencode "drop_pending_updates=false" \
+              --data-urlencode 'allowed_updates=["message","edited_message","callback_query"]')
+          fi
+          echo "setWebhook: $(echo "$RES" | jq -r '"\(.ok) | \(.description // "")"' 2>/dev/null || echo "$RES")"
+
+          sleep 2
+          curl -s "https://api.telegram.org/bot$BOT_TOKEN/getWebhookInfo" \
+            | jq -r '"webhook url     : \(.result.url)\npending updates : \(.result.pending_update_count)\nlast error      : \(.result.last_error_message // "none")\nallowed updates : \(.result.allowed_updates)"'
+
+          # ── ৪. প্রান্ত-থেকে-প্রান্ত স্ব-পরীক্ষা ──
+          # (ক) সিক্রেট ছাড়া অনুরোধ → 401 হওয়া উচিত (নিরাপত্তা অটুট)
+          # (খ) সিক্রেটসহ অনুরোধ → 200 হওয়া উচিত (Telegram-এর পাঠানো বার্তা গৃহীত)
+          # খালি update_id পাঠানো হয়, তাই কোনো ব্যবহারকারীকে বার্তা যায় না।
+          NO_SEC=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
+            -H "Content-Type: application/json" -d '{"update_id":1}' "$URL")
+          echo "self-test: without secret → $NO_SEC (expected 401)"
+
+          if [ -n "$SECRET" ]; then
+            OK_SEC=$(curl -s -o /dev/null -w "%{http_code}" -X POST \
+              -H "Content-Type: application/json" \
+              -H "X-Telegram-Bot-Api-Secret-Token: $SECRET" \
+              -d '{"update_id":1}' "$URL")
+            echo "self-test: with secret → $OK_SEC (expected 200)"
+            if [ "$OK_SEC" = "200" ]; then
+              echo "✅ বটের সংযোগ সম্পূর্ণ কার্যকর — এখন Telegram থেকে বাংলায় লিখলেই উত্তর আসবে।"
+            else
+              echo "::error::সিক্রেটসহ অনুরোধ গৃহীত হয়নি — বট কাজ করবে না।"
+              exit 1
+            fi
+          fi

@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>বাংলা নিউজ এডিশন — সত্য ও বস্তুনিষ্ঠ খবরের বিশ্বস্ত ঠিকানা | BANGLA NEWS EDITION</title>
+  <meta name="description" content="বাংলা নিউজ এডিশন (BNE) — জাতীয়, রাজনীতি, আন্তর্জাতিক, অর্থনীতি, খেলা, প্রযুক্তি এবং প্রবাসীদের জন্য বিশেষায়িত 'প্রবাস বাংলা নিউজ' ডেস্কের লাইভ সংবাদ পোর্টাল।" />
+
+  <!-- ── P0-1 ফিক্স: সব অ্যাসেট পাথ absolute ──────────────────────────────
+       আগে href="style.css" (relative) ছিল। ব্রাউজার /category/জাতীয়-তে
+       থাকলে সেটি /category/style.css চাইত, Netlify সেখানে index.html
+       (text/html) ফেরত দিত, আর ব্রাউজার MIME mismatch-এ CSS বাতিল করত →
+       সম্পূর্ণ আনস্টাইল্ড সাদা পেজ।
+       <base href="/"> যোগ করা হলো যাতে SPA-নেভিগেশনের পরও কোনো relative
+       পাথ ভুল ডিরেক্টরিতে না যায়। -->
+  <base href="/" />
+
+  <!-- ডার্ক থিম আগেই বসাও — প্রথম পেইন্টেই (সাদা ফ্ল্যাশ = FOUC প্রতিরোধ) -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('bne-theme');
+        if (t === 'light') { document.documentElement.classList.add('force-light'); return; }
+        document.documentElement.classList.add('force-dark');
+      } catch (e) { document.documentElement.classList.add('force-dark'); }
+    })();
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23c00000'/><text x='50' y='64' font-size='42' font-weight='bold' fill='white' text-anchor='middle' font-family='sans-serif'>BNE</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Serif+Bengali:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="canonical" href="https://bangla-news-edition-bd.netlify.app/" />
+
+  <!-- PWA / ব্রাউজার মেটা -->
+  <meta name="theme-color" content="#991b1b" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="/images/bne-icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <!-- ── P1-6 ফিক্স: Consent Mode v2 ডিফল্ট ──────────────────────────────
+       বিজ্ঞাপন-সংক্রান্ত সব স্টোরেজ ডিফল্টে denied। সম্মতি ছাড়া কোনো
+       অ্যাড-কুকি বা পার্সোনালাইজেশন হবে না। অ্যানালিটিক্স বাংলাদেশি
+       পাঠকদের জন্য granted (EEA ভিজিটর হলে gtag নিজেই region মানে)। -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    window.gtag = window.gtag || gtag;
+    gtag('consent', 'default', {
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      analytics_storage: 'granted',
+      functionality_storage: 'granted',
+      security_storage: 'granted',
+      wait_for_update: 500
+    });
+  </script>
+
+  <!-- GA4 + AdSense — site-config.js থেকে কন্ডিশনাল লোডার (প্লেসহোল্ডার ID থাকলে লোড হয় না) -->
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      var cfg = window.AZADI_DEFAULT_CONFIG && window.AZADI_DEFAULT_CONFIG.settings;
+      if (!cfg) return;
+
+      var ga4Id = cfg.ga4MeasurementId;
+      if (ga4Id && /^G-[A-Z0-9]{6,14}$/.test(ga4Id)) {
+        var g = document.createElement('script');
+        g.async = true;
+        g.src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4Id;
+        document.head.appendChild(g);
+        gtag('js', new Date());
+        gtag('config', ga4Id, { anonymize_ip: true });
+      }
+
+      var adId = cfg.adsensePublisherId;
+      if (adId && /^ca-pub-[0-9]{8,20}$/.test(adId)) {
+        var a = document.createElement('script');
+        a.async = true;
+        a.crossOrigin = 'anonymous';
+        a.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adId;
+        document.head.appendChild(a);
+        /* P1-6: Auto-Ads কেবল তখনই, যখন কনফিগে স্পষ্টভাবে চালু করা হয়। */
+        if (cfg.adsenseAutoAds === true) {
+          try {
+            (window.adsbygoogle = window.adsbygoogle || []).push({
+              google_ad_client: adId,
+              enable_page_level_ads: true
+            });
+          } catch (e) { /* blocker থাকলে চুপচাপ চলবে */ }
+        }
+      }
+    });
+  </script>
+
+  <meta name="google-site-verification" content="google19571efd052572b7" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="বাংলা নিউজ এডিশন | BANGLA NEWS EDITION" />
+  <meta property="og:title" content="বাংলা নিউজ এডিশন — BANGLA NEWS EDITION" />
+  <meta property="og:description" content="জাতীয়, প্রবাস, আন্তর্জাতিক ও অর্থনীতির ব্রেকিং সংবাদ পোর্টাল। বিশ্বজুড়ে বাংলাদেশীদের জন্য সত্য ও বস্তুনিষ্ঠ খবরের বিশ্বস্ত ঠিকানা।" />
+  <meta property="og:url" content="https://bangla-news-edition-bd.netlify.app/" />
+  <meta property="og:image" content="https://bangla-news-edition-bd.netlify.app/images/bne-og-cover.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="বাংলা নিউজ এডিশন — সত্য ও বস্তুনিষ্ঠ খবরের বিশ্বস্ত ঠিকানা" />
+  <meta property="og:locale" content="bn_IN" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="বাংলা নিউজ এডিশন — BANGLA NEWS EDITION" />
+  <meta name="twitter:description" content="জাতীয়, প্রবাস, আন্তর্জাতিক ও অর্থনীতির ব্রেকিং সংবাদ পোর্টাল।" />
+  <meta name="twitter:image" content="https://bangla-news-edition-bd.netlify.app/images/bne-og-cover.jpg" />
+  <meta name="twitter:site" content="@bne0999" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "NewsMediaOrganization",
+        "@id": "https://bangla-news-edition-bd.netlify.app/#organization",
+        "name": "বাংলা নিউজ এডিশন",
+        "alternateName": "Bangla News Edition",
+        "url": "https://bangla-news-edition-bd.netlify.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://bangla-news-edition-bd.netlify.app/images/bne-logo.png",
+          "width": 512,
+          "height": 512
+        },
+        "sameAs": ["https://t.me/bne0999", "https://www.facebook.com/499814799889977"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://bangla-news-edition-bd.netlify.app/#website",
+        "url": "https://bangla-news-edition-bd.netlify.app/",
+        "name": "বাংলা নিউজ এডিশন",
+        "inLanguage": "bn-BD",
+        "publisher": { "@id": "https://bangla-news-edition-bd.netlify.app/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": { "@type": "EntryPoint", "urlTemplate": "https://bangla-news-edition-bd.netlify.app/search/{search_term_string}" },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "প্রচ্ছদ", "item": "https://bangla-news-edition-bd.netlify.app/" }
+        ]
+      }
+    ]
+  }
+  </script>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#app">মূল কনটেন্টে যান</a>
+  <div id="bne-progress-bar"></div>
+  <header class="site-header">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <div class="topbar-left">
+          <button id="mobile-menu-btn" type="button" aria-label="মোবাইল নেভিগেশন মেনু খুলুন" aria-expanded="false" aria-controls="mobile-drawer" style="background:none;border:none;color:#fff;font-size:1.4rem;cursor:pointer;margin-right:10px;">☰</button>
+          <span class="live-dot-wrap"><span class="live-dot" aria-hidden="true"></span> লাইভ আপডেট</span>
+          <span class="topbar-tagline">| সত্য ও বস্তুনিষ্ঠ খবরের বিশ্বস্ত ঠিকানা</span>
+        </div>
+        <div class="topbar-right" style="display:flex;align-items:center;gap:12px;">
+          <button id="theme-toggle-btn" type="button" aria-pressed="true" aria-label="হালকা ও গাঢ় থিম পরিবর্তন করুন" style="background:rgba(255,255,255,0.15);border:none;color:#fff;font-size:1.1rem;cursor:pointer;padding:4px 10px;border-radius:20px;display:flex;align-items:center;gap:4px;">🌓 <span>থিম</span></button>
+          <div class="social-links">
+            <a href="https://t.me/bne0999" target="_blank" rel="noopener" title="Telegram Channel" class="social-icon tg" style="color:#38bdf8;">✈️ @bne0999</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="masthead">
+      <div class="container masthead-grid">
+        <!-- কলাম ১: এডিটরিয়াল তারিখ ও লোকেশন -->
+        <div class="masthead-col left-col">
+          <div class="date-widget">
+            <span class="icon" aria-hidden="true">📅</span>
+            <div class="date-details">
+              <!-- P2-10 ফিক্স: চূড়ান্ত UI-তে "লোডিং…" লেখা কখনো নয় -->
+              <span id="today-date" class="date-main" aria-live="polite">—</span>
+              <span class="location">ঢাকা, বাংলাদেশ</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- কলাম ২: ব্র্যান্ড ক্রেস্ট -->
+        <div class="masthead-col center-col">
+          <a href="/" class="master-logo-link" title="বাংলা নিউজ এডিশন">
+            <div class="bne-crest">BNE</div>
+            <div class="brand-text-block">
+              <span class="eng-title">BANGLA NEWS EDITION</span>
+              <span class="bng-title">বাংলা নিউজ এডিশন</span>
+            </div>
+          </a>
+        </div>
+
+        <!-- কলাম ৩: লাইভ ঘড়ি + সার্চ -->
+        <div class="masthead-col right-col">
+          <div class="live-clock-card">
+            <span class="clock-label">লাইভ সময় (ঢাকা)</span>
+            <span id="live-time" class="clock-time" aria-live="off">--:--:--</span>
+          </div>
+          <form id="search-form" class="search-box" role="search">
+            <label for="search-input" class="visually-hidden">সংবাদ খুঁজুন</label>
+            <input type="search" id="search-input" placeholder="খুঁজুন..." autocomplete="off" />
+            <button type="submit" aria-label="খুঁজুন">
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ P0-6 ফিক্স: নেভিগেশনে রিয়েল-পাথ লিংক (hash নয়) ═══════════════
+         আগে সব লিংক ছিল "#/category/…" আকারে। হ্যাশ অংশ ক্রলার সম্পূর্ণ
+         উপেক্ষা করে — ফলে হোমপেজ থেকে একটি সংবাদেও পৌঁছানোর পথ ছিল না
+         (প্লাগইন ক্রল মাত্র ৪টি পেজ খুঁজে পেয়েছিল)। এখন প্রতিটি লিংক
+         আসল পাথ, তাই ক্রলার লিংক-গ্রাফ পুরো সাইট জুড়ে ছড়ায়। -->
+    <nav class="mainnav" aria-label="প্রধান বিভাগসমূহ">
+      <div class="container mainnav-inner">
+        <ul id="nav-list">
+          <li><a href="/" data-nav="home" class="active" aria-current="page">প্রচ্ছদ</a></li>
+          <li><a href="/category/%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC" data-nav="জাতীয়">জাতীয়</a></li>
+          <li><a href="/category/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF" data-nav="রাজনীতি">রাজনীতি</a></li>
+          <li><a href="/category/%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6" data-nav="সারাদেশ">সারাদেশ</a></li>
+          <li><a href="/category/%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF" data-nav="অর্থনীতি">অর্থনীতি</a></li>
+          <li><a href="/category/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95" data-nav="আন্তর্জাতিক">আন্তর্জাতিক</a></li>
+          <li><a href="/desk/probashi-bangla-news" data-nav="probashi-desk" class="nav-highlight">✈️ প্রবাস বাংলা নিউজ</a></li>
+          <li><a href="/category/%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE" data-nav="খেলা">খেলা</a></li>
+          <li><a href="/category/%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A7%8B%E0%A6%A6%E0%A6%A8" data-nav="বিনোদন">বিনোদন</a></li>
+          <li><a href="/category/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE" data-nav="শিক্ষা">শিক্ষা</a></li>
+          <li><a href="/category/%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF" data-nav="চাকরি">চাকরি</a></li>
+          <li><a href="/category/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B8" data-nav="প্রবাস">প্রবাস</a></li>
+          <li><a href="/category/%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE" data-nav="ধর্ম">ধর্ম</a></li>
+          <li><a href="/category/%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF" data-nav="স্বাস্থ্য">স্বাস্থ্য</a></li>
+          <li><a href="/category/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF" data-nav="প্রযুক্তি">প্রযুক্তি</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ব্রেকিং টিকার — P2-8: SR-এ পড়ার উপযোগী -->
+    <div class="ticker" id="ticker-wrap" hidden>
+      <span class="ticker-label">সর্বশেষ</span>
+      <div class="ticker-track" role="marquee" aria-live="polite" aria-label="সর্বশেষ সংবাদ"><div class="ticker-move" id="ticker"></div></div>
+    </div>
+  </header>
+
+  <div class="statusbar container" id="statusbar" style="display:none;">
+    <span class="spinner" aria-hidden="true"></span> খবরাখবর লোড করা হচ্ছে…
+  </div>
+
+  <main class="container" id="app">
+    <!-- ═══ P0-3 / P0-6 ফিক্স: বিল্ড-টাইমে প্রি-রেন্ডার করা হোমপেজ ═══════
+         আগে এই অংশ সম্পূর্ণ খালি ছিল এবং কনটেন্ট আসত কেবল জাভাস্ক্রিপ্ট
+         চালু হওয়ার পর — ২.৩MB কনফিগ ডাউনলোড করে। তাই Slow 3G-এ সাদা
+         স্ক্রিন, আর ক্রলার পেত ০টি রিয়েল লিংক ও ০টি H1।
+
+         এখন tools/prerender-home.js বিল্ডের সময়েই শীর্ষ সংবাদগুলো আসল
+         <a href="/news/…"> লিংক সহ HTML-এ বসিয়ে দেয়। ফলে:
+           • প্রথম বাইটেই বিষয়বস্তু — কোনো সাদা স্ক্রিন নেই
+           • ক্রলার সাথে সাথে পুরো সাইটে পৌঁছায়
+           • JS চালু হলে app.js স্বাভাবিকভাবে রিফ্রেশ করে (hydration)
+         ═══════════════════════════════════════════════════════════════ -->
+    <!--PRERENDER:START-->
+<!-- বিল্ড-টাইমে tools/prerender-home.js দিয়ে তৈরি — ম্যানুয়ালি সম্পাদনা করবেন না -->
+<h1 class="prerender-h1">বাংলা নিউজ এডিশন — সর্বশেষ সংবাদ ও ব্রেকিং নিউজ</h1>
+<p class="prerender-lede">বাংলাদেশ ও বিশ্বের সর্বশেষ খবর, এক নজরে। মোট ৪৯৪টি সংবাদ সংরক্ষিত।</p>
+<section class="section prerender-lead">
+<article class="pr-lead-card">
+<a href="/news/%E0%A6%9F%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%80%E0%A6%B0-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%97%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%81%E0%A6%A6%E0%A6%BE-%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A6%BF-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%80%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%9A%E0%A7%81%E0%A6%B0">
+<img src="/images/tongi-chandabaji-hamla-og-1200x630.jpg" alt="টঙ্গীর মিলগেটে চাঁদা দাবির অভিযোগ: ব্যবসায়ীর ওপর হামলা ও দোকান ভাঙচুর" width="640" height="360" loading="lazy" decoding="async" onerror="if(!this.dataset.fb){this.dataset.fb=1;this.style.display='none';}">
+</a>
+<div class="pr-lead-body">
+<span class="badge">সারাদেশ</span>
+<h2><a href="/news/%E0%A6%9F%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%80%E0%A6%B0-%E0%A6%AE%E0%A6%BF%E0%A6%B2%E0%A6%97%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%81%E0%A6%A6%E0%A6%BE-%E0%A6%A6%E0%A6%BE%E0%A6%AC%E0%A6%BF-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A7%80%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%9A%E0%A7%81%E0%A6%B0">টঙ্গীর মিলগেটে চাঁদা দাবির অভিযোগ: ব্যবসায়ীর ওপর হামলা ও দোকান ভাঙচুর</a></h2>
+<p>টঙ্গীর মিলগেট এলাকার মাছিমপুর কো-অপারেটিভ মার্কেটে ওয়ার্কশপ ব্যবসায়ী হাসান মিয়ার কাছ থেকে চাঁদা দাবি, অস্বীকৃতি জানালে তাঁর ওপর হামলা এবং দোকান ভাঙচুরের অভিযোগ উঠেছে।</p>
+<div class="meta"><time datetime="2026-09-26T02:07:21.456Z">২৬ সেপ্টেম্বর, ২০২৬</time></div>
+</div>
+</article>
+</section>
+<section class="section">
+<div class="section-head"><h2>সর্বশেষ সংবাদ</h2><a href="/category/%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC">সব দেখুন →</a></div>
+<div class="grid cols-3"><a class="card" href="/news/tongi-millgate-extortion-attack-hasan-mia"><span class="thumb"><img src="/images/tongi-chandabaji-hamla-og-1200x630.jpg" alt="টঙ্গীর মিলগেটে চাঁদা দাবির অভিযোগ: ব্যবসায়ীর ওপর হামলা ও দোকান ভাঙচুর" width="640" height="360" loading="lazy" decoding="async" onerror="if(!this.dataset.fb){this.dataset.fb=1;this.style.display='none';}"><span class="badge">সারাদেশ</span></span><span class="body"><h2 class="prerender-h2">টঙ্গীর মিলগেটে চাঁদা দাবির অভিযোগ: ব্যবসায়ীর ওপর হামলা ও দোকান ভাঙচুর</h2><p>টঙ্গীর মিলগেট এলাকার মাছিমপুর কো-অপারেটিভ মার্কেটে ওয়ার্কশপ ব্যবসায়ী হাসান মিয়ার কাছ থেকে চাঁদা দাবি, অস্বীকৃতি জানালে তাঁর ওপর হামলা এবং দোকান…</p><span class="meta"><time datetime="2026-09-26T02:07:21.456Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%A4-%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%AE%E0%A6%B2-%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AE%E0%A7%81%E0%A6%96-%E0%A6%96"><span class="thumb"><img src="/images/%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%A4-%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%AE%E0%A6%B2-%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AE%E0%A7%81%E0%A6%96-%E0%A6%96.webp" alt="‘পরিকল্পিত চক্রান্ত’, কমল রানিকে নিয়ে মুখ খুললেন গোবিন্দ" width="640" height="360" loading="lazy" decoding="async" onerror="if(!this.dataset.fb){this.dataset.fb=1;this.style.display='none';}"><span class="badge">বিনোদন</span></span><span class="body"><h2 class="prerender-h2">‘পরিকল্পিত চক্রান্ত’, কমল রানিকে নিয়ে মুখ খুললেন গোবিন্দ</h2><p>বেশ কিছুদিন ধরেই চর্চায় বলিউড অভিনেতা গোবিন্দ ও কমল রানি স্বর্ণকর। মুম্বাইয়ের বিমানবন্দর থেকে শুরু করে বিভিন্ন জায়গায় তাদের দুজনকে একসঙ্গে দেখা…</p><span class="meta"><time datetime="2026-09-26T02:07:00.107Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%A4%E0%A7%8B%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%87-%E0%A6%AA%E0%A6%BF%E0%A6%8F%E0%A6%B8%E0%A6%9C%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%87-%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AF%E0%A7%87-%E0%A6%A4%E0%A6%BE"><span class="thumb"><img src="/images/%E0%A6%A4%E0%A7%8B%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%87-%E0%A6%AA%E0%A6%BF%E0%A6%8F%E0%A6%B8%E0%A6%9C%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%87-%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AF%E0%A7%87-%E0%A6%A4%E0%A6%BE.webp" alt="তোরেসের আসার আগে পিএসজির নজরে ছিলেন যে তারকা" width="640" height="360" loading="lazy" decoding="async" onerror="if(!this.dataset.fb){this.dataset.fb=1;this.style.display='none';}"><span class="badge">জাতীয়</span></span><span class="body"><h2 class="prerender-h2">তোরেসের আসার আগে পিএসজির নজরে ছিলেন যে তারকা</h2><p>একজনকে পেতে ৭৪ মিলিয়ন ইউরো খরচ করেছে প্যারিস সেন্ট জার্মেই। আরেক জনকে পাওয়ার দরজা খুলেও শেষ পর্যন্ত ফিরেছে অন্য পথে। গনসালো রামোসের জায়গা পূরণ করতে…</p><span class="meta"><time datetime="2026-09-26T02:07:00.105Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A6%A6%E0%A6%B2%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A7%9F-%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8-%E0%A6%93-%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A6%BF"><span class="thumb"><img src="/images/%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%A4%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%AC%E0%A6%A6%E0%A6%B2%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A7%9F-%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8-%E0%A6%93-%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%83%E0%A6%A4%E0%A6%BF.webp" alt="ক্ষমতার সঙ্গে বদলে যায় ইতিহাস ও সংস্কৃতির পাঠ, শেষ কোথায়?" width="640" height="360" loading="lazy" decoding="async" onerror="if(!this.dataset.fb){this.dataset.fb=1;this.style.display='none';}"><span class="badge">শিক্ষা</span></span><span class="body"><h2 class="prerender-h2">ক্ষমতার সঙ্গে বদলে যায় ইতিহাস ও সংস্কৃতির পাঠ, শেষ কোথায়?</h2><p>দেশে বিভিন্ন সময়ই পরিবর্তন করা হয়েছে পাঠ্যবই। ক্ষমতার পালাবদলের সঙ্গে বদলেছে মুক্তিযুদ্ধের ইতিহাস, সংস্কৃতিসহ বিভিন্ন বিষয়বস্তু। ফলে এক প্রজন্মের…</p><span class="meta"><time datetime="2026-09-26T02:07:00.101Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%AA%E0%A7%9C%E0%A6%BE-%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9F%E0%A6%BF%E0%A6%95%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81-%E0%A6%86%E0%A6%9C-%E0%A6%AA%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A7%A9%E0%A7%AA"><span class="thumb"><img src="/images/%E0%A6%AC%E0%A6%BE%E0%A6%A6-%E0%A6%AA%E0%A7%9C%E0%A6%BE-%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%9F%E0%A6%BF%E0%A6%95%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%B6%E0%A7%81%E0%A6%B0%E0%A7%81-%E0%A6%86%E0%A6%9C-%E0%A6%AA%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A7%A9%E0%A7%AA.avif" alt="বাদ পড়া শিশুদের টিকা দেওয়া শুরু আজ, পাবে ৩৪ লাখ" width="640" height="360" loading="lazy" decoding="async" onerror="if(!this.dataset.fb){this.dataset.fb=1;this.style.display='none';}"><span class="badge">স্বাস্থ্য</span></span><span class="body"><h2 class="prerender-h2">বাদ পড়া শিশুদের টিকা দেওয়া শুরু আজ, পাবে ৩৪ লাখ</h2><p>আজ শুরু হচ্ছে দেশব্যাপী বিশেষ হাম-রুবেলার টিকাদান ক্যাম্পেইন। ৩৪ লাখ শিশু টিকা পাবে। ক্যাম্পেইন চলবে ৩১ অক্টোবর পর্যন্ত।</p><span class="meta"><time datetime="2026-09-26T01:52:19.796Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A6%B6%E0%A6%BE%E0%A6%A8-%E0%A6%93-%E0%A6%AC%E0%A6%A8%E0%A6%BE%E0%A6%A8%E0%A7%80-%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%93%E0%A6%B8%E0%A6%BF"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>গ</b><i>সারাদেশ</i></span><span class="badge">সারাদেশ</span></span><span class="body"><h2 class="prerender-h2">গুলশান ও বনানী থানায় নতুন ওসি</h2><p>গুলশান ও বনানী থানায় নতুন ওসি Bangla Ed</p><span class="meta"><time datetime="2026-09-26T01:48:35.218Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B8-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%AA%E0%A6%AE"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>ঢ</b><i>জাতীয়</i></span><span class="badge">জাতীয়</span></span><span class="body"><h2 class="prerender-h2">ঢাকায় হালকা বৃষ্টির পূর্বাভাস, দিনের তাপমাত্রা সামান্য বাড়তে পারে</h2><p>রাজধানী ঢাকা ও এর আশপাশের এলাকায় আজ হালকা অথবা বজ্রসহ বৃষ্টি হতে পারে বলে জানিয়েছে বাংলাদেশ আবহাওয়া অধিদফতর। সেই সঙ্গে দিনের তাপমাত্রা সামান্য…</p><span class="meta"><time datetime="2026-09-26T01:43:34.449Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%B6%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%AA%E0%A6%BE-%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A6%BF-%E0%A6%85%E0%A6%AC%E0%A6%A8%E0%A6%AE%E0%A6%A8-%E0%A6%B8%E0%A6%BF%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A7%80-%E0%A6%B6%E0%A6%BE%E0%A6%B8"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>শ</b><i>জাতীয়</i></span><span class="badge">জাতীয়</span></span><span class="body"><h2 class="prerender-h2">শিরোপা যাবে, নাকি অবনমন—সিটির সামনে কী শাস্তি</h2><p>প্রিমিয়ার লিগে আর্থিক নিয়ম ভঙ্গের ১১৫টি অভিযোগের ১১৪টিতে দোষী সাব্যস্ত হয়েছে ম্যানচেস্টার সিটি। প্রশ্ন হচ্ছে, সবচেয়ে গুরুতর শাস্তিগুলোর কোনটি পেতে…</p><span class="meta"><time datetime="2026-09-26T01:43:34.435Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A6%A1%E0%A6%BC%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%85%E0%A6%9C%E0%A7%8D"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>ট</b><i>শিক্ষা</i></span><span class="badge">শিক্ষা</span></span><span class="body"><h2 class="prerender-h2">টানা দুই দিন বিনাচিকিৎসায় পড়েছিলেন অজ্ঞাত নারী, শিক্ষার্থীদের চাপে হাসপাতালে ভর্তি</h2><p>​কুমিল্লার দেবিদ্বার উপজেলা স্বাস্থ্য কমপ্লেক্সের ভেত&amp;zwnj;রে টানা দুই দিন বিনাচিকিৎসায় যন্ত্রণায় কাতরাচ্ছিলেন সড়ক দুর্ঘটনায় আহত মানসিক প্রতিবন্ধী…</p><span class="meta"><time datetime="2026-09-26T01:25:16.744Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%AA%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%AA%E0%A6%A8-%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%B2%E0%A6%AE%E0%A7%8D%E0%A6%AC-%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>প</b><i>সারাদেশ</i></span><span class="badge">সারাদেশ</span></span><span class="body"><h2 class="prerender-h2">পে-স্কেলের প্রজ্ঞাপন জারিতে বিলম্ব: অর্থ মন্ত্রণালয়ে কেন আটকে আছে গেজেট?</h2><p>পে-স্কেলের প্রজ্ঞাপন জারিতে বিলম্ব: অর্থ মন্ত্রণালয়ে কেন আটকে আছে গেজেট? &amp;nbsp</p><span class="meta"><time datetime="2026-09-26T01:25:16.707Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A6%BF"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>প</b><i>আন্তর্জাতিক</i></span><span class="badge">আন্তর্জাতিক</span></span><span class="body"><h2 class="prerender-h2">প্রধানমন্ত্রীর সঙ্গে জাতিসংঘের মানবাধিকারবিষয়ক হাইকমিশনার ফলকার তুর্কের সাক্ষাৎ</h2><p>জাতিসংঘ সাধারণ পরিষদের ৮১তম অধিবেশনে অংশ নিতে নিউইয়র্ক সফররত প্রধানমন্ত্রী তারেক রহমানের সঙ্গে জাতিসংঘের মানবাধিকারবিষয়ক হাইকমিশনার ফলকার তুর্ক…</p><span class="meta"><time datetime="2026-09-26T01:10:22.566Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A5%E0%A6%AE-%E0%A7%A7%E0%A7%A6-%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%9A%E0%A6%95%E0%A6%9A%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%95%E0%A6%BF-%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%96%E0%A6%B8%E0%A6%96%E0%A6%B8%E0%A7%87"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>প</b><i>শিক্ষা</i></span><span class="badge">শিক্ষা</span></span><span class="body"><h2 class="prerender-h2">প্রথম ১০ পাতা চকচকে, বাকি পাতা খসখসে!</h2><p>বর্তমান বাজার মূল্যে জাতীয় শিক্ষাক্রম ও পাঠ্যপুস্তক বোর্ডের (এনসিটিবি) বিনা মূল্যের পাঠ্যবইয়ের প্রতি ফর্মা ছাপাতে খরচ ২ টাকা ৪০ পয়সা। তবে ৩ টাকা ৫০…</p><span class="meta"><time datetime="2026-09-26T01:10:22.563Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%86%E0%A6%9C-%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%AF%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%AC%E0%A7%87%E0%A6%A8-%E0%A7%A8%E0%A7%AC-%E0%A6%B8%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>আ</b><i>খেলা</i></span><span class="badge">খেলা</span></span><span class="body"><h2 class="prerender-h2">আজ টিভিতে যা দেখবেন (২৬ সেপ্টেম্বর ২০২৬)</h2><p>উয়েফা নেশনস লিগে আজ বিশ্ব চ্যাম্পিয়ন স্পেনের বিপক্ষে খেলবে ইংল্যান্ড। আজ খেলা আছে সুইজারল্যান্ড ও ক্রোয়েশিয়ারও।</p><span class="meta"><time datetime="2026-09-26T01:10:22.561Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%86%E0%A6%95%E0%A7%8D%E0%A6%95%E0%A7%87%E0%A6%B2-%E0%A6%A6%E0%A6%BE%E0%A6%81%E0%A6%A4-%E0%A6%A4%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A7%9C%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A7%9F-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>আ</b><i>জাতীয়</i></span><span class="badge">জাতীয়</span></span><span class="body"><h2 class="prerender-h2">আক্কেল দাঁত তোলার পর বেড়ে যায় খাবারের স্বাদ বলছে গবেষনা</h2><p>আক্কেল দাঁত তোলা কিছু মানুষের ক্ষেত্রে সময়ের সঙ্গে স্বাদ শনাক্ত করার ক্ষমতায় সামান্য উন্নতি দেখা যেতে পারে</p><span class="meta"><time datetime="2026-09-26T01:10:22.554Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%B8%E0%A7%87%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A7%9F%E0%A7%87-%E0%A7%A7%E0%A7%A8-%E0%A6%95%E0%A7%8B%E0%A6%9F%E0%A6%BF-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AA%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A7%A7%E0%A7%AC-%E0%A6%AC%E0%A6%9B%E0%A6%B0-%E0%A6%AC%E0%A7%9F%E0%A6%B8%E0%A7%80-%E0%A6%95%E0%A7%87-%E0%A6%8F"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>স</b><i>আন্তর্জাতিক</i></span><span class="badge">আন্তর্জাতিক</span></span><span class="body"><h2 class="prerender-h2">সেরা হয়ে ১২ কোটি টাকা পেলেন, ১৬ বছর বয়সী কে এই নেনে</h2><p>মাত্র ১৬ বছর বয়সেই ইতিহাস গড়লেন থাইল্যান্ডের রকশিল্পী নেনে রয়্যাল। ‘আমেরিকাস গট ট্যালেন্ট’-এর ২১তম মৌসুমের চ্যাম্পিয়ন হয়েছেন তিনি।</p><span class="meta"><time datetime="2026-09-26T01:10:22.552Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%A7%E0%A6%B0%E0%A6%BE-%E0%A6%AA%E0%A7%9C%E0%A6%B2-%E0%A6%95%E0%A7%8B%E0%A7%9F%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%AE-%E0%A6%9C%E0%A6%97%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%AF"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>ক</b><i>ধর্ম</i></span><span class="badge">ধর্ম</span></span><span class="body"><h2 class="prerender-h2">ক্যামেরায় ধরা পড়ল কোয়ান্টাম জগতের রহস্য</h2><p>কোয়ান্টাম জগতের কথা উঠলেই একটি অদ্ভুত প্রশ্ন সামনে আসে। দুটি কণা যদি অনেক দূরে চলে যায়, তবু কি তারা একে অপরের সঙ্গে কোনোভাবে যুক্ত থাকতে পারে? একটি…</p><span class="meta"><time datetime="2026-09-26T01:10:22.551Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%AA%E0%A6%BF%E0%A6%95%E0%A6%B2%E0%A6%AC%E0%A6%B2-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A7%A7%E0%A7%A9-%E0%A6%AC%E0%A6%9B%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BF%E0%A6%B6%E0%A7%8B%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AD%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%A3"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>প</b><i>খেলা</i></span><span class="badge">খেলা</span></span><span class="body"><h2 class="prerender-h2">পিকলবল খেলে ১৩ বছরের কিশোরীর বিশ্বভ্রমণ</h2><p>১৬-অনূর্ধ্ব জুনিয়র টুর্নামেন্ট জেতে এলসি। সে নিয়মিত ভোরবেলা উঠে নিজের নাশতা বানিয়ে খেলা শুরু করে। ২০১৯ সালে ওয়াটার্স যখন ১২ বছর বয়সে খেলা শুরু করেন,…</p><span class="meta"><time datetime="2026-09-26T01:10:22.547Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A7%87-%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B8%E0%A6%B0%E0%A6%AC-%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC-%E0%A6%A8%E0%A7%87%E0%A6%A4%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%9A%E0%A6%BE%E0%A6%AA%E0%A7%87"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>জ</b><i>আন্তর্জাতিক</i></span><span class="badge">আন্তর্জাতিক</span></span><span class="body"><h2 class="prerender-h2">জাতিসংঘে গাজা নিয়ে সরব বিশ্ব নেতারা, চাপে ইসরায়েল</h2><p>গাজায় ইসরায়েলের সামরিক অভিযান, বেসামরিক মানুষকে হত্যা এবং অধিকৃত পশ্চিম তীরে ইসরায়েলি বসতি সম্প্রারণ ইস্যু এবারের জাতিসংঘ সাধারণ পরিষদের অধিবেশনে…</p><span class="meta"><time datetime="2026-09-26T00:40:22.532Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%86%E0%A6%9C%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A8%E0%A7%AC-%E0%A6%B8%E0%A7%87%E0%A6%AA%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%AC"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>ট</b><i>খেলা</i></span><span class="badge">খেলা</span></span><span class="body"><h2 class="prerender-h2">টিভিতে আজকের খেলা (২৬ সেপ্টেম্বর, ২০২৬)</h2><p>প্রতিদিনের মতো আজও টেলিভিশনের পর্দায় থাকছে বিভিন্ন খেলা। দেশের ও আন্তর্জাতিক অঙ্গনের এসব ম্যাচের মধ্যে কোনগুলো কখন, কোন চ্যানেলে সরাসরি দেখা…</p><span class="meta"><time datetime="2026-09-26T00:10:22.518Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7-%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%A8%E0%A6%B9%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A6%87-%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%A8"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>&#39;</b><i>প্রযুক্তি</i></span><span class="badge">প্রযুক্তি</span></span><span class="body"><h2 class="prerender-h2">&#39;মানুষ সমস্যা নহে, মানুষই সমাধান&#39;</h2><p>জাতিসংঘের ৮১তম সাধারণ অধিবেশনে মহাসচিব অ্যান্তোনিও গুতেরেসের বক্তব্যের একটি মর্মকথা আজিকার অস্থির পৃথিবীর জন্য বিশেষভাবে প্রাসঙ্গিক। তিনি বলিয়াছেন,…</p><span class="meta"><time datetime="2026-09-26T00:10:22.510Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%8F%E0%A6%95-%E0%A6%B8%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%B9%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%B9%E0%A6%B0%E0%A6%AE%E0%A7%81%E0%A6%9C-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A6%BE%E0%A6%B2%E0%A6%BF-%E0%A6%96%E0%A7%81%E0%A6%B2%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%93"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>এ</b><i>আন্তর্জাতিক</i></span><span class="badge">আন্তর্জাতিক</span></span><span class="body"><h2 class="prerender-h2">এক সপ্তাহের মধ্যে হরমুজ প্রণালি খুলে দেওয়ার প্রস্তাব ইরানের</h2><p>বিশ্বের সবচেয়ে গুরুত্বপূর্ণ জ্বালানি রুট হরমুজ প্রণালি সাত দিনের মধ্যে বাণিজ্যিক জাহাজ চলাচলের জন্য পুনরায় উন্মুক্ত করে দেওয়ার প্রস্তাব দিয়েছে ইরান।…</p><span class="meta"><time datetime="2026-09-25T23:40:22.446Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%AE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A7%87-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%AE%E0%A6%A4%E0%A6%BE-%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8B%E0%A6%B8%E0%A6%B9-%E0%A6%86%E0%A6%A8"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>ব</b><i>জাতীয়</i></span><span class="badge">জাতীয়</span></span><span class="body"><h2 class="prerender-h2">বিশ্বমঞ্চে ট্রাম্পের ক্ষমতা হারানোসহ আন্তর্জাতিক সব খবর</h2><p>বিশ্বমঞ্চে ট্রাম্পের ক্ষমতা হারানোসহ আন্তর্জাতিক সব খবর Jugantor</p><span class="meta"><time datetime="2026-09-25T23:25:22.488Z">২৬ সেপ, ২০২৬</time></span></span></a><a class="card" href="/news/%E0%A6%9C%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%A8%E0%A6%BF-%E0%A6%A4%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%BE%E0%A6%B0-%E0%A6%A7%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%95%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A6%A3%E0%A7%8D"><span class="thumb"><span class="thumb-noimg" aria-hidden="true"><b>জ</b><i>অর্থনীতি</i></span><span class="badge">অর্থনীতি</span></span><span class="body"><h2 class="prerender-h2">জ্বালানি তেলের দাম বাড়ার ধাক্কা নিত্যপণ্যের বাজারে</h2><p>জ্বালানি তেলের দাম বাড়ার ধাক্কা এবার পড়তে শুরু করেছে নিত্যপণ্যের বাজারে। রাজধানীর বাজারে এক সপ্তাহের ব্যবধানে বিভিন্ন সবজির দাম কেজিতে ১০ থেকে ২০…</p><span class="meta"><time datetime="2026-09-25T23:10:22.408Z">২৬ সেপ, ২০২৬</time></span></span></a></div>
+</section>
+<section class="section prerender-cats">
+<div class="section-head"><h2>বিভাগসমূহ</h2></div>
+<ul class="pr-cat-list"><li><a href="/category/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95">আন্তর্জাতিক <span class="pr-count">(৮৭)</span></a></li><li><a href="/category/%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC">জাতীয় <span class="pr-count">(৭০)</span></a></li><li><a href="/category/%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6">সারাদেশ <span class="pr-count">(৪৯)</span></a></li><li><a href="/category/%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE">খেলা <span class="pr-count">(৪১)</span></a></li><li><a href="/category/%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE">শিক্ষা <span class="pr-count">(৩৮)</span></a></li><li><a href="/category/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF">রাজনীতি <span class="pr-count">(৩৭)</span></a></li><li><a href="/category/%E0%A6%A7%E0%A6%B0%E0%A7%8D%E0%A6%AE">ধর্ম <span class="pr-count">(৩৬)</span></a></li><li><a href="/category/%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF">চাকরি <span class="pr-count">(৩১)</span></a></li><li><a href="/category/%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A7%8B%E0%A6%A6%E0%A6%A8">বিনোদন <span class="pr-count">(৩০)</span></a></li><li><a href="/category/%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF">অর্থনীতি <span class="pr-count">(৩০)</span></a></li><li><a href="/category/%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF">স্বাস্থ্য <span class="pr-count">(২৩)</span></a></li><li><a href="/category/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF">প্রযুক্তি <span class="pr-count">(১৬)</span></a></li><li><a href="/category/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B8">প্রবাস <span class="pr-count">(৬)</span></a></li></ul>
+</section>
+<!--PRERENDER:END-->
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3 class="footer-brand">বাংলা নিউজ এডিশন</h3>
+        <p>বস্তুনিষ্ঠ, বস্তুভিত্তিক ও সত্য সংবাদের অঙ্গীকার। বিশ্বজুড়ে বাংলাদেশী ও প্রবাসীদের জন্য সর্বশেষ সংবাদ ও তথ্য পরিবেশন।</p>
+      </div>
+      <div>
+        <h4>বিভাগসমূহ</h4>
+        <ul id="footer-cats"></ul>
+      </div>
+      <div class="admin-only">
+        <h4>সংবাদ সিস্টেম</h4>
+        <ul id="footer-sources"></ul>
+      </div>
+      <div>
+        <h4>নিউজলেটার</h4>
+        <p style="font-size:0.85rem;color:#94a3b8;line-height:1.6;">দৈনিক সেরা ৫ সংবাদ ইমেইলে পেতে সাবস্ক্রাইব করুন।</p>
+        <form id="newsletter-form" style="display:flex;gap:.5rem;margin-top:.6rem;flex-wrap:wrap;">
+          <label for="newsletter-email" class="visually-hidden">ইমেইল ঠিকানা</label>
+          <input type="email" id="newsletter-email" required placeholder="আপনার ইমেইল" aria-label="ইমেইল ঠিকানা" style="flex:1;min-width:170px;padding:.55rem .7rem;border-radius:8px;border:1px solid #334155;background:#0f172a;color:#f1f5f9;font-size:.85rem;" />
+          <button type="submit" class="btn" style="padding:.55rem 1rem;white-space:nowrap;">সাবস্ক্রাইব</button>
+        </form>
+        <p id="newsletter-msg" style="font-size:0.8rem;margin-top:.5rem;min-height:1.2em;" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;">
+        <div><span id="footer-year"></span> · বাংলা নিউজ এডিশন (BNE) · সর্বস্বত্ব সংরক্ষিত</div>
+        <div style="display:flex;gap:1rem;font-size:0.8rem;">
+          <a href="/about-us" style="color:#94a3b8;text-decoration:none;">আমাদের সম্পর্কে</a> |
+          <a href="/privacy-policy" style="color:#94a3b8;text-decoration:none;">গোপনীয়তা নীতি</a> |
+          <a href="/contact-us" style="color:#94a3b8;text-decoration:none;">যোগাযোগ</a> |
+          <a href="/terms" style="color:#94a3b8;text-decoration:none;">শর্তাবলী</a> |
+          <a href="/advertise" style="color:#94a3b8;text-decoration:none;">বিজ্ঞাপন</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══ Global Smart Ad Engine: Floating Compact Corner Ad Widget ═══ -->
+  <div id="bne-sticky-bottom-ad" class="bne-sticky-bottom-ad">
+    <button class="bne-ad-close-btn" type="button" onclick="closeStickyBottomAd()" title="বিজ্ঞাপন বন্ধ করুন [✕]" aria-label="বিজ্ঞাপন বন্ধ করুন">✕</button>
+    <div class="bne-ad-tag-label">📢 বিশেষ বৈশ্বিক নিয়োগ বিজ্ঞপ্তি | BNE</div>
+    <div class="bne-ad-content">
+      <a href="/news/thy-recruitment-2026">
+        <img src="/images/overseas-campaign.webp" width="220" height="124" alt="THY International ও AD International Ent. জরুরি নিয়োগ বিজ্ঞপ্তি ২০২৬" />
+      </a>
+    </div>
+  </div>
+
+  <!-- ═══ Global Smart Ad Engine: Scroll Interstitial Popup Modal ═══ -->
+  <div id="bne-scroll-popup-ad" class="bne-modal-overlay hidden" role="dialog" aria-modal="true" aria-label="স্পন্সরড নিয়োগ বিজ্ঞপ্তি">
+    <div class="bne-popup-ad-box">
+      <div class="bne-ad-header">
+        <span>✈️ THY International AD International Ent. — বিশেষ বৈশ্বিক নিয়োগ বিজ্ঞপ্তি ২০২৬</span>
+        <button class="bne-ad-close" type="button" onclick="closeScrollPopupAd()" aria-label="বিজ্ঞাপন বন্ধ করুন">&times;</button>
+      </div>
+      <div class="bne-popup-ad-body">
+        <a href="/news/thy-recruitment-2026">
+          <img src="/images/overseas-campaign.webp" width="560" height="315" alt="THY International ও AD International Ent. জরুরি নিয়োগ বিজ্ঞপ্তি ২০২৬" />
+        </a>
+        <div style="padding:10px;text-align:center;background:#0f172a;color:#fff;">
+          <h4 style="margin:0 0 4px;color:#f59e0b;">চীন, লাওস, আলজেরিয়া ও ইরাকে জরুরি কর্মী নিয়োগ</h4>
+          <p style="margin:0;font-size:0.8rem;color:#cbd5e1;">চায়না গার্মেন্টস ট্রেইনি (৫০,০০০ টাকা বেতন + ২ বছরের আন্তর্জাতিক অভিজ্ঞতা সনদ)। বিস্তারিত পড়তে এই বিজ্ঞাপনে ক্লিক করুন →</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 📱 Mobile Drawer Navigation Menu -->
+  <div class="mobile-drawer-overlay" id="drawer-overlay"></div>
+  <aside class="mobile-drawer" id="mobile-drawer" aria-label="মোবাইল নেভিগেশন" aria-hidden="true">
+    <div class="drawer-header">
+      <h3 style="margin:0;color:#10b981;font-size:1.2rem;">নেভিগেশন মেনু</h3>
+      <button class="drawer-close-btn" type="button" id="drawer-close-btn" aria-label="মেনু বন্ধ করুন">&times;</button>
+    </div>
+    <ul class="drawer-nav-list">
+      <li><a href="/">🏠 প্রচ্ছদ</a></li>
+      <li><a href="/desk/probashi-bangla-news">✈️ প্রবাস বাংলা নিউজ</a></li>
+      <li><a href="/category/%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC">🇧🇩 জাতীয়</a></li>
+      <li><a href="/category/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF">⚖️ রাজনীতি</a></li>
+      <li><a href="/category/%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95">🌍 আন্তর্জাতিক</a></li>
+      <li><a href="/category/%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF">📊 অর্থনীতি</a></li>
+      <li><a href="/category/%E0%A6%96%E0%A7%87%E0%A6%B2%E0%A6%BE">⚽ খেলা</a></li>
+      <li><a href="/category/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF">💻 প্রযুক্তি</a></li>
+      <li style="margin-top:1.5rem;padding-top:1rem;border-top:1px solid #1e293b;">
+        <a href="/about-us">ℹ️ আমাদের কথা (About Us)</a>
+        <a href="/privacy-policy">🔒 গোপনীয়তা নীতি</a>
+        <a href="/contact-us">📞 যোগাযোগ</a>
+      </li>
+    </ul>
+  </aside>
+
+  <script>
+    /* মেইন-সাইট সার্ভিস ওয়ার্কার — অফলাইন ক্যাশ ও PWA ইনস্টল সাপোর্ট */
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/sw.js').catch(function () {});
+      });
+    }
+  </script>
+  <script>
+    /* নিউজলেটার সাবস্ক্রাইব — /api/newsletter ফাংশনে POST, গ্রেসফুল ডিগ্রেডেশন */
+    window.addEventListener('DOMContentLoaded', function () {
+      var form = document.getElementById('newsletter-form');
+      var msg = document.getElementById('newsletter-msg');
+      if (!form || !msg) return;
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var email = document.getElementById('newsletter-email').value.trim();
+        if (!email) return;
+        msg.textContent = '⏳ সাবস্ক্রাইব হচ্ছে…';
+        fetch('/api/newsletter', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: email })
+        }).then(function (res) { return res.json(); }).then(function (data) {
+          msg.textContent = data && data.ok ? '✅ ' + (data.message || 'সাবস্ক্রাইব সম্পন্ন।') : '⚠️ ' + (data && data.message || 'আবার চেষ্টা করুন।');
+          if (data && data.ok) form.reset();
+        }).catch(function () {
+          msg.textContent = '⚠️ নেটওয়ার্ক সমস্যা — পরে আবার চেষ্টা করুন।';
+        });
+      });
+    });
+  </script>
+  <script src="/site-config.js"></script>
+  <script src="/core.js"></script>
+  <script src="/app.js" defer></script>
+</body>
+</html>
