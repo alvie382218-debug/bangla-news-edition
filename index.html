@@ -74,25 +74,32 @@
         gtag('config', ga4Id, { anonymize_ip: true });
       }
 
+      /* ── AdSense (২০২৬-০৯-২৭-এ বদলানো) ────────────────────────────────
+         আগে AdSense স্ক্রিপ্টটি JavaScript দিয়ে তৈরি করে বসানো হত। সমস্যা:
+         Google-এর "Verify site ownership" পরীক্ষা HTML **সোর্স** পড়ে —
+         JS দিয়ে বসানো ট্যাগ দেখতে পায় না, ফলে সাইটটি "Requires review"
+         অবস্থায় আটকে থাকত (ব্যবহারকারীর স্ক্রিনশটে ঠিক সেটাই দেখা গেছে)।
+         আর Auto-Ads-এর push-ও এই JavaScript-এর উপর নির্ভরশীল ছিল।
+
+         এখন স্ক্রিপ্টটি সরাসরি <head>-এ স্ট্যাটিক ট্যাগ হিসেবে বসানো
+         (উপরে দেখুন) — তাই যাচাই কাজ করবে এবং JS বন্ধ থাকলেও বিজ্ঞাপন
+         লোড হবে। এখানে কেবল Auto-Ads-এর page-level সক্রিয়করণ বাকি, যা
+         কনফিগে স্পষ্টভাবে চালু থাকলেই করা হয়। */
       var adId = cfg.adsensePublisherId;
-      if (adId && /^ca-pub-[0-9]{8,20}$/.test(adId)) {
-        var a = document.createElement('script');
-        a.async = true;
-        a.crossOrigin = 'anonymous';
-        a.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + adId;
-        document.head.appendChild(a);
-        /* P1-6: Auto-Ads কেবল তখনই, যখন কনফিগে স্পষ্টভাবে চালু করা হয়। */
-        if (cfg.adsenseAutoAds === true) {
-          try {
-            (window.adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: adId,
-              enable_page_level_ads: true
-            });
-          } catch (e) { /* blocker থাকলে চুপচাপ চলবে */ }
-        }
+      if (adId && /^ca-pub-[0-9]{8,20}$/.test(adId) && cfg.adsenseAutoAds === true) {
+        try {
+          (window.adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: adId,
+            enable_page_level_ads: true
+          });
+        } catch (e) { /* blocker থাকলে চুপচাপ চলবে */ }
       }
     });
   </script>
+
+  <!-- ★ Google AdSense — স্ট্যাটিক ট্যাগ (JS নয়) ★
+       সাইট যাচাই ও বিজ্ঞাপনের জন্য প্রতিটি পাতার <head>-এ এটি বাধ্যতামূলক। -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8292591084993652" crossorigin="anonymous"></script>
 
   <meta name="google-site-verification" content="google19571efd052572b7" />
   <meta property="og:type" content="website" />

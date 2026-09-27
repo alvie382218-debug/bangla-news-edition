@@ -132,6 +132,10 @@ ${headTags}
 <link rel="manifest" href="/manifest.webmanifest" />
 <link rel="stylesheet" href="/style.css" />
 <link rel="stylesheet" href="/ssr.css" />
+<!-- ★ Google AdSense — সাইট যাচাই ও বিজ্ঞাপনের জন্য প্রতিটি পাতার head-এ ★
+     AdSense অ্যাকাউন্টে "Verify site ownership" করতে গোটা সাইটে এই কোড
+     থাকা বাধ্যতামূলক। আগে কেবল সংবাদ পাতায় ছিল, বিভাগ/ডেস্ক পাতায় ছিল না। -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8292591084993652" crossorigin="anonymous"></script>
 </head>
 <body class="ssr-body">
 <header class="ssr-header">
