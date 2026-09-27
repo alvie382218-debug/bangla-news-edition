@@ -1,6 +1,6 @@
 {
-  "version": 97,
-  "updatedAt": "2026-09-27T16:45:29.449Z",
+  "version": 98,
+  "updatedAt": "2026-09-27T17:00:56.858Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,56 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rssb97cbf35e96aa6",
+      "slug": "ঢাকায়-ডেঙ্গুতে-নারী-চিকিৎসকের-মৃত্যু",
+      "title": "ঢাকায় ডেঙ্গুতে নারী চিকিৎসকের মৃত্যু",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "/img/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%A1%E0%A7%87%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%81%E0%A6%A4%E0%A7%87-%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A7%81.jpg",
+      "publishedAt": "2026-09-27T16:51:41.864Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>ডেঙ্গুতে আক্রান্ত হয়ে একজন চিকিৎসকের মৃত্যু হয়েছে। ওই চিকিৎসক রাজধানীর মুগদা মেডিকেল কলেজ হাসপাতালে চাকরি করতেন। আজ রোববার সন্ধ্যায় স্বাস্থ্য মন্ত্রণালয়ের এক সংবাদ বিজ্ঞপ্তিতে এই চিকিৎসকের মৃত্যুর খবর জানানো হয়েছে। ডেঙ্গুতে মারা যাওয়া চিকিৎসকের নাম আঁচল...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">কর্মক্ষেত্রে ডেঙ্গুর মতো মশাবাহিত রোগের ঝুঁকি মোকাবিলায় প্রাতিষ্ঠানিক নিরাপত্তা ও সচেতনতা বৃদ্ধি জরুরি। কর্মস্থল ও নিজ আবাসস্থলে পরিচ্ছন্নতা নিশ্চিত করা এখন চাকরিজীবীদের জন্য বেঁচে থাকার অন্যতম কৌশল হয়ে দাঁড়িয়েছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/other/313332/ঢাকায়-ডেঙ্গুতে-নারী-চিকিৎসকের-মৃত্যু\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "ডেঙ্গুতে আক্রান্ত হয়ে একজন চিকিৎসকের মৃত্যু হয়েছে। ওই চিকিৎসক রাজধানীর মুগদা মেডিকেল কলেজ হাসপাতালে চাকরি করতেন। আজ রোববার সন্ধ্যায় স্বাস্থ্য মন্ত্রণালয়ের এক সংবাদ বিজ্ঞপ্তিতে এই চিকিৎসকের মৃত্যুর খবর জানানো হয়েছে। ডেঙ্গুতে মারা যাওয়া চিকিৎসকের নাম আঁচল...",
+      "sourceUrl": "https://www.bd-journal.com/other/313332/ঢাকায়-ডেঙ্গুতে-নারী-চিকিৎসকের-মৃত্যু",
+      "sourceName": "বাংলাদেশ জার্নাল",
+      "imageCredit": "বাংলাদেশ জার্নাল"
+    },
+    {
+      "id": "rss2cd2cf4c06e4fa",
+      "slug": "হরমুজ-প্রণালি-দিয়ে-রেকর্ড-পরিমাণ-তেল-পরি",
+      "title": "হরমুজ প্রণালি দিয়ে রেকর্ড পরিমাণ তেল পরিবহণের দাবি ট্রাম্পের",
+      "category": "আন্তর্জাতিক",
+      "lead": false,
+      "image": "/images/economy.jpg",
+      "publishedAt": "2026-09-27T16:51:41.862Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>যুদ্ধ শুরুর আগের পরিমাণের চেয়েও বেশি পরিমাণ জ্বালানি তেল কৌশলগতভাবে অত্যন্ত গুরুত্বপূর্ণ হরমুজ প্রণালি দিয়ে মার্কিন যুক্তরাষ্ট্র পরিবহণ করেছে বলে দাবি করেছেন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। রোববার (২৭ সেপ্টেম্বর) শিকাগোতে আয়োজিত এক সংবাদ সম্মেলনে সাংবাদিকদের মুখোমুখি হয়ে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">হরমুজ প্রণালিতে মার্কিন আধিপত্য ও তেল পরিবহণের এই সক্ষমতা বৈশ্বিক জ্বালানি বাজারে স্থিতিশীলতা রক্ষায় গুরুত্বপূর্ণ। এতে বাংলাদেশের মতো জ্বালানি আমদানিনির্ভর দেশগুলোর সরবরাহ চেইন ও আমদানিমূল্য নিয়ে উদ্বেগ কিছুটা লাঘব হওয়ার সুযোগ তৈরি হলো।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/international/313333/হরমুজ-প্রণালি-দিয়ে-রেকর্ড-পরিমাণ-তেল-পরিবহণের-দাবি-ট্রাম্পের\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "যুদ্ধ শুরুর আগের পরিমাণের চেয়েও বেশি পরিমাণ জ্বালানি তেল কৌশলগতভাবে অত্যন্ত গুরুত্বপূর্ণ হরমুজ প্রণালি দিয়ে মার্কিন যুক্তরাষ্ট্র পরিবহণ করেছে বলে দাবি করেছেন প্রেসিডেন্ট ডোনাল্ড ট্রাম্প। রোববার (২৭ সেপ্টেম্বর) শিকাগোতে আয়োজিত এক সংবাদ সম্মেলনে সাংবাদিকদের মুখোমুখি হয়ে...",
+      "sourceUrl": "https://www.bd-journal.com/international/313333/হরমুজ-প্রণালি-দিয়ে-রেকর্ড-পরিমাণ-তেল-পরিবহণের-দাবি-ট্রাম্পের",
+      "sourceName": "বাংলাদেশ জার্নাল"
+    },
+    {
+      "id": "rss938661cf18c459",
+      "slug": "প্যাকেজিং-খাতের-সমস্যা-নিয়ে-শফিকুর-রহমান",
+      "title": "প্যাকেজিং খাতের সমস্যা নিয়ে শফিকুর রহমানের কাছে ব্যবসায়ীরা, মিললো যে আশ্বাস",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C%E0%A6%BF%E0%A6%82-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B6%E0%A6%AB%E0%A6%BF%E0%A6%95%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%B9%E0%A6%AE%E0%A6%BE%E0%A6%A8.webp",
+      "publishedAt": "2026-09-27T16:51:41.858Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>প্যাকেজিং ও অ্যাক্সেসরিজ খাতের সমস্যা জাতীয় সংসদে তুলে ধরে সমাধানে প্রয়োজনীয় ভূমিকা রাখার আশ্বাস দিয়েছেন বাংলাদেশ জামায়াতে ইসলামীর আমীর ও জাতীয় সংসদের বিরোধীদলীয় নেতা ডা. শফিকুর রহমান। একই সঙ্গে এ খাতের সমস্যা ও সম্ভাবনা নিয়ে লিখিত প্রতিবেদন দিতে ব্যবসায়ীদের অনুরোধ করেছেন তিনি। রবিবার (২৭ সেপ্টেম্বর</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ব্যবসায়িক সংকটের সমাধানে রাজনৈতিক নেতৃত্বের এই উদ্যোগ অর্থনৈতিক স্থিতিশীলতায় সহায়ক। সততা ও ন্যায্যতার ধর্মীয় মূল্যবোধ ব্যবসায়িক চর্চায় প্রতিফলিত হলে তা সামষ্টিক সমৃদ্ধি নিশ্চিত করবে। উৎপাদনশীল খাতের সুরক্ষায় স্বচ্ছ ও পরিকল্পিত পদক্ষেপ নেওয়া জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/others/970991/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C%E0%A6%BF%E0%A6%82-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B6%E0%A6%AB%E0%A6%BF%E0%A6%95%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%B9%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9B%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "প্যাকেজিং ও অ্যাক্সেসরিজ খাতের সমস্যা জাতীয় সংসদে তুলে ধরে সমাধানে প্রয়োজনীয় ভূমিকা রাখার আশ্বাস দিয়েছেন বাংলাদেশ জামায়াতে ইসলামীর আমীর ও জাতীয় সংসদের বিরোধীদলীয় নেতা ডা. শফিকুর রহমান। একই সঙ্গে এ খাতের সমস্যা ও সম্ভাবনা নিয়ে লিখিত প্রতিবেদন দিতে ব্যবসায়ীদের অনুরোধ করেছেন তিনি। রবিবার (২৭ সেপ্টেম্বর",
+      "sourceUrl": "https://www.banglatribune.com/others/970991/%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C%E0%A6%BF%E0%A6%82-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B6%E0%A6%AB%E0%A6%BF%E0%A6%95%E0%A7%81%E0%A6%B0-%E0%A6%B0%E0%A6%B9%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%9B%E0%A7%87",
+      "sourceName": "বাংলা ট্রিবিউন",
+      "imageCredit": "বাংলা ট্রিবিউন"
     },
     {
       "id": "rss0a207893afe09e",
@@ -8363,57 +8413,6 @@
       "sourceUrl": "https://www.banglatribune.com/weather/970652/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%B9%E0%A6%BE%E0%A6%B2%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A7%83%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B8-%E0%A6%A6%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A6%BE%E0%A6%AA%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE",
       "sourceName": "banglatribune",
       "imageCredit": "banglatribune"
-    },
-    {
-      "id": "rssda4ada119dd49b",
-      "slug": "শিরোপা-যাবে-নাকি-অবনমন-সিটির-সামনে-কী-শাস",
-      "title": "শিরোপা যাবে, নাকি অবনমন—সিটির সামনে কী শাস্তি",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/rssda4ada119dd49b-1200x630.jpg",
-      "publishedAt": "2026-09-26T01:43:34.435Z",
-      "tags": [
-        "প্রথম আলো"
-      ],
-      "body": "<p>ইংলিশ প্রিমিয়ার লিগের আর্থিক নীতিমালা ভঙ্গের দায়ে বড় ধরনের বিপাকে পড়েছে ম্যানচেস্টার সিটি। ক্লাবটির বিরুদ্ধে আনা মোট ১১৫টি অভিযোগের মধ্যে ১১৪টিতেই তারা দোষী সাব্যস্ত হয়েছে। দুই বছর আগে শুরু হওয়া এই বিচারিক প্রক্রিয়াকে ক্রীড়াঙ্গনের ইতিহাসের অন্যতম আলোচিত ঘটনা হিসেবে দেখা হচ্ছে। যদিও ক্লাবটি দোষী সাব্যস্ত হয়েছে, তবে এখনো কোনো চূড়ান্ত শাস্তির ঘোষণা আসেনি। স্বাধীন কমিশন এখন পর্যালোচনা করবে কী ধরনের দণ্ড ম্যানচেস্টার সিটির জন্য প্রযোজ্য হতে পারে।</p>\n<p>অভিযোগের তালিকায় পাঁচটি ভিন্ন বিভাগ রয়েছে, যার মধ্যে ২০০৯-১০ থেকে ২০১৭-১৮ মৌসুম পর্যন্ত সঠিক আর্থিক তথ্য গোপন করা এবং খেলোয়াড় ও কোচদের পারিশ্রমিক সংক্রান্ত তথ্যে অসংগতি প্রধান। এছাড়া উয়েফার ফিন্যান্সিয়াল ফেয়ার প্লে নিয়ম ভঙ্গ, প্রিমিয়ার লিগের প্রফিট অ্যান্ড সাসটেইনিবিলিটি নিয়ম না মানা এবং ২০১৮ থেকে ২০২৩ সাল পর্যন্ত তদন্তে অসহযোগিতার অভিযোগও রয়েছে। যে সময়কালের মধ্যে এই অনিয়মগুলোর সিংহভাগ ঘটেছে, সেই সময়ে ম্যানচেস্টার সিটি তিনটি প্রিমিয়ার লিগ, তিনটি লিগ কাপ ও দুটি এফএ কাপসহ মোট আটটি বড় শিরোপা জিতেছিল।</p>\n<p>এখন প্রশ্ন উঠেছে ক্লাবটির অর্জিত এসব ট্রফির ভবিষ্যৎ কী হবে। যদিও কোনো শিরোপা স্বয়ংক্রিয়ভাবে বাতিল হওয়ার সুযোগ নেই, তবে স্বাধীন কমিশন চাইলে অতীতে জেতা ট্রফি কেড়ে নেওয়ার মতো কঠোর সিদ্ধান্ত নিতে পারে। শাস্তির সম্ভাব্য তালিকার মধ্যে বর্তমান বা ভবিষ্যৎ মৌসুমে পয়েন্ট কর্তন অন্যতম। অতীতে এভারটন বা নটিংহাম ফরেস্টের ক্ষেত্রে পয়েন্ট কাটার নজির থাকলেও, সিটির বিরুদ্ধে অভিযোগের ব্যাপকতা বিবেচনায় তাদের ক্ষেত্রে শাস্তির মাত্রা ভিন্ন হতে পারে।</p>\n<p>সবচেয়ে গুরুতর শাস্তি হিসেবে ম্যানচেস্টার সিটির প্রিমিয়ার লিগ থেকে অবনমন বা বহিষ্কারের সম্ভাবনাও উড়িয়ে দেওয়া যাচ্ছে না। পাশাপাশি মোটা অঙ্কের জরিমানা, খেলোয়াড় নিবন্ধনে নিষেধাজ্ঞা কিংবা নির্দিষ্ট সময়ের জন্য প্রতিযোগিতায় অংশ নেওয়া স্থগিতের মতো শাস্তিমূলক ব্যবস্থা গ্রহণের সুযোগও রয়েছে কমিশনের হাতে। এছাড়া এই শাস্তির ফলে অন্য ক্লাবগুলো যদি তাদের অবস্থান বা আর্থিক ক্ষতির দাবি জানায়, তবে সেসব বিষয়ও আলাদা প্রক্রিয়ায় বিবেচিত হতে পারে।</p>\n<p>ম্যানচেস্টার সিটি এই রায়ের বিরুদ্ধে আপিল করবে বলে ধারণা করা হচ্ছে, যার ফলে চূড়ান্ত শাস্তির ঘোষণা আসতে আরও সময় লাগতে পারে। পুরো বিষয়টি এখন স্বাধীন কমিশনের সিদ্ধান্তের ওপর নির্ভরশীল। ক্লাবটির ভাগ্য নির্ধারণে কী ধরনের ব্যবস্থা নেওয়া হয় এবং তা কত দ্রুত কার্যকর হয়, এখন সেটিই দেখার বিষয়।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ফুটবল বিশ্বের এই নজিরবিহীন আর্থিক অনিয়ম কেবল একটি ক্লাবের আইনি লড়াই নয়, বরং খেলার স্বচ্ছতা ও সততার প্রতি বড় হুমকি। এমন কঠোর শাস্তি নির্ধারিত হলে তা সাধারণ দর্শকদের মধ্যে দীর্ঘস্থায়ী আস্থার সংকট তৈরি করতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/sports/football/2snd3ylrkx\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
-      "summary": "প্রিমিয়ার লিগে আর্থিক নিয়ম ভঙ্গের ১১৫টি অভিযোগের ১১৪টিতে দোষী সাব্যস্ত হয়েছে ম্যানচেস্টার সিটি। প্রশ্ন হচ্ছে, সবচেয়ে গুরুতর শাস্তিগুলোর কোনটি পেতে পারে ক্লাবটি?",
-      "sourceUrl": "https://www.prothomalo.com/sports/football/2snd3ylrkx",
-      "sourceName": "প্রথম আলো",
-      "imageCredit": "প্রথম আলো"
-    },
-    {
-      "id": "rssacfc0d246d14e2",
-      "slug": "টানা-দুই-দিন-বিনাচিকিৎসায়-পড়েছিলেন-অজ্",
-      "title": "টানা দুই দিন বিনাচিকিৎসায় পড়েছিলেন অজ্ঞাত নারী, শিক্ষার্থীদের চাপে হাসপাতালে ভর্তি",
-      "category": "শিক্ষা",
-      "lead": false,
-      "image": "/img/rssacfc0d246d14e2-1200x630.jpg",
-      "publishedAt": "2026-09-26T01:25:16.744Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>​কুমিল্লার দেবিদ্বার উপজেলা স্বাস্থ্য কমপ্লেক্সের ভেত&amp;zwnj;রে টানা দুই দিন বিনাচিকিৎসায় যন্ত্রণায় কাতরাচ্ছিলেন সড়ক দুর্ঘটনায় আহত মানসিক প্রতিবন্ধী এক নারী। প্রাচীর ঘেঁষে খোলা আকাশের নিচে রোদ-বৃষ্টি সহ্য করে পড়ে থাকলেও মেলেনি হাসপাতালের একটি বেড কিংবা চিকিৎসা। অবশেষে সামাজিক যোগাযোগমাধ্যমে বিষয়টি ছড়ি</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">হাসপাতালের এমন চরম অবহেলা শিক্ষার্থীদের নৈতিক দায়িত্ববোধ ও সামাজিক সচেতনতার এক অনন্য দৃষ্টান্ত স্থাপন করেছে। অসহায় মানুষের চিকিৎসায় শিক্ষার্থীদের এই জোরালো ভূমিকা ভবিষ্যতে যে কোনো জরুরি মুহূর্তে জনসচেতনতা বৃদ্ধির পথ প্রশস্ত করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/chitagong/970651/%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A6%A1%E0%A6%BC%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%85%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A4-%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">banglatribune</a></p>",
-      "summary": "​কুমিল্লার দেবিদ্বার উপজেলা স্বাস্থ্য কমপ্লেক্সের ভেত&zwnj;রে টানা দুই দিন বিনাচিকিৎসায় যন্ত্রণায় কাতরাচ্ছিলেন সড়ক দুর্ঘটনায় আহত মানসিক প্রতিবন্ধী এক নারী। প্রাচীর ঘেঁষে খোলা আকাশের নিচে রোদ-বৃষ্টি সহ্য করে পড়ে থাকলেও মেলেনি হাসপাতালের একটি বেড কিংবা চিকিৎসা। অবশেষে সামাজিক যোগাযোগমাধ্যমে বিষয়টি ছড়ি",
-      "sourceUrl": "https://www.banglatribune.com/country/chitagong/970651/%E0%A6%9F%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A6%BE%E0%A6%9A%E0%A6%BF%E0%A6%95%E0%A6%BF%E0%A7%8E%E0%A6%B8%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AA%E0%A6%A1%E0%A6%BC%E0%A7%87%E0%A6%9B%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%85%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A4-%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80",
-      "sourceName": "banglatribune",
-      "imageCredit": "banglatribune"
-    },
-    {
-      "id": "rssbc65d913c81bfe",
-      "slug": "পে-স্কেলের-প্রজ্ঞাপন-জারিতে-বিলম্ব-অর্থ",
-      "title": "পে-স্কেলের প্রজ্ঞাপন জারিতে বিলম্ব: অর্থ মন্ত্রণালয়ে কেন আটকে আছে গেজেট?",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rssbc65d913c81bfe-1200x630.jpg",
-      "publishedAt": "2026-09-26T01:25:16.707Z",
-      "tags": [
-        "বাংলাদেশ সরকার"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KSWFHMFJ1N3lGc09GNG9EOEh6T3NjeEtnSkdid1FBNms4d2N2YXdLWHA0dVptZU9zX2prYlpMXzdFX2phRjF1YzFCcUJlNTFIdlBMWXBNb1hjY3UxWXc?oc=5&quot; target=&quot;_blank&quot;&amp;gt;পে-স্কেলের প্রজ্ঞাপন জারিতে বিলম্ব: অর্থ মন্ত্রণালয়ে কেন আটকে আছে গেজেট?&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রজ্ঞাপন জারিতে দীর্ঘসূত্রতা সরকারি চাকরিজীবীদের জীবনযাত্রার মান ও আর্থিক ব্যবস্থাপনায় অনিশ্চয়তা তৈরি করছে। সংশ্লিষ্ট দপ্তরের উচিত দ্রুত প্রশাসনিক জটিলতা নিরসন করে স্বচ্ছতা নিশ্চিত করা, যাতে কর্মীদের প্রাপ্য অধিকার নিয়ে সৃষ্ট বিভ্রান্তি দূর হয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KSWFHMFJ1N3lGc09GNG9EOEh6T3NjeEtnSkdid1FBNms4d2N2YXdLWHA0dVptZU9zX2prYlpMXzdFX2phRjF1YzFCcUJlNTFIdlBMWXBNb1hjY3UxWXc?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">govt_notice</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KSWFHMFJ1N3lGc09GNG9EOEh6T3NjeEtnSkdid1FBNms4d2N2YXdLWHA0dVptZU9zX2prYlpMXzdFX2phRjF1YzFCcUJlNTFIdlBMWXBNb1hjY3UxWXc?oc=5\" target=\"_blank\"&gt;পে-স্কেলের প্রজ্ঞাপন জারিতে বিলম্ব: অর্থ মন্ত্রণালয়ে কেন আটকে আছে গেজেট?&lt;/a&gt;&nbsp;&nbsp",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KSWFHMFJ1N3lGc09GNG9EOEh6T3NjeEtnSkdid1FBNms4d2N2YXdLWHA0dVptZU9zX2prYlpMXzdFX2phRjF1YzFCcUJlNTFIdlBMWXBNb1hjY3UxWXc?oc=5",
-      "sourceName": "govt_notice",
-      "imageCredit": "govt_notice"
     }
   ],
   "ads": [
