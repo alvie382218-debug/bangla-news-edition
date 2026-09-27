@@ -163,14 +163,31 @@
        ৪) ফাঁকা / অজানা             → null
      ফল: /news/<slug> বা /category/<cat> পাতায়ও ছবি কখনো /category/images/…
      হয়ে ভাঙে না — এটাই ছিল একই fallback ছবি বারবার আসার মূল কারণ। */
+  /* ══ ছবির পাথ → ব্রাউজারে ব্যবহারযোগ্য URL ════════════════════════════
+     ⚠️ এখানে একটা গুরুতর বাগ ছিল (২০২৬-০৯-২৭-এ ধরা পড়েছে)
+     ------------------------------------------------------------------
+     আগে:  `/img/<file>`  →  `/images/<file>`  (অন্ধভাবে, সব ক্ষেত্রে)
+
+     সেটি পুরনো দিনের জন্য লেখা হয়েছিল, যখন সব ছবি রেপোর `images/` ফোল্ডারে
+     ছিল আর `/img/` ছিল Oracle-নির্ভর পুরনো পাথ।
+
+     কিন্তু এখন ছবির ব্যবস্থাই বদলে গেছে: সংবাদের আসল ছবি থাকে Oracle-এর
+     `/opt/bne/data/img/`-এ এবং লাইভ URL হয় `/img/<id>-1200x630.jpg` —
+     যা netlify.toml-এর `/img/*` প্রক্সি দিয়ে আমাদের নিজের ডোমেইন থেকেই
+     সার্ভ হয়। ফলে এই অন্ধ রূপান্তর প্রতিটি ছবিকে `/images/<id>-1200x630.jpg`
+     বানিয়ে দিত — যে ফাইল রেপোতে **নেই** → প্রতিটি ছবি ৪০৪ → হাইড।
+     ব্যবহারকারী এটাই দেখছিলেন: ছবি নেই, কার্ড ফাঁকা।
+
+     এখন: পাথ আর বদলানো হয় না। বিল্ড-সময়ে (tools/sync-function-data.js ও
+     tools/build-site-data.js) ঠিক করা হয় কোন পাথ আসলে রেপোতে আছে —
+     সেখানে ফাইল থাকলে `/images/…`, নইলে `/img/…` (প্রক্সি) রাখা হয়।
+     তাই এখানে কেবল leading slash নিশ্চিত করা হয়। */
   function normalizeImage(src) {
     if (!src) return null;
     var raw = String(src).trim();
     if (!raw) return null;
-    if (/^https?:\/\//i.test(raw)) return raw;
-    var rel = raw.replace(/^\.?\//, "");
-    if (rel.indexOf("img/") === 0) rel = "images/" + rel.slice(4);
-    return "/" + rel;
+    if (/^https?:\/\//i.test(raw) || /^data:/i.test(raw)) return raw;
+    return "/" + raw.replace(/^\.?\//, "");
   }
 
   /* ══ থাম্বনেইল মনোটনি সমাধান: প্রতি সংবাদের জন্য ইউনিক কভার ═══════════
@@ -321,6 +338,59 @@
       .trim();
   }
 
+  /* ══ খবরের লেখা → অনুচ্ছেদের তালিকা ══════════════════════════════════
+     কেন এই ফাংশন দরকার (ব্যবহারকারীর অভিযোগ, ২০২৬-০৯-২৭)
+     ------------------------------------------------------------------
+     "ক্লিক করে যে পুরো বিস্তারিত সেটা পড়া যাচ্ছে না।"
+
+     তদন্তে যা পাওয়া গেল: সংবাদের বডি সংরক্ষিত থাকে এভাবে —
+         <p>প্রথম অনুচ্ছেদ</p>\n<p>দ্বিতীয় অনুচ্ছেদ</p>\n<p>তৃতীয়…</p>
+     অর্থাৎ অনুচ্ছেদগুলো আলাদা হয় `</p>` + একটিমাত্র `\n` দিয়ে।
+
+     কিন্তু রেন্ডারিং কোড দুটো ভুল করছিল:
+       ১) আগে `articlePlainText()` চালানো হত — যা **সব** শূন্যস্থান ও
+          নতুন লাইনকে একটিমাত্র স্পেসে চেপে দেয়। ফলে অনুচ্ছেদের সীমানা
+          চিরতরে মুছে যেত।
+       ২) তারপর `/\\n+/` দিয়ে ভাগ করা হত — যা আর কিছুই পেত না।
+     ফল: ৬–১০ অনুচ্ছেদের একটি সংবাদ একটিমাত্র বিশাল অনুচ্ছেদ হয়ে যেত,
+     পড়া প্রায় অসম্ভব।
+
+     তাই এখন ভাগ করা হয় HTML-এর গঠন ধরে — `</p>`, `<br>`, ব্লক-লেভেল
+     ট্যাগ এবং double newline — এবং **তারপর** ট্যাগ পরিষ্কার করা হয়।
+     লাইন-ব্রেক `\n`-ও রাখা হয়, কারণ কিছু সূত্র শুধু newline দিয়ে
+     অনুচ্ছেদ বোঝায়। */
+  function articleBlocks(html) {
+    var s = decodeEntities(html == null ? "" : html, 3)
+      .replace(/<\s*(script|style)[\s\S]*?<\s*\/\s*\1\s*>/gi, " ")
+      /* `</p>`, `</div>`, `</li>`, শিরোনাম শেষ হওয়া, `<br>` → অনুচ্ছেদ-সীমানা */
+      .replace(/<\s*br\s*\/?\s*>/gi, "\n")
+      .replace(/<\s*\/\s*(p|div|li|h[1-6]|blockquote|section|article|td)\s*>/gi, "\n\n")
+      .replace(/<\s*(p|div|li|h[1-6]|blockquote|section|article|td)\b[^>]*>/gi, "\n\n");
+
+    /* অবশিষ্ট সব ট্যাগ বাদ (ইমেজ/লিংক-এর লেখা টিকে থাকে) */
+    s = s.replace(/<[^>]*>/g, " ");
+
+    return s
+      .split(/\n\s*\n|\n/)
+      .map(function (p) { return p.replace(/[ \t\u00a0]+/g, " ").trim(); })
+      .filter(function (p) { return p.length > 1; });
+  }
+
+  /* ══ খবরের বডি → অনুচ্ছেদ (একাধিক সূত্র-বিন্যাস সামলায়) ═══════════════
+     `a.paragraphs` থাকলে সেটিই (কিছু সূত্র আগেই ভাগ করা পাঠায়), নইলে
+     body/summary থেকে articleBlocks()। */
+  function articleParagraphs(a) {
+    if (!a) return [];
+    if (Array.isArray(a.paragraphs) && a.paragraphs.length) {
+      return a.paragraphs
+        .map(function (p) { return String(p == null ? "" : p).replace(/<[^>]*>/g, " ").replace(/[ \t\u00a0]+/g, " ").trim(); })
+        .filter(function (p) { return p.length > 1; });
+    }
+    var blocks = articleBlocks(a.body || "");
+    if (!blocks.length) blocks = articleBlocks(a.summary || "");
+    return blocks;
+  }
+
   return {
     CATEGORIES: CATEGORIES,
     CATEGORY_KEYWORDS: CATEGORY_KEYWORDS,
@@ -328,6 +398,9 @@
     escapeHtml: escapeHtml,
     decodeEntities: decodeEntities,
     articlePlainText: articlePlainText,
+    /* অনুচ্ছেদ রক্ষা করে ভাগ করা — সংবাদ পড়ার অভিজ্ঞতার মূল ভিত্তি */
+    articleBlocks: articleBlocks,
+    articleParagraphs: articleParagraphs,
     splitSentences: splitSentences,
     hashId: hashId,
     categorize: categorize,

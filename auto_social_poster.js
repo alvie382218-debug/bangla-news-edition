@@ -639,6 +639,9 @@ function fetchOwnArticles() {
           link: `${base}/news/${encodeURIComponent(a.slug || a.id)}`,
           description: a.summary || '',
           image: a.image || a.og_image || '',
+          /* ★ ছবির সূত্র ★ — ক্যাপশনে "ছবি: <সূত্র>" দেখানোর জন্য।
+             ছবিটি মূল সংবাদপত্রের og:image থেকে নামানো (যদি নিজস্ব না হয়)। */
+          imageCredit: a.imageCredit || a.sourceName || '',
           pubDate: published,
           slug: a.slug || a.id,
           category: a.category || '',
@@ -965,11 +968,21 @@ async function runAutoPost() {
          ব্র্যান্ড + বিভাগ + শিরোনামে থাকা বিষয় — সর্বোচ্চ ৫টি। */
       const tags = buildHashtags(n);
 
+      /* ★ ছবির সূত্র ক্যাপশনে ★
+         ছবিটির মালিকানা মূল সংবাদপত্রের (আমরা কেবল সূত্রসহ দেখাচ্ছি)।
+         সূত্র না দিলে এটি অন্যের ছবি নিজের নামে চালানোর মতো দেখায় — যা
+         পাঠকের আস্থা ও কপিরাইট দুই-ই নষ্ট করে। তাই শুধু তখনই লেখা হয়
+         যখন ছবিটি সত্যিই বাইরের (নিজস্ব/ব্র্যান্ডেড কার্ডে সূত্র নেই)। */
+      const creditLine = (n.image && n.imageCredit && !/^(সংগৃহীত)$/.test(String(n.imageCredit).trim()))
+        ? `\n\n🖼️ ছবি: ${escHtml(n.imageCredit)}`
+        : '';
+
       const caption =
         (isBreaking(n) ? `💥 <b>[ব্রেকিং নিউজ]</b>\n\n` : '') +
         `📰 <b>${escHtml(n.title)}</b>\n\n` +
         `${escHtml(n.summary)}...\n\n` +
         `🔗 <b>বিস্তারিত পড়তে নিচের কার্ডে ক্লিক করুন</b>` +
+        creditLine +
         (tags ? `\n\n${escHtml(tags)}` : '');
 
       /* ফেসবুকের বার্তা — লিংকটি `link` প্যারামিটারেই যায়, তাই লেখায়
@@ -978,6 +991,8 @@ async function runAutoPost() {
          আলাদা করে URL দেখানোর দরকার নেই। শেষে হ্যাশট্যাগ যোগ করা হয় যাতে
          Facebook-এর অ্যালগরিদম খবরটি সম্পর্কিত পাঠকদের কাছে পৌঁছে দেয়। */
       const fbMessage = `${isBreaking(n) ? '💥 [ব্রেকিং নিউজ] ' : ''}${n.title}\n\n${n.summary}...` +
+        (n.image && n.imageCredit && !/^(সংগৃহীত)$/.test(String(n.imageCredit).trim())
+          ? `\n\n🖼️ ছবি: ${n.imageCredit}` : '') +
         (tags ? `\n\n${tags}` : '');
 
       /* টেলিগ্রাম — প্রিভিউ কার্ডে ক্লিক করলেই সরাসরি পোর্টালে যায়।

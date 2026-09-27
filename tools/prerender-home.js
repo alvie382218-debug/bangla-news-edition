@@ -100,7 +100,24 @@ function normalizeImage(src) {
   if (!raw) return null;
   if (/^https?:\/\//i.test(raw)) return raw;
   let rel = raw.replace(/^\.?\//, '');
-  if (rel.indexOf('img/') === 0) rel = 'images/' + rel.slice(4);
+  /* ⚠️ এই লাইনেই ছিল গুরুতর বাগ (২০২৬-০৯-২৭-এ ধরা পড়েছে)
+     আগে `/img/<file>` কে অন্ধভাবে `/images/<file>` বানানো হত — সেটি তখন
+     ঠিক ছিল, যখন সব ছবি রেপোর `images/` ফোল্ডারে থাকত।
+
+     এখন সংবাদের আসল ছবি থাকে Oracle-এর `/opt/bne/data/img/`-এ, আর লাইভ
+     পাথ হয় `/img/<id>-1200x630.jpg` — যা netlify.toml-এর `/img/*` প্রক্সি
+     দিয়ে আমাদের নিজের ডোমেইন থেকেই সার্ভ হয়। অন্ধ রূপান্তরে হোমপেজের
+     ২৩টি কার্ডের ১৮টি ভাঙা ঠিকানা পেত → onerror হ্যান্ডলার ছবি লুকিয়ে
+     দিত → পাঠক রঙিন প্লেসহোল্ডার দেখতেন, আসল ছবি নয়।
+
+     এখন ফাইল-সিস্টেম দেখে সিদ্ধান্ত: রেপোতে থাকলে নিজের ফোল্ডার,
+     নইলে প্রক্সি পাথ অটুট (দুটোই একই ভাবে কাজ করে, কিন্তু ৪০৪ নয়)। */
+  if (rel.indexOf('img/') === 0) {
+    const file = rel.slice(4);
+    let onDisk = false;
+    try { onDisk = fs.existsSync(path.join(ROOT, 'images', file)); } catch (e) { onDisk = false; }
+    rel = onDisk ? 'images/' + file : 'img/' + file;
+  }
   return '/' + rel;
 }
 
@@ -117,11 +134,18 @@ function noImgBlock(category, title) {
     '</span>';
 }
 
-function imgTag(src, alt, category, title) {
+function imgTag(src, alt, category, title, eager) {
   const url = normalizeImage(src);
   if (!url) return noImgBlock(category, title);
+  /* ⚠️ P1-7 ফিক্স: আগে **সব** ছবিতেই loading="lazy" বসানো হত — এমনকি
+     হোমপেজের প্রধান (LCP) ছবিটিও। ফলে সবচেয়ে বড় ছবিটি দেরিতে লোড হত
+     এবং Largest Contentful Paint খারাপ হত। এখন প্রথম/লিড ছবি eager +
+     fetchpriority="high" পায়, বাকিগুলো আগের মতোই lazy। */
+  const loadAttrs = eager
+    ? ' loading="eager" fetchpriority="high"'
+    : ' loading="lazy"';
   return '<img src="' + esc(url) + '" alt="' + esc(truncate(alt, 120)) + '"' +
-    ' width="640" height="360" loading="lazy" decoding="async"' +
+    ' width="640" height="360"' + loadAttrs + ' decoding="async"' +
     ' onerror="if(!this.dataset.fb){this.dataset.fb=1;this.style.display=\'none\';}">';
 }
 
@@ -212,7 +236,7 @@ function main() {
     '<section class="section prerender-lead">',
     '<article class="pr-lead-card">',
     '<a href="/news/' + encodeURIComponent(lead.slug || lead.id) + '">',
-    imgTag(lead.image, lead.title, stripTags(lead.category), lead.title),
+    imgTag(lead.image, lead.title, stripTags(lead.category), lead.title, true),
     '</a>',
     '<div class="pr-lead-body">',
     '<span class="badge">' + esc(stripTags(lead.category) || 'সংবাদ') + '</span>',

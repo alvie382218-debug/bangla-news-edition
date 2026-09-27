@@ -229,3 +229,49 @@ h2.ssr-h2 {
   .ssr-main { padding: 1rem 0.8rem 2.5rem; }
   .ssr-content { font-size: 1rem; }
 }
+
+/* ══ ছবির সূত্র (ছবি: <সূত্র>) ═══════════════════════════════════════════
+   সংবাদের ছবিটি মূল সংবাদপত্রের og:image থেকে নামানো। সূত্র দৃশ্যমান রাখা
+   স্বচ্ছতা ও কপিরাইট-শ্রদ্ধার জন্য জরুরি, আর পাঠকের আস্থাও বাড়ায়। */
+.img-credit {
+  margin: .45rem 0 0;
+  font-size: .82rem;
+  line-height: 1.5;
+  color: #8fa2bd;
+  border-left: 3px solid rgba(220, 38, 38, .55);
+  padding-left: .6rem;
+}
+.ssr-hero { margin: 1.1rem 0 1.4rem; }
+.ssr-hero img { width: 100%; height: auto; border-radius: 12px; display: block; }
+
+/* ══ শেয়ার বার (SSR পাতা) — সব বোতামের রং ও স্পর্শ-লক্ষ্য ═══════════════
+   আগে কেবল fb/wa/tg-এর রং ছিল; নতুন বোতামগুলো (X, LinkedIn, ইমেইল,
+   লিংক কপি, ফোনের শেয়ার) রঙহীন থাকত। P1-12: ন্যূনতম ৪৪px উচ্চতা। */
+.share-bar { display: flex; flex-wrap: wrap; align-items: center; gap: .45rem; margin: 1.2rem 0; }
+.share-label { font-size: .84rem; font-weight: 700; opacity: .75; }
+.share-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .35rem;
+  min-height: 44px; padding: .45rem .85rem; border-radius: 999px;
+  font-size: .85rem; font-weight: 700; line-height: 1.2;
+  color: #fff; background: #475569; border: none; cursor: pointer;
+  text-decoration: none; white-space: nowrap;
+}
+.share-btn:hover { filter: brightness(1.12); }
+.share-btn:focus-visible { outline: 3px solid #60a5fa; outline-offset: 2px; }
+.share-btn.fb { background: #1877f2; }
+.share-btn.wa { background: #25d366; color: #06301a; }
+.share-btn.tg { background: #229ed9; }
+.share-btn.x  { background: #0f1419; }
+.share-btn.li { background: #0a66c2; }
+.share-btn.mail { background: #b45309; }
+.share-btn.copy { background: #64748b; }
+.share-btn.native { background: #334155; }
+/* SSR শেয়ার বার — কনটেন্ট শেষে স্পষ্টভাবে আলাদা করা */
+.ssr-main .share-bar { border-top: 1px solid rgba(148, 163, 184, .25); padding-top: 1rem; }
+/* সংশ্লিষ্ট সংবাদ (SSR) — আগে কেবল ক্লায়েন্টে ছিল */
+.ssr-related { margin: 1.6rem 0 0; }
+.ssr-related h2 { font-size: 1.05rem; margin: 0 0 .6rem; }
+.ssr-related ul { margin: 0; padding-inline-start: 1.1rem; }
+.ssr-related li { margin: .35rem 0; line-height: 1.6; }
+.ssr-related a { color: #93c5fd; text-decoration: none; }
+.ssr-related a:hover { text-decoration: underline; }

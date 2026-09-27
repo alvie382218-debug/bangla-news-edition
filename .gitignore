@@ -18,3 +18,11 @@ last_posted.json
 data/bot-state.json
 sponsor_leads_outreach.json
 data/prerender-report.json
+
+# সংবাদের নামানো ছবির লোকাল ক্যাশ (Oracle-এ থাকে; রেপোতে পাঠানোর দরকার নেই)
+# টুল: tools/fetch-news-images.js · আপলোড: tools/push-images-to-oracle.js
+images/news/
+
+# লোকাল কাজের ফাইল — রেপোতে দরকার নেই (CI নিজে বানায়)
+data/bne-live.json
+data/bne-one.json

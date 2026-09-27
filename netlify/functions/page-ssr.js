@@ -84,9 +84,11 @@ function normalizeLocal(src) {
   const raw = String(src || '').trim();
   if (!raw) return '';
   if (/^https?:\/\//i.test(raw)) return raw;
-  let rel = raw.replace(/^\.?\//, '');
-  if (rel.indexOf('img/') === 0) rel = 'images/' + rel.slice(4);
-  return rel;
+  /* ⚠️ এখানেও `/img/` → `/images/` অন্ধ রূপান্তর ছিল (একই বাগ)।
+     এখন `/img/<file>` অটুট রাখা হয় — netlify.toml-এর `/img/*` প্রক্সি
+     সেটি আমাদের নিজের ডোমেইন থেকেই Oracle-এর স্টোরেজ থেকে সার্ভ করে।
+     ফলে `<img src>` ট্যাগ ৪০৪ হয়ে ছবি হারিয়ে যেত, সেটি আর হবে না। */
+  return raw.replace(/^\.?\//, '');
 }
 
 function stripHtml(s) {
@@ -134,6 +136,7 @@ ${headTags}
 <body class="ssr-body">
 <header class="ssr-header">
   <a class="ssr-brand" href="/">বাংলা নিউজ এডিশন</a>
+  <button id="theme-toggle-btn" type="button" class="ssr-theme-btn" aria-label="থিম বদলান" title="ডার্ক / লাইট থিম বদলান">🌓</button>
   <nav class="ssr-nav" aria-label="বিভাগসমূহ">
       ${nav}
   </nav>
@@ -314,6 +317,7 @@ exports.handler = async (event) => {
   <nav class="ssr-crumb"><a href="/">প্রচ্ছদ</a> › ${esc(name)}</nav>
   <h1 class="ssr-title">${esc(name)}</h1>
   <div class="ssr-meta"><span class="ssr-badge">${esc(name)}</span><span>মোট ${esc(items.length)}টি সংবাদ</span></div>
+  ${OG.shareBar({ url: origin + '/category/' + encodeURIComponent(name), title: name + ' — বাংলা নিউজ এডিশন' })}
   ${top.length
     ? `<div class="ssr-grid">${top.map((it) => card(it, origin)).join('\n')}</div>`
     : '<p>এই বিভাগে এখনো কোনো সংবাদ প্রকাশিত হয়নি।</p>'}

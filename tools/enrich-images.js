@@ -445,10 +445,17 @@ async function main() {
                          (হয়তো এই রানে ফিডে আসল ছবিটি পাওয়া যাবে)
        • https://…     → মূল সংবাদমাধ্যমের ছবি, যাচাই করেই রাখা হয় */
   const isOwnStorage = (u) => /^\/?img\//i.test(String(u || ''));
+  /* ★ tools/fetch-news-images.js-এর নামানো আসল ছবি (images/news/…) ★
+     কেন গুরুত্বপূর্ণ: এই ফাইলগুলো মূল সংবাদপত্রের প্রকৃত ছবি, যা আমরা
+     নিজের সার্ভারে নামিয়ে রেখেছি — হটলিংক নয়। এদের বিভাগ-ছবি ভেবে
+     আবার বদলে ফেললে প্রতি বিল্ডেই আসল ছবি হারিয়ে যেত (এবং ঠিক সেই
+     কারণেই আগে ৪৮৩টি সংবাদে একই ব্র্যান্ড কার্ড ফিরে আসত)।
+     তাই এগুলো চূড়ান্ত — কখনো হাত দেওয়া হয় না। */
+  const isFetchedReal = (u) => /^\/?images\/news\//i.test(String(u || ''));
   /* বটের নিজে আপলোড করা ছবি (images/bot/…) — বিভাগ-ছবির মতো পুনঃচেষ্টার
      대상 নয়, বরং ব্যবহারকারীর দেওয়া ছবি হিসেবেই চূড়ান্ত। */
   const isBotUpload = (u) => /^\/?images\/bot\//i.test(String(u || ''));
-  const isCategoryImg = (u) => /^\/?images\//i.test(String(u || '')) && !isBotUpload(u);
+  const isCategoryImg = (u) => /^\/?images\//i.test(String(u || '')) && !isBotUpload(u) && !isFetchedReal(u);
 
   /* ★ অ্যাডমিন বটের পাঠানো সংবাদ — কখনো হাত দেওয়া হয় না ★
      মানুষ টেলিগ্রাম থেকে যে ছবি বেছে পাঠিয়েছেন সেটিই সবচেয়ে সঠিক। কোনো
@@ -462,8 +469,12 @@ async function main() {
 
     const current = String(a.image || '').trim();
 
-    /* নিজের স্টোরেজের বা বটের আপলোড করা ছবি চূড়ান্ত — অটুট */
-    if (current && (isOwnStorage(current) || isBotUpload(current))) { already++; processed++; continue; }
+    /* নিজের স্টোরেজের, নামানো আসল ছবি, বা বটের আপলোড — চূড়ান্ত, অটুট */
+    if (current && (isOwnStorage(current) || isBotUpload(current) || isFetchedReal(current))) {
+      /* মেটাডেটা না থাকলে সূত্র-লেবেল নিশ্চিত করা হয় (সাইটে "ছবি: …" দেখানোর জন্য) */
+      if (!a.imageCredit) a.imageCredit = a.sourceName || 'সংগৃহীত';
+      already++; processed++; continue;
+    }
 
     /* বাইরের ছবি — যাচাই করে রাখা হয়, ব্যর্থ হলে নিচে আবার বেছে নেওয়া হয় */
     if (current && !isCategoryImg(current) && !noVerify && await verifyImage(current)) {

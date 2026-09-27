@@ -90,6 +90,64 @@ function truncate(s, n) {
   return t.length <= n ? t : t.slice(0, n - 1).replace(/\s+\S*$/, '') + '…';
 }
 
+/* ══ খবরের লেখা → অনুচ্ছেদের তালিকা ══════════════════════════════════════
+   কেন দরকার (ব্যবহারকারীর অভিযোগ, ২০২৬-০৯-২৭):
+     "ক্লিক করে যে পুরো বিস্তারিত সেটা পড়া যাচ্ছে না।"
+
+   সংবাদের বডি সংরক্ষিত থাকে `<p>এক</p>\n<p>দুই</p>` আকারে — অর্থাৎ
+   অনুচ্ছেদ আলাদা হয় `</p>` + একটিমাত্র `\n` দিয়ে। আগে এখানে ভাগ করা হত
+   `/\n{2,}/` দিয়ে, যা কখনোই মিলত না → ৬-১০ অনুচ্ছেদের সংবাদ একটিমাত্র
+   বিশাল অনুচ্ছেদ হিসেবে দেখা যেত (পড়া প্রায় অসম্ভব)।
+
+   এখন HTML-এর গঠন ধরে ভাগ করা হয়: `</p>`, `<br>`, ব্লক-লেভেল ট্যাগ,
+   অথবা double newline। প্রতিটি টুকরো থেকে ট্যাগ সরিয়ে নিরাপদ প্লেইন
+   টেক্সট ফেরানো হয় (আউটপুটে esc() করা হয়, তাই ইনজেকশনের সুযোগ নেই)। */
+function bodyParagraphs(html) {
+  const s = String(html == null ? '' : html)
+    .replace(/<\s*(script|style)[\s\S]*?<\s*\/\s*\1\s*>/gi, ' ')
+    .replace(/<\s*br\s*\/?\s*>/gi, '\n')
+    .replace(/<\s*\/\s*(p|div|li|h[1-6]|blockquote|section|article|td)\s*>/gi, '\n\n')
+    .replace(/<\s*(p|div|li|h[1-6]|blockquote|section|article|td)\b[^>]*>/gi, '\n\n');
+  return s
+    .split(/\n\s*\n|\n/)
+    .map((p) => stripTags(p))
+    .filter((p) => p.length > 1);
+}
+
+/* ══ শেয়ার বার — পুরো সাইটে একই ═════════════════════════════════════════
+   ব্যবহারকারীর অভিযোগ: "ফেসবুকে শেয়ার বা হোয়াটসঅ্যাপে শেয়ার করার
+   অপশন নেই — পোর্টাল থেকে কেউ শেয়ার করতে পারে না।"
+
+   আগে সংবাদ পাতায় কেবল ৩টি বোতাম ছিল (FB/WhatsApp/Telegram)। এখন
+   যোগ করা হয়েছে X, LinkedIn, ইমেইল, লিংক-কপি ও ফোনের নিজস্ব শেয়ার
+   মেনু (Web Share API)।
+   ⚠️ কপি/নেটিভ বোতামে inline onclick নেই — CSP-safe `data-*` অ্যাট্রিবিউট
+      ব্যবহার হয় এবং app.js সেগুলো ধরে (এবং JS না থাকলে কেবল ওই দুটি
+      বোতাম কাজ করে না, বাকি লিংকগুলো কাজ করে)। */
+function shareBar(opts) {
+  const url = String((opts && opts.url) || '');
+  const title = String((opts && opts.title) || 'বাংলা নিউজ এডিশন');
+  const text = String((opts && opts.text) || (title + ' — বাংলা নিউজ এডিশন'));
+  const compact = !!(opts && opts.compact);
+  const eu = encodeURIComponent(url);
+  const et = encodeURIComponent(text);
+  const links = [
+    ['fb', 'ফেসবুক', `https://www.facebook.com/sharer/sharer.php?u=${eu}`],
+    ['wa', 'হোয়াটসঅ্যাপ', `https://wa.me/?text=${et}`],
+    ['tg', 'টেলিগ্রাম', `https://t.me/share/url?url=${eu}&text=${encodeURIComponent(title)}`],
+    ['x', 'X', `https://twitter.com/intent/tweet?url=${eu}&text=${encodeURIComponent(title)}`],
+    ['li', 'লিংকডইন', `https://www.linkedin.com/sharing/share-offsite/?url=${eu}`],
+    ['mail', 'ইমেইল', `mailto:?subject=${encodeURIComponent(title)}&body=${et}`],
+  ];
+  const btns = links.map(([cls, label, href]) =>
+    `<a class="share-btn ${cls}" href="${esc(href)}" target="_blank" rel="noopener noreferrer" title="${esc(label)} — শেয়ার করুন" aria-label="${esc(label)} — শেয়ার করুন">${esc(compact ? label.replace('হোয়াটসঅ্যাপ', 'হোয়াটস') : label)}</a>`
+  ).join('');
+  const extra =
+    `<button type="button" class="share-btn copy" data-share-copy="${esc(url)}" title="লিংক কপি করুন" aria-label="লিংক কপি করুন">লিংক কপি</button>` +
+    `<button type="button" class="share-btn native" data-share-native data-share-url="${esc(url)}" data-share-title="${esc(title)}" title="আরও অ্যাপে শেয়ার" aria-label="আরও অ্যাপে শেয়ার">আরও…</button>`;
+  return `<div class="share-bar${compact ? ' share-bar-compact' : ''}" role="group" aria-label="এই সংবাদ শেয়ার করুন"><span class="share-label">📤 শেয়ার:</span>${btns}${extra}</div>`;
+}
+
 function absoluteImage(url, origin) {
   const u = String(url || '').trim();
   if (!u) return '';
@@ -257,7 +315,20 @@ function buildArticleHead(article, ctx) {
   };
   tags.push(`<script type="application/ld+json">${jsonLd(crumbs)}</script>`);
 
-  return { tags: tags.join('\n'), canonical, image: img, imageDims: imgDims, title };
+  /* imageIsOwn = ছবিটি আমাদের নিজের তৈরি ব্র্যান্ডেড কার্ড (অর্থাৎ সংবাদে
+     নিজস্ব ছবি নেই)। ছবির সূত্র ("ছবি: প্রথম আলো") তখনই দেখানো হয় যখন
+     ছবিটি মূল সংবাদপত্রের — নিজের কার্ডে সূত্র দেখানোর কিছু নেই। */
+  return {
+    tags: tags.join('\n'),
+    canonical,
+    image: img,
+    imageDims: imgDims,
+    title,
+    /* imageIsOwn = ব্র্যান্ডেড কার্ড (সংবাদে নিজস্ব ছবি নেই) অথবা আমাদের
+       আঁকা শিরোনাম-কার্ড (imageIsCover) — দুই ক্ষেত্রেই সূত্র দেখানো হয় না। */
+    imageIsOwn: !raw || !!article.imageIsCover,
+    imageCredit: article.imageIsCover ? '' : String(article.imageCredit || article.sourceName || ''),
+  };
 }
 
 module.exports = {
@@ -265,4 +336,7 @@ module.exports = {
   buildArticleHead, SITE_NAME, OG_W, OG_H,
   /* দ্বিগুণ-এস্কেপ ঠিক করার জন্য article-og.js ব্যবহার করে */
   decodeEntities,
+  /* অনুচ্ছেদ ও শেয়ার — article-og.js ও page-ssr.js দুই জায়গাতেই */
+  bodyParagraphs,
+  shareBar,
 };

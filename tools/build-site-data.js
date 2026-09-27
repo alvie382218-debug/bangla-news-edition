@@ -29,6 +29,7 @@
 const fs = require('fs');
 const path = require('path');
 
+const ROOT_DIR = path.join(__dirname, '..');
 const ROOT = path.resolve(__dirname, '..');
 const CONFIG = path.join(ROOT, 'data', 'bne-config.json');
 const OUT_DIR = path.join(ROOT, 'data');
@@ -36,6 +37,31 @@ const OUT_SITE = path.join(OUT_DIR, 'site.json');
 const OUT_NEWS = path.join(OUT_DIR, 'news.json');
 
 const LIGHT_LIMIT = 600;   /* হালকা তালিকায় সর্বোচ্চ কতটি সংবাদ (নতুন আগে) */
+
+
+/* ══ ছবির পাথ: রেপোতে থাকলে নিজের ফোল্ডার, নইলে প্রক্সি ══════════════════
+   কেন (২০২৬-০৯-২৭-এ ধরা পড়া বাগ):
+     সাইটের ক্লায়েন্ট কোড আগে `/img/<file>` কে অন্ধভাবে `/images/<file>`
+     বানিয়ে দিত। সেটি তখন ঠিক ছিল, যখন সব ছবি রেপোর `images/`-এ থাকত।
+     কিন্তু এখন সংবাদের আসল ছবি থাকে Oracle-এর স্টোরেজে এবং লাইভ পাথ হয়
+     `/img/<id>-1200x630.jpg` — যা netlify.toml-এর `/img/*` প্রক্সি দিয়ে
+     আমাদের নিজের ডোমেইন থেকেই সার্ভ হয়। অন্ধ রূপান্তরের ফলে প্রতিটি ছবি
+     ৪০৪ হয়ে হারিয়ে যেত — কার্ড ফাঁকা, সংবাদ পাতার হিরো ছবি নেই।
+
+   সমাধান: সিদ্ধান্ত একবারই, বিল্ডের সময় — ফাইল সিস্টেম দেখে। ফলে ক্লায়েন্টে
+   আর কোনো অনুমান করতে হয় না (core.js-ও এখন পাথ বদলায় না)। */
+function localizeImage(p) {
+  const raw = String(p == null ? '' : p).trim();
+  if (!raw || /^https?:\/\//i.test(raw) || /^data:/i.test(raw)) return raw;
+  const rel = raw.replace(/^\.?\//, '');
+  if (rel.indexOf('img/') === 0) {
+    const file = rel.slice(4);
+    let onDisk = false;
+    try { onDisk = fs.existsSync(path.join(ROOT_DIR, 'images', decodeURIComponent(file))); } catch (e) { onDisk = false; }
+    return onDisk ? 'images/' + file : 'img/' + file;
+  }
+  return rel;
+}
 
 function stripBasic(s) {
   const named = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
@@ -92,7 +118,13 @@ function main() {
     slug: a.slug || a.id,
     title: plain(a.title, 300),
     category: plain(a.category, 40) || 'সংবাদ',
-    image: a.image || '',
+    image: localizeImage(a.image),
+    /* ★ ছবির সূত্র ★ — পাতায় "ছবি: <সূত্র>" দেখানোর জন্য (স্বচ্ছতা ও
+       কপিরাইট-শ্রদ্ধা; সংবাদ সংগ্রহকারী হিসেবে এটি অপরিহার্য)।
+       imageIsCover=true হলে ছবিটি আমাদের নিজের আঁকা শিরোনাম-কার্ড —
+       তখন সূত্র ফাঁকা রাখা হয়। */
+    imageIsCover: !!a.imageIsCover,
+    imageCredit: a.imageIsCover ? '' : plain(a.imageCredit || a.sourceName || 'সংগৃহীত', 60),
     publishedAt: isoOrNull(a.publishedAt),
     tags: Array.isArray(a.tags) ? a.tags.slice(0, 8) : [],
     summary: plain(a.summary || a.body || '', 280),
@@ -124,7 +156,9 @@ function main() {
     slug: a.slug || a.id,
     title: plain(a.title, 300),
     category: plain(a.category, 40) || 'সংবাদ',
-    image: a.image || '',
+    image: localizeImage(a.image),
+    imageIsCover: !!a.imageIsCover,
+    imageCredit: a.imageIsCover ? '' : plain(a.imageCredit || a.sourceName || 'সংগৃহীত', 60),
     publishedAt: isoOrNull(a.publishedAt),
     tags: Array.isArray(a.tags) ? a.tags.slice(0, 8) : [],
     summary: plain(a.summary || '', 400),

@@ -142,6 +142,11 @@ main { flex: 1; padding-bottom: 2rem; }
 .ad-flag { display: inline-block; background: #b45309; color: #fff; font-size: .68rem; font-weight: 700; padding: .22rem .6rem; border-radius: 999px; letter-spacing: .03em; }
 .hero-dots { position: absolute; bottom: .7rem; right: .9rem; display: flex; gap: .35rem; z-index: 3; }
 .hero-dots button { width: 8px; height: 8px; border-radius: 999px; border: none; background: rgba(255,255,255,.4); cursor: pointer; padding: 0; transition: width .25s, background .25s; }
+/* P1-12: ৮px বিন্দু ফোনে ছোঁয়াই যেত না (ন্যূনতম ৪৪px হওয়া উচিত)।
+   দেখতে আগের মতোই ছোট থাকে, কিন্তু স্পর্শ-এলাকা pseudo-element দিয়ে
+   বড় করা হয়েছে — চেহারা অটুট, ব্যবহারযোগ্যতা ঠিক। */
+.hero-dots button { position: relative; }
+.hero-dots button::after { content: ''; position: absolute; inset: -18px; }
 .hero-dots button.active { background: #fbbf24; width: 20px; }
 @media (prefers-reduced-motion: reduce) {
   .hero-rotator .hero-slide { transition: none; }
@@ -801,3 +806,169 @@ html.force-light .pr-lead-body p, body.force-light .pr-lead-body p { color: #334
 /* ── স্ট্যাটিক পেজ (about / privacy / contact / terms / advertise) ──────── */
 .legal-container h1 { font-size: clamp(1.4rem, 3.4vw, 2rem); line-height: 1.4; }
 .legal-container h2 { font-size: 1.15rem; margin-top: 1.6rem; }
+
+/* ══ ছবির সূত্র (ছবি: <সূত্র>) ═══════════════════════════════════════════
+   প্রতিটি সংবাদের ছবি এখন মূল সংবাদপত্রের og:image থেকে নামিয়ে নিজের
+   সার্ভারে রাখা হয় (tools/fetch-news-images.js)। সূত্র দেখানো হয় যাতে
+   পাঠক জানে ছবিটি কোথা থেকে এসেছে — সংবাদ সংগ্রহকারীর জন্য অপরিহার্য। */
+.article figure .img-credit,
+.img-credit {
+  margin-top: .5rem;
+  font-size: .82rem;
+  line-height: 1.5;
+  opacity: .72;
+  border-left: 3px solid currentColor;
+  padding-left: .6rem;
+}
+
+/* ══ শেয়ার উপাদান — পুরো সাইটে একই চেহারা ═══════════════════════════════
+   ব্যবহারকারীর অভিযোগ ছিল শেয়ার করার উপায় নেই। এখন FB, WhatsApp,
+   Telegram, X, LinkedIn, ইমেইল, লিংক কপি ও ফোনের শেয়ার মেনু — সংবাদ
+   পাতা, কার্ড, বিভাগ ও ডেস্ক — সবখানেই।
+   ⚠️ স্পর্শ-লক্ষ্য (tap target) ন্যূনতম ৪৪px রাখা হয়েছে — ফোনে ভুল ক্লিক
+      কম হয় (P1-12)। */
+.share-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .45rem;
+  margin: 1rem 0;
+}
+.share-label {
+  font-size: .84rem;
+  font-weight: 700;
+  opacity: .75;
+  margin-right: .15rem;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .35rem;
+  min-height: 44px;
+  padding: .45rem .85rem;
+  border-radius: 999px;
+  font-size: .85rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  background: #475569;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.share-btn:hover { filter: brightness(1.12); }
+.share-btn:focus-visible { outline: 3px solid #2563eb; outline-offset: 2px; }
+.share-btn.fb   { background: #1877f2; }
+.share-btn.wa   { background: #25d366; color: #06301a; }
+.share-btn.tg   { background: #229ed9; }
+.share-btn.x    { background: #0f1419; }
+.share-btn.li   { background: #0a66c2; }
+.share-btn.mail { background: #b45309; }
+.share-btn.copy { background: #64748b; }
+.share-btn.native { background: #334155; }
+
+/* কার্ডের কোণে ছোট শেয়ার বোতাম — হোভারে দেখা যায়, ফোনে সবসময় */
+.card .card-share,
+.card-sm .card-share {
+  position: absolute;
+  top: .4rem;
+  right: .4rem;
+  z-index: 4;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, .72);
+  color: #fff;
+  font-size: .95rem;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .15s ease;
+}
+.card, .card-sm { position: relative; }
+.card:hover .card-share,
+.card:focus-within .card-share,
+.card-sm:hover .card-share,
+.card-sm:focus-within .card-share { opacity: 1; }
+/* ফোনে হোভার নেই — তাই ছোট পর্দায় শেয়ার বোতাম সবসময় দেখা যাবে */
+@media (hover: none), (max-width: 640px) {
+  .card .card-share, .card-sm .card-share { opacity: 1; width: 44px; height: 44px; }
+}
+
+/* ══ ডার্ক-থিমের অসম্পূর্ণতা (P1-3 ফিক্স) ════════════════════════════════
+   আগে নিচের উপাদানগুলো ডার্ক-থিমের নিয়মে ছিল না, তাই ডার্ক মোডেও সাদা
+   বাক্স ভেসে থাকত — বিশেষ করে খালি-অবস্থা, টিকার ও তারিখের বাক্স।
+   এখন সব একই সূত্রে। */
+body.force-dark .masthead,
+body.force-dark .date-widget,
+body.force-dark .live-clock-card,
+body.force-dark .ticker,
+body.force-dark .empty {
+  background: #111a2b;
+  color: #e2e8f0;
+  border-color: #243449;
+}
+body.force-dark .search-box,
+body.force-dark #search-input {
+  background: #0f1728;
+  color: #e2e8f0;
+  border-color: #243449;
+}
+body.force-dark .ticker a,
+body.force-dark .empty a { color: #93c5fd; }
+
+/* ══ লম্বা বাংলা শব্দ/লিংক যেন বেরিয়ে না যায় (P2) ══════════════════════
+   বাংলা যুক্তশব্দ ও লম্বা URL ৩৬০px পর্দায় বেরিয়ে গিয়ে অনুভূমিক স্ক্রল
+   তৈরি করত। */
+.article, .article-body, .card, .card-sm, .card-h2, .summary, .ssr-content, .empty {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* ══ প্রিন্ট (P2) ══════════════════════════════════════════════════════
+   আগে কোনো প্রিন্ট-স্টাইল ছিল না, তাই সংবাদ ছাপলে মেনু-বিজ্ঞাপন-শেয়ার
+   সবই কালি খরচ করত। */
+@media print {
+  .site-header, .ssr-header, .ssr-footer, .footer, .share-bar, .share-btn,
+  .ad-slot, #bne-scroll-popup-ad, .sticky-ad-widget, .ticker, aside,
+  .mobile-drawer, #mobile-drawer, .drawer-overlay, nav { display: none !important; }
+  html, body { background: #fff !important; color: #000 !important; }
+  .article-wrap { display: block !important; }
+  .article-body, .ssr-content { font-size: 12pt; line-height: 1.6; color: #000; }
+  a { color: #000; text-decoration: underline; }
+  img { max-width: 100% !important; height: auto !important; }
+}
+
+/* SSR পাতার থিম-টগল বোতাম — ৪৪px স্পর্শ-লক্ষ্য (P1-12) */
+.ssr-theme-btn {
+  min-width: 44px;
+  min-height: 44px;
+  margin-inline-start: auto;
+  border: 1px solid rgba(148, 163, 184, .35);
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+.ssr-theme-btn:focus-visible { outline: 3px solid #60a5fa; outline-offset: 2px; }
+
+/* ══ স্টিকি/পপ-আপ বন্ধ করার বোতাম — স্পর্শ-লক্ষ্য (P1-12) ═══════════════
+   আগে বন্ধ বোতামটি মাত্র ১৮px ছিল; আঙুল দিয়ে চাপা প্রায় অসম্ভব ছিল,
+   ফলে বিজ্ঞাপন বন্ধ করা যেত না — খুব বিরক্তিকর (বিশেষত ফোনে)। */
+.sticky-ad-close,
+#bne-scroll-popup-ad .close-btn,
+[data-close-popup] {
+  min-width: 44px !important;
+  min-height: 44px !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem !important;
+  cursor: pointer;
+}

@@ -62,6 +62,7 @@ jobs:
           node tools/set-site-origin.js
 
           # প্রতি সংবাদের সাথে সামঞ্জস্যপূর্ণ ছবি (ব্যর্থ হলেও থামে না)
+          node tools/fetch-news-images.js --no-index || echo "::warning::ছবি নামানো ব্যর্থ — আগের ছবি নিয়েই এগোনো হচ্ছে।"
           node tools/enrich-images.js || echo "::warning::ছবি সমৃদ্ধকরণ ব্যর্থ — আগের ছবি নিয়েই এগোনো হচ্ছে।"
 
           # ফাংশনের বান্ডল-ডেটা (SSR /api/config এর সোর্স)

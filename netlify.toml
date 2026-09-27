@@ -15,7 +15,17 @@
   #   ৬) নিজস্ব হালকা কনফিগ (data/site.json) + পূর্ণ সংবাদ-তালিকা (data/news.json)
   #      → /api/config ৪০৪ হলেও সাইট সম্পূর্ণ রেন্ডার করে (P0-3)
   #   ৭) স্ট্যাটিক পেজে canonical/OG/JSON-LD + terms ও advertise পাতা (P1-3)
-  command = "node tools/set-site-origin.js && (node tools/enrich-images.js || echo 'enrich skipped') && node tools/sync-function-data.js && (node tools/build-site-data.js || echo 'site-data skipped') && (node tools/prerender-home.js || echo 'prerender skipped') && (node tools/build-sitemap.js || echo 'sitemap skipped') && (node tools/build-static-seo.js || echo 'static-seo skipped')"
+  #
+  #   ★ ধাপ ২ক নতুন (২০২৬-০৯-২৬) ★ — tools/fetch-news-images.js
+  #   কেন আগে বসানো: ব্যবহারকারীর অভিযোগ ছিল প্রতিটি পোস্টে একই লাল
+  #   ব্র্যান্ড কার্ড, খবরের আসল ছবি নয়। কারণ ৪৯৪টির মধ্যে ৪৮৩টিতেই
+  #   image ফিল্ড ফাঁকা ছিল — Oracle RSS থেকে ছবি তোলা হয় না, আর আগের
+  #   enrich-images.js ছবি খুঁজত হটলিংক করে (ডেটাসেন্টার IP-তে WAF ব্লক)।
+  #   এখন এই টুল প্রতিটি সংবাদের sourceUrl থেকে তার og:image নামিয়ে
+  #   নিজের images/news/ ফোল্ডারে রাখে → ছবি আর কারো উপর নির্ভরশীল নয়।
+  #   `--no-index`: CI-তে সাইটম্যাপ ব্লকড, তাই অকারণে অপেক্ষা নয়।
+  #   সব ফাইল আগেই কমিট করা থাকে, তাই CI-তে সাধারণত কিছুই ডাউনলোড হয় না।
+  command = "node tools/set-site-origin.js && (node tools/fetch-news-images.js --no-index || echo 'image-fetch skipped') && (node tools/enrich-images.js || echo 'enrich skipped') && node tools/sync-function-data.js && (node tools/build-site-data.js || echo 'site-data skipped') && (node tools/prerender-home.js || echo 'prerender skipped') && (node tools/build-sitemap.js || echo 'sitemap skipped') && (node tools/build-static-seo.js || echo 'static-seo skipped')"
 
 # ══════════════════════════════════════════════════════════════════════════════
 # ১. LEGACY রুট — পুরনো লিংক কখনো ভাঙবে না (P1-12)

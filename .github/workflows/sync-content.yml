@@ -68,6 +68,7 @@ jobs:
       # ব্যর্থ হলেও বিল্ড থামে না — আগের ছবি নিয়েই এগিয়ে যায়।
       - name: প্রতি সংবাদের ছবি সমৃদ্ধকরণ
         run: |
+          node tools/fetch-news-images.js --no-index || echo "::warning::ছবি নামানো ব্যর্থ — আগের ছবি নিয়েই এগোনো হচ্ছে।"
           node tools/enrich-images.js || echo "::warning::ছবি সমৃদ্ধকরণ ব্যর্থ — আগের ছবি নিয়েই এগোনো হচ্ছে।"
 
       - name: OG ফাংশনের বান্ডল করা ডেটা পুনর্গঠন
@@ -97,8 +98,36 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git commit -m "chore(sync): Oracle থেকে কনটেন্ট হালনাগাদ [skip ci]"
-            git push
-            echo "✅ পুশ সম্পন্ন।"
+
+            # ══ ★ এখানেই সাইট ২৪ ঘণ্টা জমে ছিল (২০২৬-০৯-২৭-এ ধরা পড়া মূল কারণ) ★ ══
+            # আগে ছিল কেবল `git push`। কিন্তু এই রেপোতে একাধিক ওয়ার্কফ্লো
+            # (social-auto-post, inject-analytics, sponsor-hunter) একই main
+            # শাখায় কমিট করে — তাই প্রায়ই রিমোট এগিয়ে থাকত এবং পুশ প্রত্যাখ্যাত হত:
+            #     ! [rejected] main -> main (fetch first)
+            # ফল ভয়াবহ ছিল: পুশ ব্যর্থ → পরের ধাপ (Netlify ডিপ্লয়) **স্কিপ**
+            # → সাইটে নতুন সংবাদ ও ছবি কিছুই পৌঁছাত না, কয়েক ঘণ্টা ধরে।
+            #
+            # সমাধান: আগে রিমোট আনা → rebase → তারপর পুশ। রিমোট আবার এগিয়ে গেলে
+            # (একই মুহূর্তে অন্য ওয়ার্কফ্লো পুশ করলে) কয়েকবার চেষ্টা করা হয়।
+            pushed=false
+            for i in 1 2 3 4 5; do
+              if git push origin HEAD:main 2>/dev/null; then pushed=true; break; fi
+              echo "::warning::পুশ ব্যর্থ (চেষ্টা $i) — রিমোট এগিয়ে আছে, rebase করে আবার চেষ্টা।"
+              git fetch -q origin main
+              if ! git rebase -q origin/main 2>/dev/null; then
+                git rebase --abort >/dev/null 2>&1 || true
+                echo "::warning::rebase সংঘর্ষ — পরের চক্রে ঠিক হবে, তবু ডিপ্লয় চালু রাখা হচ্ছে।"
+                break
+              fi
+              sleep 3
+            done
+            if [ "$pushed" = true ]; then
+              echo "✅ পুশ সম্পন্ন।"
+            else
+              echo "::warning::পুশ করা যায়নি — তবে ডিপ্লয় থামছে না (নিচের ধাপ চলবে)।"
+            fi
+            # ⚠️ changed=true সবসময় — কারণ ডিপ্লয় ধাপ এই আউটপুটের উপর নির্ভর করে।
+            # আগে পুশ ব্যর্থ হলে এখান থেকে বেরিয়ে যেত এবং deploy স্কিপ হত।
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 

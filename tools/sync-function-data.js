@@ -17,10 +17,36 @@
 const fs = require('fs');
 const path = require('path');
 
+const ROOT_DIR = path.join(__dirname, '..');
 const ROOT = path.join(__dirname, '..');
 const SRC = path.join(ROOT, 'data', 'bne-config.json');
 const OUT = path.join(ROOT, 'netlify', 'functions', '_data.json');
 const OG_DIR = path.join(ROOT, 'og');
+
+
+/* ══ ছবির পাথ: রেপোতে থাকলে নিজের ফোল্ডার, নইলে প্রক্সি ══════════════════
+   কেন (২০২৬-০৯-২৭-এ ধরা পড়া বাগ):
+     সাইটের ক্লায়েন্ট কোড আগে `/img/<file>` কে অন্ধভাবে `/images/<file>`
+     বানিয়ে দিত। সেটি তখন ঠিক ছিল, যখন সব ছবি রেপোর `images/`-এ থাকত।
+     কিন্তু এখন সংবাদের আসল ছবি থাকে Oracle-এর স্টোরেজে এবং লাইভ পাথ হয়
+     `/img/<id>-1200x630.jpg` — যা netlify.toml-এর `/img/*` প্রক্সি দিয়ে
+     আমাদের নিজের ডোমেইন থেকেই সার্ভ হয়। অন্ধ রূপান্তরের ফলে প্রতিটি ছবি
+     ৪০৪ হয়ে হারিয়ে যেত — কার্ড ফাঁকা, সংবাদ পাতার হিরো ছবি নেই।
+
+   সমাধান: সিদ্ধান্ত একবারই, বিল্ডের সময় — ফাইল সিস্টেম দেখে। ফলে ক্লায়েন্টে
+   আর কোনো অনুমান করতে হয় না (core.js-ও এখন পাথ বদলায় না)। */
+function localizeImage(p) {
+  const raw = String(p == null ? '' : p).trim();
+  if (!raw || /^https?:\/\//i.test(raw) || /^data:/i.test(raw)) return raw;
+  const rel = raw.replace(/^\.?\//, '');
+  if (rel.indexOf('img/') === 0) {
+    const file = rel.slice(4);
+    let onDisk = false;
+    try { onDisk = fs.existsSync(path.join(ROOT_DIR, 'images', decodeURIComponent(file))); } catch (e) { onDisk = false; }
+    return onDisk ? 'images/' + file : 'img/' + file;
+  }
+  return rel;
+}
 
 function main() {
   if (!fs.existsSync(SRC)) {
@@ -56,8 +82,19 @@ function main() {
     body: a.body || '',
     category: a.category || 'জাতীয়',
     tags: Array.isArray(a.tags) ? a.tags : [],
-    image: a.image || '',
-    og_image: a.og_image || '',
+    image: localizeImage(a.image),
+    og_image: a.og_image || a.ogImage || '',
+    /* ★ ছবির সূত্র ও মাপ ★
+       sourceUrl মোড়ক (Google News) থেকে নামানো ছবি হলেও মূল সূত্রের
+       নাম রাখা হয়, যাতে পাতায় "ছবি: প্রথম আলো" দেখানো যায় এবং
+       og:image:width/height মিথ্যা না হয়। */
+    /* imageIsCover = ছবিটি আমরা নিজেরাই আঁকা শিরোনাম-কার্ড (মূল সূত্রের
+       ছবি কোথাও পাওয়া যায়নি)। তখন সূত্র দেখানোর কিছু নেই — কার্ডটি আমাদের। */
+    imageIsCover: !!a.imageIsCover,
+    imageCredit: a.imageIsCover ? '' : (a.imageCredit || a.sourceName || 'সংগৃহীত'),
+    imageSourceUrl: a.imageSourceUrl || '',
+    ogImageWidth: a.ogImageWidth || 0,
+    ogImageHeight: a.ogImageHeight || 0,
     author: a.author || 'ডেস্ক',
     published_at: a.publishedAt || a.published_at || config.updatedAt || new Date().toISOString(),
     updated_at: a.updatedAt || config.updatedAt || new Date().toISOString(),

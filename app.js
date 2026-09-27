@@ -658,10 +658,59 @@ function parseFeed(xmlText, sourceKey) {
 /* ── স্টেট + ক্যাশ ─────────────────────────────────────────────── */
 var state = { articles: [], byId: {}, lastUpdate: 0, sourceStatus: {} };
 
+/* ══ সংবাদের ইউনিক কী: slug আগে, নইলে id ════════════════════════════════
+   ⚠️ এখানেই ছিল সবচেয়ে ক্ষতিকর বাগ (ব্যবহারকারীর অভিযোগ, ২০২৬-০৯-২৭)
+   ---------------------------------------------------------------------
+   "ক্লিক করে News দেখা যাচ্ছে না।"
+
+   সংবাদের লিংক কে কী দিয়ে বানাত:
+     • প্রি-রেন্ডার করা হোমপেজ, SSR পাতা, শেয়ার-লিংক, canonical, Google
+       → সবই **slug** দিয়ে  (যেমন /news/tongi-millgate-extortion-attack…)
+     • অ্যাপের ভেতরের কার্ড ও শেয়ার বাটন
+       → **id** দিয়ে          (যেমন /news/amuhr1uup)
+
+   কিন্তু অ্যাপ সংবাদ খুঁজত কেবল `state.byId[id]` দিয়ে — অর্থাৎ slug
+   কখনোই মিলত না। তাই প্রি-রেন্ডার করা হোমপেজ থেকে (বা Google/Facebook
+   থেকে) আসা যেকোনো পাঠক "সংবাদটি পাওয়া যায়নি" দেখতেন — সার্ভার ঠিক
+   HTML পাঠানোর পরপরই ক্লায়েন্ট সেটি মুছে দিত।
+
+   সমাধান: (১) সব লিংক এখন একই কী (slug, না থাকলে id) ব্যবহার করে,
+            (২) খোঁজার সময় id ও slug — দুটোই মেলানো হয় (<code>byKey</code>)। */
+function artKey(a) {
+  if (!a) return '';
+  return String(a.slug || a.id || '');
+}
+
+function keyVariants(key) {
+  var k = String(key == null ? '' : key).trim();
+  var out = [k, k.toLowerCase()];
+  try { out.push(decodeURIComponent(k), decodeURIComponent(k).toLowerCase()); } catch (e) { /* ভাঙা এনকোডিং */ }
+  try { out.push(k.normalize('NFC'), k.normalize('NFC').toLowerCase()); } catch (e) { /* পুরনো ব্রাউজার */ }
+  return out;
+}
+
 function indexArticles() {
   state.byId = {};
-  state.articles.forEach(function (a) { state.byId[a.id] = a; });
+  state.byKey = {};
+  state.articles.forEach(function (a) {
+    state.byId[a.id] = a;
+    keyVariants(a.id).forEach(function (k) { if (k) state.byKey[k] = a; });
+    keyVariants(a.slug).forEach(function (k) { if (k) state.byKey[k] = a; });
+  });
   state.articles.sort(function (a, b) { return b.ts - a.ts; });
+}
+
+/** id, slug, বা URL-এনকোড করা যেকোনো রূপ দিয়ে সংবাদ খোঁজা */
+function findArticle(key) {
+  if (!key) return null;
+  var k = String(key).trim();
+  if (state.byId && state.byId[k]) return state.byId[k];
+  var variants = keyVariants(k);
+  for (var i = 0; i < variants.length; i++) {
+    var hit = state.byKey && state.byKey[variants[i]];
+    if (hit) return hit;
+  }
+  return null;
 }
 
 /* ═══ সম্পাদকীয় লিড (নিয়োগ ক্যাম্পেইন) — এক জায়গায় সংজ্ঞায়িত ═══ */
@@ -856,7 +905,10 @@ function catHref(name) { return isHttpHost() ? '/category/' + encodeURIComponent
 function searchHref(q) { return isHttpHost() ? '/search/' + encodeURIComponent(q) : '#/search/' + encodeURIComponent(q); }
 function deskHref(sub) { return isHttpHost() ? '/desk/probashi-bangla-news' + (sub ? '/' + sub : '') : '#/desk/probashi-bangla-news' + (sub ? '/' + sub : ''); }
 function homeHref() { return isHttpHost() ? '/' : '#/'; }
-function articleUrl(a) { return siteOrigin() + (isHttpHost() ? '/news/' : sitePath() + '#/news/') + encodeURIComponent(a.id); }
+/* শেয়ার/canonical URL — সাইটের সব জায়গায় একই কী (artKey) ব্যবহার হয়,
+   যাতে শেয়ার করা লিংক, কর্নার-এন্ট্রি ও অ্যাপের ভেতরের লিংক হুবহু মেলে।
+   আগে এখানে a.id আর প্রি-রেন্ডারে a.slug থাকত → দুই ধরনের লিংক তৈরি হত। */
+function articleUrl(a) { return siteOrigin() + (isHttpHost() ? '/news/' : sitePath() + '#/news/') + encodeURIComponent(artKey(a)); }
 
 /* "#/..." অথবা রিয়েল-পাথ href → হোস্ট-উপযোগী href */
 function resolveHref(href) {
@@ -993,6 +1045,103 @@ function bneShareCopyLink(btn, url) {
   } catch(e) { window.prompt('এই লিংকটি কপি করুন:', url); }
 }
 
+/* ══ শেয়ার — পুরো পোর্টালে একই উপাদান ═══════════════════════════════════
+   ব্যবহারকারীর অভিযোগ (২০২৬-০৯-২৭):
+     "ফেসবুকে শেয়ার বা হোয়াটসঅ্যাপে শেয়ার বা সোশ্যাল মিডিয়া শেয়ার করার
+      অপশন নেই — পোর্টাল থেকে কেউ চাইলে শেয়ার করতে পারে, সেই অপশনগুলো নেই।"
+
+   আগে শেয়ার বলতে কেবল সংবাদ পাতায় ৩টি বোতাম ছিল (FB/WhatsApp/Telegram),
+   আর সেগুলো inline onclick ব্যবহার করত — কঠোর CSP থাকলে অকেজো হয়ে যেত।
+   অন্য কোথাও (কার্ড, বিভাগ, ডেস্ক, ফুটার) শেয়ারের সুযোগই ছিল না।
+
+   এখন: FB · WhatsApp · Telegram · X · LinkedIn · ইমেইল · লিংক কপি ·
+   ফোনের নিজস্ব শেয়ার মেনু (Web Share API) — একটাই উপাদান, সব জায়গায়।
+   ⚠️ কপি ও নেটিভ বোতামে inline handler নেই; শুধু `data-*` অ্যাট্রিবিউট,
+      যেগুলো নিচের delegated listener ধরে (CSP-safe, আর JS বন্ধ থাকলেও
+      বাকি শেয়ার লিংকগুলো কাজ করে)। */
+function shareBarHtml(url, title, opts) {
+  var o = opts || {};
+  var u = String(url || '');
+  var t = String(title || 'বাংলা নিউজ এডিশন');
+  var eu = encodeURIComponent(u);
+  var et = encodeURIComponent(t + ' — বাংলা নিউজ এডিশন');
+  var etTitle = encodeURIComponent(t);
+  var links = [
+    ['fb', 'ফেসবুক', '📘', 'https://www.facebook.com/sharer/sharer.php?u=' + eu],
+    ['wa', 'হোয়াটসঅ্যাপ', '💬', 'https://wa.me/?text=' + et],
+    ['tg', 'টেলিগ্রাম', '✈️', 'https://t.me/share/url?url=' + eu + '&text=' + etTitle],
+    ['x', 'X', '𝕏', 'https://twitter.com/intent/tweet?url=' + eu + '&text=' + etTitle],
+    ['li', 'লিংকডইন', 'in', 'https://www.linkedin.com/sharing/share-offsite/?url=' + eu],
+    ['mail', 'ইমেইল', '✉️', 'mailto:?subject=' + etTitle + '&body=' + et]
+  ];
+  var btns = '';
+  for (var i = 0; i < links.length; i++) {
+    var L = links[i];
+    btns += '<a class="share-btn ' + L[0] + '" href="' + L[3] + '" target="_blank" rel="noopener noreferrer"' +
+      ' title="' + L[1] + ' — শেয়ার করুন" aria-label="' + L[1] + ' — শেয়ার করুন">' +
+      (o.compact ? L[2] : L[2] + ' ' + L[1]) + '</a>';
+  }
+  btns += '<button type="button" class="share-btn copy" data-share-copy="' + escapeHtml(u) + '"' +
+    ' title="লিংক কপি করুন" aria-label="লিংক কপি করুন">🔗' + (o.compact ? '' : ' লিংক কপি') + '</button>';
+  btns += '<button type="button" class="share-btn native" data-share-native' +
+    ' data-share-url="' + escapeHtml(u) + '" data-share-title="' + escapeHtml(t) + '"' +
+    ' title="আরও অ্যাপে শেয়ার করুন" aria-label="আরও অ্যাপে শেয়ার করুন">📲' + (o.compact ? '' : ' আরও…') + '</button>';
+  return '<div class="share-bar' + (o.compact ? ' share-bar-compact' : '') + '" role="group" aria-label="শেয়ার করুন">' +
+    '<span class="share-label">📤' + (o.compact ? '' : ' শেয়ার করুন:') + '</span>' + btns + '</div>';
+}
+
+/** কার্ডের কোণে ছোট শেয়ার বোতাম — যেকোনো খবর কার্ড থেকেই শেয়ার করা যায় */
+function cardShareHtml(a) {
+  var u = articleUrl(a);
+  return '<span class="card-share" role="button" tabindex="0" data-share-native' +
+    ' data-share-url="' + escapeHtml(u) + '" data-share-title="' + escapeHtml(a.title) + '"' +
+    ' title="শেয়ার করুন" aria-label="' + escapeHtml(a.title) + ' — শেয়ার করুন">📤</span>';
+}
+
+/** ফোনের নিজস্ব শেয়ার শিট; না থাকলে লিংক কপি (progressive enhancement) */
+function bneShareNative(btn, url, title) {
+  if (navigator.share) {
+    navigator.share({ title: title || 'বাংলা নিউজ এডিশন', text: title || '', url: url })
+      .catch(function() { /* ব্যবহারকারী বাতিল করেছেন */ });
+    return;
+  }
+  bneShareCopyLink(btn, url);
+}
+
+/* একবারই বসানো delegated listener — কপি ও নেটিভ শেয়ার দুটোর জন্য।
+   `data-share-*` থাকা যেকোনো উপাদান কাজ করে; তাই নতুন জায়গায় শেয়ার
+   যোগ করতে শুধু HTML বসালেই হয়, আলাদা করে কিছু বাঁধতে হয় না। */
+function bindShareHandlers() {
+  if (window.__bneShareBound) return;
+  window.__bneShareBound = true;
+  var pick = function (ev) {
+    return (ev.target && ev.target.closest)
+      ? ev.target.closest('[data-share-copy],[data-share-native]') : null;
+  };
+  var fire = function (el) {
+    if (el.hasAttribute('data-share-copy')) {
+      bneShareCopyLink(el, el.getAttribute('data-share-copy') || '');
+    } else {
+      bneShareNative(el, el.getAttribute('data-share-url') || '', el.getAttribute('data-share-title') || '');
+    }
+  };
+  document.addEventListener('click', function (ev) {
+    var el = pick(ev);
+    if (!el) return;
+    /* কার্ডের ভেতরে থাকলে ক্লিকটি কার্ড-লিংকে পৌঁছানো উচিত নয় */
+    ev.preventDefault();
+    ev.stopPropagation();
+    fire(el);
+  }, true);
+  document.addEventListener('keydown', function (ev) {
+    if (ev.key !== 'Enter' && ev.key !== ' ') return;
+    var el = pick(ev);
+    if (!el) return;
+    ev.preventDefault(); ev.stopPropagation();
+    fire(el);
+  }, true);
+}
+
 /* ── রেন্ডারিং ─────────────────────────────────────────────────── */
 /* ══ P0-2 ফিক্স — ছবির পাথ ও ফলব্যাক ══════════════════════════════════════
    আগের আচরণ:
@@ -1042,22 +1191,22 @@ function stampIso(ts) {
 }
 
 function cardHtml(a) {
-  return '<a class="card" href="' + newsHref(a.id) + '">' +
+  return '<a class="card" href="' + newsHref(artKey(a)) + '">' +
     '<span class="thumb"><img loading="lazy" decoding="async" width="640" height="360" src="' +
     escapeHtml(imgOf(a)) + '" alt="' + escapeHtml(a.title) + '"' + onImgErrAttr("hide") + ">" +
     badgeHtml(a.category) + "</span>" +
     '<span class="body"><h2 class="card-h2">' + escapeHtml(a.title) + "</h2><p>" + escapeHtml(a.summary) + "</p>" +
     '<span class="meta"><time datetime="' + escapeHtml(stampIso(a.ts)) + '">' + timeAgo(a.ts) +
-    "</time><span>" + escapeHtml(a.sourceLabel) + "</span></span></span></a>";
+    "</time><span>" + escapeHtml(a.sourceLabel) + "</span>" + cardShareHtml(a) + "</span></span></a>";
 }
 
 function cardSmHtml(a) {
-  return '<a class="card-sm" href="' + newsHref(a.id) + '">' +
+  return '<a class="card-sm" href="' + newsHref(artKey(a)) + '">' +
     '<img loading="lazy" decoding="async" width="640" height="360" src="' + escapeHtml(imgOf(a)) +
     '" alt="' + escapeHtml(a.title) + '"' + onImgErrAttr("hide") + ">" +
     '<span><span class="cat">' + escapeHtml(a.category) + "</span><h2 class=\"card-h2\">" +
     escapeHtml(a.title) + '</h2><div class="meta"><time datetime="' + escapeHtml(stampIso(a.ts)) + '">' +
-    timeAgo(a.ts) + "</time></div></span></a>";
+    timeAgo(a.ts) + "</time>" + cardShareHtml(a) + "</div></span></a>";
 }
 
 function sectionHead(title, href) {
@@ -1151,7 +1300,7 @@ function heroRotatorHtml(slides) {
     var tag = isAd ? '<span class="ad-flag">বিজ্ঞাপন</span>' : badgeHtml(s.article.category);
     var title = isAd ? escapeHtml(s.ad.title) : escapeHtml(s.article.title);
     var meta = isAd ? "স্পনর্সড কনটেন্ট" : timeAgo(s.article.ts) + " · " + escapeHtml(s.article.sourceLabel);
-    var href = isAd ? s.ad.href : newsHref(s.article.id);
+    var href = isAd ? s.ad.href : newsHref(artKey(s.article));
     var img = isAd ? escapeHtml(imgUrl(s.ad.image) || "") : escapeHtml(imgOf(s.article));
     /* ★ P2-4: স্লাইডে আর <h1> নয় (পেজে ঠিক একটি h1 থাকবে) + P2-7: LCP প্রায়োরিটি ★
        প্রথম স্লাইডটি LCP উপাদান — তাই fetchpriority="high" এবং eager। */
@@ -1265,6 +1414,8 @@ function renderCategory(app, name) {
   }
   app.innerHTML = '<div class="page-title"><div class="breadcrumb"><a href="' + homeHref() + '">প্রচ্ছদ</a> / ' + escapeHtml(name) + "</div>" +
     "<h1>" + escapeHtml(name) + "</h1><p>মোট " + bn(items.length) + "টি সংবাদ</p></div>" +
+    /* বিভাগীয় পাতাটিও শেয়ার করা যায় (আগে কেবল সংবাদ পাতা শেয়ার করা যেত) */
+    shareBarHtml(canonicalFor(catHref(name)), name + ' — বাংলা নিউজ এডিশন') +
     (items.length
       ? '<div class="grid cols-3">' + items.map(cardHtml).join("") + "</div>"
       : '<div class="empty">এই বিভাগে এখনো সংবাদ আসেনি — একটু পরে রিফ্রেশ করুন।</div>');
@@ -1314,11 +1465,22 @@ function mergeBodies(list) {
     var a = byId[n.id];
     if (!a) return;
     if (!a.paragraphs || !a.paragraphs.length) {
-      var plain = (typeof articlePlainText === "function")
-        ? articlePlainText(n.body || n.summary || "")
-        : String(n.body || "");
-      if (plain) {
-        a.paragraphs = plain.split(/\n+/).filter(function (p) { return p.trim().length > 1; });
+      /* ★ আগে `articlePlainText()` চালিয়ে তারপর `\n+` দিয়ে ভাগ করা হত ★
+         কিন্তু articlePlainText সব শূন্যস্থান ও নতুন লাইন একটিমাত্র স্পেসে
+         চেপে দেয় — ফলে ৬-১০ অনুচ্ছেদের সংবাদ একটিমাত্র অনুচ্ছেদ হয়ে যেত।
+         এখন BNECore.articleBlocks() HTML-এর গঠন (</p>, <br>, ব্লক ট্যাগ)
+         ধরে ভাগ করে, তাই পড়ার মতো অনুচ্ছেদ ফিরে আসে। */
+      var blocks = (window.BNECore && BNECore.articleBlocks)
+        ? BNECore.articleBlocks(n.body || n.summary || "")
+        : [];
+      if (!blocks.length) {
+        var plain = (typeof articlePlainText === "function")
+          ? articlePlainText(n.body || n.summary || "")
+          : String(n.body || "");
+        blocks = plain ? [plain] : [];
+      }
+      if (blocks.length) {
+        a.paragraphs = blocks;
         merged++;
       }
     }
@@ -1365,17 +1527,26 @@ function hydrateArticleBodies(then) {
 }
 
 function renderArticle(app, id, _retried) {
-  var a = state.byId[id];
+  /* ⚠️ আগে এখানে ছিল কেবল `state.byId[id]` — অর্থাৎ slug-লিংক কখনো মিলত না
+     এবং পাঠক "সংবাদটি পাওয়া যায়নি" দেখতেন। এখন id ও slug দুটোই মেলে। */
+  var a = findArticle(id);
   /* পূর্ণ বডি না থাকলে পটভূমিতে নামিয়ে এনে একবারই আবার রেন্ডার করি।
      (_retried গার্ড — নইলে বডি না পেলে অসীম পুনরাবৃত্তি হত) */
   if (a && (!a.paragraphs || !a.paragraphs.length) && !_retried && !fullNewsLoaded) {
     hydrateArticleBodies(function () { renderArticle(app, id, true); });
   }
-  if (!a && (id === "thy-recruitment-2026" || id.indexOf("thy") !== -1 || id.indexOf("recruitment") !== -1)) {
+  if (!a && (String(id) === "thy-recruitment-2026" || String(id).indexOf("thy") !== -1 || String(id).indexOf("recruitment") !== -1)) {
     a = RECRUITMENT_ARTICLE;
     state.byId[a.id] = a;
   }
   if (!a) {
+    /* তালিকা এখনো লোড হয়নি? তাহলে "পাওয়া যায়নি" বলা অন্যায় —
+       আগে ডেটা আনার চেষ্টা করা হয়, তারপর সিদ্ধান্ত (P1-10)। */
+    if (!_retried && !state.articles.length) {
+      hydrateArticleBodies(function () { renderArticle(app, id, true); });
+      app.innerHTML = '<div class="empty"><p>সংবাদ লোড হচ্ছে…</p></div>';
+      return;
+    }
     document.title = "সংবাদ পাওয়া যায়নি — বাংলা নিউজ এডিশন";
     resetOgMeta();
     setRobots('noindex, follow');
@@ -1386,21 +1557,38 @@ function renderArticle(app, id, _retried) {
   recordRead(a.id); /* P6: রিড-হিস্টরি (রেকমেন্ডেশনের জন্য) */
   /* Dynamic social meta for Facebook/WhatsApp/Telegram share preview */
   updateOgMeta(a);
-  var related = state.articles.filter(function (x) { return x.category === a.category && x.id !== a.id; }).slice(0, 5);
-  var body = a.paragraphs.length
-    ? a.paragraphs.map(function (p) {
-        var cleanP = String(p || '').replace(/^<p[^>]*>|<\/p>$/gi, '').trim();
-        return "<p>" + escapeHtml(stripHtml(cleanP)) + "</p>";
-      }).join("")
-    : "<p>" + escapeHtml(stripHtml(a.summary)) + "</p>";
+  var related = state.articles.filter(function (x) { return x.category === a.category && artKey(x) !== artKey(a); }).slice(0, 5);
 
-  var figureHtml = a.id === "thy-recruitment-2026"
+  /* ══ অনুচ্ছেদ-কাঠামো অটুট রাখা ═══════════════════════════════════════
+     আগে `stripHtml()` ডাকা হত — যা app.js-এ কখনো সংজ্ঞায়িতই ছিল না →
+     ReferenceError → নিচের app.innerHTML পর্যন্ত পৌঁছাত না → ক্লিক করলে
+     পাতার কিছুই বদলাত না (মৃত নেভিগেশন)।
+     আর অনুচ্ছেদ ভাগ হত প্রি-স্প্লিট করা `a.paragraphs` থেকে, যা প্রায় সব
+     ক্ষেত্রেই একটিমাত্র উপাদান দিত → পুরো সংবাদ এক অনুচ্ছেদে মিলিয়ে যেত।
+     এখন BNECore.articleParagraphs() HTML-এর গঠন ধরে (</p>, <br>, ব্লক
+     ট্যাগ) ভাগ করে — তাই অনুচ্ছেদ অটুট থাকে। */
+  var paras = (window.BNECore && BNECore.articleParagraphs)
+    ? BNECore.articleParagraphs(a)
+    : (a.paragraphs || []).map(function (p) { return String(p || '').replace(/<[^>]*>/g, ' ').trim(); }).filter(Boolean);
+  if (!paras.length && a.summary) paras = [String(a.summary)];
+
+  var body = paras.map(function (p) {
+    return "<p>" + escapeHtml(p) + "</p>";
+  }).join("") || "<p>" + escapeHtml(a.summary || "") + "</p>";
+
+  var figureHtml = artKey(a) === "thy-recruitment-2026"
     ? '<div style="display:grid;gap:1rem;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));margin-top:1.2rem;">' +
-        '<figure style="margin:0;"><img src="images/overseas-campaign.webp" alt="Recruitment Photo Banner" style="width:100%;border-radius:10px;"></figure>' +
-        '<figure style="margin:0;"><img src="images/overseas-campaign-poster.webp" alt="Recruitment Infographic Poster" style="width:100%;border-radius:10px;"></figure>' +
+        '<figure style="margin:0;"><img src="/images/overseas-campaign.webp" alt="Recruitment Photo Banner" style="width:100%;border-radius:10px;"></figure>' +
+        '<figure style="margin:0;"><img src="/images/overseas-campaign-poster.webp" alt="Recruitment Infographic Poster" style="width:100%;border-radius:10px;"></figure>' +
       '</div>'
     : '<figure><img src="' + escapeHtml(imgOf(a)) + '" alt="' + escapeHtml(a.title) +
-      '" width="1200" height="675" fetchpriority="high" decoding="async"' + onImgErrAttr("hide") + "></figure>";
+      '" width="1200" height="675" fetchpriority="high" decoding="async"' + onImgErrAttr("hide") + ">" +
+      /* ★ ছবির সূত্র ★
+         ছবিটি মূল সংবাদপত্রের (og:image) — প্রমাণস্বরূপ ও কপিরাইট-শ্রদ্ধার
+         জন্য সূত্র দেখানো হয়। ছবি না থাকলে (টাইপোগ্রাফিক কভার) কিছু দেখানো
+         হয় না, কারণ তখন সেটি আমাদের নিজের তৈরি। */
+      (a.image && a.imageCredit && !a.imageIsCover ? '<figcaption class="img-credit">ছবি: ' + escapeHtml(a.imageCredit) + "</figcaption>" : "") +
+      "</figure>";
 
   app.innerHTML = '<div class="article-wrap"><article class="article">' +
     '<div class="breadcrumb"><a href="' + homeHref() + '">প্রচ্ছদ</a> / <a href="' + catHref(a.category) + '">' + escapeHtml(a.category) + "</a></div>" +
@@ -1419,19 +1607,18 @@ function renderArticle(app, id, _retried) {
        সাথেই আমাদের পাতায় সব পড়তে পারেন — অপেক্ষা বা নতুন পেজ লাগে না।
        উৎসের কৃতিত্ব সংবাদের নিচে অটুট থাকে। */
          "" +
-    (function() {
-  var shareUrl2 = articleUrl(a);
-  var fbUrl2 = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(shareUrl2);
-  var waUrl2 = 'https://wa.me/?text=' + encodeURIComponent(a.title + ' — বাংলা নিউজ এডিশন পড়ুন: ' + shareUrl2);
-  var tgUrl2 = 'https://t.me/share/url?url=' + encodeURIComponent(shareUrl2) + '&text=' + encodeURIComponent(a.title);
-  return '<div class="social-share-bar" style="margin:1.2rem 0;display:flex;gap:0.5rem;flex-wrap:wrap;align-items:center;">' +
-    '<span style="font-size:0.82rem;font-weight:700;color:#64748b;margin-right:2px;">📤 শেয়ার করুন:</span>' +
-    '<a href="' + fbUrl2 + '" target="_blank" rel="noopener" style="background:#1877f2;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:5px;">📘 Facebook</a>' +
-    '<a href="' + waUrl2 + '" target="_blank" rel="noopener" style="background:#25d366;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:5px;">💬 WhatsApp</a>' +
-    '<a href="' + tgUrl2 + '" target="_blank" rel="noopener" style="background:#0088cc;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:5px;">✈️ Telegram</a>' +
-    '<button onclick="bneShareCopyLink(this, \'' + shareUrl2 + '\')" style="background:#64748b;color:#fff;padding:6px 14px;border-radius:20px;font-size:0.82rem;font-weight:700;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:5px;">🔗 লিংক কপি</button>' +
-    '</div>';
-})() +
+    /* ══ শেয়ার বার — পুরো সাইটে একই উপাদান ═══════════════════════════════
+       ব্যবহারকারীর অভিযোগ (২০২৬-০৯-২৭): "ফেসবুকে শেয়ার বা হোয়াটসঅ্যাপে
+       শেয়ার করার অপশন নেই — পোর্টাল থেকে কেউ শেয়ার করতে পারে না।"
+
+       আগে কেবল সংবাদ পাতায় ৩টি বোতাম থাকত, আর সেগুলো inline onclick
+       ব্যবহার করত (CSP-তে inline handler নিষিদ্ধ হলে অকেজো হয়ে যেত)।
+       এখন shareBarHtml() একটাই উপাদান দেয় — FB, WhatsApp, Telegram, X,
+       LinkedIn, ইমেইল, লিংক-কপি ও ফোনের নিজস্ব শেয়ার মেনু — এবং সেটি
+       সংবাদ পাতা, কার্ড, বিভাগ ও ডেস্ক — সবখানেই ব্যবহৃত হয়।
+       কপি/নেটিভ বোতামে inline handler নেই: data-* ধরে delegated
+       listener কাজ করে (নিচে bindShareHandlers দেখুন)। */
+    shareBarHtml(articleUrl(a), a.title) +
     renderAdSlot("article_bottom") +
     (a.tags.length ? '<div class="tags">' + a.tags.map(function (t) { return "<span>#" + escapeHtml(t) + "</span>"; }).join("") + "</div>" : "") +
     "</article><aside>" + renderAdSlot("article_sidebar") + sectionHead("সম্পর্কিত সংবাদ") +
@@ -1506,7 +1693,7 @@ function renderTicker() {
   if (!top.length) { wrap.hidden = true; return; }
   wrap.hidden = false;
   track.innerHTML = top.map(function (a) {
-    return '<a href="' + newsHref(a.id) + '"><span class="dot">●</span>' + escapeHtml(a.title) + "</a>";
+    return '<a href="' + newsHref(artKey(a)) + '"><span class="dot">●</span>' + escapeHtml(a.title) + "</a>";
   }).join("");
 }
 
@@ -1641,6 +1828,9 @@ function startLiveClock() {
 
 /* ── বুটস্ট্র্যাপ ──────────────────────────────────────────────── */
 function init() {
+  /* শেয়ার বোতাম (কপি ও ফোনের শেয়ার মেনু) — একবারই বাঁধা হয়, তারপর
+     পুরো সাইটে `data-share-*` থাকা যেকোনো উপাদান নিজে থেকেই কাজ করে। */
+  try { bindShareHandlers(); } catch (e) { /* পুরনো ব্রাউজার — শেয়ার লিংক তবু কাজ করে */ }
   /* SMO/P0 — পুরনো hash লিংককে রিয়েল পাথে নিয়ে যাও (রেন্ডারের আগেই) */
   canonicalizeRoute();
   startLiveClock();
@@ -1796,7 +1986,7 @@ function openBneInAppReader(url, title, sourceLabel) {
   document.body.style.overflow = "hidden";
 
   /* CORS প্রক্সির মাধ্যমে মূল সংবাদের Raw HTML ফেচ */
-  var proxyUrl = "https://api.allorigins.win/get?url=" + encodeURIComponent(url);
+  var proxyUrl = "/api/rss-proxy?url=" + encodeURIComponent(url);
 
   fetchWithTimeout(proxyUrl, 10000)
     .then(function (res) {
@@ -1886,8 +2076,12 @@ function closeStickyBottomAd() {
 
 function closeScrollPopupAd() {
   var modal = document.getElementById("bne-scroll-popup-ad");
-  if (modal) modal.classList.add("hidden");
-  sessionStorage.setItem("recruitment_ad_dismissed", "true");
+  if (modal) { modal.classList.add("hidden"); modal.setAttribute("aria-hidden", "true"); }
+  /* P1-8: দুটো চিহ্নই রাখা হয় — এই ট্যাবে ও সামনের ভিজিটে আর বিরক্ত নয় */
+  try {
+    sessionStorage.setItem("recruitment_ad_dismissed", "true");
+    localStorage.setItem("recruitment_ad_dismissed_forever", "true");
+  } catch (e) { /* প্রাইভেট মোড/কোটা শেষ */ }
 }
 
 function initGlobalAdManager() {
@@ -1936,31 +2130,70 @@ function initGlobalAdManager() {
     }
   });
 
-  // Auto-Popup recruitment campaign interstitial ad 3 seconds after page load
-  if (!sessionStorage.getItem("recruitment_ad_dismissed")) {
-    setTimeout(function () {
-      var modal = document.getElementById("bne-scroll-popup-ad");
-      if (modal) modal.classList.remove("hidden");
-    }, 3000);
+  /* ══ পপ-আপ ইন্টারস্টিশিয়াল (P1-8 ফিক্স) ════════════════════════════════
+     আগের আচরণ: পেজ খোলার ৩ সেকেন্ড পর একটি modal নিজে থেকে খুলত, আর
+       • কীবোর্ড ফোকাস ভেতরে যেত না → স্ক্রিন-রিডার/কীবোর্ড ব্যবহারকারী
+         আটকে যেতেন
+       • ESC চাপলেও বন্ধ হত না
+       • বন্ধ করলে কেবল sessionStorage-এ চিহ্ন — তাই প্রতি নতুন ট্যাবে
+         আবার খুলত (বিরক্তিকর, বিশেষ করে slow মোবাইল ডেটায়)
+
+     এখন: ESC-এ বন্ধ, ফোকাস ভেতরে ও ফিরে, ও dismiss-চিহ্ন দুটোই লেখা হয়
+     (sessionStorage + localStorage), তাই একবার বন্ধ করলে ব্যবহারকারীকে
+     আর বিরক্ত করা হয় না। */
+  if (document.getElementById("bne-scroll-popup-ad")) {
+    var popupDismissed = false;
+    try {
+      popupDismissed = !!(sessionStorage.getItem("recruitment_ad_dismissed")
+        || localStorage.getItem("recruitment_ad_dismissed_forever"));
+    } catch (e) { /* প্রাইভেট মোড */ }
+    if (!popupDismissed) {
+      setTimeout(function () {
+        var modal = document.getElementById("bne-scroll-popup-ad");
+        if (!modal) return;
+        modal.classList.remove("hidden");
+        modal.setAttribute("aria-hidden", "false");
+        var closeEl = modal.querySelector("[data-close-popup]") || modal.querySelector("button");
+        if (closeEl && closeEl.focus) { try { closeEl.focus(); } catch (e) { /* ignore */ } }
+        var onKey = function (ev) {
+          if (ev.key === "Escape") { closeScrollPopupAd(); document.removeEventListener("keydown", onKey); }
+        };
+        document.addEventListener("keydown", onKey);
+      }, 3000);
+    }
   }
 }
 
 /* 🌓 Theme & Mobile Drawer Initializer */
 function initUiInteractions() {
-  /* Restore Saved Theme */
-  var savedTheme = localStorage.getItem("bne-theme");
-  if (savedTheme === "dark" || (!savedTheme && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-    document.documentElement.classList.add("force-dark");
-    document.body.classList.add("force-dark");
+  /* ══ সংরক্ষিত থিম প্রয়োগ (P1-2 ফিক্স) ══════════════════════════════════
+     আগের আচরণ: থিম শুধু **যোগ** করা হত (add), কখনো সরানো হত না। আর SSR
+     সংবাদ পাতায় <html class="force-dark"> কঠিনভাবে বসানো থাকত। ফলে যিনি
+     লাইট থিম বেছেছেন, তিনি সংবাদ পাতায় ডার্ক থিমে আটকে যেতেন।
+
+     এখন: সংরক্ষিত পছন্দই চূড়ান্ত — লাইট হলে force-dark সরিয়ে দেওয়া হয়,
+     তাই কঠিনভাবে বসানো ক্লাসও মুছে যায়। */
+  function applyTheme(dark) {
+    document.documentElement.classList.toggle("force-dark", dark);
+    if (document.body) document.body.classList.toggle("force-dark", dark);
+    document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
   }
+  var savedTheme = null;
+  try { savedTheme = localStorage.getItem("bne-theme"); } catch (e) { /* প্রাইভেট মোড */ }
+  var prefersDark = false;
+  try { prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches; } catch (e) { /* পুরনো ব্রাউজার */ }
+  applyTheme(savedTheme ? savedTheme === "dark" : prefersDark);
 
   var themeBtn = document.getElementById("theme-toggle-btn");
   if (themeBtn) {
     themeBtn.addEventListener("click", function() {
-      var isDark = document.documentElement.classList.toggle("force-dark");
-      document.body.classList.toggle("force-dark");
-      localStorage.setItem("bne-theme", isDark ? "dark" : "light");
+      var nowDark = !document.documentElement.classList.contains("force-dark");
+      applyTheme(nowDark);
+      try { localStorage.setItem("bne-theme", nowDark ? "dark" : "light"); } catch (e) { /* ignore */ }
+      themeBtn.setAttribute("aria-pressed", nowDark ? "true" : "false");
+      themeBtn.title = nowDark ? "লাইট থিমে যান" : "ডার্ক থিমে যান";
     });
+    themeBtn.setAttribute("aria-pressed", document.documentElement.classList.contains("force-dark") ? "true" : "false");
   }
 
   /* Mobile Drawer Toggle */
@@ -1969,18 +2202,38 @@ function initUiInteractions() {
   var overlay = document.getElementById("drawer-overlay");
   var closeBtn = document.getElementById("drawer-close-btn");
 
-  function openDrawer() {
-    if (drawer) drawer.classList.add("active");
-    if (overlay) overlay.classList.add("active");
+  /* ══ ড্রয়ার: কীবোর্ড ও স্ক্রিন-রিডার (P1-5 ফিক্স) ═══════════════════════
+     আগে কেবল CSS ক্লাস `active` বদলানো হত; `aria-hidden="true"` চিরকাল
+     থেকে যেত এবং `aria-expanded` কখনো হালনাগাদ হত না। ফলে স্ক্রিন-রিডার
+     ব্যবহারকারী মেনুটি পেতেনই না, আর `aria-expanded` মিথ্যা জানাত।
+     এখন অ্যাট্রিবিউট দুটো সত্যিকারভাবে বদলায়, ESC চাপলে বন্ধ হয় এবং
+     খোলার সময় ফোকাস ড্রয়ারের প্রথম লিংকে যায়। */
+  function setDrawer(open) {
+    if (drawer) {
+      drawer.classList.toggle("active", open);
+      drawer.setAttribute("aria-hidden", open ? "false" : "true");
+    }
+    if (overlay) {
+      overlay.classList.toggle("active", open);
+      overlay.setAttribute("aria-hidden", open ? "false" : "true");
+    }
+    if (menuBtn) menuBtn.setAttribute("aria-expanded", open ? "true" : "false");
+    if (open && drawer) {
+      var first = drawer.querySelector("a, button");
+      if (first && first.focus) { try { first.focus(); } catch (e) { /* ignore */ } }
+    } else if (!open && menuBtn && menuBtn.focus) {
+      try { menuBtn.focus(); } catch (e) { /* ignore */ }
+    }
   }
-  function closeDrawer() {
-    if (drawer) drawer.classList.remove("active");
-    if (overlay) overlay.classList.remove("active");
-  }
+  function openDrawer() { setDrawer(true); }
+  function closeDrawer() { setDrawer(false); }
 
   if (menuBtn) menuBtn.addEventListener("click", openDrawer);
   if (closeBtn) closeBtn.addEventListener("click", closeDrawer);
   if (overlay) overlay.addEventListener("click", closeDrawer);
+  document.addEventListener("keydown", function (ev) {
+    if (ev.key === "Escape" && drawer && drawer.classList.contains("active")) closeDrawer();
+  });
 
   /* Close drawer on nav link click */
   if (drawer) {
