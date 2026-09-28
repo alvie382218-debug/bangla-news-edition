@@ -1,6 +1,6 @@
 {
-  "version": 210,
-  "updatedAt": "2026-09-28T20:15:27.010Z",
+  "version": 211,
+  "updatedAt": "2026-09-28T20:30:37.352Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,23 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rss18c5b1ecf06804",
+      "slug": "অসমাপ্ত-আত্মজীবনী-বিক্রির-অভিযোগে-ইউপিএ",
+      "title": "‘অসমাপ্ত আত্মজীবনী’ বিক্রির অভিযোগে ইউপিএলের বিক্রয়কেন্দ্রে তালা",
+      "category": "অর্থনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%85%E0%A6%B8%E0%A6%AE%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%86%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%80-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%87%E0%A6%89%E0%A6%AA%E0%A6%BF%E0%A6%8F.avif",
+      "publishedAt": "2026-09-28T20:21:43.528Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>শেখ মুজিবুর রহমানের ‘অসমাপ্ত আত্মজীবনী’ বিক্রির জেরে বাংলাবাজারে ইউপিএলের বিক্রয়কেন্দ্রে তালা ঝুলিয়ে দেওয়া হয়। পরে বইটি আর না বিক্রির শর্তে ছাড়া পান দুই কর্মী।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/capital/odlvp0f6yg\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "শেখ মুজিবুর রহমানের ‘অসমাপ্ত আত্মজীবনী’ বিক্রির জেরে বাংলাবাজারে ইউপিএলের বিক্রয়কেন্দ্রে তালা ঝুলিয়ে দেওয়া হয়। পরে বইটি আর না বিক্রির শর্তে ছাড়া পান দুই কর্মী।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/capital/odlvp0f6yg",
+      "sourceName": "প্রথম আলো",
+      "imageCredit": "প্রথম আলো"
     },
     {
       "id": "rss927318ecf1207a",
@@ -313,6 +330,40 @@
       "sourceUrl": "https://www.ittefaq.com.bd/812132/%E0%A6%B2%E0%A6%BE%E0%A6%A0%E0%A6%BF%E0%A6%B8%E0%A7%8B%E0%A6%81%E0%A6%9F%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A7%E0%A6%BE%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%95%E0%A7%81%E0%A6%AE%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%96-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%97%E0%A6%BE%E0%A6%AD%E0%A6%BF%E0%A6%9F%E0%A6%BF%E0%A6%95%E0%A7%87",
       "sourceName": "ইত্তেফাক",
       "imageCredit": "ইত্তেফাক"
+    },
+    {
+      "id": "rss196b4734cd5908",
+      "slug": "বাংলাদেশি-নাবিক-বললেন-কেবিনে-থাকলে-হয়তো",
+      "title": "বাংলাদেশি নাবিক বললেন, ‘কেবিনে থাকলে হয়তো বেঁচে ফেরা হতো না’",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%A8%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%95-%E0%A6%AC%E0%A6%B2%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%95%E0%A7%87%E0%A6%AC%E0%A6%BF%E0%A6%A8%E0%A7%87-%E0%A6%A5%E0%A6%BE%E0%A6%95%E0%A6%B2%E0%A7%87-%E0%A6%B9%E0%A7%9F%E0%A6%A4%E0%A7%8B.avif",
+      "publishedAt": "2026-09-28T19:06:43.512Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>কোনোমতে উঠে বাইরে আসি। চারদিকে অন্ধকার, ধোঁয়া আর পোড়া গন্ধ। নাবিকদের চিৎকার শুনতে পাচ্ছিলাম। শ্বাস নিতে কষ্ট হচ্ছিল। একসময় মনে হয়েছিল, হয়তো আর বাঁচব না।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/district/ynqf8r7xj9\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "কোনোমতে উঠে বাইরে আসি। চারদিকে অন্ধকার, ধোঁয়া আর পোড়া গন্ধ। নাবিকদের চিৎকার শুনতে পাচ্ছিলাম। শ্বাস নিতে কষ্ট হচ্ছিল। একসময় মনে হয়েছিল, হয়তো আর বাঁচব না।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/district/ynqf8r7xj9",
+      "sourceName": "প্রথম আলো",
+      "imageCredit": "প্রথম আলো"
+    },
+    {
+      "id": "rssf76388d7333a2e",
+      "slug": "মূলধন-ও-নীতি-উদ্যোগের-কার্যকর-সংযোগ-দরকা",
+      "title": "মূলধন ও নীতি উদ্যোগের কার্যকর সংযোগ দরকার",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%AE%E0%A7%82%E0%A6%B2%E0%A6%A7%E0%A6%A8-%E0%A6%93-%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%A6%E0%A6%B0%E0%A6%95%E0%A6%BE.avif",
+      "publishedAt": "2026-09-28T19:06:43.507Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>ক্ষুদ্র ও মাঝারি উদ্যোগকে আলাদাভাবে বিবেচনা করার ওপর গুরুত্ব দেন, যাতে ভুল বা সবার জন্য এক ধরনের নীতিমালা তৈরি না হয়।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/8r10uahpzt\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "ক্ষুদ্র ও মাঝারি উদ্যোগকে আলাদাভাবে বিবেচনা করার ওপর গুরুত্ব দেন, যাতে ভুল বা সবার জন্য এক ধরনের নীতিমালা তৈরি না হয়।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/8r10uahpzt",
+      "sourceName": "প্রথম আলো",
+      "imageCredit": "প্রথম আলো"
     },
     {
       "id": "rsse9477f2e3ff305",
@@ -8471,57 +8522,6 @@
       "body": "<p>চাঁদা দিতে অস্বীকার করায় কনটেন্ট ক্রিয়েটর সালমান মুক্তাদিরের স্টুডিওতে হামলা ও ভাঙচুর করা হয়েছে। শনিবার দিবাগত মধ্যরাতে রাজধানীর ইসিবি চত্বরের নিউগ্রিনি প্রপার্টিজে ব্যাপক হামলা ও লুটপাটের ঘটনা ঘটে। সিসি ক্যামেরাসহ সব স্টুডিওর সব যন্ত্রাংশ এবং রুমের যাবতীয় জিনিসপত্র লুটপাট ও অন্যান্য জিনিসপত্র ভেঙে </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আইন-শৃঙ্খলা পরিস্থিতির এমন অবনতি স্থানীয় উদ্যোক্তাদের নিরাপত্তা ও বিনিয়োগকে চরম ঝুঁকিতে ফেলছে। হামলাকারীদের দ্রুত আইনের আওতায় আনা জরুরি, অন্যথায় সৃজনশীল কর্মীরা পেশাগত নিরাপত্তাহীনতায় ভুগবেন। স্থানীয় প্রশাসনকে এ ধরনের অপরাধ দমনে এখনই কঠোর হতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/others/capital-city/970848/%C2%A0%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "চাঁদা দিতে অস্বীকার করায় কনটেন্ট ক্রিয়েটর সালমান মুক্তাদিরের স্টুডিওতে হামলা ও ভাঙচুর করা হয়েছে। শনিবার দিবাগত মধ্যরাতে রাজধানীর ইসিবি চত্বরের নিউগ্রিনি প্রপার্টিজে ব্যাপক হামলা ও লুটপাটের ঘটনা ঘটে। সিসি ক্যামেরাসহ সব স্টুডিওর সব যন্ত্রাংশ এবং রুমের যাবতীয় জিনিসপত্র লুটপাট ও অন্যান্য জিনিসপত্র ভেঙে ",
       "sourceUrl": "https://www.banglatribune.com/others/capital-city/970848/%C2%A0%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%B0%E0%A7%87%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssa465da7925548b",
-      "slug": "যুক্তরাষ্ট্রের-উত্তর-পূর্বাঞ্চলে-শক্তি",
-      "title": "যুক্তরাষ্ট্রের উত্তর-পূর্বাঞ্চলে শক্তিশালী ঝড়ে বন্যা, জরুরি অবস্থা ঘোষণা",
-      "category": "শিক্ষা",
-      "lead": false,
-      "image": "/img/%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0-%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF.webp",
-      "publishedAt": "2026-09-27T02:51:40.672Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>যুক্তরাষ্ট্রের উত্তর-পূর্বাঞ্চলে নরইস্টার নামে পরিচিত শক্তিশালী ঝড়ে বন্যা ও বিদ্যুৎ বিভ্রাট দেখা দিয়েছে। ঝড়ের কারণে শনিবার স্থানীয় সময় বিকাল পর্যন্ত ৮৮ হাজারের বেশি বাড়ি ও ব্যবসাপ্রতিষ্ঠান বিদ্যুৎহীন হয়ে পড়ে। কাতারভিত্তিক সংবাদমাধ্যম আল জাজিরা এ খবর জানিয়েছে। ঝড়ের কারণে ৪০০টির বেশি ফ্লাইট বাতিল হয়েছ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রতিকূল আবহাওয়ায় জরুরি অবস্থা শিক্ষার্থীদের শিক্ষাজীবনে বিঘ্ন ঘটাতে পারে, তাই অভিভাবকদের সতর্ক থাকা জরুরি। দুর্যোগকালীন ভ্রমণে ঝুঁকি এড়াতে এবং বিদ্যুৎহীন পরিস্থিতির প্রস্তুতি হিসেবে সন্তানদের সুরক্ষায় পরিবারের সচেতনতা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/middle-east/970847/%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0-%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B6%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%9D%E0%A7%9C%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "যুক্তরাষ্ট্রের উত্তর-পূর্বাঞ্চলে নরইস্টার নামে পরিচিত শক্তিশালী ঝড়ে বন্যা ও বিদ্যুৎ বিভ্রাট দেখা দিয়েছে। ঝড়ের কারণে শনিবার স্থানীয় সময় বিকাল পর্যন্ত ৮৮ হাজারের বেশি বাড়ি ও ব্যবসাপ্রতিষ্ঠান বিদ্যুৎহীন হয়ে পড়ে। কাতারভিত্তিক সংবাদমাধ্যম আল জাজিরা এ খবর জানিয়েছে। ঝড়ের কারণে ৪০০টির বেশি ফ্লাইট বাতিল হয়েছ",
-      "sourceUrl": "https://www.banglatribune.com/foreign/middle-east/970847/%E0%A6%AF%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A6%BE%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%89%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%B0-%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%B6%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%B6%E0%A6%BE%E0%A6%B2%E0%A7%80-%E0%A6%9D%E0%A7%9C%E0%A7%87",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rsscd22084b817af6",
-      "slug": "আঁচিল-বাড়ছে-শরীরের-ভেতরে-লুকিয়ে-নেই-তো-কো",
-      "title": "আঁচিল বাড়ছে? শরীরের ভেতরে লুকিয়ে নেই তো কোনও বিপদ!",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%81%E0%A6%9A%E0%A6%BF%E0%A6%B2-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%9B%E0%A7%87-%E0%A6%B6%E0%A6%B0%E0%A7%80%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A7%87%E0%A6%A4%E0%A6%B0%E0%A7%87-%E0%A6%B2%E0%A7%81%E0%A6%95%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%A4%E0%A7%8B-%E0%A6%95%E0%A7%8B.webp",
-      "publishedAt": "2026-09-27T02:51:40.671Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>শরীরে দু-একটি আঁচিল থাকা সাধারণ বিষয়। কিন্তু হঠাৎ করেই যদি আঁচিলের সংখ্যা বাড়তে শুরু করে, সঙ্গে ঘাড়ের ত্বকে কালচে ছোপ, পেটের মেদ বৃদ্ধি বা ঘন ঘন খিদে পাওয়ার মতো পরিবর্তন দেখা দেয়, তাহলে বিষয়টি অবহেলা করা ঠিক নয়। এসব লক্ষণ অনেক সময় শরীরে ইনসুলিন ঠিকভাবে কাজ না করার ইঙ্গিত হতে পারে। তবে আঁচিল বাড়ার পে</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শরীরে হঠাৎ আঁচিলের আধিক্য কেবল বাহ্যিক সৌন্দর্য নষ্ট করে না, বরং এটি শরীরের বিপাকীয় জটিলতার নীরব সতর্কবার্তা হতে পারে। এমন লক্ষণ দেখা দিলে বিলম্ব না করে চিকিৎসকের পরামর্শ নেওয়া জরুরি, কারণ এটি দীর্ঘমেয়াদী স্বাস্থ্যঝুঁকি এড়াতে সাহায্য করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/lifestyle/health-style/970767/%E0%A6%86%E0%A6%81%E0%A6%9A%E0%A6%BF%E0%A6%B2-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%9B%E0%A7%87-%E0%A6%B6%E0%A6%B0%E0%A7%80%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A7%87%E0%A6%A4%E0%A6%B0%E0%A7%87-%E0%A6%B2%E0%A7%81%E0%A6%95%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%A4%E0%A7%8B-%E0%A6%95%E0%A7%8B%E0%A6%A8%E0%A6%93-%E0%A6%AC%E0%A6%BF%E0%A6%AA%E0%A6%A6\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "শরীরে দু-একটি আঁচিল থাকা সাধারণ বিষয়। কিন্তু হঠাৎ করেই যদি আঁচিলের সংখ্যা বাড়তে শুরু করে, সঙ্গে ঘাড়ের ত্বকে কালচে ছোপ, পেটের মেদ বৃদ্ধি বা ঘন ঘন খিদে পাওয়ার মতো পরিবর্তন দেখা দেয়, তাহলে বিষয়টি অবহেলা করা ঠিক নয়। এসব লক্ষণ অনেক সময় শরীরে ইনসুলিন ঠিকভাবে কাজ না করার ইঙ্গিত হতে পারে। তবে আঁচিল বাড়ার পে",
-      "sourceUrl": "https://www.banglatribune.com/lifestyle/health-style/970767/%E0%A6%86%E0%A6%81%E0%A6%9A%E0%A6%BF%E0%A6%B2-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%9B%E0%A7%87-%E0%A6%B6%E0%A6%B0%E0%A7%80%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AD%E0%A7%87%E0%A6%A4%E0%A6%B0%E0%A7%87-%E0%A6%B2%E0%A7%81%E0%A6%95%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A8%E0%A7%87%E0%A6%87-%E0%A6%A4%E0%A7%8B-%E0%A6%95%E0%A7%8B%E0%A6%A8%E0%A6%93-%E0%A6%AC%E0%A6%BF%E0%A6%AA%E0%A6%A6",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssefbdc1c8931884",
-      "slug": "গাজীপুরে-দেড়-দশকে-৭৮-রিসোর্ট-মানসম্মত-হা",
-      "title": "গাজীপুরে দেড় দশকে ৭৮ রিসোর্ট, মানসম্মত হাতেগোনা ১৫টি",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A7%80%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A7%9C-%E0%A6%A6%E0%A6%B6%E0%A6%95%E0%A7%87-%E0%A7%AD%E0%A7%AE-%E0%A6%B0%E0%A6%BF%E0%A6%B8%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A4-%E0%A6%B9%E0%A6%BE.webp",
-      "publishedAt": "2026-09-27T02:51:40.668Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>গাজীপুরে গত দেড় দশকে ছোট-বড় মিলিয়ে ৭৮টি রিসোর্ট গড়ে উঠেছে। এর মধ্যে মানসম্মত রিসোর্টের সংখ্যা হাতেগোনা ১০ থেকে ১৫টি। সবুজে-শ্যামলে আচ্ছাদিত জেলার অধিকাংশ এলাকাই ঘোরাফেরার জন্য আকর্ষণীয়। রাজধানী ঢাকার কাছে হওয়ায় সপরিবারে অবসর কাটানোর সুযোগ কাজে লাগিয়ে নানা সুবিধা নিয়ে গড়ে উঠেছে এসব রিসোর্ট। তবে প্রতি</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পরিকল্পনাহীনভাবে গড়ে ওঠা এসব রিসোর্ট স্থানীয় পরিবেশ ও ভূগর্ভস্থ পানির ওপর দীর্ঘমেয়াদী চাপ সৃষ্টি করছে। তাই পর্যটন খাতের টেকসই উন্নয়নে সরকারি তদারকি বাড়ানো এবং বিদ্যমান রিসোর্টগুলোর মানদণ্ড নিশ্চিত করা জরুরি। স্থানীয় বাসিন্দাদের সচেতনতার পাশাপাশি পরিবেশগত ছাড়পত্র যাচাইয়ে কর্তৃপক্ষের কঠোর অবস্থান কাম্য।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/dhaka/970816/%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A7%80%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A7%9C-%E0%A6%A6%E0%A6%B6%E0%A6%95%E0%A7%87-%E0%A7%AD%E0%A7%AE-%E0%A6%B0%E0%A6%BF%E0%A6%B8%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A4-%E0%A6%B9%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%97%E0%A7%8B%E0%A6%A8%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "গাজীপুরে গত দেড় দশকে ছোট-বড় মিলিয়ে ৭৮টি রিসোর্ট গড়ে উঠেছে। এর মধ্যে মানসম্মত রিসোর্টের সংখ্যা হাতেগোনা ১০ থেকে ১৫টি। সবুজে-শ্যামলে আচ্ছাদিত জেলার অধিকাংশ এলাকাই ঘোরাফেরার জন্য আকর্ষণীয়। রাজধানী ঢাকার কাছে হওয়ায় সপরিবারে অবসর কাটানোর সুযোগ কাজে লাগিয়ে নানা সুবিধা নিয়ে গড়ে উঠেছে এসব রিসোর্ট। তবে প্রতি",
-      "sourceUrl": "https://www.banglatribune.com/country/dhaka/970816/%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A7%80%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A7%9C-%E0%A6%A6%E0%A6%B6%E0%A6%95%E0%A7%87-%E0%A7%AD%E0%A7%AE-%E0%A6%B0%E0%A6%BF%E0%A6%B8%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%9F-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AE%E0%A6%A4-%E0%A6%B9%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%97%E0%A7%8B%E0%A6%A8%E0%A6%BE",
       "sourceName": "বাংলা ট্রিবিউন",
       "imageCredit": "বাংলা ট্রিবিউন"
     }
