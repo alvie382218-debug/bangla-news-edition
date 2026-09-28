@@ -31,7 +31,11 @@ const OG = require('./_og-lib');
 let BUNDLED = null;
 try { BUNDLED = require('./_data.json'); } catch (e) { BUNDLED = null; }
 
-const REMOTE_FALLBACK = 'https://raw.githubusercontent.com/oumaboy93-alt/bangla-news-edition/main/data/bne-config.json';
+/* ⛔ ★ সংশোধনী (২০২৬-০৯-২৯) ★ — একই ভুল এখানেও ছিল
+   fallback দেখত পুরনো রেপো `oumaboy93-alt/bangla-news-edition`-এর দিকে,
+   যেটি আলাদা ও ব্যর্থ পাইপলাইনে চলছিল। canonical রেপো এখন
+   `alvie382218-debug/bangla-news-edition`। (নিয়ম ১০) */
+const REMOTE_FALLBACK = 'https://raw.githubusercontent.com/alvie382218-debug/bangla-news-edition/main/data/bne-config.json';
 const CACHE_TTL_MS = 5 * 60 * 1000;
 const remoteCache = { at: 0, data: null };
 

@@ -184,6 +184,85 @@ var LIVE_CONFIG_API = "/api/config";
 var LIVE_VERSION_API = "/api/version";
 var lastConfigVersion = null;
 
+/* ══ ★ P1 — লাইভ সম্পাদকীয় স্তর (/api/editorial) ★ ═══════════════════════
+   কেন (ডেভেলপার-নির্দেশনা, ২০২৬-০৯-২৯ — সেকশন ৫):
+     সাইটের সংবাদ ও বিজ্ঞাপন বিল্ডের সময় _data.json-এ বেক হয়ে যায়। ফলে
+     একটিমাত্র খবর প্রকাশ করতেও রি-ডিপ্লয় লাগত — আর সেই কারণেই Netlify-র
+     ক্রেডিট শেষ হয়ে সাইট বন্ধ হয়েছিল।
+
+   নতুন স্তর: /api/editorial ফাংশনটি প্রতিবার GitHub থেকে
+   data/editorial-news.json পড়ে (Contents API → raw → বিল্ড-ডেটা)।
+   ফলে নতুন সম্পাদকীয় সংবাদ বা বিজ্ঞাপন **ডিপ্লয় ছাড়াই** ৬০ সেকেন্ডে
+   পাঠকের সামনে আসে।
+
+   ⚠️ কেন আলাদা merge ফাংশন লাগল (নিরাপত্তার প্রশ্ন):
+     mergeConfig() `editorNews` ও `ads` অ্যারেকে **সম্পূর্ণ প্রতিস্থাপন**
+     করে (remote.editorNews || siteConfig.editorNews)। ওই ফাংশনে এই ফল
+     সরাসরি দিলে ১টি সম্পাদকীয় সংবাদ এলে বাকি ~৫০০টি **মুছে ফাঁকা সাইট**
+     হয়ে যেত। তাই mergeEditorialLive() কেবল id ধরে যোগ/হালনাগাদ করে —
+     কিছু মুছে ফেলে না। এটিই নির্দেশনার "যোগ করবে, প্রতিস্থাপন নয়" শর্তের
+     বাস্তব প্রয়োগ (শর্ত ৪)। */
+var EDITORIAL_API = "/api/editorial";
+
+function mergeEditorialLive(live) {
+  if (!live || typeof live !== "object") return false;
+  var changed = false;
+
+  var news = live.editorNews || live.news;
+  if (Array.isArray(news) && news.length) {
+    var byId = {};
+    (siteConfig.editorNews || []).forEach(function (a) {
+      if (a && (a.id || a.title)) byId[String(a.id || hashId(a.title))] = a;
+    });
+    news.forEach(function (n) {
+      if (!n || !n.title) return;
+      var id = String(n.id || hashId(n.title));
+      n.id = id;
+      if (byId[id]) {
+        /* সম্পাদকীয় সংস্করণই চূড়ান্ত — একই id-র পুরনো কপি হালনাগাদ হয় */
+        Object.assign(byId[id], n);
+      } else {
+        byId[id] = n;
+      }
+      changed = true;
+    });
+    siteConfig.editorNews = Object.keys(byId).map(function (k) { return byId[k]; });
+  }
+
+  if (Array.isArray(live.ads) && live.ads.length) {
+    var adById = {};
+    (siteConfig.ads || []).forEach(function (a) {
+      if (a && a.id) adById[String(a.id)] = a;
+    });
+    live.ads.forEach(function (a) {
+      if (a && a.id) { adById[String(a.id)] = a; changed = true; }
+    });
+    siteConfig.ads = Object.keys(adById).map(function (k) { return adById[k]; });
+  }
+
+  if (live.settings && typeof live.settings === "object") {
+    siteConfig.settings = Object.assign({}, siteConfig.settings, live.settings);
+  }
+
+  if (changed) saveCachedConfig();
+  return changed;
+}
+
+/* ব্যর্থ হলেও কিছু ভাঙে না — কেবল false ফেরে (fail-safe, শর্ত ৪) */
+function fetchEditorialLive() {
+  return fetchWithTimeout(EDITORIAL_API, 5000)
+    .then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    })
+    .then(function (live) {
+      var ok = mergeEditorialLive(live);
+      if (ok) { applyEditorNews(); render(); }
+      return ok;
+    })
+    .catch(function () { return false; });
+}
+
 function fetchLiveConfig() {
   return fetchWithTimeout(LIVE_CONFIG_API, 6000)
     .then(function (res) { if (!res.ok) throw new Error("HTTP " + res.status); return res.json(); })
@@ -204,12 +283,26 @@ function fetchLiveConfig() {
    এবং site-config.js-এর ডিফল্ট আগেই লোড হয়ে যায়। কোনো অবস্থাতেই
    সাদা স্ক্রিন নয়। */
 function fetchConfigAny() {
-  return fetchOwnConfig().then(function (ok) {
-    if (ok) return true;
-    return fetchLiveConfig().then(function (ok2) {
-      return ok2 ? true : fetchRemoteConfig();
+  /* ★ P1: /api/editorial সবার আগে ★
+     নির্দেশনার সেকশন ৫: "app.js-এ কনফিগ চেইনে /api/editorial প্রথমে বসবে,
+     তবে তার ফলাফল যোগ (merge) করবে, প্রতিস্থাপন (replace) নয় — যাতে
+     ফাংশন ব্যর্থ হলেও সাইট ভাঙে না।"
+
+     তাই এটি চেইনের **পাশে** চলে (উপরের তিন স্তরকে বদলায় না) এবং কেবল
+     যোগ করে। ব্যর্থ হলে চুপচাপ false ফেরে — নিচের চেইন আগের মতোই চলে। */
+  var editorial = fetchEditorialLive().catch(function () { return false; });
+
+  return fetchOwnConfig()
+    .then(function (ok) {
+      if (ok) return true;
+      return fetchLiveConfig().then(function (ok2) {
+        return ok2 ? true : fetchRemoteConfig();
+      });
+    })
+    .then(function (ok) {
+      /* সম্পাদকীয় স্তরের ফল আগে মিলিয়ে নেওয়া হয়, তারপর রেন্ডার */
+      return editorial.then(function () { return ok; });
     });
-  });
 }
 
 /* ভার্সন-ওয়াচ — প্যানেল থেকে প্রকাশের সাথে সাথেই, পেজ রিফ্রেশ ছাড়া কার্ড যোগ হয় */
@@ -225,6 +318,13 @@ function watchConfigVersion() {
         }
       })
       .catch(function () { /* ভার্সন চেক ব্যর্থ হলে সাইট চলতে থাকবে */ });
+
+    /* ★ P1: প্রতি মিনিটে সম্পাদকীয় স্তরও দেখা হয় ★
+       /api/config বিল্ড-ডেটা পড়ে, তাই সেটির version বদলাতে ডিপ্লয় লাগে।
+       কিন্তু /api/editorial প্রতিবার GitHub থেকে পড়ে — তাই প্যানেল/অ্যাপ
+       থেকে প্রকাশ করা সংবাদ বা বিজ্ঞাপন **৬০ সেকেন্ডের মধ্যে** নিজে থেকেই
+       চলে আসে, কোনো ডিপ্লয় ছাড়াই। ফাংশনটি ব্যর্থ হলে চুপচাপ কিছুই হয় না। */
+    fetchEditorialLive().catch(function () {});
   }
   setInterval(tick, 60000);
   document.addEventListener("visibilitychange", function () { if (!document.hidden) tick(); });
