@@ -90,7 +90,13 @@ function main() {
        og:image:width/height মিথ্যা না হয়। */
     /* imageIsCover = ছবিটি আমরা নিজেরাই আঁকা শিরোনাম-কার্ড (মূল সূত্রের
        ছবি কোথাও পাওয়া যায়নি)। তখন সূত্র দেখানোর কিছু নেই — কার্ডটি আমাদের। */
-    imageIsCover: !!a.imageIsCover,
+    /* ★ editorial ফ্ল্যাগ বান্ডলে রাখা (২০২৬-০৯-২৯) ★
+       কেন: /api/editorial-এর শেষ-ভরসা স্তর (নেটওয়ার্ক সম্পূর্ণ ব্যর্থ হলে)
+       বিল্ড-বান্ডল থেকে কেবল `editorial: true` সংবাদগুলো বেছে নেয়। কিন্তু
+       এই ম্যাপিংয়ে ফ্ল্যাগটি ছিল না — ফলে ওই স্তরটি শূন্য তালিকা দিত
+       (যাচাই করে প্রমাণিত: সম্পাদকীয় ১টির জায়গায় ০)। এখন বান্ডলে থাকবে
+       → তিন স্তরের শেষটিও সঠিক উত্তর দেয়। */
+    editorial: a.editorial === true,
     imageCredit: a.imageIsCover ? '' : (a.imageCredit || a.sourceName || 'সংগৃহীত'),
     imageSourceUrl: a.imageSourceUrl || '',
     ogImageWidth: a.ogImageWidth || 0,
