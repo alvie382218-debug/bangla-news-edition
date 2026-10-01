@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "updatedAt": "2026-10-01T08:54:34.678Z",
+  "version": 7,
+  "updatedAt": "2026-10-01T08:54:47.024Z",
   "news": [
     {
       "id": "tongi-extortion-hasan-mia",
@@ -42,6 +42,18 @@
       "slot": "home_top",
       "enabled": true,
       "type": "image"
+    },
+    {
+      "id": "ad_int_poster",
+      "slot": "probashi_top",
+      "type": "image",
+      "title": "AD International Enterprises — ১৫ বছর মেয়াদবর্ধক PU প্রযুক্তি ও মরিচা প্রতিরোধ সমাধান",
+      "image": "images\/ad_int_poster.jpg",
+      "link": "\/news\/thy-recruitment-2026",
+      "html": "",
+      "youtube": "",
+      "enabled": false,
+      "editorial": true
     }
   ]
 }
