@@ -1,6 +1,6 @@
 {
-  "version": 718,
-  "updatedAt": "2026-10-06T21:45:27.489Z",
+  "version": 719,
+  "updatedAt": "2026-10-06T22:00:40.411Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,57 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rss64f1f06c943310",
+      "slug": "দিল্লিতে-ধরনা-থেকে-রাহুল-প্রিয়াঙ্কা-গান্",
+      "title": "দিল্লিতে ধরনা থেকে রাহুল-প্রিয়াঙ্কা গান্ধী আটক, দুই ঘণ্টা পর মুক্তি",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%A7%E0%A6%B0%E0%A6%A8%E0%A6%BE-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%B9%E0%A7%81%E0%A6%B2-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BE-%E0%A6%97%E0%A6%BE%E0%A6%A8%E0%A7%8D.avif",
+      "publishedAt": "2026-10-06T21:58:59.521Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>ভারতের মুখ্য নির্বাচন কমিশনার (সিইসি) জ্ঞানেশ কুমারের পদত্যাগের দাবিতে ধরনায় বসেছিলেন রাহুল গান্ধী, প্রিয়াঙ্কা গান্ধীসহ কংগ্রেসের নেতারা। দিল্লির আকাশবাণী ভবন চত্বরে প্রায় আট ঘণ্টা অবস্থানের পর তাঁদের আটক করে নিয়ে যায় পুলিশ। দুই ঘণ্টা পরে তাঁদের ছেড়ে দেওয়া হয়। জ্ঞানেশ কুমারের পদত্যাগের দাবিতে মঙ্গলবার দুপুরে পার্লামেন্ট থেকে নির্বাচন কমিশন অভিমুখে যাত্রা করেন কংগ্রেস নেতৃত্বাধীন বিরোধী ইন্ডিয়া জোটের সংসদ সদস্যরা। তাঁদের পদযাত্রায় রাজধানী দিল্লির বিস্তীর্ণ অঞ্চলের জীবনযাত্রা অনেকটা স্তব্ধ হয়ে পড়ে</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/world/india/h32wefg93m\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "ভারতের মুখ্য নির্বাচন কমিশনার (সিইসি) জ্ঞানেশ কুমারের পদত্যাগের দাবিতে ধরনায় বসেছিলেন রাহুল গান্ধী, প্রিয়াঙ্কা গান্ধীসহ কংগ্রেসের নেতারা। দিল্লির আকাশবাণী ভবন চত্বরে প্রায় আট ঘণ্টা অবস্থানের পর তাঁদের আটক করে নিয়ে যায় পুলিশ। দুই ঘণ্টা পরে তাঁদের ছেড়ে দেওয়া হয়। জ্ঞানেশ কুমারের পদত্যাগের দাবিতে মঙ্গলব",
+      "sourceUrl": "https://www.prothomalo.com/world/india/h32wefg93m",
+      "sourceName": "প্রথম আলো",
+      "imageCredit": "প্রথম আলো"
+    },
+    {
+      "id": "rss71da9148230531",
+      "slug": "তরুণদের-মধ্যে-ক্যানসার-আক্রান্তের-হার-বা",
+      "title": "তরুণদের মধ্যে ক্যানসার আক্রান্তের হার বাড়ছে, কারণ কী",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%A4%E0%A6%B0%E0%A7%81%E0%A6%A3%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A6%BE.avif",
+      "publishedAt": "2026-10-06T21:58:59.514Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>গবেষণায় দেখা গেছে, বিশ্বজুড়ে সব বয়সী মানুষের মধ্যেই ক্যানসারের হার বাড়ছে। তবে অল্প বয়সে এই বৃদ্ধির হার বেশি।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/world/r83rfr2zjy\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "গবেষণায় দেখা গেছে, বিশ্বজুড়ে সব বয়সী মানুষের মধ্যেই ক্যানসারের হার বাড়ছে। তবে অল্প বয়সে এই বৃদ্ধির হার বেশি।",
+      "sourceUrl": "https://www.prothomalo.com/world/r83rfr2zjy",
+      "sourceName": "প্রথম আলো",
+      "imageCredit": "প্রথম আলো"
+    },
+    {
+      "id": "rssff5cdc66869ada",
+      "slug": "মেসির-বিদায়ী-ম্যাচ-আবেগে-ভাসছে-আর্জেন্টি",
+      "title": "মেসির বিদায়ী ম্যাচ: আবেগে ভাসছে আর্জেন্টিনা",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%AE%E0%A7%87%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A7%80-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9A-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%97%E0%A7%87-%E0%A6%AD%E0%A6%BE%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A6%86%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BF.avif",
+      "publishedAt": "2026-10-06T21:58:59.510Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>বিদায়ী ম্যাচের আগে মেসির শেষ কথা একটা সময় আসে, যখন কিংবদন্তিরও থামতে হয়। লিওনেল মেসির জন্য সেই সময়টা এসে গেছে। আকাশি-সাদা জার্সিতে আজই শেষবার মাঠে নামবেন তিনি। বুয়েনস এইরেসের মনুমেন্তালে বেনিনের বিপক্ষে প্রীতি ম্যাচ দিয়ে শেষ হবে আর্জেন্টিনা জাতীয় দলে তাঁর ২১ বছরের পথচলা। বিদায়ী ম্যাচের কয়েক ঘণ্টা আগে অবশেষে নীরবতা ভেঙেছেন মেসি। আর্জেন্টিনার মানুষের উদ্দেশে দেওয়া এক আবেগঘন বার্তায় বলেছেন, ‘আমি শান্তিতে বিদায় নিচ্ছি। আমি সবকিছু দিয়ে চেষ্টা করেছি।’ বিস্তারিত পড়ুন: ‘এই জার্সিটাই ছিল আমার জীবন’, বিদা</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/sports/football/xi1stw4j5y\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "বিদায়ী ম্যাচের আগে মেসির শেষ কথা একটা সময় আসে, যখন কিংবদন্তিরও থামতে হয়। লিওনেল মেসির জন্য সেই সময়টা এসে গেছে। আকাশি-সাদা জার্সিতে আজই শেষবার মাঠে নামবেন তিনি। বুয়েনস এইরেসের মনুমেন্তালে বেনিনের বিপক্ষে প্রীতি ম্যাচ দিয়ে শেষ হবে আর্জেন্টিনা জাতীয় দলে তাঁর ২১ বছরের পথচলা। বিদায়ী ম্যাচের কয়েক ঘণ্টা আগ",
+      "sourceUrl": "https://www.prothomalo.com/sports/football/xi1stw4j5y",
+      "sourceName": "প্রথম আলো",
+      "imageCredit": "প্রথম আলো"
     },
     {
       "id": "rsscd80d9688dba26",
@@ -5553,7 +5604,7 @@
       "ogImageHeight": 629,
       "imageCredit": "প্রথম আলো",
       "imageSourceUrl": "https://media.prothomalo.com/prothomalo-bangla%2F2026-06-29%2F7k7jqe8l%2F%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A7%9F%20%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%20%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A6%BE%E0%A6%B2%E0%A7%9F.jpg?rect=77%2C0%2C570%2C299&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
-      "imageFetchedAt": "2026-10-06T21:45:30.010Z"
+      "imageFetchedAt": "2026-10-06T22:00:43.044Z"
     },
     {
       "id": "rssd59a11d7d9f26b",
@@ -8421,57 +8472,6 @@
       "sourceUrl": "https://www.banglatribune.com/foreign/america/972458/%E0%A6%9A%E0%A7%80%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A7%9F%E0%A7%87-%E0%A6%97%E0%A7%81%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%9A%E0%A6%B0%E0%A6%AC%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A7%9F-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%A8-%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AB%E0%A6%A4%E0%A6%BE%E0%A6%B0",
       "sourceName": "বাংলা ট্রিবিউন",
       "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss2fb5ee402c75fd",
-      "slug": "বিশ্ব-বসতি-দিবসের-অনুষ্ঠানে-যোগ-দিলেন-প্",
-      "title": "বিশ্ব বসতি দিবসের অনুষ্ঠানে যোগ দিলেন প্রধানমন্ত্রী",
-      "category": "আন্তর্জাতিক",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC-%E0%A6%AC%E0%A6%B8%E0%A6%A4%E0%A6%BF-%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%A6%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8-%E0%A6%AA%E0%A7%8D.webp",
-      "publishedAt": "2026-10-05T04:28:57.160Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>বিশ্ব বসতি দিবসের আলোচনা সভায় যোগ দিয়েছেন প্রধানমন্ত্রী তারেক রহমান। সোমবার (৫ অক্টোবর) সকাল ১০টায় রাজধানীর আগারগাঁওয়ে চীন মৈত্রী আন্তর্জাতিক সম্মেলন কেন্দ্রে গৃহায়ন ও গণপূর্ত মন্ত্রণালয়ের আয়োজনে এ অনুষ্ঠান শুরু হয়। বিশ্ব বসতি দিবসের এবারের প্রতিপাদ্য ‘সর্বজনীন বাসস্থান, টেকসই নগরায়ণ।’ এর আগে বাংলাদ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">টেকসই নগরায়ণ ও আবাসন নিশ্চিতকরণে আন্তর্জাতিক ফোরামে প্রধানমন্ত্রীর অংশগ্রহণ বৈশ্বিক অংশীদারিত্ব জোরদারে নতুন পথ তৈরি করবে। পরিকল্পিত বসতি স্থাপনের এই অঙ্গীকার কূটনৈতিক সম্পর্কে ইতিবাচক প্রভাব ফেলে বাংলাদেশের উন্নয়নের ভাবমূর্তি উজ্জ্বল করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/national/972456/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC-%E0%A6%AC%E0%A6%B8%E0%A6%A4%E0%A6%BF-%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "বিশ্ব বসতি দিবসের আলোচনা সভায় যোগ দিয়েছেন প্রধানমন্ত্রী তারেক রহমান। সোমবার (৫ অক্টোবর) সকাল ১০টায় রাজধানীর আগারগাঁওয়ে চীন মৈত্রী আন্তর্জাতিক সম্মেলন কেন্দ্রে গৃহায়ন ও গণপূর্ত মন্ত্রণালয়ের আয়োজনে এ অনুষ্ঠান শুরু হয়। বিশ্ব বসতি দিবসের এবারের প্রতিপাদ্য ‘সর্বজনীন বাসস্থান, টেকসই নগরায়ণ।’ এর আগে বাংলাদ",
-      "sourceUrl": "https://www.banglatribune.com/national/972456/%E0%A6%AC%E0%A6%BF%E0%A6%B6%E0%A7%8D%E0%A6%AC-%E0%A6%AC%E0%A6%B8%E0%A6%A4%E0%A6%BF-%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AF%E0%A7%8B%E0%A6%97-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss905ab57ec24e97",
-      "slug": "কমলো-স্বর্ণের-দাম-ভরি-কত-2",
-      "title": "কমলো স্বর্ণের দাম, ভরি কত",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%95%E0%A6%AE%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE-%E0%A6%AD%E0%A6%B0%E0%A6%BF-%E0%A6%95%E0%A6%A4-2.webp",
-      "publishedAt": "2026-10-05T04:28:57.158Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>দেশের বাজারে স্বর্ণের দাম কমিয়েছে বাংলাদেশ জুয়েলার্স অ্যাসোসিয়েশন (বাজুস)। তেজাবী স্বর্ণের (পিওর গোল্ড) দাম কমে যাওয়ায় সার্বিক বাজার পরিস্থিতি বিবেচনায় নিয়ে নতুন দাম নির্ধারণ করেছে সংগঠনটি। সোমবার (৫ অক্টোবর) সকাল ১০টা থেকে নতুন এ দাম কার্যকর হয়েছে। নতুন দর অনুযায়ী, ভ্যাটসহ ২২ ক্যারেটের হলমার্ক করা </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">স্বর্ণের মূল্যের এই নিম্নমুখী প্রবণতা ক্রীড়া সরঞ্জামের উৎপাদন ও আমদানিতে ইতিবাচক প্রভাব ফেলতে পারে। ক্রীড়া খাতের ব্যবসায়িক ব্যয় কমে আসায় এটি স্থানীয় পর্যায়ে মানসম্মত খেলার উপকরণের সহজলভ্যতা ও প্রসারে নতুন সম্ভাবনা তৈরি করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/business/industry-and-trade/972457/%E0%A6%95%E0%A6%AE%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE-%E0%A6%AD%E0%A6%B0%E0%A6%BF-%E0%A6%95%E0%A6%A4\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "দেশের বাজারে স্বর্ণের দাম কমিয়েছে বাংলাদেশ জুয়েলার্স অ্যাসোসিয়েশন (বাজুস)। তেজাবী স্বর্ণের (পিওর গোল্ড) দাম কমে যাওয়ায় সার্বিক বাজার পরিস্থিতি বিবেচনায় নিয়ে নতুন দাম নির্ধারণ করেছে সংগঠনটি। সোমবার (৫ অক্টোবর) সকাল ১০টা থেকে নতুন এ দাম কার্যকর হয়েছে। নতুন দর অনুযায়ী, ভ্যাটসহ ২২ ক্যারেটের হলমার্ক করা ",
-      "sourceUrl": "https://www.banglatribune.com/business/industry-and-trade/972457/%E0%A6%95%E0%A6%AE%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE-%E0%A6%AD%E0%A6%B0%E0%A6%BF-%E0%A6%95%E0%A6%A4",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss7ce12474d87082",
-      "slug": "সাংবাদিকদের-ওপর-হামলা-প্রশাসনের-মামলার-আ",
-      "title": "সাংবাদিকদের ওপর হামলা: প্রশাসনের মামলার আশ্বাসে ফিরলেন সাংবাদিকরা",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%BE%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86.webp",
-      "publishedAt": "2026-10-05T04:28:57.142Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>রাজশাহী বিশ্ববিদ্যালয়ে সাংবাদিকদের ওপর হামলার ঘটনায় মামলা করার ঘোষণা দিয়েছে বিশ্ববিদ্যালয় প্রশাসন। আজ সোমবারের মধ্যে মামলা করার আশ্বাস পাওয়ার পর গতকাল রোববার মধ্যরাতে রাতে প্রতিবাদ কর্মসূচি থেকে সরে এসেছেন বিশ্ববিদ্যালয়ে কর্মরত সাংবাদিকেরা। তবে হামলায় জড়িতদের গ্রেপ্তার, শিক্ষার্থীদের ছাত্রত্ব বাতিল</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিশ্ববিদ্যালয় ক্যাম্পাসে সাংবাদিকদের ওপর হামলা মুক্ত সাংবাদিকতা ও নিরাপত্তার জন্য অশনিসংকেত। প্রশাসনের আশ্বাসের দ্রুত বাস্তবায়ন জরুরি, অন্যথায় দায়ীদের আইনের আওতায় আনতে কঠোর আইনি পদক্ষেপ ও ধারাবাহিক প্রতিবাদ অব্যাহত রাখা প্রয়োজন।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/813212/%E0%A6%B8%E0%A6%BE%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "রাজশাহী বিশ্ববিদ্যালয়ে সাংবাদিকদের ওপর হামলার ঘটনায় মামলা করার ঘোষণা দিয়েছে বিশ্ববিদ্যালয় প্রশাসন। আজ সোমবারের মধ্যে মামলা করার আশ্বাস পাওয়ার পর গতকাল রোববার মধ্যরাতে রাতে প্রতিবাদ কর্মসূচি থেকে সরে এসেছেন বিশ্ববিদ্যালয়ে কর্মরত সাংবাদিকেরা। তবে হামলায় জড়িতদের গ্রেপ্তার, শিক্ষার্থীদের ছাত্রত্ব বাতিল",
-      "sourceUrl": "https://www.ittefaq.com.bd/813212/%E0%A6%B8%E0%A6%BE%E0%A6%82%E0%A6%AC%E0%A6%BE%E0%A6%A6%E0%A6%BF%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%93%E0%A6%AA%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%B6%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%86%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%87",
-      "sourceName": "ইত্তেফাক",
-      "imageCredit": "ইত্তেফাক"
     }
   ],
   "ads": [
