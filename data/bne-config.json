@@ -1,6 +1,6 @@
 {
-  "version": 649,
-  "updatedAt": "2026-10-06T05:15:21.488Z",
+  "version": 650,
+  "updatedAt": "2026-10-06T05:30:27.614Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,57 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rss4e4a50965f23d5",
+      "slug": "আবারও-কমল-স্বর্ণের-দাম",
+      "title": "আবারও কমল স্বর্ণের দাম",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%86%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A6%93-%E0%A6%95%E0%A6%AE%E0%A6%B2-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A6%AE.jpg",
+      "publishedAt": "2026-10-06T05:28:58.648Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>দেশের বাজারে স্বর্ণের দাম কমিয়েছে বাংলাদেশ জুয়েলার্স অ্যাসোসিয়েশন (বাজুস)। তেজাবি স্বর্ণের (পিওর গোল্ড) দাম কমে যাওয়ায় সার্বিক বাজার পরিস্থিতি বিবেচনায় নতুন দর...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/economy/537264\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "দেশের বাজারে স্বর্ণের দাম কমিয়েছে বাংলাদেশ জুয়েলার্স অ্যাসোসিয়েশন (বাজুস)। তেজাবি স্বর্ণের (পিওর গোল্ড) দাম কমে যাওয়ায় সার্বিক বাজার পরিস্থিতি বিবেচনায় নতুন দর...",
+      "sourceUrl": "https://daily-bangladesh.com/economy/537264",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rsscf9cf13eb75f68",
+      "slug": "শেষ-ম্যাচের-আগে-আবেগঘন-মেসি",
+      "title": "শেষ ম্যাচের আগে আবেগঘন মেসি",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%B6%E0%A7%87%E0%A6%B7-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%87-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%97%E0%A6%98%E0%A6%A8-%E0%A6%AE%E0%A7%87%E0%A6%B8%E0%A6%BF.jpg",
+      "publishedAt": "2026-10-06T05:28:58.647Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>আর্জেন্টিনা জাতীয় দলের জার্সিতে শেষ ম্যাচ খেলতে যাচ্ছেন লিওনেল মেসি। বিদায়ী ম্যাচের আগে হাতে সময় আছে ২৪ ঘণ্টারও কম। এরই মধ্যে দলের সঙ্গে শেষ অনুশীলন সেরে সতীর্থ...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/sports/537265\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "আর্জেন্টিনা জাতীয় দলের জার্সিতে শেষ ম্যাচ খেলতে যাচ্ছেন লিওনেল মেসি। বিদায়ী ম্যাচের আগে হাতে সময় আছে ২৪ ঘণ্টারও কম। এরই মধ্যে দলের সঙ্গে শেষ অনুশীলন সেরে সতীর্থ...",
+      "sourceUrl": "https://daily-bangladesh.com/sports/537265",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rssb26851d694d956",
+      "slug": "শিশু-অধিকার-দিবসের-অনুষ্ঠানে-প্রধানমন্ত",
+      "title": "শিশু অধিকার দিবসের অনুষ্ঠানে প্রধানমন্ত্রী",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%B6%E0%A6%BF%E0%A6%B6%E0%A7%81-%E0%A6%85%E0%A6%A7%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%A6%E0%A6%BF%E0%A6%AC%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4.jpg",
+      "publishedAt": "2026-10-06T05:28:58.646Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>শিশু অধিকার দিবস ২০২৬ ও বাংলাদেশ শিশু একাডেমির ৫০ বছর পূর্তি উপলক্ষে আয়োজিত অনুষ্ঠানে যোগ দিয়েছেন প্রধানমন্ত্রী তারেক রহমান।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/national/537266\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "শিশু অধিকার দিবস ২০২৬ ও বাংলাদেশ শিশু একাডেমির ৫০ বছর পূর্তি উপলক্ষে আয়োজিত অনুষ্ঠানে যোগ দিয়েছেন প্রধানমন্ত্রী তারেক রহমান।",
+      "sourceUrl": "https://daily-bangladesh.com/national/537266",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
     },
     {
       "id": "rss7bd8351d3fad78",
@@ -2213,7 +2264,7 @@
       "ogImageHeight": 629,
       "imageCredit": "প্রথম আলো",
       "imageSourceUrl": "https://media.prothomalo.com/prothomalo-bangla%2F2026-06-29%2F7k7jqe8l%2F%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A7%9F%20%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0%20%E0%A6%AE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A6%BE%E0%A6%B2%E0%A7%9F.jpg?rect=77%2C0%2C570%2C299&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
-      "imageFetchedAt": "2026-10-06T05:16:36.245Z"
+      "imageFetchedAt": "2026-10-06T05:30:30.084Z"
     },
     {
       "id": "rssd59a11d7d9f26b",
@@ -8418,55 +8469,6 @@
       "summary": "সৌদি আরব&ndash;সমর্থিত ও আন্তর্জাতিকভাবে স্বীকৃত ইয়েমেনের সরকারকে পণ্যবাহী চারটি উড়োজাহাজ বোঝাই করে অস্ত্রশস্ত্র পাঠিয়েছে পাকিস্তান। গত সেপ্টেম্বরে অস্ত্রের এই চালান ইয়েমেনে পাঠানো হয়। এমন এক সময় এসব অস্ত্র দেওয়া হলো, যখন ইরান&ndash;সমর্থিত সশস্ত্র গোষ্ঠী হুতিদের...",
       "sourceUrl": "https://www.bd-journal.com/international/313695/হুতিদের-ঠেকাতে-৪-উড়োজাহাজ-ভরে-অস্ত্র-পাঠাল-পাকিস্তান",
       "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss45d3a01c2479c8",
-      "slug": "হামের-উপসর্গে-দেশে-আরও-৩-মৃত্যু-মোট-১১২৫",
-      "title": "হামের উপসর্গে দেশে আরও ৩ মৃত্যু, মোট ১১২৫",
-      "category": "স্বাস্থ্য",
-      "lead": false,
-      "image": "/images/health.jpg",
-      "publishedAt": "2026-10-04T11:58:56.311Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>দেশে গত ২৪ ঘণ্টায় হামের উপসর্গ নিয়ে আরও ৩ জনের মৃত্যু হয়েছে। তবে এ সময়ে নিশ্চিত হামে কারও মৃত্যু হয়নি। রোববার (৪ অক্টোবর) স্বাস্থ্য অধিদপ্তরের দেওয়া এক বার্তায় এ তথ্য জানানো হয়। এই হিসাব শনিবার...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">হামের প্রকোপ জনস্বাস্থ্যের জন্য এক গুরুতর সতর্কবার্তা, যা দ্রুত টিকাদান কর্মসূচি জোরদারের দাবি রাখে। উপসর্গ নিয়ে মৃত্যুর এই ধারা নিয়ন্ত্রণে নজরদারি বাড়ানো ও আক্রান্তদের সঠিক চিকিৎসা নিশ্চিত করা এখন সময়ের প্রধান প্রয়োজন।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/313693/হামের-উপসর্গে-দেশে-আরও-৩-মৃত্যু-মোট-১১২৫\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "দেশে গত ২৪ ঘণ্টায় হামের উপসর্গ নিয়ে আরও ৩ জনের মৃত্যু হয়েছে। তবে এ সময়ে নিশ্চিত হামে কারও মৃত্যু হয়নি। রোববার (৪ অক্টোবর) স্বাস্থ্য অধিদপ্তরের দেওয়া এক বার্তায় এ তথ্য জানানো হয়। এই হিসাব শনিবার...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/313693/হামের-উপসর্গে-দেশে-আরও-৩-মৃত্যু-মোট-১১২৫",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss8ee5f94ea05822",
-      "slug": "৪৯-এজেন্সির-লাইসেন্স-বাতিলের-সিদ্ধান্ত-ব",
-      "title": "৪৯ এজেন্সির লাইসেন্স বাতিলের সিদ্ধান্ত বহাল",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/images/economy.jpg",
-      "publishedAt": "2026-10-04T11:58:56.310Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>মালয়েশিয়ায় শ্রম রপ্তানিতে অনিয়ম ও অব্যবস্থাপনার অভিযোগে ৪৯টি রিক্রুটিং এজেন্সির লাইসেন্স বাতিলের সিদ্ধান্ত স্থগিত করে হাই কোর্টের দেওয়া আদেশ স্থগিত করেছে আপিল বিভাগ। ফলে প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের নেওয়া সনদ প্রত্যাহারের সিদ্ধান্তই বহাল থাকছে। রোববার...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">নিবন্ধিত রিক্রুটিং এজেন্সির জবাবদিহিতা নিশ্চিত হওয়ায় প্রতারণার শিকার হওয়ার ঝুঁকি কিছুটা কমবে। বিদেশে পাড়ি দিতে ইচ্ছুক কর্মীদের এখন থেকে সংশ্লিষ্ট এজেন্সির লাইসেন্স ও বৈধতা যাচাইয়ে আরও সতর্ক ও সচেতন হওয়া জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/other/313694/৪৯-এজেন্সির-লাইসেন্স-বাতিলের-সিদ্ধান্ত-বহাল\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "মালয়েশিয়ায় শ্রম রপ্তানিতে অনিয়ম ও অব্যবস্থাপনার অভিযোগে ৪৯টি রিক্রুটিং এজেন্সির লাইসেন্স বাতিলের সিদ্ধান্ত স্থগিত করে হাই কোর্টের দেওয়া আদেশ স্থগিত করেছে আপিল বিভাগ। ফলে প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়ের নেওয়া সনদ প্রত্যাহারের সিদ্ধান্তই বহাল থাকছে। রোববার...",
-      "sourceUrl": "https://www.bd-journal.com/other/313694/৪৯-এজেন্সির-লাইসেন্স-বাতিলের-সিদ্ধান্ত-বহাল",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rsscfac77f4fe2e53",
-      "slug": "একনায়কতন্ত্র-ভাঙতে-জাতি-ঐক্যবদ্ধ-কিন্ত",
-      "title": "একনায়কতন্ত্র ভাঙতে জাতি ঐক্যবদ্ধ, কিন্তু ভেঙে গেলে বিভক্ত হয়ে যায়: মাহফুজ আনাম",
-      "category": "বিনোদন",
-      "lead": false,
-      "image": "/img/%E0%A6%8F%E0%A6%95%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%95%E0%A6%A4%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%A4%E0%A7%87-%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF-%E0%A6%90%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A4.webp",
-      "publishedAt": "2026-10-04T11:58:56.304Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>ডেইলি স্টারের প্রকাশক ও সম্পাদক মাহফুজ আনাম বলেছেন, অতীতে অবাধ সুষ্ঠু নির্বাচনকে প্রাতিষ্ঠানিক রূপ দেওয়ার পরিবর্তে আমরা আরও বেশি করে সংঘাত, প্রতিদ্বন্দ্বিতা এবং তারপরে ধ্বংসের মধ্যে পড়েছি এবং আমি মনে করি, আমরা ব্যর্থ হয়েছি, কারণ আমরা সত্যিই আমাদের দেশ পরিচালনা করতে জানি না। আমরা আসলে জানি না শাসন</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জাতীয় সংকটে ঐক্যের অভাব এবং রাষ্ট্র পরিচালনায় অদক্ষতা আমাদের শিল্প ও সাংস্কৃতিক বিকাশের পথে বড় বাধা। রাজনৈতিক অস্থিতিশীলতা নিরসন না হলে সৃজনশীলতার পরিবেশ ক্ষতিগ্রস্ত হয়, যা দীর্ঘমেয়াদে দেশীয় শিল্প ও গণমাধ্যমের ভিত্তিকে দুর্বল করে দিচ্ছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/national/972318/%E0%A6%8F%E0%A6%95%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%95%E0%A6%A4%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%A4%E0%A7%87-%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF-%E0%A6%90%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%81-%E0%A6%AD%E0%A7%87%E0%A6%99%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "ডেইলি স্টারের প্রকাশক ও সম্পাদক মাহফুজ আনাম বলেছেন, অতীতে অবাধ সুষ্ঠু নির্বাচনকে প্রাতিষ্ঠানিক রূপ দেওয়ার পরিবর্তে আমরা আরও বেশি করে সংঘাত, প্রতিদ্বন্দ্বিতা এবং তারপরে ধ্বংসের মধ্যে পড়েছি এবং আমি মনে করি, আমরা ব্যর্থ হয়েছি, কারণ আমরা সত্যিই আমাদের দেশ পরিচালনা করতে জানি না। আমরা আসলে জানি না শাসন",
-      "sourceUrl": "https://www.banglatribune.com/national/972318/%E0%A6%8F%E0%A6%95%E0%A6%A8%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%95%E0%A6%A4%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A6%A4%E0%A7%87-%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF-%E0%A6%90%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%95%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%81-%E0%A6%AD%E0%A7%87%E0%A6%99%E0%A7%87",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
