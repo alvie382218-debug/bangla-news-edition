@@ -1,6 +1,6 @@
 {
-  "version": 804,
-  "updatedAt": "2026-10-07T19:00:37.392Z",
+  "version": 805,
+  "updatedAt": "2026-10-07T19:15:24.982Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,55 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rss7c07c6a7168aa3",
+      "slug": "ফুটবল-কি-আপনার-নেশা-হয়ে-গেছে",
+      "title": "ফুটবল কি আপনার ‘নেশা’ হয়ে গেছে?",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%AB%E0%A7%81%E0%A6%9F%E0%A6%AC%E0%A6%B2-%E0%A6%95%E0%A6%BF-%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%A8%E0%A7%87%E0%A6%B6%E0%A6%BE-%E0%A6%B9%E0%A7%9F%E0%A7%87-%E0%A6%97%E0%A7%87%E0%A6%9B%E0%A7%87.webp",
+      "publishedAt": "2026-10-07T19:14:00.644Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>‘আর কখনও ওদের খেলা দেখব না!’ প্রিয় দল হেরে গেলে ফুটবলপ্রেমীদের মুখে এমন কথা নতুন কিছু নয়। রাগে, হতাশায়, অভিমানে মনে হয়&amp;mdash;এই দল, এই খেলা, কিছুই আর দেখতে চাই না। এমনকি সপ্তাহান্তে ফুটবল বাদ দিয়ে কোথাও ঘুরতে যাওয়ার পরিকল্পনাও হয়ে যায়। কয়েক দিন সত্যিই খেলা দেখা বন্ধ থাকে। কোনও খেলার সূচি দেখা হয় না, দল কেমন করছে তার খবরও নেওয়া হয় না। কিন্তু ম্যাচের দিন রাত হলেই কী যেন হয়! ঘড়িতে... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/lifestyle/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF/973073/%E0%A6%AB%E0%A7%81%E0%A6%9F%E0%A6%AC%E0%A6%B2-%E0%A6%95%E0%A6%BF-%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E2%80%98%E0%A6%A8%E0%A7%87%E0%A6%B6%E0%A6%BE%E2%80%99-%E0%A6%B9%E0%A7%9F%E0%A7%87-%E0%A6%97%E0%A7%87%E0%A6%9B%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "‘আর কখনও ওদের খেলা দেখব না!’ প্রিয় দল হেরে গেলে ফুটবলপ্রেমীদের মুখে এমন কথা নতুন কিছু নয়। রাগে, হতাশায়, অভিমানে মনে হয়&mdash;এই দল, এই খেলা, কিছুই আর দেখতে চাই না। এমনকি সপ্তাহান্তে ফুটবল বাদ দিয়ে কোথাও ঘুরতে যাওয়ার পরিকল্পনাও হয়ে যায়। কয়েক দিন সত্যিই খেলা দেখা বন্ধ থাকে। কোনও খেলার সূচি দেখা হয় না,",
+      "sourceUrl": "https://www.banglatribune.com/lifestyle/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF/973073/%E0%A6%AB%E0%A7%81%E0%A6%9F%E0%A6%AC%E0%A6%B2-%E0%A6%95%E0%A6%BF-%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E2%80%98%E0%A6%A8%E0%A7%87%E0%A6%B6%E0%A6%BE%E2%80%99-%E0%A6%B9%E0%A7%9F%E0%A7%87-%E0%A6%97%E0%A7%87%E0%A6%9B%E0%A7%87",
+      "sourceName": "বাংলা ট্রিবিউন",
+      "imageCredit": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssbe8c34f6edd793",
+      "slug": "সকাল-থেকে-যেসব-এলাকায়-টানা-১০-ঘণ্টা-বিদ্",
+      "title": "সকাল থেকে যেসব এলাকায় টানা ১০ ঘণ্টা বিদ্যুৎ থাকবে না আজ",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/images/national.jpg",
+      "publishedAt": "2026-10-07T19:14:00.640Z",
+      "tags": [
+        "সময় নিউজ"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TcU5IYXlvUE9aMEF0ZzNQTF9WQ0hOVkNhcnRNODREd3dnRWhUM0YxZkdnWlJhdXRpQkFIRlBFMkRBb19xUkx6SHQyWTFBaXJFZ1ZOT2Z3Q0tPWmQxVlE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;সকাল থেকে যেসব এলাকায় টানা ১০ ঘণ্টা বিদ্যুৎ থাকবে না আজ&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;somoynews&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TcU5IYXlvUE9aMEF0ZzNQTF9WQ0hOVkNhcnRNODREd3dnRWhUM0YxZkdnWlJhdXRpQkFIRlBFMkRBb19xUkx6SHQyWTFBaXJFZ1ZOT2Z3Q0tPWmQxVlE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">সময় নিউজ</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TcU5IYXlvUE9aMEF0ZzNQTF9WQ0hOVkNhcnRNODREd3dnRWhUM0YxZkdnWlJhdXRpQkFIRlBFMkRBb19xUkx6SHQyWTFBaXJFZ1ZOT2Z3Q0tPWmQxVlE?oc=5\" target=\"_blank\"&gt;সকাল থেকে যেসব এলাকায় টানা ১০ ঘণ্টা বিদ্যুৎ থাকবে না আজ&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1TcU5IYXlvUE9aMEF0ZzNQTF9WQ0hOVkNhcnRNODREd3dnRWhUM0YxZkdnWlJhdXRpQkFIRlBFMkRBb19xUkx6SHQyWTFBaXJFZ1ZOT2Z3Q0tPWmQxVlE?oc=5",
+      "sourceName": "সময় নিউজ"
+    },
+    {
+      "id": "rss75ad93bc5a6708",
+      "slug": "মেসির-মতো-আবেগঘন-বিদায়-রোনালদো-না-পাওয়",
+      "title": "মেসির মতো আবেগঘন বিদায় রোনালদো না পাওয়ায় খারাপ লাগছে লিনেকারের",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/images/sports.jpg",
+      "publishedAt": "2026-10-07T19:14:00.630Z",
+      "tags": [
+        "বিডিনিউজ২৪"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mVWxpcEE2azZjZUt2TjFTcjItbnN0bXhsd0VzRXM0VkVESXAtX2NqYjUxVVdNUGd4dlQ3bnRGZmw3S3Y4V1JRdjBjZTYta2xiRkdaWTVlTQ?oc=5&quot; target=&quot;_blank&quot;&amp;gt;মেসির মতো আবেগঘন বিদায় রোনালদো না পাওয়ায় খারাপ লাগছে লিনেকারের&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.com&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mVWxpcEE2azZjZUt2TjFTcjItbnN0bXhsd0VzRXM0VkVESXAtX2NqYjUxVVdNUGd4dlQ3bnRGZmw3S3Y4V1JRdjBjZTYta2xiRkdaWTVlTQ?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mVWxpcEE2azZjZUt2TjFTcjItbnN0bXhsd0VzRXM0VkVESXAtX2NqYjUxVVdNUGd4dlQ3bnRGZmw3S3Y4V1JRdjBjZTYta2xiRkdaWTVlTQ?oc=5\" target=\"_blank\"&gt;মেসির মতো আবেগঘন বিদায় রোনালদো না পাওয়ায় খারাপ লাগছে লিনেকারের&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mVWxpcEE2azZjZUt2TjFTcjItbnN0bXhsd0VzRXM0VkVESXAtX2NqYjUxVVdNUGd4dlQ3bnRGZmw3S3Y4V1JRdjBjZTYta2xiRkdaWTVlTQ?oc=5",
+      "sourceName": "বিডিনিউজ২৪"
     },
     {
       "id": "rss31ce196f7be880",
@@ -1975,7 +2024,7 @@
       "title": "মতপার্থক্য, গঠনমূলক সমালোচনা এবং শান্তিপূর্ণ প্রতিবাদই গণতন্ত্রের সৌন্দর্য : রাষ্ট্রপতি",
       "category": "প্রযুক্তি",
       "lead": false,
-      "image": "/images/technology.jpg",
+      "image": "https://media.prothomalo.com/prothomalo-bangla/2026-10-07/av9m6kiw/image-347856-1791372790.webp",
       "publishedAt": "2026-10-07T09:44:00.229Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -8398,57 +8447,6 @@
       "body": "<p>বিগত অন্তর্বর্তীকালীন সরকারের সময়ে জোরপূর্বক পদত্যাগে বাধ্য করা বিভিন্ন এমপিওভুক্ত স্কুল-কলেজের অধ্যক্ষ, প্রধান শিক্ষকসহ তিন সহস্রাধিক শিক্ষকের চাকরি ফিরিয়ে দিয়েছে শিক্ষা মন্ত্রণালয়। মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ এবং মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের (মাউশি) লিখিত চিঠিতে এসব শিক্ষককে স্বপদে বহাল রাখা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সরকারি সিদ্ধান্ত কাগজে-কলমে বাস্তবায়িত হলেও বাস্তব কর্মক্ষেত্রে যোগদানের সুযোগ না পাওয়া ভুক্তভোগী শিক্ষকদের জন্য চরম অনিশ্চয়তার বার্তা। প্রশাসনিক জটিলতা নিরসনে দ্রুত কার্যকর পদক্ষেপ না নিলে আইনি জয়ের পরেও চাকরিপ্রার্থীরা পেশাগত নিরাপত্তার সংকটে পড়বেন।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/813419/%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF-%E0%A6%AB%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%A4%E0%A6%AC%E0%A7%81-%E0%A6%AB%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
       "summary": "বিগত অন্তর্বর্তীকালীন সরকারের সময়ে জোরপূর্বক পদত্যাগে বাধ্য করা বিভিন্ন এমপিওভুক্ত স্কুল-কলেজের অধ্যক্ষ, প্রধান শিক্ষকসহ তিন সহস্রাধিক শিক্ষকের চাকরি ফিরিয়ে দিয়েছে শিক্ষা মন্ত্রণালয়। মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ এবং মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরের (মাউশি) লিখিত চিঠিতে এসব শিক্ষককে স্বপদে বহাল রাখা",
       "sourceUrl": "https://www.ittefaq.com.bd/813419/%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF-%E0%A6%AB%E0%A6%BF%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87%E0%A6%9B%E0%A7%87-%E0%A6%A4%E0%A6%AC%E0%A7%81-%E0%A6%AB%E0%A6%BF%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BE",
-      "sourceName": "ইত্তেফাক",
-      "imageCredit": "ইত্তেফাক"
-    },
-    {
-      "id": "rss4537d98bea0c1d",
-      "slug": "ইরান-কি-হরমুজ-প্রণালিতে-গোপনে-টোল-আদায়-ক",
-      "title": "ইরান কি হরমুজ প্রণালিতে গোপনে টোল আদায় করছে",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8-%E0%A6%95%E0%A6%BF-%E0%A6%B9%E0%A6%B0%E0%A6%AE%E0%A7%81%E0%A6%9C-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A6%BE%E0%A6%B2%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%97%E0%A7%8B%E0%A6%AA%E0%A6%A8%E0%A7%87-%E0%A6%9F%E0%A7%8B%E0%A6%B2-%E0%A6%86%E0%A6%A6%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%95.avif",
-      "publishedAt": "2026-10-06T01:43:58.312Z",
-      "tags": [
-        "প্রথম আলো"
-      ],
-      "body": "<p>মধ্যপ্রাচ্যে চলমান উত্তেজনার মধ্যেই হরমুজ প্রণালি দিয়ে অপরিশোধিত তেল রপ্তানির পরিমাণ উল্লেখযোগ্য হারে বেড়েছে। মার্চেন্ট ট্র্যাকিং প্রতিষ্ঠান 'কেপলার'-এর তথ্য অনুযায়ী, গত ফেব্রুয়ারি মাসে এই অঞ্চল থেকে দৈনিক তেল রপ্তানির গড় ১৮ মিলিয়ন ব্যারেল ছাড়িয়ে গেছে। এমনকি গত মাসের শেষ সপ্তাহে এই রপ্তানির পরিমাণ সাড়ে ১৯ মিলিয়ন থেকে সাড়ে ২২ মিলিয়ন ব্যারেলের মধ্যে ছিল। যুদ্ধের আগে বিশ্বের মোট তেল ও প্রাকৃতিক গ্যাস রপ্তানির প্রায় এক-পঞ্চমাংশ এই রুট দিয়ে পরিবাহিত হতো, যা বর্তমানে পুনরায় ঊর্ধ্বমুখী।</p>\n<p>রপ্তানি বৃদ্ধির পেছনে মার্কিন জাহাজের প্রহরায় ট্যাংকারগুলোর নিরাপদ চলাচল এবং এক জাহাজ থেকে অন্য জাহাজে তেল স্থানান্তরের কৌশলকে বড় কারণ হিসেবে দেখা হচ্ছে। তবে রপ্তানি বাড়লেও বিশ্ববাজারে তেলের দাম এখনো যুদ্ধের আগের তুলনায় বেশ চড়া। বিশ্লেষকদের মতে, সম্ভাব্য পূর্ণাঙ্গ যুদ্ধের আশঙ্কা এবং ইরানের হামলার ভীতিতে বিমা মাশুল আকাশচুম্বী হওয়ায় পণ্যের দাম কমছে না। এরই মধ্যে কেপলারের এক জ্যেষ্ঠ বিশ্লেষক মিশেল ব্রোহার্ড চাঞ্চল্যকর এক ধারণা দিয়েছেন। তিনি মনে করেন, জাহাজগুলোর নিরাপদ চলাচলের বিনিময়ে হয়তো উপসাগরীয় দেশগুলো ইরানকে গোপনে কোনো ধরনের 'টোল' বা মাশুল দিচ্ছে, যা তেলের উচ্চমূল্যের পেছনে বড় ভূমিকা রাখছে। যদিও এটি এখনো কোনো প্রমাণিত সত্য নয়, কেবল একটি অনুমান মাত্র।</p>\n<p>এই পরিস্থিতির ওপর লয়েডস লিস্টের মতো শিপিং সাময়িকীও নজর রেখেছে। তাদের প্রতিবেদন অনুযায়ী, ইরানের ইসলামিক রেভোল্যুশনারি গার্ড কোর (আইআরজিসি) হরমুজ প্রণালিতে জাহাজ চলাচলের ওপর নিয়ন্ত্রণের জন্য একটি 'টোল বুথ' ব্যবস্থা চালু করেছে। যদিও ওয়াশিংটন বরাবরই দাবি করে আসছে যে, তাদের কোনো চুক্তির আওতায় ইরানকে এমন কোনো মাশুল আদায়ের সুযোগ দেওয়া হয়নি। এই গোলকধাঁধার মধ্যে ট্র্যাকিং তথ্যের বাইরেও অনেক জাহাজ নিজেদের শনাক্তকরণ ব্যবস্থা বন্ধ রেখে গোপনে এই পথ পাড়ি দিচ্ছে বলে ধারণা করা হচ্ছে।</p>\n<p>ইরানি কমান্ডার আলী ফাদাভি অবশ্য এই পরিস্থিতিকে ভিন্নভাবে দেখছেন। তার দাবি, মার্কিন তত্ত্বাবধানাধীন এই পথে দিনে মাত্র তিন থেকে চার মিলিয়ন ব্যারেল তেল যাচ্ছে, যা যুদ্ধের আগের তুলনায় খুবই নগণ্য। তবে বাস্তব চিত্র হলো, হরমুজ প্রণালি এখনো বড় ধরনের সংঘাতের কেন্দ্রবিন্দুতে রয়েছে। গত রোববারও একটি তেল ট্যাংকারকে ফিরে যাওয়ার নির্দেশ দিয়েছে আইআরজিসি। সরবরাহব্যবস্থায় এমন অনিশ্চয়তা এবং ভূরাজনৈতিক অস্থিরতার কারণে বিশ্ববাজারে তেলের দাম স্থিতিশীল হওয়ার কোনো লক্ষণ আপাতত দেখা যাচ্ছে না।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">হরমুজ প্রণালিতে অঘোষিত কোনো নিয়ন্ত্রণ বা ফি আরোপ করা হলে জ্বালানি তেলের বিশ্ববাজার অস্থির হয়ে উঠবে, যার সরাসরি আঘাত পড়বে আমাদের দেশের নিত্যপণ্যের মূল্যে। সাধারণ মানুষকে এখন থেকেই সাশ্রয়ী হতে হবে এবং নীতিনির্ধারকদের জ্বালানি আমদানিতে বিকল্প উৎস ও মজুত ব্যবস্থা জোরদার করার প্রস্তুতি নিতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/world/bd3sjkz8jg\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
-      "summary": "গত মাসে মধ্যপ্রাচ্যের দেশগুলো থেকে অপরিশোধিত তেল রপ্তানি বাড়লেও বিশ্ববাজারে দাম এখনো বেশি। কোনো গোপন ফি বা মাশুলই কি এর কারণ হতে পারে? ইরান যুদ্ধের আগে বিশ্বের মোট তেল ও প্রাকৃতিক গ্যাস রপ্তানির এক-পঞ্চমাংশ হরমুজ প্রণালি দিয়ে পরিবাহিত হতো। ইরান হরমুজ প্রণালিতে অবরোধ ও নৌযানে হামলা চালানোর বিষয়ে এখন",
-      "sourceUrl": "https://www.prothomalo.com/world/bd3sjkz8jg",
-      "sourceName": "প্রথম আলো",
-      "imageCredit": "প্রথম আলো"
-    },
-    {
-      "id": "rssdde596e630a946",
-      "slug": "৩-নারীকে-লাঞ্ছনার-পর-স্ট্যাম্পে-স্বাক্ষর",
-      "title": "৩ নারীকে লাঞ্ছনার পর স্ট্যাম্পে স্বাক্ষর নিলেন যুবদল কর্মী ও সহযোগীরা",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A7%A9-%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%87-%E0%A6%B2%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9B%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%B0.webp",
-      "publishedAt": "2026-10-06T01:28:58.359Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>নাটোরে তিন নারীকে প্রকাশ্যে লাঞ্ছিত করা এবং পরে ঘরের মধ্যে আটকে রেখে ফাঁকা স্ট্যাম্পে জোরপূর্বক স্বাক্ষর নেওয়ার অভিযোগ উঠেছে স্থানীয় এক যুবদল কর্মী ও তার সহযোগীদের বিরুদ্ধে। সোমবার (৬ অক্টোবর) বিকালে গুরুদাসপুর পৌরসভার গাড়িষাপাড়া গ্রামে এ ঘটনা ঘটে। অভিযুক্ত যুবদল কর্মীর নাম জিয়াউর রহমান জিয়া এবং ত</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনপ্রতিনিধি বা রাজনৈতিক পরিচয়ে ক্ষমতার অপব্যবহার করে সাধারণ মানুষের আইনি অধিকার হরণ সামাজিক ন্যায়বিচারের পরিপন্থী। ভুক্তভোগীদের নিরাপত্তার পাশাপাশি এ ধরনের অন্যায় কর্মকাণ্ডের বিরুদ্ধে স্থানীয় প্রশাসনকে অবিলম্বে কঠোর আইনি পদক্ষেপ নিতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/972651/%E0%A7%A9-%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%87-%E0%A6%B2%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9B%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "নাটোরে তিন নারীকে প্রকাশ্যে লাঞ্ছিত করা এবং পরে ঘরের মধ্যে আটকে রেখে ফাঁকা স্ট্যাম্পে জোরপূর্বক স্বাক্ষর নেওয়ার অভিযোগ উঠেছে স্থানীয় এক যুবদল কর্মী ও তার সহযোগীদের বিরুদ্ধে। সোমবার (৬ অক্টোবর) বিকালে গুরুদাসপুর পৌরসভার গাড়িষাপাড়া গ্রামে এ ঘটনা ঘটে। অভিযুক্ত যুবদল কর্মীর নাম জিয়াউর রহমান জিয়া এবং ত",
-      "sourceUrl": "https://www.banglatribune.com/country/972651/%E0%A7%A9-%E0%A6%A8%E0%A6%BE%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%87-%E0%A6%B2%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9B%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%B0-%E0%A6%A8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss33dc29ca6cb895",
-      "slug": "অটোরিকশা-বন্ধ-হলে-ঢাকা-অবরুদ্ধ-করার-হুঁশ",
-      "title": "অটোরিকশা বন্ধ হলে ঢাকা অবরুদ্ধ করার হুঁশিয়ারি",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%85%E0%A6%9F%E0%A7%8B%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B6%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%B9%E0%A6%B2%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%85%E0%A6%AC%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%B9%E0%A7%81%E0%A6%81%E0%A6%B6.webp",
-      "publishedAt": "2026-10-06T01:28:58.355Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>রাজধানীর সড়কে ব্যাটারিচালিত রিকশা বন্ধ বা নির্বিচারে ডাম্পিং করা হলে ঢাকা অবরুদ্ধ করে দেওয়ার হুঁশিয়ারি দিয়েছেন ব্যাটারিচালিত রিকশার মালিক-শ্রমিকদের নেতারা। একই সঙ্গে অটোরিকশার চার্জিং পয়েন্টে বিদ্যুত্ সংযোগ বিচ্ছিন্ন করা হলে সংশ্লিষ্ট এলাকার বিদ্যুত্ অফিস ঘেরাও করার ঘোষণা দিয়েছেন তারা। তাদের দাবি, ব</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শ্রমিক সংগঠনের এই কঠোর অবস্থান জনজীবনে বড় ধরনের অস্থিরতা ও যানজটের ঝুঁকি তৈরি করবে। এমন সংঘাতপূর্ণ রাজনৈতিক কর্মসূচি সাধারণ মানুষের ভোগান্তি চরম পর্যায়ে নিয়ে যাবে, যা নিরসনে কর্তৃপক্ষের দ্রুত ও ভারসাম্যপূর্ণ সিদ্ধান্ত নেওয়া জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/813418/%E0%A6%85%E0%A6%9F%E0%A7%8B%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B6%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%B9%E0%A6%B2%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%85%E0%A6%AC%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%B9%E0%A7%81%E0%A6%81%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%BF\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "রাজধানীর সড়কে ব্যাটারিচালিত রিকশা বন্ধ বা নির্বিচারে ডাম্পিং করা হলে ঢাকা অবরুদ্ধ করে দেওয়ার হুঁশিয়ারি দিয়েছেন ব্যাটারিচালিত রিকশার মালিক-শ্রমিকদের নেতারা। একই সঙ্গে অটোরিকশার চার্জিং পয়েন্টে বিদ্যুত্ সংযোগ বিচ্ছিন্ন করা হলে সংশ্লিষ্ট এলাকার বিদ্যুত্ অফিস ঘেরাও করার ঘোষণা দিয়েছেন তারা। তাদের দাবি, ব",
-      "sourceUrl": "https://www.ittefaq.com.bd/813418/%E0%A6%85%E0%A6%9F%E0%A7%8B%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B6%E0%A6%BE-%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7-%E0%A6%B9%E0%A6%B2%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%85%E0%A6%AC%E0%A6%B0%E0%A7%81%E0%A6%A6%E0%A7%8D%E0%A6%A7-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0-%E0%A6%B9%E0%A7%81%E0%A6%81%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%BF",
       "sourceName": "ইত্তেফাক",
       "imageCredit": "ইত্তেফাক"
     }
