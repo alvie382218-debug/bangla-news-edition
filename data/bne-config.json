@@ -1,6 +1,6 @@
 {
-  "version": 1296,
-  "updatedAt": "2026-10-12T17:30:23.797Z",
+  "version": 1297,
+  "updatedAt": "2026-10-12T17:45:20.277Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,57 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rssfeae297250ad03",
+      "slug": "মদনে-৬০০-অসহায়-মানুষের-চোখে-আলো-ফেরালো-ব",
+      "title": "মদনে ৬০০ অসহায় মানুষের চোখে আলো ফেরালো বিএনএসবি",
+      "category": "স্বাস্থ্য",
+      "lead": false,
+      "image": "/img/%E0%A6%AE%E0%A6%A6%E0%A6%A8%E0%A7%87-%E0%A7%AC%E0%A7%A6%E0%A7%A6-%E0%A6%85%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A6%AF%E0%A6%BC-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%9A%E0%A7%8B%E0%A6%96%E0%A7%87-%E0%A6%86%E0%A6%B2%E0%A7%8B-%E0%A6%AB%E0%A7%87%E0%A6%B0%E0%A6%BE%E0%A6%B2%E0%A7%8B-%E0%A6%AC.jpg",
+      "publishedAt": "2026-10-12T17:44:06.894Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>নেত্রকোনার মদনে ৬০০ জন অসহায় ও দরিদ্র মানুষকে বিনামূল্যে চোখের চিকিৎসা সেবা প্রদান করা হয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সুদূর প্রান্তিক জনগোষ্ঠীর দোরগোড়ায় এমন বিনামূল্যে চক্ষুসেবা পৌঁছে দেওয়া জনস্বাস্থ্য সুরক্ষায় অত্যন্ত ইতিবাচক। অন্ধত্ব দূরীকরণে সরকারি-বেসরকারি সমন্বিত উদ্যোগের পাশাপাশি তৃণমূল পর্যায়ে নিয়মিত স্বাস্থ্য ক্যাম্প পরিচালনা করা একান্ত জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/538044\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "নেত্রকোনার মদনে ৬০০ জন অসহায় ও দরিদ্র মানুষকে বিনামূল্যে চোখের চিকিৎসা সেবা প্রদান করা হয়েছে।",
+      "sourceUrl": "https://www.daily-bangladesh.com/country/538044",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rsse430dff953f56a",
+      "slug": "কেন-নিয়ন্ত্রণে-আসছে-না-চকবাজারের-আগুন",
+      "title": "কেন নিয়ন্ত্রণে আসছে না চকবাজারের আগুন",
+      "category": "অর্থনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A7%87-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%9A%E0%A6%95%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8.webp",
+      "publishedAt": "2026-10-12T17:44:06.883Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>রাজধানীর পুরান ঢাকার চকবাজারে মনজুর খান প্লাজা মার্কেটের একটি দোকানে লাগা আগুন ছয় ঘণ্টা পেরিয়েও নিয়ন্ত্রণে আসেনি। সোমবার (১২ অক্টোবর) রাত ১১টা পর্যন্ত আগুন নেভাতে ফায়ার সার্ভিসের ১০টি ইউনিট কাজ করছিল। তবে সরু গলি, পানির স্বল্পতা ও প্রচণ্ড ধোঁয়ার কারণে আগুন নিয়ন্ত্রণে আনতে বেগ পেতে হচ্ছে ফায়ার সার্ভিসের কর্মীদের। ফায়ার সার্ভিস সূত্রে জানা গেছে, সোমবার বিকাল ৫টা ৪ মিনিটে মনজুর খান প্লাজার... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/others/974133/%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A7%87-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%9A%E0%A6%95%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "রাজধানীর পুরান ঢাকার চকবাজারে মনজুর খান প্লাজা মার্কেটের একটি দোকানে লাগা আগুন ছয় ঘণ্টা পেরিয়েও নিয়ন্ত্রণে আসেনি। সোমবার (১২ অক্টোবর) রাত ১১টা পর্যন্ত আগুন নেভাতে ফায়ার সার্ভিসের ১০টি ইউনিট কাজ করছিল। তবে সরু গলি, পানির স্বল্পতা ও প্রচণ্ড ধোঁয়ার কারণে আগুন নিয়ন্ত্রণে আনতে বেগ পেতে হচ্ছে ফায়ার সার্ভি",
+      "sourceUrl": "https://www.banglatribune.com/others/974133/%E0%A6%95%E0%A7%87%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%A3%E0%A7%87-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A6%A8%E0%A6%BE-%E0%A6%9A%E0%A6%95%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8",
+      "sourceName": "বাংলা ট্রিবিউন",
+      "imageCredit": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rsse496cf71170cbd",
+      "slug": "স্কুলছাত্রীর-কথিত-প্রেমিককে-নিয়ে-রহস্য-প",
+      "title": "স্কুলছাত্রীর ‘কথিত প্রেমিককে’ নিয়ে রহস্য পুলিশের, কুমিল্লায় ফিরলো খালি হাতে",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B2%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%95%E0%A6%A5%E0%A6%BF%E0%A6%A4-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%95%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B0%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%AF-%E0%A6%AA.webp",
+      "publishedAt": "2026-10-12T17:44:06.883Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>কুমিল্লার লালমাইয়ে সপ্তম শ্রেণির শিক্ষার্থীকে (১৫) ধর্ষণ ও হত্যার ঘটনায় সন্দেহভাজন কথিত প্রেমিক রিয়াজ উদ্দিন রাজুকে কক্সবাজার থেকে আটক করেছিল পুলিশ। সোমবার (১২ অক্টোবর) সকালে কুমিল্লা ডিবির টিম কক্সবাজার পৌঁছে সদর থানা পুলিশের কাছ থেকে তাকে নিজেদের হেফাজতেও নিয়েছিল। কিন্তু শেষ পর্যন্ত তাকে না নিয়ে এ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">অপরাধ তদন্তে এমন অস্পষ্টতা স্থানীয়দের মাঝে চরম নিরাপত্তাহীনতা ও আস্থাহীনতা তৈরি করে। ঘটনার সুষ্ঠু বিচার নিশ্চিত করতে পুলিশকে স্বচ্ছতা ও দায়বদ্ধতা বজায় রাখতে হবে। ন্যায়বিচার আদায়ে এলাকাবাসীকেও আইনানুগ প্রক্রিয়ায় নিয়মিত খোঁজখবর রাখতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/chitagong/974134/%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B2%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E2%80%98%E0%A6%95%E0%A6%A5%E0%A6%BF%E0%A6%A4-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%95%E0%A7%87%E2%80%99-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B0%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "কুমিল্লার লালমাইয়ে সপ্তম শ্রেণির শিক্ষার্থীকে (১৫) ধর্ষণ ও হত্যার ঘটনায় সন্দেহভাজন কথিত প্রেমিক রিয়াজ উদ্দিন রাজুকে কক্সবাজার থেকে আটক করেছিল পুলিশ। সোমবার (১২ অক্টোবর) সকালে কুমিল্লা ডিবির টিম কক্সবাজার পৌঁছে সদর থানা পুলিশের কাছ থেকে তাকে নিজেদের হেফাজতেও নিয়েছিল। কিন্তু শেষ পর্যন্ত তাকে না নিয়ে এ",
+      "sourceUrl": "https://www.banglatribune.com/country/chitagong/974134/%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%81%E0%A6%B2%E0%A6%9B%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E2%80%98%E0%A6%95%E0%A6%A5%E0%A6%BF%E0%A6%A4-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A6%95%E0%A7%87%E2%80%99-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B0%E0%A6%B9%E0%A6%B8%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6%E0%A7%87%E0%A6%B0",
+      "sourceName": "বাংলা ট্রিবিউন",
+      "imageCredit": "বাংলা ট্রিবিউন"
     },
     {
       "id": "rss85349ba77f1f03",
@@ -162,7 +213,7 @@
       "ogImageHeight": 630,
       "imageCredit": "বাংলা ট্রিবিউন",
       "imageSourceUrl": "https://cdn.banglatribune.net/contents/cache/images/1200x630x1xxxxx1/uploads/media/2026/10/12/7f6ef6a8de28cf8b3b656f79998153a3-6acd07a4ac923.jpg",
-      "imageFetchedAt": "2026-10-12T17:30:24.978Z"
+      "imageFetchedAt": "2026-10-12T17:45:22.493Z"
     },
     {
       "id": "rss96c851e25db849",
@@ -8447,57 +8498,6 @@
       "sourceUrl": "https://www.banglatribune.com/sport/football/973692/%E0%A6%AD%E0%A6%BF%E0%A6%A8%E0%A6%BF%E0%A6%B8%E0%A6%BF%E0%A7%9F%E0%A7%81%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A6%BE%E0%A6%B2-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A7%87%E0%A6%B0-%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BF%E0%A6%A4",
       "sourceName": "বাংলা ট্রিবিউন",
       "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss356202ff17dcc9",
-      "slug": "নকল-ওয়েবসাইটে-চাকরির-ফাঁদ-ব্যবসায়ীর-২৪",
-      "title": "নকল ওয়েবসাইটে চাকরির ফাঁদ, ব্যবসায়ীর ২৪ লাখ টাকা আত্মসাৎ",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%A8%E0%A6%95%E0%A6%B2-%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A6%A6-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A7%9F%E0%A7%80%E0%A6%B0-%E0%A7%A8%E0%A7%AA.webp",
-      "publishedAt": "2026-10-10T23:29:04.392Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>প্রতিষ্ঠানের অনলাইনে খণ্ডকালীন চাকরির প্রলোভন দেখিয়ে এক ব্যবসায়ীর কাছ থেকে ২৪ লাখ ১৯ হাজার ১৯৯ টাকা আত্মসাতের অভিযোগে প্রীয়ন্তী সরকার চিত্রা (২২) নামে এক নারীকে গ্রেপ্তার করেছে পুলিশের অপরাধ তদন্ত বিভাগ (সিআইডি)। নেদারল্যান্ডসভিত্তিক একটি ওয়েবসাইট নকল করে সংঘবদ্ধ চক্রটি প্রতারণার ফাঁদ তৈরি করেছিল বল</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">অনলাইন চাকরির প্রলোভনে সাধারণ মানুষের সর্বস্বান্ত হওয়ার এ ঘটনা ডিজিটাল নিরাপত্তার চরম ঝুঁকি নির্দেশ করে। অপরিচিত লিংকে ক্লিক করা বা লেনদেন থেকে বিরত থাকাই এখন সময়ের দাবি। ভুক্তভোগীদের সচেতনতা এবং দ্রুত আইনগত সহায়তা নেওয়াই এমন অপরাধ রোধে কার্যকর ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/814396/%E0%A6%A8%E0%A6%95%E0%A6%B2-%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A6%A6-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A7%9F%E0%A7%80%E0%A6%B0-%E0%A7%A8%E0%A7%AA-%E0%A6%B2%E0%A6%BE%E0%A6%96-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "প্রতিষ্ঠানের অনলাইনে খণ্ডকালীন চাকরির প্রলোভন দেখিয়ে এক ব্যবসায়ীর কাছ থেকে ২৪ লাখ ১৯ হাজার ১৯৯ টাকা আত্মসাতের অভিযোগে প্রীয়ন্তী সরকার চিত্রা (২২) নামে এক নারীকে গ্রেপ্তার করেছে পুলিশের অপরাধ তদন্ত বিভাগ (সিআইডি)। নেদারল্যান্ডসভিত্তিক একটি ওয়েবসাইট নকল করে সংঘবদ্ধ চক্রটি প্রতারণার ফাঁদ তৈরি করেছিল বল",
-      "sourceUrl": "https://www.ittefaq.com.bd/814396/%E0%A6%A8%E0%A6%95%E0%A6%B2-%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A7%87%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%9F%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%AB%E0%A6%BE%E0%A6%81%E0%A6%A6-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%AC%E0%A6%B8%E0%A6%BE%E0%A7%9F%E0%A7%80%E0%A6%B0-%E0%A7%A8%E0%A7%AA-%E0%A6%B2%E0%A6%BE%E0%A6%96-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE",
-      "sourceName": "ইত্তেফাক",
-      "imageCredit": "ইত্তেফাক"
-    },
-    {
-      "id": "rss511b97baa0aa98",
-      "slug": "ওয়ালটনের-সোলার-ইকোসিস্টেম-উন্মোচন-করলেন",
-      "title": "ওয়ালটনের সোলার ইকোসিস্টেম উন্মোচন করলেন অর্থমন্ত্রী",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B2%E0%A6%9F%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%87%E0%A6%95%E0%A7%8B%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%AE%E0%A7%8B%E0%A6%9A%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8.webp",
-      "publishedAt": "2026-10-10T22:59:04.431Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>শিল্পখাতে নবায়নযোগ&amp;zwnj;্য জ্বালানি শক্তির ব&amp;zwnj;্যবহার বৃদ্ধি, বিদ&amp;zwnj;্যুৎ সাশ্রয়, কার্বন নিঃসরণ হ্রাস, পরিবেশবান্ধব উৎপাদন ব&amp;zwnj;্যবস্থা গড়ে তোলার মাধ&amp;zwnj;্যমে টেকসই উন্নয়নের পথে এক নতুন মাইলফলক ও দৃষ্টান্ত স্থাপন করেছে টেক জায়ান্ট ওয়ালটন। সূর্যের আলো বা সৌরশক্তিকে কাজে লাগিয়ে শতভাগ পরিবেশবান</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শিল্পখাতে সৌরশক্তির ব্যবহার সরকারি নীতি ও টেকসই উন্নয়নের লক্ষ্যমাত্রা অর্জনে বড় রাজনৈতিক অঙ্গীকারের প্রতিফলন। এটি একদিকে জ্বালানি সংকট নিরসনে সহায়ক হবে, অন্যদিকে উৎপাদন ব্যয় কমিয়ে সাধারণ মানুষের জন্য পণ্যমূল্য সহনীয় রাখতে গুরুত্বপূর্ণ ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/press-release/973691/%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B2%E0%A6%9F%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%87%E0%A6%95%E0%A7%8B%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%AE%E0%A7%8B%E0%A6%9A%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "শিল্পখাতে নবায়নযোগ&zwnj;্য জ্বালানি শক্তির ব&zwnj;্যবহার বৃদ্ধি, বিদ&zwnj;্যুৎ সাশ্রয়, কার্বন নিঃসরণ হ্রাস, পরিবেশবান্ধব উৎপাদন ব&zwnj;্যবস্থা গড়ে তোলার মাধ&zwnj;্যমে টেকসই উন্নয়নের পথে এক নতুন মাইলফলক ও দৃষ্টান্ত স্থাপন করেছে টেক জায়ান্ট ওয়ালটন। সূর্যের আলো বা সৌরশক্তিকে কাজে লাগিয়ে শতভাগ পরিবেশবান",
-      "sourceUrl": "https://www.banglatribune.com/press-release/973691/%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B2%E0%A6%9F%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0-%E0%A6%87%E0%A6%95%E0%A7%8B%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%AE-%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%AE%E0%A7%8B%E0%A6%9A%E0%A6%A8-%E0%A6%95%E0%A6%B0%E0%A6%B2%E0%A7%87%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss7830070c44368d",
-      "slug": "সিলেটে-৩৮০-কোটি-টাকা-ব্যয়ে-প্যাকিং-হাউজ-ও",
-      "title": "সিলেটে ৩৮০ কোটি টাকা ব্যয়ে প্যাকিং হাউজ ও কোল্ড স্টোরেজ হচ্ছে",
-      "category": "অর্থনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A7%A9%E0%A7%AE%E0%A7%A6-%E0%A6%95%E0%A7%8B%E0%A6%9F%E0%A6%BF-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A7%9F%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%82-%E0%A6%B9%E0%A6%BE%E0%A6%89%E0%A6%9C-%E0%A6%93.webp",
-      "publishedAt": "2026-10-10T22:59:04.426Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>সিলেট অঞ্চলে উৎপাদিত অনেক কৃষিপণ্য রপ্তানির অপার সম্ভাবনা রয়েছে। কিন্তু যথা যথা সংরক্ষণ ও প্যাকেজিংয়ের পর্যাপ্ত সুবিধার অভাবে কোটি কোটি টাকার বৈদেশিক মুদ্রা অর্জন থেকে বাংলাদেশ বঞ্চিত রয়েছে। আন্তর্জাতিক বাজারে এসব পণ্যের ব্যাপক চাহিদা থাকা সত্ত্বেও রপ্তানির সুযোগ তৈরি হচ্ছে না। অথচ সিলেটে উৎপাদিত গো</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আধুনিক প্যাকিং ও হিমাগার সুবিধা নিশ্চিত হলে সিলেটের কৃষিপণ্য রপ্তানিতে বৈপ্লবিক পরিবর্তন আসবে। এতে অপচয় রোধের পাশাপাশি কৃষকরা পণ্যের সঠিক মূল্য পাবেন এবং জাতীয় অর্থনীতিতে বৈদেশিক মুদ্রার বড় অংকের প্রবাহ নিশ্চিত হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/814397/%E0%A6%B8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A7%A9%E0%A7%AE%E0%A7%A6-%E0%A6%95%E0%A7%8B%E0%A6%9F%E0%A6%BF-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A7%9F%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%82-%E0%A6%B9%E0%A6%BE%E0%A6%89%E0%A6%9C-%E0%A6%93-%E0%A6%95%E0%A7%8B%E0%A6%B2%E0%A7%8D%E0%A6%A1\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "সিলেট অঞ্চলে উৎপাদিত অনেক কৃষিপণ্য রপ্তানির অপার সম্ভাবনা রয়েছে। কিন্তু যথা যথা সংরক্ষণ ও প্যাকেজিংয়ের পর্যাপ্ত সুবিধার অভাবে কোটি কোটি টাকার বৈদেশিক মুদ্রা অর্জন থেকে বাংলাদেশ বঞ্চিত রয়েছে। আন্তর্জাতিক বাজারে এসব পণ্যের ব্যাপক চাহিদা থাকা সত্ত্বেও রপ্তানির সুযোগ তৈরি হচ্ছে না। অথচ সিলেটে উৎপাদিত গো",
-      "sourceUrl": "https://www.ittefaq.com.bd/814397/%E0%A6%B8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A7%A9%E0%A7%AE%E0%A7%A6-%E0%A6%95%E0%A7%8B%E0%A6%9F%E0%A6%BF-%E0%A6%9F%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A7%9F%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%82-%E0%A6%B9%E0%A6%BE%E0%A6%89%E0%A6%9C-%E0%A6%93-%E0%A6%95%E0%A7%8B%E0%A6%B2%E0%A7%8D%E0%A6%A1",
-      "sourceName": "ইত্তেফাক",
-      "imageCredit": "ইত্তেফাক"
     }
   ],
   "ads": [
