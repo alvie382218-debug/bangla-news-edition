@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-16T05:30:31.838Z",
-  "version": 1648,
-  "updatedAt": "2026-10-16T05:30:25.847Z",
+  "generatedAt": "2026-10-16T05:45:31.930Z",
+  "version": 1649,
+  "updatedAt": "2026-10-16T05:45:24.067Z",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
     "remoteConfigUrl": "https://raw.githubusercontent.com/oumaboy93-alt/bangla-news-edition/main/data/bne-config.json",
@@ -59,7 +59,70 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-08-22T08:18:00.000Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
+    },
+    {
+      "id": "rssf2274cb80c6feb",
+      "slug": "সুনামগঞ্জে-মাকে-কুপিয়ে-হত্যার-অভিযোগে-ছে",
+      "title": "সুনামগঞ্জে মাকে কুপিয়ে হত্যার অভিযোগে ছেলে আটক",
+      "summary": "সুনামগঞ্জ সদর উপজেলায় পারিবারিক বিরোধের জেরে রেজিয়া খাতুন (৭০) নামে এক নারীকে কুপিয়ে হত্যার অভিযোগ উঠেছে তার ছেলের বিরুদ্ধে। এ ঘটনায় অভিযুক্ত ছেলে নুরু আলমকে (৪...",
+      "body": "<p>সুনামগঞ্জ সদর উপজেলায় পারিবারিক বিরোধের জেরে রেজিয়া খাতুন (৭০) নামে এক নারীকে কুপিয়ে হত্যার অভিযোগ উঠেছে তার ছেলের বিরুদ্ধে। এ ঘটনায় অভিযুক্ত ছেলে নুরু আলমকে (৪...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/538454\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "category": "সারাদেশ",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "image": "img/%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A7%87-%E0%A6%AE%E0%A6%BE%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A7%81%E0%A6%AA%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%87-%E0%A6%9B%E0%A7%87.jpg",
+      "og_image": "",
+      "editorial": false,
+      "imageCredit": "ডেইলি বাংলাদেশ",
+      "imageSourceUrl": "",
+      "ogImageWidth": 0,
+      "ogImageHeight": 0,
+      "author": "ডেস্ক",
+      "published_at": "2026-10-16T05:44:11.634Z",
+      "updated_at": "2026-10-16T05:45:24.067Z"
+    },
+    {
+      "id": "rss4a9b7606f566e4",
+      "slug": "ভারত-থেকে-আজ-আসছে-১৮-নতুন-রেলকোচ",
+      "title": "ভারত থেকে আজ আসছে ১৮ নতুন রেলকোচ",
+      "summary": "ভারত থেকে নতুন ১৮টি ব্রডগেজ যাত্রীবাহী রেলকোচ দেশে আসছে আজ। চুয়াডাঙ্গার দর্শনা আন্তর্জাতিক রেলপথ দিয়ে কোচগুলো বাংলাদেশে প্রবেশ করবে। কাস্টমসের আনুষ্ঠানিকতা শেষে...",
+      "body": "<p>ভারত থেকে নতুন ১৮টি ব্রডগেজ যাত্রীবাহী রেলকোচ দেশে আসছে আজ। চুয়াডাঙ্গার দর্শনা আন্তর্জাতিক রেলপথ দিয়ে কোচগুলো বাংলাদেশে প্রবেশ করবে। কাস্টমসের আনুষ্ঠানিকতা শেষে...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/national/538455\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "category": "আন্তর্জাতিক",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "image": "img/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%86%E0%A6%9C-%E0%A6%86%E0%A6%B8%E0%A6%9B%E0%A7%87-%E0%A7%A7%E0%A7%AE-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%B0%E0%A7%87%E0%A6%B2%E0%A6%95%E0%A7%8B%E0%A6%9A.jpg",
+      "og_image": "",
+      "editorial": false,
+      "imageCredit": "ডেইলি বাংলাদেশ",
+      "imageSourceUrl": "",
+      "ogImageWidth": 0,
+      "ogImageHeight": 0,
+      "author": "ডেস্ক",
+      "published_at": "2026-10-16T05:44:11.632Z",
+      "updated_at": "2026-10-16T05:45:24.067Z"
+    },
+    {
+      "id": "rssf2f49c1f61c0d9",
+      "slug": "সৌদি-ফ্লাইট-স্থগিত-ওমরাহ-যাত্রীদের-সতর্ক",
+      "title": "সৌদি ফ্লাইট স্থগিত: ওমরাহ যাত্রীদের সতর্ক থাকার পরামর্শ",
+      "summary": "সৌদি আরব এবং ভারতের মধ্যে বিমান চলাচলে সাম্প্রতিক বিঘ্ন ঘটার প্রেক্ষাপটে উদ্ভূত পরিস্থিতিতে ক্ষতিগ্রস্ত ভারতীয় নাগরিকদের তাৎক্ষণিক সহায়তা দিতে জেদ্দায় অবস্থিত ভারতীয় কনস্যুলেট জেনারেল ২৪ ঘণ্টার একটি কন্ট্রোল রুম স্থাপন করেছে। কনস্যুলেটের পক্ষ থেকে দেওয়া...",
+      "body": "<p>সৌদি আরব এবং ভারতের মধ্যে বিমান চলাচলে সাম্প্রতিক বিঘ্ন ঘটার প্রেক্ষাপটে উদ্ভূত পরিস্থিতিতে ক্ষতিগ্রস্ত ভারতীয় নাগরিকদের তাৎক্ষণিক সহায়তা দিতে জেদ্দায় অবস্থিত ভারতীয় কনস্যুলেট জেনারেল ২৪ ঘণ্টার একটি কন্ট্রোল রুম স্থাপন করেছে। কনস্যুলেটের পক্ষ থেকে দেওয়া...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/international/314278/সৌদি-ফ্লাইট-স্থগিত-ওমরাহ-যাত্রীদের-সতর্ক-থাকার-পরামর্শ\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "category": "আন্তর্জাতিক",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "image": "images/international.jpg",
+      "og_image": "",
+      "editorial": false,
+      "imageCredit": "বাংলাদেশ জার্নাল",
+      "imageSourceUrl": "",
+      "ogImageWidth": 0,
+      "ogImageHeight": 0,
+      "author": "ডেস্ক",
+      "published_at": "2026-10-16T05:44:11.625Z",
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8dcd5380e52607",
@@ -80,7 +143,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T05:29:11.594Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6dbb93daff5e81",
@@ -101,7 +164,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T05:29:11.566Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfca251e10792b6",
@@ -122,7 +185,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T05:29:11.564Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4c1f2ec2e974fe",
@@ -143,7 +206,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T05:14:11.434Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsscf971e5f87610e",
@@ -164,7 +227,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T05:14:11.432Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss122d6c103c9f10",
@@ -176,7 +239,7 @@
       "tags": [
         "বাংলাদেশ জার্নাল"
       ],
-      "image": "images/international.jpg",
+      "image": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026October/railcop-1792128605.jpg",
       "og_image": "",
       "editorial": false,
       "imageCredit": "বাংলাদেশ জার্নাল",
@@ -185,7 +248,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T05:14:11.424Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8965c265e26b5d",
@@ -206,7 +269,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T04:59:11.476Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3f20776917a409",
@@ -227,7 +290,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T04:59:11.466Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss798b533f956c20",
@@ -248,7 +311,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T04:59:11.459Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss7bbb4eb40a39be",
@@ -269,7 +332,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T04:44:11.519Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssa125d091e6c0a9",
@@ -290,7 +353,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T04:44:11.508Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssbfa9c1a3f6eb79",
@@ -311,7 +374,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T04:44:11.508Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6e28b85514b276",
@@ -332,7 +395,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T04:29:11.441Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd488d4764e0781",
@@ -353,7 +416,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T04:29:11.429Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss51241dc154ba62",
@@ -374,7 +437,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T04:29:11.428Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss442f9b4063c3b2",
@@ -395,7 +458,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T04:14:11.629Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss954715821a847d",
@@ -416,7 +479,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T04:14:11.622Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss134746ac637b84",
@@ -437,7 +500,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T04:14:11.612Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5b2710a3a313cf",
@@ -458,7 +521,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T03:59:11.358Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf51fa65d6843a1",
@@ -479,7 +542,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T03:59:11.349Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4334da2add976d",
@@ -500,7 +563,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T03:59:11.345Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss451104fa34c58b",
@@ -521,7 +584,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T03:44:11.495Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8d4b5488af998b",
@@ -542,7 +605,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T03:44:11.481Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6b84ce3e756bb2",
@@ -563,7 +626,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T03:44:11.478Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5e7fd188ed5df2",
@@ -584,7 +647,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T03:29:11.314Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss93d32c7cec2c61",
@@ -605,7 +668,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T03:29:11.305Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3aa7f7532bc1bf",
@@ -626,7 +689,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T03:29:11.302Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf952f95c97bfb7",
@@ -647,7 +710,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T03:14:11.294Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse5c4294350b302",
@@ -668,7 +731,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T03:14:11.292Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsscbd2e03a2d9330",
@@ -689,7 +752,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T03:14:11.289Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssba7b169171608f",
@@ -710,7 +773,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T02:59:11.618Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd16a920cf180db",
@@ -731,7 +794,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T02:59:11.610Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb93e61d07aaa3a",
@@ -752,7 +815,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T02:59:11.605Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf6d7f10e7e895a",
@@ -773,7 +836,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T02:44:11.278Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsscbe13516b84f2e",
@@ -794,7 +857,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T02:44:11.275Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6d50cbb780162b",
@@ -815,7 +878,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T02:44:11.259Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss26fc011c728613",
@@ -836,7 +899,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T02:29:11.284Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5df4738504bbfb",
@@ -857,7 +920,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T02:29:11.277Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss444d30e9cf507c",
@@ -878,7 +941,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T02:29:11.247Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss35b74a5be6b587",
@@ -899,7 +962,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T02:14:11.308Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc56157318e2ba2",
@@ -920,7 +983,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T02:14:11.277Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss0295d17d8d9715",
@@ -941,7 +1004,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T02:14:11.269Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb0e8b16aba74da",
@@ -962,7 +1025,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T01:59:11.168Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc57f34b092e0dc",
@@ -983,7 +1046,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T01:59:11.162Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfaeda2ad5adfcd",
@@ -1004,7 +1067,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T01:59:11.159Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss2dce3d3a15d443",
@@ -1025,7 +1088,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T01:44:11.135Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss87850ea39634f7",
@@ -1046,7 +1109,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T01:29:11.361Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9d4f2c0debd98b",
@@ -1067,7 +1130,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T01:29:11.341Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5d8f3a1034c67c",
@@ -1088,7 +1151,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T01:29:11.287Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssedca1d5a706ca0",
@@ -1109,7 +1172,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T01:29:11.285Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss812f6d56845d70",
@@ -1130,7 +1193,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T01:29:11.277Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssed7a6baba21627",
@@ -1151,7 +1214,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T01:14:11.227Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6334a76985b6f4",
@@ -1172,7 +1235,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T01:14:11.224Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6ac2bf4d8392fc",
@@ -1193,7 +1256,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T01:14:11.222Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss18ed1cef8983d4",
@@ -1214,7 +1277,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T00:59:11.156Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6cf97843371ec5",
@@ -1235,7 +1298,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T00:29:11.115Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss06f3b4e535f29d",
@@ -1256,7 +1319,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T00:14:11.269Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss10c655d5cbc063",
@@ -1277,7 +1340,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-16T00:14:11.248Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss14d11d09420859",
@@ -1298,7 +1361,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T23:59:11.132Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8c4d3acb663037",
@@ -1319,7 +1382,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T23:29:11.125Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssca431fffab8eff",
@@ -1340,7 +1403,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T23:14:11.046Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd08dc322b157ef",
@@ -1361,7 +1424,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T22:44:10.972Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss2023595ff56a03",
@@ -1382,7 +1445,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T22:44:10.969Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse8efafab441b7d",
@@ -1403,7 +1466,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T22:29:11.140Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3672591236a163",
@@ -1424,7 +1487,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T22:14:11.048Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse29532493a5cc3",
@@ -1445,7 +1508,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T21:44:10.964Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss1e367122790b84",
@@ -1466,7 +1529,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T21:44:10.943Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssec4d8f5e5f3d65",
@@ -1487,7 +1550,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T21:44:10.930Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3821087f0e5588",
@@ -1508,7 +1571,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T21:44:10.914Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss485c1641a6a8df",
@@ -1529,7 +1592,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T21:29:10.935Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd91c57942af7e2",
@@ -1550,7 +1613,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T21:29:10.922Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss962c205711176e",
@@ -1571,7 +1634,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T21:29:10.896Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss2570f9fbfa0350",
@@ -1592,7 +1655,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T21:29:10.894Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss96599b4dfb918d",
@@ -1613,7 +1676,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T21:29:10.816Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss55410dc0c3e41f",
@@ -1634,7 +1697,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T21:14:10.861Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss0ff34a8607d84c",
@@ -1655,7 +1718,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T21:14:10.858Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss57f922767734ba",
@@ -1676,7 +1739,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T21:14:10.847Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss09a43e971c0bae",
@@ -1697,7 +1760,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T20:59:11.039Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssaff095aff8e4cd",
@@ -1718,7 +1781,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T20:59:10.988Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd8dab29dfca8f0",
@@ -1739,7 +1802,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T20:59:10.987Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss508274e5481fd6",
@@ -1760,7 +1823,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T20:59:10.987Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss873b9346e02da7",
@@ -1781,7 +1844,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T20:59:10.910Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5aa3e6ff4b830b",
@@ -1802,7 +1865,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T20:44:10.904Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss544bee669fa72e",
@@ -1823,7 +1886,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T20:44:10.888Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssaddf823d131a79",
@@ -1844,7 +1907,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T20:29:10.888Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4cbb3edb862b29",
@@ -1865,7 +1928,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T20:29:10.852Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5652511b4eafd7",
@@ -1886,7 +1949,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T20:29:10.847Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssdac94d62ee27ce",
@@ -1907,7 +1970,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T19:59:10.942Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9ddadaaacf5cf3",
@@ -1928,7 +1991,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T19:59:10.915Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss2eb6493a0352dd",
@@ -1949,7 +2012,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T19:29:10.889Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssa557593dbeda14",
@@ -1970,7 +2033,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T19:29:10.870Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss64b6195cec6b61",
@@ -1991,7 +2054,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T19:29:10.859Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss86cd9f9f9510f9",
@@ -2012,7 +2075,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T19:29:10.852Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss359f9788b2650f",
@@ -2033,7 +2096,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T19:29:10.844Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss61cc92e55cbf3d",
@@ -2054,7 +2117,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T19:14:10.905Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss29e7a4d1505235",
@@ -2075,7 +2138,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:59:11.047Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssbeb759fa49a586",
@@ -2096,7 +2159,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:59:11.046Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd88ca355fdd41c",
@@ -2117,7 +2180,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:59:11.024Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse464c26e52dd65",
@@ -2138,7 +2201,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:59:10.988Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss76cef2484a4695",
@@ -2159,7 +2222,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:59:10.984Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssecd39253e7b33d",
@@ -2180,7 +2243,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:59:10.965Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss79c40a9cc25333",
@@ -2201,7 +2264,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:59:10.956Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc31c6c66fdc665",
@@ -2222,7 +2285,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:44:10.954Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss47d696ec0f949f",
@@ -2243,7 +2306,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:44:10.952Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssee82fa88a4e742",
@@ -2264,7 +2327,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:44:10.950Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3f88bd97b933d4",
@@ -2285,7 +2348,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:44:10.922Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss65cc280b7e011d",
@@ -2306,7 +2369,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:44:10.899Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss11008597636a49",
@@ -2327,7 +2390,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:44:10.825Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss405be75264d3f5",
@@ -2348,7 +2411,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:44:10.814Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss1ba73e470491a5",
@@ -2369,7 +2432,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:29:10.886Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss663dd6006409ba",
@@ -2390,7 +2453,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:29:10.884Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss00704c31aa9d79",
@@ -2411,7 +2474,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:29:10.879Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfdc5702bac85b9",
@@ -2432,7 +2495,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:29:10.866Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss86279347cf751f",
@@ -2453,7 +2516,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:29:10.864Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssbb14dfb14bb014",
@@ -2474,7 +2537,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:29:10.848Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4086aa5e1f210f",
@@ -2495,7 +2558,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:29:10.846Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss12e4a4fcceffce",
@@ -2516,7 +2579,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:29:10.844Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8da3bd6ed21f7f",
@@ -2537,7 +2600,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:29:10.825Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss93326ae46dd7a7",
@@ -2558,7 +2621,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:14:10.746Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss548f3f843366ec",
@@ -2579,7 +2642,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:14:10.743Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssbbdc2fdbe91dbe",
@@ -2600,7 +2663,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T18:14:10.737Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb5e4aa1ea4c53a",
@@ -2621,7 +2684,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:59:10.846Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8b475d4a3122e7",
@@ -2642,7 +2705,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:59:10.814Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc549e9ffeab3ce",
@@ -2663,7 +2726,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:59:10.811Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc051de603876e9",
@@ -2684,7 +2747,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:59:10.806Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8159d709da60e3",
@@ -2705,7 +2768,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:59:10.801Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss2decf5f669560d",
@@ -2726,7 +2789,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:59:10.752Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss1483b17a150b12",
@@ -2747,7 +2810,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:44:10.797Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8fbb33645281b5",
@@ -2768,7 +2831,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:44:10.794Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsscb984a7217cbd1",
@@ -2789,7 +2852,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:44:10.766Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5415f7a26ad522",
@@ -2810,7 +2873,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:44:10.761Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss40db35409a3911",
@@ -2831,7 +2894,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:44:10.747Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf7fd32bf02a084",
@@ -2852,7 +2915,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:44:10.743Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss388763327fe06d",
@@ -2873,7 +2936,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:44:10.738Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss390f592e49c3ba",
@@ -2894,7 +2957,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:44:10.736Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss714a6fdc764219",
@@ -2915,7 +2978,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:44:10.733Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6eeb1a5ee31981",
@@ -2936,7 +2999,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:44:10.728Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5147a244292515",
@@ -2957,7 +3020,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:29:10.974Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss14a76f16ae9ecd",
@@ -2978,7 +3041,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:29:10.969Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6f85953b45f70b",
@@ -2999,7 +3062,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:29:10.967Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9eee3df9e2beb4",
@@ -3020,7 +3083,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:29:10.965Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4ba08b85bedf7b",
@@ -3041,7 +3104,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:29:10.963Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse9dbc042f2eb16",
@@ -3062,7 +3125,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:29:10.961Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd4ddc3fb99d461",
@@ -3083,7 +3146,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:29:10.942Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf12f89e64dc311",
@@ -3104,7 +3167,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:29:10.929Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse8695e33b0b8a7",
@@ -3125,7 +3188,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:29:10.924Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfca297868bf534",
@@ -3146,7 +3209,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:29:10.922Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss09b6a8b37b9428",
@@ -3167,7 +3230,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:14:11.032Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6a776fd7c7cbe5",
@@ -3188,7 +3251,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:14:11.026Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss7b276f76fde6f9",
@@ -3209,7 +3272,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T17:14:11.018Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd760ce38a97985",
@@ -3230,7 +3293,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T16:59:11.006Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc490ab434a67c7",
@@ -3251,7 +3314,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T16:59:10.990Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse639f530539501",
@@ -3272,7 +3335,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T16:59:10.976Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssdf04bc9a758280",
@@ -3293,7 +3356,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T16:44:10.898Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5f6d722aa9639f",
@@ -3314,7 +3377,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T16:44:10.895Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4a2b6ae47b4db0",
@@ -3335,7 +3398,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T16:44:10.866Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5db03b93a6de7a",
@@ -3356,7 +3419,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T16:29:10.872Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss88e601fc84b839",
@@ -3377,7 +3440,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T16:29:10.865Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss7fb2c1d8046ecb",
@@ -3398,7 +3461,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T16:29:10.863Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc533ddd77eba04",
@@ -3419,7 +3482,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T16:14:10.883Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8dc54e2375a902",
@@ -3440,7 +3503,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T16:14:10.878Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5865aaf645c39d",
@@ -3461,7 +3524,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T16:14:10.868Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc7dc5e2067d659",
@@ -3482,7 +3545,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T15:59:10.762Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss614305ab9f6f08",
@@ -3503,7 +3566,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T15:59:10.757Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss992eb3b35ef92c",
@@ -3524,7 +3587,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T15:59:10.747Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfbab4a56da2ed7",
@@ -3545,7 +3608,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T15:44:10.824Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9d97da6fb45cc3",
@@ -3566,7 +3629,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T15:44:10.820Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb93c93fc411c9d",
@@ -3587,7 +3650,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T15:44:10.820Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss2f28cc3015adfc",
@@ -3608,7 +3671,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T15:29:10.758Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss99ffdca6b1ba65",
@@ -3629,7 +3692,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T15:29:10.756Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsscc5db83ba7a0af",
@@ -3650,7 +3713,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T15:29:10.754Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9e72a3527bb6c1",
@@ -3671,7 +3734,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T15:14:10.716Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss73aa16a9c02aca",
@@ -3692,7 +3755,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T15:14:10.698Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss0418a75800f6db",
@@ -3713,7 +3776,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T15:14:10.697Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9f1ea489f3bd14",
@@ -3734,7 +3797,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T14:59:10.515Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb53d17b0c1d20f",
@@ -3755,7 +3818,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T14:59:10.511Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss56bf488bcb07d8",
@@ -3776,7 +3839,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T14:59:10.511Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsscb6e53455e1156",
@@ -3797,7 +3860,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T14:44:10.566Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8a568e4e8860f4",
@@ -3818,7 +3881,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T14:44:10.565Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5a65823a65ae93",
@@ -3839,7 +3902,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T14:44:10.561Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss734e31f90c6da7",
@@ -3860,7 +3923,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T14:29:10.573Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss96000b8845e8e5",
@@ -3881,7 +3944,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T14:29:10.569Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss180f2ea69b1686",
@@ -3902,7 +3965,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T14:29:10.567Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss506c43f5402dca",
@@ -3923,7 +3986,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T14:14:10.701Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss2a1739f5ff0935",
@@ -3944,7 +4007,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T14:14:10.698Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss76a7f63d683722",
@@ -3965,7 +4028,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T14:14:10.697Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse117ce813b3fd0",
@@ -3986,7 +4049,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T13:59:10.608Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3985964758098e",
@@ -4007,7 +4070,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T13:59:10.604Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssad34dd2ec74f8d",
@@ -4028,7 +4091,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T13:59:10.595Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8636e192f0da99",
@@ -4049,7 +4112,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T13:44:10.504Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssa200d528f50316",
@@ -4070,7 +4133,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T13:44:10.502Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss070bf9a8eef1a6",
@@ -4091,7 +4154,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T13:44:10.474Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssbeec126f2805e7",
@@ -4112,7 +4175,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T13:29:10.504Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssef33461be4b467",
@@ -4133,7 +4196,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T13:29:10.497Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss441b06e2195ec6",
@@ -4154,7 +4217,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T13:29:10.494Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf869c9fae2027e",
@@ -4175,7 +4238,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T13:14:10.548Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss96c7637a1d32a8",
@@ -4196,7 +4259,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T13:14:10.547Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb9592c9f150e6b",
@@ -4217,7 +4280,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T13:14:10.547Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4b060b539d5db9",
@@ -4238,7 +4301,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T12:59:10.500Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4986c3f2aaef5a",
@@ -4259,7 +4322,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T12:59:10.497Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4cc5747257b275",
@@ -4280,7 +4343,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T12:59:10.495Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4baba04e3ea3d3",
@@ -4301,7 +4364,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T12:44:10.429Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss0c4c120cada6df",
@@ -4322,7 +4385,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T12:44:10.427Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss44dbf7ef7e468d",
@@ -4343,7 +4406,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T12:44:10.424Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfa2cf74423d82d",
@@ -4364,7 +4427,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T12:29:10.540Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6f9867ee994f32",
@@ -4385,7 +4448,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T12:29:10.538Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss1a0e66e5997d1c",
@@ -4406,7 +4469,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T12:29:10.535Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss16309aef2d8aa4",
@@ -4427,7 +4490,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T12:14:10.402Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd5aba4505c7fd3",
@@ -4448,7 +4511,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T12:14:10.388Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss012cbc737fe072",
@@ -4469,7 +4532,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T12:14:10.385Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss477385b9aedca0",
@@ -4490,7 +4553,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T11:59:10.432Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9ecd272afe5ec4",
@@ -4511,7 +4574,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T11:59:10.413Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssa537eac10509f9",
@@ -4532,7 +4595,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T11:59:10.411Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc7e66eb44d36af",
@@ -4553,7 +4616,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T11:44:10.415Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssad1e984e1155f2",
@@ -4574,7 +4637,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T11:44:10.411Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss0d7b12b9f68459",
@@ -4595,7 +4658,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T11:44:10.388Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf320f9161241be",
@@ -4616,7 +4679,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T11:29:10.442Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss29bf05c039fca1",
@@ -4637,7 +4700,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T11:29:10.436Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss612519b2aaac1f",
@@ -4658,7 +4721,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T11:29:10.431Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb8ca5485563c36",
@@ -4679,7 +4742,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T11:14:10.441Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd4d2645f49a96a",
@@ -4700,7 +4763,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T11:14:10.440Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf57655effb7ca2",
@@ -4721,7 +4784,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T11:14:10.440Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss2d671ece1ee335",
@@ -4742,7 +4805,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T10:59:10.462Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssa8d99fdfe63ec7",
@@ -4763,7 +4826,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T10:59:10.459Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4dd51bfcf70a5a",
@@ -4784,7 +4847,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T10:59:10.459Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9ae38bf6af5e50",
@@ -4805,7 +4868,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T10:44:10.455Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4abc4110a98995",
@@ -4826,7 +4889,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T10:44:10.452Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9ba2ad4bd7ea30",
@@ -4847,7 +4910,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T10:44:10.444Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3c462274c8048e",
@@ -4868,7 +4931,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T10:29:10.460Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss452cc7cbc12e6a",
@@ -4889,7 +4952,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T10:29:10.460Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf12a3bd2a8b25c",
@@ -4910,7 +4973,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T10:29:10.460Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss27fd8dabfc1298",
@@ -4931,7 +4994,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T10:14:10.438Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6129b4a9cd11a9",
@@ -4952,7 +5015,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T10:14:10.438Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9660aee105322a",
@@ -4973,7 +5036,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T10:14:10.438Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss976ee478d9d268",
@@ -4994,7 +5057,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T09:59:10.313Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssbda683dbeff016",
@@ -5015,7 +5078,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T09:59:10.313Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss40c6d2476d2bf0",
@@ -5036,7 +5099,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T09:59:10.313Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss7f10f4bf4c780a",
@@ -5057,7 +5120,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T09:44:10.462Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss313e4955b3163a",
@@ -5078,7 +5141,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T09:44:10.457Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf15765392e02c7",
@@ -5099,7 +5162,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T09:44:10.455Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb12eb1a86b6e8e",
@@ -5120,7 +5183,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T09:29:10.340Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss848eaa6b3de7be",
@@ -5141,7 +5204,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T09:29:10.331Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss921908dc8b8d88",
@@ -5162,7 +5225,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T09:29:10.328Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss00e95e365989c3",
@@ -5183,7 +5246,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T09:14:10.351Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc3022e739c0c3e",
@@ -5204,7 +5267,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T09:14:10.345Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss95edc85b0415a2",
@@ -5225,7 +5288,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T09:14:10.326Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss63bf5822e50bb5",
@@ -5246,7 +5309,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T08:59:10.307Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd303d9f051aefb",
@@ -5267,7 +5330,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T08:59:10.304Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss822687e07d33d5",
@@ -5288,7 +5351,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T08:59:10.304Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse9ff1845b9054c",
@@ -5309,7 +5372,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T08:44:10.320Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss26c636debd183c",
@@ -5330,7 +5393,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T08:44:10.317Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss988ba65ece1576",
@@ -5351,7 +5414,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T08:44:10.315Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss56b0a0e49838a8",
@@ -5372,7 +5435,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T08:29:10.430Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssbe4cac2ccdf9f5",
@@ -5393,7 +5456,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T08:29:10.429Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss655ac7dbe5d9e4",
@@ -5414,7 +5477,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T08:29:10.427Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss67a379e10bb3e2",
@@ -5435,7 +5498,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T08:14:10.484Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6147d278b4745f",
@@ -5456,7 +5519,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T08:14:10.476Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfba931389ad4fb",
@@ -5477,7 +5540,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T08:14:10.473Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfb4df312f1ce4a",
@@ -5498,7 +5561,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T07:59:10.313Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb9450843663d1b",
@@ -5519,7 +5582,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T07:59:10.311Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4218874659ef20",
@@ -5540,7 +5603,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T07:59:10.303Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss2bd66ee9722662",
@@ -5561,7 +5624,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T07:44:10.347Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss25d3ac48906e0d",
@@ -5582,7 +5645,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T07:44:10.335Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss256848c7502887",
@@ -5603,7 +5666,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T07:44:10.334Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss659de8df55a2ce",
@@ -5624,7 +5687,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T07:29:10.383Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4a78f22a6603ca",
@@ -5645,7 +5708,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T07:29:10.380Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5d751820a334c2",
@@ -5666,7 +5729,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T07:29:10.379Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf73ff65947704b",
@@ -5687,7 +5750,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T07:14:10.663Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfba96ec42d1859",
@@ -5708,7 +5771,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T07:14:10.658Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss78a4c2fc5c1d15",
@@ -5729,7 +5792,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T07:14:10.656Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf27348c8e40091",
@@ -5750,7 +5813,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T06:59:10.780Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssa91ab25c5e117c",
@@ -5771,7 +5834,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T06:59:10.779Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc20f0f828bf545",
@@ -5792,7 +5855,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T06:59:10.773Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss74eda59c396f43",
@@ -5813,7 +5876,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T06:44:10.284Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9a372fc2934707",
@@ -5834,7 +5897,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T06:44:10.281Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss459c089f65e978",
@@ -5855,7 +5918,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T06:44:10.279Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsscd166308aeb568",
@@ -5876,7 +5939,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T06:29:10.239Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9e0cc8367c3834",
@@ -5897,7 +5960,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T06:29:10.236Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse52b4219cb8fd2",
@@ -5918,7 +5981,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T06:29:10.225Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss946d1ce9876ea7",
@@ -5939,7 +6002,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T06:14:10.391Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss43d61b34bb4d01",
@@ -5960,7 +6023,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T06:14:10.368Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss7ff32f0c2999b6",
@@ -5981,7 +6044,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T06:14:10.367Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9100f139102948",
@@ -6002,7 +6065,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T05:59:10.323Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss7c3f2b2a1afb18",
@@ -6023,7 +6086,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T05:59:10.321Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc422eb909de549",
@@ -6044,7 +6107,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T05:59:10.317Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss38c3620708b9c3",
@@ -6065,7 +6128,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T05:44:10.240Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfb31a23ee11337",
@@ -6086,7 +6149,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T05:44:10.239Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss26f616f3ad5a15",
@@ -6107,7 +6170,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T05:44:10.237Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4f1a68fccac4de",
@@ -6128,7 +6191,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T05:29:10.225Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss1fae00fd3e3151",
@@ -6149,7 +6212,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T05:29:10.221Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssafbdb4f05e7e01",
@@ -6170,7 +6233,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T05:29:10.186Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4387829b013d66",
@@ -6191,7 +6254,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T05:14:10.488Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssab16b53515118f",
@@ -6212,7 +6275,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T05:14:10.479Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5cf83e1b9c93b0",
@@ -6233,7 +6296,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T05:14:10.470Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6882a7a5c63a8d",
@@ -6254,7 +6317,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T04:59:11.515Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5bda98975de684",
@@ -6275,7 +6338,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T04:59:11.509Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf15942881638ea",
@@ -6296,7 +6359,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T04:59:11.470Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf91e169b8c16e6",
@@ -6317,7 +6380,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T04:44:10.063Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsscaea1a921fd765",
@@ -6338,7 +6401,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T04:44:10.062Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc1a8a06fc916a2",
@@ -6359,7 +6422,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T04:44:10.062Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss23baa6ad58003f",
@@ -6380,7 +6443,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T04:29:10.102Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss34b6cb8bd5dc6a",
@@ -6401,7 +6464,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T04:29:10.100Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb8ed3e7ea321ca",
@@ -6422,7 +6485,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T04:29:10.100Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss1f6c27d5037d67",
@@ -6443,7 +6506,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T04:14:10.114Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf9b5bd4598e128",
@@ -6464,7 +6527,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T04:14:10.103Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss503960dfb4fc9e",
@@ -6485,7 +6548,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T04:14:10.102Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss855ea8a4ef03bc",
@@ -6506,7 +6569,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T03:59:10.034Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8d503896ac1b45",
@@ -6527,7 +6590,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T03:59:10.034Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9ee55e289d100d",
@@ -6548,7 +6611,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T03:59:10.025Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb3957b04c87ca9",
@@ -6569,7 +6632,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T03:44:09.954Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5daab8cf4a4e6a",
@@ -6590,7 +6653,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T03:44:09.952Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb3efa3185c04c3",
@@ -6611,7 +6674,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T03:44:09.950Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse9ac1e46a0c457",
@@ -6632,7 +6695,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T03:29:10.061Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfeb6bcc419d8b7",
@@ -6653,7 +6716,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T03:29:10.060Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8d31e8414af16f",
@@ -6674,7 +6737,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T03:29:10.058Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6db04984245ab3",
@@ -6695,7 +6758,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T03:14:10.061Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss16b184fc1d1bad",
@@ -6716,7 +6779,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T03:14:10.057Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss0d4a68a25a3cc4",
@@ -6737,7 +6800,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T03:14:10.042Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss03f5b337e726c1",
@@ -6758,7 +6821,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T02:59:10.096Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss93ff33eba001ad",
@@ -6779,7 +6842,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T02:59:10.095Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3d11666b13343d",
@@ -6800,7 +6863,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T02:59:10.094Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss323ea8d064aaf8",
@@ -6821,7 +6884,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T02:44:09.857Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss497995ce344957",
@@ -6842,7 +6905,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T02:44:09.855Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss386c2a2cb6face",
@@ -6863,7 +6926,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T02:44:09.850Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss07b94d8545eaf7",
@@ -6884,7 +6947,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T02:29:09.836Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc66ae2edb5395d",
@@ -6905,7 +6968,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T02:29:09.835Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd193789764479c",
@@ -6926,7 +6989,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T02:29:09.814Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss11fd7ecef20575",
@@ -6947,7 +7010,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T02:14:09.822Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfd0b6879c16102",
@@ -6968,7 +7031,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T02:14:09.822Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssbd25139a586a6d",
@@ -6989,7 +7052,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T02:14:09.821Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf9f5bfd302a191",
@@ -7010,7 +7073,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T01:59:09.808Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssbd42d93726cfb4",
@@ -7031,7 +7094,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T01:59:09.781Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss03ee7063ab720e",
@@ -7052,7 +7115,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T01:59:09.744Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6b948568c5bb5c",
@@ -7073,7 +7136,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T01:44:10.027Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss0081e5874ffa8a",
@@ -7094,7 +7157,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T01:29:09.937Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss43219752dc960d",
@@ -7115,7 +7178,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T01:29:09.919Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse0a11b56f181ef",
@@ -7136,7 +7199,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T01:29:09.826Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss051ca3c4baabb3",
@@ -7157,7 +7220,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T01:29:09.826Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssa2e77a35ff6b0c",
@@ -7178,7 +7241,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T01:29:09.825Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss46b294a71f1eda",
@@ -7199,7 +7262,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T00:59:09.701Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss97113b17a4c405",
@@ -7220,7 +7283,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T00:44:09.748Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8054214314a959",
@@ -7241,7 +7304,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T00:29:09.861Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6777e82429e019",
@@ -7262,7 +7325,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-15T00:14:09.830Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3d1263e25e4fbe",
@@ -7283,7 +7346,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T23:59:09.821Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4c825ee8a5267b",
@@ -7304,7 +7367,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T23:59:09.789Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss50236e6920277e",
@@ -7325,7 +7388,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T23:59:09.786Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse34516e353ff76",
@@ -7346,7 +7409,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T23:29:09.697Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4e19c5d7047983",
@@ -7367,7 +7430,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T23:29:09.681Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4f0867bbafa0fe",
@@ -7388,7 +7451,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T22:59:09.707Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss477a84325e917f",
@@ -7409,7 +7472,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T22:59:09.693Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss795c3dde8d2519",
@@ -7430,7 +7493,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T22:44:09.675Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3a85faa3399bf5",
@@ -7451,7 +7514,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T22:44:09.662Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf103ca0967fe69",
@@ -7472,7 +7535,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T22:14:09.744Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss659fe3897af8c5",
@@ -7493,7 +7556,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T22:14:09.710Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5fdbd971d0069c",
@@ -7514,7 +7577,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T21:59:09.689Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssa4d3bce7489ba5",
@@ -7535,7 +7598,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T21:44:09.754Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9bfe9d843b95c4",
@@ -7556,7 +7619,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T21:44:09.727Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss48e69b79457ddb",
@@ -7577,7 +7640,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T21:29:09.684Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss17c903905064c5",
@@ -7598,7 +7661,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T21:29:09.682Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss1861234268ee51",
@@ -7619,7 +7682,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T21:14:09.616Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4521e133c7409f",
@@ -7640,7 +7703,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T21:14:09.582Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssdee8f6d263e4cd",
@@ -7661,7 +7724,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T21:14:09.581Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssba7c3f55d9dfea",
@@ -7682,7 +7745,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:59:09.748Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss7b251e8a6870b0",
@@ -7703,7 +7766,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:59:09.725Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd9450c95979b59",
@@ -7724,7 +7787,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:59:09.707Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssd71053cdd2a18f",
@@ -7745,7 +7808,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:59:09.704Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss158c69922c8aca",
@@ -7766,7 +7829,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:59:09.694Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6eaf8e61625624",
@@ -7787,7 +7850,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:59:09.674Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5d6cfe949e8eaf",
@@ -7808,7 +7871,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:44:09.726Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssa72fd75d1781a7",
@@ -7829,7 +7892,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:44:09.634Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss57578154d7e273",
@@ -7850,7 +7913,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:29:09.750Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse900e58a77aa8f",
@@ -7871,7 +7934,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:29:09.742Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss614fe8acb1c492",
@@ -7892,7 +7955,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:29:09.739Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss90c17edf252509",
@@ -7913,7 +7976,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:14:09.731Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss7ec89a25a0209b",
@@ -7934,7 +7997,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:14:09.707Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5607d2c7bcab69",
@@ -7955,7 +8018,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:14:09.691Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss78d9faaa12b400",
@@ -7976,7 +8039,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T20:14:09.689Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss44ae81b636ad3c",
@@ -7997,7 +8060,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:59:09.654Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss633f2d3fa104a3",
@@ -8018,7 +8081,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:44:09.675Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssaf5ba0796817bc",
@@ -8039,7 +8102,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:44:09.645Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss30a558ac4f9233",
@@ -8060,7 +8123,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:44:09.589Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfba8de442dd862",
@@ -8081,7 +8144,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:29:09.780Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3361a562f0be04",
@@ -8102,7 +8165,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:29:09.766Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssabd4a04e2fa181",
@@ -8123,7 +8186,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:29:09.766Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssca1a23d28b2ad3",
@@ -8144,7 +8207,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:29:09.765Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss47d6178d523f8a",
@@ -8165,7 +8228,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:29:09.765Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssbdef6f24c933dd",
@@ -8186,7 +8249,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:29:09.765Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4630631c7f2369",
@@ -8207,7 +8270,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:29:09.764Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss21e32c1e1d5aba",
@@ -8228,7 +8291,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:29:09.764Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss860be20c7ac802",
@@ -8249,7 +8312,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:29:09.706Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss616b2f3eec288b",
@@ -8270,7 +8333,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:14:09.726Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss19a92f49017860",
@@ -8291,7 +8354,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:14:09.714Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssfe0d7dc0f74337",
@@ -8312,7 +8375,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:14:09.702Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssdaadf9d45f768d",
@@ -8333,7 +8396,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:14:09.697Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb429ac7d67fcdf",
@@ -8354,7 +8417,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:14:09.688Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss7302837dca9ee0",
@@ -8375,7 +8438,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:14:09.688Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss43da643ffa847b",
@@ -8396,7 +8459,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T19:14:09.631Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss20721895fa2e9c",
@@ -8417,7 +8480,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:59:09.630Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8d45d1a50132e1",
@@ -8438,7 +8501,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:59:09.628Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss952fee4adbfe72",
@@ -8459,7 +8522,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:59:09.611Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss0df23d94432544",
@@ -8480,7 +8543,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:59:09.608Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss71e38fab673f0a",
@@ -8501,7 +8564,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:59:09.606Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsscd49410b7f7f04",
@@ -8522,7 +8585,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:59:09.568Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss2cfd956c2f027d",
@@ -8543,7 +8606,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:44:09.623Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssa7acfa5ca35689",
@@ -8564,7 +8627,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:44:09.559Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse90e144bef2702",
@@ -8585,7 +8648,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:44:09.551Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss58039ceae7eed3",
@@ -8606,7 +8669,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:29:09.853Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss244cc9c43dd378",
@@ -8627,7 +8690,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:29:09.840Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssde74263452aa92",
@@ -8648,7 +8711,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:29:09.787Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss1b47cacc24cfff",
@@ -8669,7 +8732,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:29:09.783Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss04487e0ecd40f1",
@@ -8690,7 +8753,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:29:09.782Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3eedfcd21da0f4",
@@ -8711,7 +8774,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:29:09.779Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssa2cab94290d269",
@@ -8732,7 +8795,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:14:09.553Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss0bcc9daa98f2a8",
@@ -8753,7 +8816,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:14:09.544Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssbb9c522450062c",
@@ -8774,7 +8837,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:14:09.532Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss704b3b9a3ccc1f",
@@ -8795,7 +8858,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:14:09.526Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss74918ac84c63ae",
@@ -8816,7 +8879,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:14:09.519Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6968e9af0d3319",
@@ -8837,7 +8900,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:14:09.503Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3790ae2b9755a6",
@@ -8858,7 +8921,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T18:14:09.478Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8a9e15fd0cea34",
@@ -8879,7 +8942,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:59:09.787Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssdfa527d96529c6",
@@ -8900,7 +8963,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:59:09.776Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss64c245cd19596c",
@@ -8921,7 +8984,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:59:09.774Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss912718456bca63",
@@ -8942,7 +9005,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:59:09.763Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss7b3cd948921376",
@@ -8963,7 +9026,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:59:09.740Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssbb24a23edcf358",
@@ -8984,7 +9047,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:59:09.736Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssffd380e4a74b01",
@@ -9005,7 +9068,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:59:09.734Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss1f578e0e4eee0e",
@@ -9026,7 +9089,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:59:09.654Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss05e93b8942ec8f",
@@ -9047,7 +9110,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:44:09.511Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssdb4834205f932b",
@@ -9068,7 +9131,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:44:09.493Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss06c1919394b75b",
@@ -9089,7 +9152,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:29:09.652Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf3e56f77cf8869",
@@ -9110,7 +9173,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:29:09.633Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss7f0e21bc7ace39",
@@ -9131,7 +9194,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:29:09.630Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse6b1275d56a68c",
@@ -9152,7 +9215,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:29:09.611Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss0d3a8f4e0ebabc",
@@ -9173,7 +9236,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:29:09.610Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss510b3a0511f08c",
@@ -9194,7 +9257,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:29:09.606Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss1de9c0233657e5",
@@ -9215,7 +9278,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:14:09.449Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss543b18587c7b19",
@@ -9236,7 +9299,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:14:09.445Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3b5c986d5af792",
@@ -9257,7 +9320,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T17:14:09.442Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8ef11cdd564dfb",
@@ -9278,7 +9341,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T16:59:09.560Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss4b9c4226012932",
@@ -9299,7 +9362,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T16:59:09.555Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5b03c21b46beaa",
@@ -9320,7 +9383,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T16:59:09.548Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3ca209a74d38e6",
@@ -9341,7 +9404,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T16:44:09.496Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3c5191d57a2590",
@@ -9362,7 +9425,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T16:44:09.493Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss1a5b73196904b0",
@@ -9383,7 +9446,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T16:44:09.491Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss583af04685826c",
@@ -9404,7 +9467,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T16:29:09.625Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5426cc820895db",
@@ -9425,7 +9488,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T16:29:09.597Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9eda5e8f793678",
@@ -9446,7 +9509,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T16:29:09.596Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb7df485c9bf06b",
@@ -9467,7 +9530,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T16:14:09.590Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf0067f4f44c10a",
@@ -9488,7 +9551,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T16:14:09.590Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss25d416271da9c4",
@@ -9509,7 +9572,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T16:14:09.589Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss749a9f9da84db7",
@@ -9530,7 +9593,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T15:59:09.889Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3e1d751de8c775",
@@ -9551,7 +9614,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T15:59:09.818Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsscff08e7e5ac83f",
@@ -9572,7 +9635,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T15:59:09.793Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss02014c89ac5d1a",
@@ -9593,7 +9656,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T15:44:09.634Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss379f7cf522754e",
@@ -9614,7 +9677,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T15:44:09.630Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss2a4eb58cf765bd",
@@ -9635,7 +9698,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T15:44:09.622Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss082dfc95c4da42",
@@ -9656,7 +9719,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T15:29:09.769Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssc6612830d79ab0",
@@ -9677,7 +9740,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T15:29:09.760Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss61b780ca6f3422",
@@ -9698,7 +9761,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T15:29:09.752Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8bd3218045d9ff",
@@ -9719,7 +9782,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T15:14:09.472Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss78298ea259ed18",
@@ -9740,7 +9803,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T15:14:09.464Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssae92fd6992f40c",
@@ -9761,7 +9824,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T15:14:09.460Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss585ace501df2c5",
@@ -9782,7 +9845,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T14:59:09.341Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss0c818620085e09",
@@ -9803,7 +9866,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T14:59:09.339Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss356f7436396f26",
@@ -9824,7 +9887,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T14:59:09.339Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5ca90650894c22",
@@ -9845,7 +9908,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T14:44:09.349Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsscffe672b0f1eab",
@@ -9866,7 +9929,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T14:44:09.346Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss2b982cd12977f1",
@@ -9887,7 +9950,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T14:44:09.346Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssdbd0f53b5a4946",
@@ -9908,7 +9971,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T14:29:09.369Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5927c89e0270d5",
@@ -9929,7 +9992,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T14:29:09.364Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssada114aea4bc90",
@@ -9950,7 +10013,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T14:29:09.362Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss05e159b6c73e0b",
@@ -9971,7 +10034,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T14:14:09.362Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss00392a4128a6a6",
@@ -9992,7 +10055,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T14:14:09.351Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss65772afcbaa44d",
@@ -10013,7 +10076,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T14:14:09.346Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssa8633eb0eafb64",
@@ -10034,7 +10097,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T13:59:09.254Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss86d9cf5bcc21ac",
@@ -10055,7 +10118,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T13:59:09.248Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssf6664202f6994d",
@@ -10076,7 +10139,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T13:59:09.246Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssad6e36de67da21",
@@ -10097,7 +10160,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T13:44:09.354Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9b091f334cc83b",
@@ -10118,7 +10181,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T13:44:09.341Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6f289191b0f080",
@@ -10139,7 +10202,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T13:44:09.328Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss9bf3422d289ed1",
@@ -10160,7 +10223,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T13:29:09.232Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss0339b725829e31",
@@ -10181,7 +10244,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T13:29:09.226Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss8eae544c2fe2a0",
@@ -10202,7 +10265,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T13:29:09.221Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss16fe939e27fbd0",
@@ -10223,7 +10286,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T13:14:09.207Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss66f16b5689a01d",
@@ -10244,7 +10307,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T13:14:09.199Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6c99898574c018",
@@ -10265,7 +10328,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T13:14:09.192Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse092c958f8e70b",
@@ -10286,7 +10349,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T12:59:09.246Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss6223cf65906af5",
@@ -10307,7 +10370,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T12:59:09.243Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rssb064e6446f4217",
@@ -10328,7 +10391,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T12:59:09.241Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss3b2c32263b68d0",
@@ -10349,7 +10412,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T12:44:09.190Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss5d957dd14fb9da",
@@ -10370,7 +10433,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T12:44:09.181Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss61b14f5a9d78d3",
@@ -10391,7 +10454,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T12:44:09.175Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rsse61c7ad9e6663d",
@@ -10412,7 +10475,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T12:29:09.203Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss73da344f54dbc5",
@@ -10433,7 +10496,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T12:29:09.193Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     },
     {
       "id": "rss7f8a881331b3c8",
@@ -10454,70 +10517,7 @@
       "ogImageHeight": 0,
       "author": "ডেস্ক",
       "published_at": "2026-10-14T12:29:09.191Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
-    },
-    {
-      "id": "rss9bbfe0608055d0",
-      "slug": "ঘুষ-কাণ্ডে-প্রত্যাহার-সেই-ভূমি-কর্মকর্তা",
-      "title": "ঘুষ কাণ্ডে প্রত্যাহার সেই ভূমি কর্মকর্তা, দিতে হবে ব্যাখ্যাও",
-      "summary": "বুধবার বিভাগীয় কমিশনারের কার্যালয়ের সিনিয়র কমিশনার (রাজস্ব) মো. মেহেদী হাসানের স্বাক্ষরিত এক পরিপত্রে এ সিদ্ধান্ত জানানো হয়। বিষয়টি নিশ্চিত করেছেন বোরহানউদ্দিন...",
-      "body": "<p>ভোলার বোরহানউদ্দিন উপজেলায় সেবা প্রদানের বিনিময়ে ঘুষ গ্রহণের অভিযোগে অভিযুক্ত উপসহকারী ভূমি কর্মকর্তা বজলুর রহমানকে তার কর্মস্থল থেকে প্রত্যাহার করা হয়েছে। বুধবার বিভাগীয় কমিশনার কার্যালয়ের সিনিয়র কমিশনার (রাজস্ব) মো. মেহেদী হাসান স্বাক্ষরিত এক পরিপত্রে এ সিদ্ধান্তের কথা জানানো হয়। পাশাপাশি, তাকে এই ঘটনার কারণ ব্যাখ্যা করতে নির্দেশ দিয়ে একটি নোটিশও প্রদান করা হয়েছে। বোরহানউদ্দিনের সহকারী কমিশনার (ভূমি) মো. রিফাত হোসেন বিষয়টি নিশ্চিত করেছেন।</p>\n<p>ঘটনার সূত্রপাত গত সোমবার, যখন সেবা নিতে আসা এক ব্যক্তির কাছ থেকে ঘুষ দাবির অভিযোগ ওঠে। অভিযোগ অনুযায়ী, বজলুর রহমান ও তার ব্যক্তিগত সহকারী হিসেবে পরিচিত মো. রাকিব এই ঘুষ লেনদেনের সাথে জড়িত ছিলেন। এ সংক্রান্ত একটি ভিডিও সামাজিক যোগাযোগমাধ্যমে ছড়িয়ে পড়লে তা নিয়ে ব্যাপক আলোচনা-সমালোচনার সৃষ্টি হয়। স্থানীয় গণমাধ্যমেও বিষয়টি নিয়ে সংবাদ প্রকাশিত হয়।</p>\n<p>এই অভিযোগের প্রেক্ষিতে উপজেলা নির্বাহী কর্মকর্তা মনোরঞ্জন বর্মন এবং সহকারী কমিশনার (ভূমি) মো. রিফাত হোসেন দ্রুত ব্যবস্থা গ্রহণের আশ্বাস দিয়েছিলেন। সেই প্রতিশ্রুতির ধারাবাহিকতায় অভিযুক্ত কর্মকর্তাকে বিভাগীয় কমিশনারের কার্যালয়ে তলব করে প্রত্যাহার করা হয়। প্রশাসনিকভাবে এই সিদ্ধান্ত আসার পর এলাকায় কিছুটা স্বস্তি ফিরেছে বলে স্থানীয় সূত্রে জানা গেছে।</p>\n<p>ঘুষের ঘটনার অভিযোগকারী সবুজ মুসলমান এই পদক্ষেপে কিছুটা স্বস্তি প্রকাশ করলেও পুরোপুরি সন্তুষ্ট নন। তিনি অভিযুক্ত ওই কর্মকর্তার বিরুদ্ধে কেবল প্রত্যাহার নয়, বরং আইন অনুযায়ী আরও কঠোর প্রশাসনিক ব্যবস্থা নেওয়ার দাবি জানিয়েছেন। বর্তমানে ঘটনাটি নিয়ে প্রশাসনিক তদন্তের প্রক্রিয়া চলমান রয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সরকারি দপ্তরের এ ধরনের অস্বচ্ছতা ব্যবসায়িক পরিবেশকে ক্ষতিগ্রস্ত করে এবং সাধারণ মানুষের আস্থার সংকট তৈরি করে। প্রশাসনিক জবাবদিহিতা নিশ্চিত না হলে ভূমি ব্যবস্থাপনায় হয়রানি ও দুর্নীতির প্রবণতা রোধ করা অসম্ভব। দ্রুত দৃষ্টান্তমূলক ব্যবস্থা গ্রহণই কেবল সেবা খাতে শৃঙ্খলা ফেরাতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/538283\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "category": "অর্থনীতি",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "image": "img/%E0%A6%98%E0%A7%81%E0%A6%B7-%E0%A6%95%E0%A6%BE%E0%A6%A3%E0%A7%8D%E0%A6%A1%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A7%87%E0%A6%87-%E0%A6%AD%E0%A7%82%E0%A6%AE%E0%A6%BF-%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%BE.jpg",
-      "og_image": "",
-      "editorial": false,
-      "imageCredit": "ডেইলি বাংলাদেশ",
-      "imageSourceUrl": "",
-      "ogImageWidth": 0,
-      "ogImageHeight": 0,
-      "author": "ডেস্ক",
-      "published_at": "2026-10-14T12:14:09.271Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
-    },
-    {
-      "id": "rss720b887089757f",
-      "slug": "ফের-অনির্দিষ্টকালের-অবরোধের-ঘোষণা-সাজেক",
-      "title": "ফের অনির্দিষ্টকালের অবরোধের ঘোষণা সাজেকে",
-      "summary": "রাঙ্গামাটির বাঘাইছড়ি উপজেলার পর্যটনকেন্দ্র সাজেকে দুই দিন বিরতির পর আবারও অনির্দিষ্টকালের সড়ক অবরোধের ঘোষণা দিয়েছে সাজেক গণ অধিকার রক্ষা কমিটি ও সাজেক কার্বারী...",
-      "body": "<p>রাঙ্গামাটির বাঘাইছড়ি উপজেলার জনপ্রিয় পর্যটনকেন্দ্র সাজেকে ফের অনির্দিষ্টকালের সড়ক অবরোধের ডাক দিয়েছে স্থানীয় কয়েকটি সংগঠন। দুই দিন বিরতি দেওয়ার পর সাজেক গণ অধিকার রক্ষা কমিটি ও সাজেক কার্বারী অ্যাসোসিয়েশন এই নতুন কর্মসূচি ঘোষণা করেছে। বৃহস্পতিবার সকাল ৬টা থেকে এই অবরোধ কার্যকর হওয়ার কথা রয়েছে। বুধবার দুপুরে এক সংবাদ বিজ্ঞপ্তির মাধ্যমে এই ঘোষণা দেওয়া হয়।</p>\n<p>সংগঠনগুলোর পক্ষ থেকে জানানো হয়েছে, গত কয়েক দিনে স্থানীয়দের পক্ষ থেকে উত্থাপিত তিন দফা দাবি পূরণে প্রশাসন কোনো কার্যকর পদক্ষেপ নিতে পারেনি। বিশেষ করে পার্বত্য চট্টগ্রাম জনসংহতি সমিতির (পিসিজেএসএস) সন্তু গ্রুপের সশস্ত্র সদস্যদের সাজেক এলাকা থেকে সরিয়ে নেওয়ার দাবিটি ৪৮ ঘণ্টার মধ্যে পূরণ না হওয়ায় তারা পুনরায় কঠোর কর্মসূচিতে যেতে বাধ্য হয়েছে। উল্লেখ্য, স্থানীয়দের অভিযোগ অনুযায়ী, সাধারণ মানুষকে হুমকি-ধমকি প্রদান এবং এলাকায় অস্থিতিশীল পরিবেশ তৈরির প্রতিবাদে গত ১১ অক্টোবর থেকে তারা প্রথম দফায় অবরোধ পালন করেছিল। স্থানীয় সূত্রের ভাষ্যমতে, অবরোধ আহ্বানকারী সংগঠন দুটি ইউপিডিএফের প্রসীত খীসা অংশের সমর্থক।</p>\n<p>নতুন করে এই অবরোধের ঘোষণায় স্থানীয় পর্যটন ব্যবসায়ীদের মধ্যে বড় ধরনের উদ্বেগের সৃষ্টি হয়েছে। এখন পর্যটন মৌসুম চলায় এবং আসন্ন দুর্গাপূজার ছুটিতে পর্যটকদের বাড়তি ভিড় প্রত্যাশা করছিলেন ব্যবসায়ীরা। হোটেল, রিসোর্ট ও রেস্তোরাঁগুলো সব ধরনের প্রস্তুতি নিলেও অবরোধের কারণে বুকিং বাতিলসহ বড় ধরনের আর্থিক ক্ষতির মুখে পড়ার আশঙ্কা করছেন তারা। এই পরিস্থিতিতে পর্যটন খাতকে সচল রাখতে এবং পর্যটকদের নিরাপত্তা নিশ্চিত করার দাবিতে বুধবার সকালে খাগড়াছড়ির শাপলা চত্বরে মানববন্ধন করেছেন রিসোর্ট মালিক, চান্দের গাড়ি চালক ও রেস্তোরাঁ ব্যবসায়ীরা।</p>\n<p>ব্যবসায়ীদের দাবি, সাজেকের অর্থনীতি পুরোপুরি পর্যটননির্ভর। বারবার সড়ক অবরোধের ফলে পাহাড়ি ও বাঙালি সম্প্রদায়ের মানুষের জীবিকা হুমকির মুখে পড়ছে। রাজনৈতিক বা আঞ্চলিক বিরোধের কারণে যেন পর্যটন খাত বারবার ক্ষতিগ্রস্ত না হয়, সে বিষয়ে প্রশাসনের কার্যকর উদ্যোগ প্রয়োজন। দ্রুত সড়ক যোগাযোগ স্বাভাবিক করা এবং পর্যটকদের নিরাপত্তা নিশ্চিত করে পর্যটনকেন্দ্রটি খুলে দেওয়ার জোর দাবি জানিয়েছেন তারা।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পর্যটননির্ভর স্থানীয় অর্থনীতি ও জনজীবন এই ধারাবাহিক অবরোধে চরম সংকটের মুখে পড়েছে। স্থানীয় বাসিন্দাদের স্বাভাবিক চলাচল নিশ্চিত করতে প্রশাসনের দ্রুত ও কার্যকর কূটনৈতিক পদক্ষেপ নেওয়া জরুরি। সাধারণ মানুষের ভোগান্তি কমাতে আলোচনার মাধ্যমে সংকট নিরসনে উভয় পক্ষকে এগিয়ে আসতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/538284\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "category": "সারাদেশ",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "image": "img/%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%A6%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A6%95%E0%A6%BE%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AC%E0%A6%B0%E0%A7%8B%E0%A6%A7%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%95.jpg",
-      "og_image": "",
-      "editorial": false,
-      "imageCredit": "ডেইলি বাংলাদেশ",
-      "imageSourceUrl": "",
-      "ogImageWidth": 0,
-      "ogImageHeight": 0,
-      "author": "ডেস্ক",
-      "published_at": "2026-10-14T12:14:09.270Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
-    },
-    {
-      "id": "rss67c3dbc2cb6203",
-      "slug": "সোমেশ্বরীতে-নৌকা-ডুবে-বালু-শ্রমিকের-মৃত্",
-      "title": "সোমেশ্বরীতে নৌকা ডুবে বালু শ্রমিকের মৃত্যু",
-      "summary": "নেত্রকোনার দুর্গাপুরে সোমেশ্বরী নদীতে নৌকা ডুবে এমদাদুল হক (৩৫) নামে বালু শ্রমিকের মৃত্যু হয়েছে। বুধবার (১৪ অক্টোবর) দুপুরে পৌর শহরের বিরিশিরি ঘাট এলাকায় শ্রমিক...",
-      "body": "<p>নেত্রকোনার দুর্গাপুরে সোমেশ্বরী নদীতে নৌকা ডুবে এমদাদুল হক নামে ৩৫ বছর বয়সী এক বালু শ্রমিকের মৃত্যু হয়েছে। বুধবার দুপুরে পৌর শহরের বিরিশিরি ঘাট এলাকা থেকে ফায়ার সার্ভিসের ডুবুরি দল তার মরদেহ উদ্ধার করে। নিহত এমদাদুল দুর্গাপুর উপজেলার বিরিশিরি ইউনিয়নের চৈতাটি গ্রামের মৃত ইসমত আলীর ছেলে।</p>\n<p>প্রত্যক্ষদর্শী ও স্থানীয় সূত্রে জানা গেছে, বুধবার ভোরে এমদাদুল তার মা রোকেয়া খাতুনকে সঙ্গে নিয়ে বালু সংগ্রহের উদ্দেশ্যে ছোট নৌকায় করে নদীতে নামেন। বিরিশিরি ঘাট এলাকায় পৌঁছালে নৌকাটি নদীতে থাকা একটি বাঁশের খুঁটির সঙ্গে ধাক্কা খেয়ে তলিয়ে যায়। এ সময় এমদাদুলের মা সাঁতরে তীরে উঠতে সক্ষম হলেও ছেলে পানির স্রোতে তলিয়ে যান।</p>\n<p>ঘটনার খবর পেয়ে দুর্গাপুর থানা পুলিশ ও ফায়ার সার্ভিসের কর্মীরা তাৎক্ষণিক উদ্ধার অভিযানে নামেন। পরে ময়মনসিংহ থেকে আসা ডুবুরি দল নদীর তলদেশ থেকে এমদাদুলের মরদেহ উদ্ধার করে। দুর্গাপুর ফায়ার সার্ভিস স্টেশনের কর্মকর্তা মো. মজিবুর রহমান জানিয়েছেন, উদ্ধারকৃত মরদেহটি আইনগত প্রক্রিয়া শেষে পুলিশের কাছে হস্তান্তর করা হয়েছে।</p>\n<p>দুর্গাপুর থানার ভারপ্রাপ্ত কর্মকর্তা খন্দকার শাকের আহমেদ জানান, মায়ের চোখের সামনেই ছেলে পানিতে ডুবে মারা যান। পরিবারের পক্ষ থেকে কোনো অভিযোগ না থাকায় এবং তাদের আবেদনের পরিপ্রেক্ষিতে ময়নাতদন্ত ছাড়াই মরদেহটি স্বজনদের কাছে বুঝিয়ে দেওয়া হয়েছে। এ ঘটনায় এলাকায় শোকের ছায়া নেমে এসেছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">নদীর নাব্য সংকট ও অনিয়ন্ত্রিত নৌ-চলাচলের ফলে বালু শ্রমিকদের কর্মপরিবেশ অত্যন্ত ঝুঁকিপূর্ণ হয়ে উঠেছে। এই অনাকাঙ্ক্ষিত প্রাণহানি আমাদের কর্মক্ষেত্রে নিরাপত্তা নিশ্চিত করার ব্যর্থতাকেই সামনে আনে। কর্তৃপক্ষের উচিত অবিলম্বে নৌ-চলাচলের কঠোর তদারকি করা।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/538285\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "category": "জাতীয়",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "image": "img/%E0%A6%B8%E0%A7%8B%E0%A6%AE%E0%A7%87%E0%A6%B6%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%A8%E0%A7%8C%E0%A6%95%E0%A6%BE-%E0%A6%A1%E0%A7%81%E0%A6%AC%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A7%81-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%83%E0%A6%A4%E0%A7%8D.jpg",
-      "og_image": "",
-      "editorial": false,
-      "imageCredit": "ডেইলি বাংলাদেশ",
-      "imageSourceUrl": "",
-      "ogImageWidth": 0,
-      "ogImageHeight": 0,
-      "author": "ডেস্ক",
-      "published_at": "2026-10-14T12:14:09.269Z",
-      "updated_at": "2026-10-16T05:30:25.847Z"
+      "updated_at": "2026-10-16T05:45:24.067Z"
     }
   ],
   "ogSlugs": [
