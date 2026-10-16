@@ -1,6 +1,6 @@
 {
-  "version": 1680,
-  "updatedAt": "2026-10-16T13:00:39.106Z",
+  "version": 1681,
+  "updatedAt": "2026-10-16T13:15:21.742Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,56 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rssf651ef217895a8",
+      "slug": "এডিস-মশা-শনাক্ত-করবে-ঢাবি-গবেষকদের-তৈরি-039-স",
+      "title": "এডিস মশা শনাক্ত করবে ঢাবি গবেষকদের তৈরি &#039;স্মার্ট ফাঁদ&#039;",
+      "category": "প্রযুক্তি",
+      "lead": false,
+      "image": "/img/%E0%A6%8F%E0%A6%A1%E0%A6%BF%E0%A6%B8-%E0%A6%AE%E0%A6%B6%E0%A6%BE-%E0%A6%B6%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%AC%E0%A7%87-%E0%A6%A2%E0%A6%BE%E0%A6%AC%E0%A6%BF-%E0%A6%97%E0%A6%AC%E0%A7%87%E0%A6%B7%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%A4%E0%A7%88%E0%A6%B0%E0%A6%BF-039-%E0%A6%B8.jpg",
+      "publishedAt": "2026-10-16T13:14:11.927Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>ডেঙ্গুর বাহক এডিস মশা শনাক্তের লক্ষ্যে একটি স্বয়ংক্রিয় ও ইন্টারনেট-সংযুক্ত মশার ফাঁদ তৈরি করেছেন ঢাকা বিশ্ববিদ্যালয়ের একদল গবেষক। `MAST-CloudNet` নামের ফাঁদটি শ...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রযুক্তিনির্ভর এই উদ্ভাবন ডেঙ্গু নিয়ন্ত্রণে ব্যক্তিপর্যায়ে সচেতনতা বৃদ্ধিতে গুরুত্বপূর্ণ ভূমিকা রাখবে। কার্যকর ব্যবহারের মাধ্যমে মশার প্রজননস্থল চিহ্নিত করা গেলে জনস্বাস্থ্যের ঝুঁকি অনেকাংশেই কমে আসবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/campus/538490\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "ডেঙ্গুর বাহক এডিস মশা শনাক্তের লক্ষ্যে একটি স্বয়ংক্রিয় ও ইন্টারনেট-সংযুক্ত মশার ফাঁদ তৈরি করেছেন ঢাকা বিশ্ববিদ্যালয়ের একদল গবেষক। `MAST-CloudNet` নামের ফাঁদটি শ...",
+      "sourceUrl": "https://www.daily-bangladesh.com/campus/538490",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rsse0eda84cf3192a",
+      "slug": "কলাউজানে-রাতের-আঁধারে-পাহাড়-কাটছে-প্রভাব",
+      "title": "কলাউজানে রাতের আঁধারে পাহাড় কাটছে প্রভাবশালীরা",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%95%E0%A6%B2%E0%A6%BE%E0%A6%89%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%81%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A7%9C-%E0%A6%95%E0%A6%BE%E0%A6%9F%E0%A6%9B%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AD%E0%A6%BE%E0%A6%AC.jpg",
+      "publishedAt": "2026-10-16T13:14:11.924Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>চট্টগ্রামের লোহাগাড়ায় পরিবেশ আইন না মেনে দেদার চলছে পাহাড় কাটা। বাড়ি নির্মাণ, রাস্তা সংস্কার এবং ইটভাটাসহ বিভিন্ন কাজে ব্যবহারের জন্য পাহাড় কাটছে এসব চক্র। রাতে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">অবৈধভাবে পাহাড় কাটার ফলে লোহাগাড়ার প্রাকৃতিক ভারসাম্য ও জননিরাপত্তা চরম হুমকির মুখে পড়ছে। স্থানীয় প্রশাসনকে অবিলম্বে কঠোর আইনানুগ ব্যবস্থা নিতে হবে এবং পরিবেশ রক্ষায় এলাকাবাসীকেও সোচ্চার হতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/538492\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "চট্টগ্রামের লোহাগাড়ায় পরিবেশ আইন না মেনে দেদার চলছে পাহাড় কাটা। বাড়ি নির্মাণ, রাস্তা সংস্কার এবং ইটভাটাসহ বিভিন্ন কাজে ব্যবহারের জন্য পাহাড় কাটছে এসব চক্র। রাতে...",
+      "sourceUrl": "https://www.daily-bangladesh.com/country/538492",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rsse3b8a933002c30",
+      "slug": "সব-হাসপাতালের-লাইব্রেরিতে-জিয়াউর-রহমান-ও",
+      "title": "সব হাসপাতালের লাইব্রেরিতে জিয়াউর রহমান ও খালেদা জিয়াকে নিয়ে লেখা ৩ বই রাখার নির্দেশ",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "https://media.prothomalo.com/prothomalo-bangla/2026-10-16/lss2mw9z/three-books.jpg",
+      "publishedAt": "2026-10-16T13:14:11.917Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>দেশের সব সরকারি ও বেসরকারি হাসপাতাল এবং মেডিকেল কলেজের গ্রন্থাগারে (লাইব্রেরি) বিএনপির প্রতিষ্ঠাতা ও সাবেক রাষ্ট্রপতি জিয়াউর রহমান এবং সাবেক প্রধানমন্ত্রী খালেদা জিয়াকে নিয়ে লেখা তিনটি বই সংগ্রহ ও সংরক্ষণের নির্দেশ দিয়েছে স্বাস্থ্য ও পরিবার...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/314310/সব-হাসপাতালের-লাইব্রেরিতে-জিয়াউর-রহমান-ও-খালেদা-জিয়াকে-নিয়ে-লেখা-৩-বই-রাখার-নির্দেশ\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "দেশের সব সরকারি ও বেসরকারি হাসপাতাল এবং মেডিকেল কলেজের গ্রন্থাগারে (লাইব্রেরি) বিএনপির প্রতিষ্ঠাতা ও সাবেক রাষ্ট্রপতি জিয়াউর রহমান এবং সাবেক প্রধানমন্ত্রী খালেদা জিয়াকে নিয়ে লেখা তিনটি বই সংগ্রহ ও সংরক্ষণের নির্দেশ দিয়েছে স্বাস্থ্য ও পরিবার...",
+      "sourceUrl": "https://www.bd-journal.com/bangladesh/314310/সব-হাসপাতালের-লাইব্রেরিতে-জিয়াউর-রহমান-ও-খালেদা-জিয়াকে-নিয়ে-লেখা-৩-বই-রাখার-নির্দেশ",
+      "sourceName": "বাংলাদেশ জার্নাল"
     },
     {
       "id": "rss63ccb58affb0f3",
@@ -8470,57 +8520,6 @@
       "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBPS2k2Q2tuVGVWbHd1SDZKMDk1bWxKYkEwb1BKaldlcFp0NXN1aWx3cURrcF9CZHYzdm9YdkZMQ0p3M0dPZmVvcktVSDVMWmdQ?oc=5",
       "sourceName": "সরকারি নিয়োগ",
       "imageCredit": "সরকারি নিয়োগ"
-    },
-    {
-      "id": "rsse90e144bef2702",
-      "slug": "ওয়ালটনে-নতুন-নিয়োগ-বিজ্ঞপ্তি-বেতন-৬০-হ",
-      "title": "ওয়ালটনে নতুন নিয়োগ বিজ্ঞপ্তি, বেতন ৬০ হাজার থেকে শুরু",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/rsse90e144bef2702-1200x630.jpg",
-      "publishedAt": "2026-10-14T18:44:09.551Z",
-      "tags": [
-        "সরকারি দপ্তর"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiW0FVX3lxTE56Y1ZJMG9XZWR0Ukk2ZlNoUVo3VlZ5Nkp1VFk0eUxRX2FXSXU2dHpCWDVad29hZHBzTFk1M2JEalg3YVAwMjRaRXVKUV9BMFVkam95S182N01ydkE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ওয়ালটনে নতুন নিয়োগ বিজ্ঞপ্তি, বেতন ৬০ হাজার থেকে শুরু&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">দেশীয় শিল্পখাতে এমন আকর্ষণীয় বেতন কাঠামো দক্ষ ও মেধাবী প্রার্থীদের জন্য ক্যারিয়ার গড়ার বড় সুযোগ। যোগ্যতাসম্পন্ন চাকরিপ্রার্থীরা এই নিয়োগ প্রক্রিয়ায় অংশ নিয়ে নিজেদের পেশাগত দক্ষতা ও আর্থিক সক্ষমতা বৃদ্ধির সুযোগ কাজে লাগাতে পারেন।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE56Y1ZJMG9XZWR0Ukk2ZlNoUVo3VlZ5Nkp1VFk0eUxRX2FXSXU2dHpCWDVad29hZHBzTFk1M2JEalg3YVAwMjRaRXVKUV9BMFVkam95S182N01ydkE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">সরকারি নিয়োগ</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE56Y1ZJMG9XZWR0Ukk2ZlNoUVo3VlZ5Nkp1VFk0eUxRX2FXSXU2dHpCWDVad29hZHBzTFk1M2JEalg3YVAwMjRaRXVKUV9BMFVkam95S182N01ydkE?oc=5\" target=\"_blank\"&gt;ওয়ালটনে নতুন নিয়োগ বিজ্ঞপ্তি, বেতন ৬০ হাজার থেকে শুরু&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56Y1ZJMG9XZWR0Ukk2ZlNoUVo3VlZ5Nkp1VFk0eUxRX2FXSXU2dHpCWDVad29hZHBzTFk1M2JEalg3YVAwMjRaRXVKUV9BMFVkam95S182N01ydkE?oc=5",
-      "sourceName": "সরকারি নিয়োগ",
-      "imageCredit": "সরকারি নিয়োগ"
-    },
-    {
-      "id": "rss58039ceae7eed3",
-      "slug": "বাংলাদেশ-ধবলধোলাই-৮-উইকেটে-হেরে",
-      "title": "বাংলাদেশ ধবলধোলাই ৮ উইকেটে হেরে",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6-%E0%A6%A7%E0%A6%AC%E0%A6%B2%E0%A6%A7%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%87-%E0%A7%AE-%E0%A6%89%E0%A6%87%E0%A6%95%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%B9%E0%A7%87%E0%A6%B0%E0%A7%87.jpg",
-      "publishedAt": "2026-10-14T18:29:09.853Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>অস্ট্রেলিয়ার বিপক্ষে তিন ম্যাচের ওয়ানডে সিরিজটি বাংলাদেশ নারী ক্রিকেট দলের জন্য অত্যন্ত হতাশাজনক হয়ে শেষ হলো। সিরিজের শেষ ম্যাচে ৮ উইকেটের বড় ব্যবধানে হারের মধ্য দিয়ে ধবলধোলাইয়ের লজ্জা নিয়ে মাঠ ছাড়তে হয়েছে নিগার সুলতানা জ্যোতির দলকে। শক্তিশালী অস্ট্রেলিয়া নারী দলের সামনে পুরো সিরিজেই দাঁড়াতে পারেনি সফরকারীরা।</p>\n<p>বুধবার ব্রিসবেনে টস জিতে ব্যাটিংয়ে নেমে শুরুতেই চরম বিপর্যয়ের মুখে পড়ে বাংলাদেশ। ইনিংসের শুরুতেই মাত্র ১৮ রানের মধ্যে দলের সেরা তিন ব্যাটার সাজঘরে ফিরে গেলে বড় ধরনের চাপে পড়ে সফরকারী শিবির। তবে এরপর শারমিন আক্তার ও স্বর্ণা আক্তার দলের হাল ধরেন। শারমিন ৯৩ বলে ৫০ রান করেন এবং স্বর্ণা আক্তার ৭১ বলে ৫৪ রান সংগ্রহ করেন। ওয়ানডে ক্যারিয়ারে স্বর্ণার এটিই প্রথম অর্ধশতক।</p>\n<p>দুই ব্যাটারের লড়াইয়ের পরও বড় সংগ্রহ গড়তে ব্যর্থ হয় বাংলাদেশ। শেষ দিকে নিয়মিত বিরতিতে উইকেট পতনের ফলে ৪৯.৫ ওভারে মাত্র ১৭২ রানে অলআউট হয়ে যায় দলটি। অস্ট্রেলিয়ার বোলারদের মধ্যে মেগান স্কট ১৬ রানের বিনিময়ে ৪টি এবং অ্যানাবেল সাদারল্যান্ড ২টি উইকেট তুলে নিয়ে বাংলাদেশের ইনিংস ধসিয়ে দেন।</p>\n<p>জয়ের জন্য ১৭৩ রানের সহজ লক্ষ্য তাড়া করতে নেমে অস্ট্রেলিয়া খুব একটা বেগ পায়নি। দুই উইকেট হারালেও স্বাগতিকরা নির্ধারিত লক্ষ্য স্পর্শ করে সহজেই জয় নিশ্চিত করে। এই পরাজয়ের মাধ্যমে ওয়ানডে সিরিজে বাংলাদেশের ব্যর্থতার বৃত্ত আরও দীর্ঘ হলো।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">অস্ট্রেলিয়ার মতো শক্তিশালী প্রতিপক্ষের বিপক্ষে এমন হার দলের ব্যাটিং সক্ষমতার দৈন্যদশা ও অভিজ্ঞতার অভাব স্পষ্ট করে তুলেছে। নিয়মিত এমন ব্যর্থতা কাটিয়ে উঠতে টেকনিক্যাল ও মানসিক উন্নতির কোনো বিকল্প নেই। ভবিষ্যৎ সিরিজগুলোতে টিকে থাকতে হলে দলের পরিকল্পনায় আমূল পরিবর্তন প্রয়োজন।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/sports/538314\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "বাংলাদেশ নারী ক্রিকেট দল হারের বৃত্তেই বন্দি। অস্ট্রেলিয়ার বিপক্ষে সিরিজের শেষ ওয়ানডেতে ১৭২ রানে অলআউট হয়ে স্বাগতিকদের কাছে ৮ উইকেটের ব্যবধানে হেরেছে নিগার সুলত...",
-      "sourceUrl": "https://daily-bangladesh.com/sports/538314",
-      "sourceName": "ডেইলি বাংলাদেশ",
-      "imageCredit": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss244cc9c43dd378",
-      "slug": "রাজধানীতে-জুলাই-জাদুঘরের-সামনে-ককটেল-বিস",
-      "title": "রাজধানীতে জুলাই জাদুঘরের সামনে ককটেল বিস্ফোরণ, আহত ১",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87-%E0%A6%9C%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%98%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B8.webp",
-      "publishedAt": "2026-10-14T18:29:09.840Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>রাজধানীর শেরেবাংলা নগরে জুলাই গণঅভ্যুত্থান স্মৃতি জাদুঘরের সামনে ককটেল বিস্ফোরণের ঘটনা ঘটেছে। এতে সিএনজিচালিত অটোরিকশার এক চালক আহত হয়েছেন। বুধবার (১৪ অক্টোবর) রাত পৌনে ১১টার দিকে জাদুঘরের সামনের সড়কে এ ঘটনা ঘটে। পুলিশ জানায়, রাত পৌনে ১১টার দিকে দুর্বৃত্তরা জাদুঘরের সামনের সড়কে দুটি ককটেল ছোড়ে। এর ম</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জননিরাপত্তার এমন অবনতি জনমনে আতঙ্ক সৃষ্টি করছে, যা দ্রুত নিয়ন্ত্রণে স্থানীয় প্রশাসনের কঠোর নজরদারি জরুরি। এ ধরনের সহিংসতা রুখতে নাগরিক সচেতনতা ও সন্দেহভাজন কর্মকাণ্ডের দ্রুত তথ্য প্রদান এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/974566/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87-%E0%A6%9C%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%98%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%8B%E0%A6%B0%E0%A6%A3-%E0%A6%86%E0%A6%B9%E0%A6%A4\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "রাজধানীর শেরেবাংলা নগরে জুলাই গণঅভ্যুত্থান স্মৃতি জাদুঘরের সামনে ককটেল বিস্ফোরণের ঘটনা ঘটেছে। এতে সিএনজিচালিত অটোরিকশার এক চালক আহত হয়েছেন। বুধবার (১৪ অক্টোবর) রাত পৌনে ১১টার দিকে জাদুঘরের সামনের সড়কে এ ঘটনা ঘটে। পুলিশ জানায়, রাত পৌনে ১১টার দিকে দুর্বৃত্তরা জাদুঘরের সামনের সড়কে দুটি ককটেল ছোড়ে। এর ম",
-      "sourceUrl": "https://www.banglatribune.com/law-and-crime/974566/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87-%E0%A6%9C%E0%A6%BE%E0%A6%A6%E0%A7%81%E0%A6%98%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E0%A6%A8%E0%A7%87-%E0%A6%95%E0%A6%95%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%8B%E0%A6%B0%E0%A6%A3-%E0%A6%86%E0%A6%B9%E0%A6%A4",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
