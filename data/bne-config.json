@@ -1,6 +1,6 @@
 {
-  "version": 1707,
-  "updatedAt": "2026-10-16T19:28:34.791Z",
+  "version": 1708,
+  "updatedAt": "2026-10-16T19:30:27.168Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -160,6 +160,56 @@
       "sourceUrl": "https://www.ittefaq.com.bd/815578/%E0%A6%B6%E0%A6%BE%E0%A6%B9%E0%A6%9C%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%B2-%E0%A6%87%E0%A6%B8%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%82%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8",
       "sourceName": "ইত্তেফাক",
       "imageCredit": "ইত্তেফাক"
+    },
+    {
+      "id": "rss02a804fa704945",
+      "slug": "জামায়াতের-সঙ্গে-এনসিপি-একাকার-হওয়ার-অভিয",
+      "title": "জামায়াতের সঙ্গে এনসিপি একাকার হওয়ার অভিযোগ তুলে দল ছাড়লেন কেন্দ্রীয় নেতা",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "/img/%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%8F%E0%A6%A8%E0%A6%B8%E0%A6%BF%E0%A6%AA%E0%A6%BF-%E0%A6%8F%E0%A6%95%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%B9%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%85%E0%A6%AD%E0%A6%BF%E0%A6%AF.avif",
+      "publishedAt": "2026-10-16T18:59:12.226Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>জামায়াতে ইসলামীর সঙ্গে এনসিপির রাজনৈতিক জোট এখন আদর্শিক জোট হিসেবে একাকার হয়ে গেছে বলে অভিযোগ করেছেন আবদুর রহমান।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/politics/rwernoticc\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "জামায়াতে ইসলামীর সঙ্গে এনসিপির রাজনৈতিক জোট এখন আদর্শিক জোট হিসেবে একাকার হয়ে গেছে বলে অভিযোগ করেছেন আবদুর রহমান।",
+      "sourceUrl": "https://www.prothomalo.com/politics/rwernoticc",
+      "sourceName": "প্রথম আলো",
+      "imageCredit": "প্রথম আলো"
+    },
+    {
+      "id": "rssc2602ae9de1834",
+      "slug": "স্ত্রীর-ডিভোর্সের-হুমকিতে-নিজের-গায়ে-আগু",
+      "title": "স্ত্রীর ডিভোর্সের হুমকিতে নিজের গায়ে আগুন দিলেন যুবক, অবস্থা আশঙ্কাজনক",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%80%E0%A6%B0-%E0%A6%A1%E0%A6%BF%E0%A6%AD%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A7%87%E0%A6%B0-%E0%A6%B9%E0%A7%81%E0%A6%AE%E0%A6%95%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A7%9F%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A7%81.avif",
+      "publishedAt": "2026-10-16T18:59:12.225Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>ঢাকা মেডিকেল কলেজ হাসপাতালের বার্ন ইউনিটের আবাসিক চিকিৎসক মো. হারুনুর রশিদ প্রথম আলোকে বলেন, আগুনে শাহাদতের শরীরের ৯৭ শতাংশ পুড়ে গেছে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/uhqrpm8t2s\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "ঢাকা মেডিকেল কলেজ হাসপাতালের বার্ন ইউনিটের আবাসিক চিকিৎসক মো. হারুনুর রশিদ প্রথম আলোকে বলেন, আগুনে শাহাদতের শরীরের ৯৭ শতাংশ পুড়ে গেছে।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/uhqrpm8t2s",
+      "sourceName": "প্রথম আলো",
+      "imageCredit": "প্রথম আলো"
+    },
+    {
+      "id": "rss1699317a14a9ed",
+      "slug": "আড়ংয়ে-চাকরির-সুযোগ-এইচএসসি-পাসেই-আবেদন",
+      "title": "আড়ংয়ে চাকরির সুযোগ, এইচএসসি পাসেই আবেদন",
+      "category": "চাকরি",
+      "lead": false,
+      "image": "/images/economy.jpg",
+      "publishedAt": "2026-10-16T18:59:12.198Z",
+      "tags": [
+        "সরকারি দপ্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiSEFVX3lxTE5pdk1Gb1J4LVhfYmxoV3BIOFRNSnM3LWR3LXR5R3dZTktNbmdVZEdOU1pOMGRJRGxEYlhsYWpKSVhmdTFvX1FfXw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;আড়ংয়ে চাকরির সুযোগ, এইচএসসি পাসেই আবেদন&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;RTV News&amp;lt;/font&amp;gt;</p>\n<p><a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5pdk1Gb1J4LVhfYmxoV3BIOFRNSnM3LWR3LXR5R3dZTktNbmdVZEdOU1pOMGRJRGxEYlhsYWpKSVhmdTFvX1FfXw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\">আনুষ্ঠানিক ঘোষণাটি দেখুন →</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5pdk1Gb1J4LVhfYmxoV3BIOFRNSnM3LWR3LXR5R3dZTktNbmdVZEdOU1pOMGRJRGxEYlhsYWpKSVhmdTFvX1FfXw?oc=5\" target=\"_blank\"&gt;আড়ংয়ে চাকরির সুযোগ, এইচএসসি পাসেই আবেদন&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;RTV News&lt;/font&gt;",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5pdk1Gb1J4LVhfYmxoV3BIOFRNSnM3LWR3LXR5R3dZTktNbmdVZEdOU1pOMGRJRGxEYlhsYWpKSVhmdTFvX1FfXw?oc=5",
+      "sourceName": "সরকারি নিয়োগ"
     },
     {
       "id": "rss4207a7e622d9fd",
@@ -674,7 +724,7 @@
       "title": "হলি আর্টিজান মামলায় ৬ আসামির খালাসের আবেদন",
       "category": "চাকরি",
       "lead": false,
-      "image": "/images/economy.jpg",
+      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300",
       "publishedAt": "2026-10-16T16:14:12.314Z",
       "tags": [
         "ডেইলি বাংলাদেশ"
@@ -8456,57 +8506,6 @@
       "sourceUrl": "https://www.daily-bangladesh.com/entertainment/538317",
       "sourceName": "ডেইলি বাংলাদেশ",
       "imageCredit": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rssf9f5bfd302a191",
-      "slug": "আরামকোর-সদর-দপ্তর-ও-রিয়াদ-বিমানবন্দরে-হু",
-      "title": "আরামকোর সদর দপ্তর ও রিয়াদ বিমানবন্দরে হুতিদের হামলা",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/rssf9f5bfd302a191-1200x630.jpg",
-      "publishedAt": "2026-10-15T01:59:09.808Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>সৌদি আরবের রাজধানী সানায় সৌদি জোটের বিমান হামলার প্রতিশোধ হিসেবে রাষ্ট্রায়ত্ত তেল কোম্পানি আরামকোর প্রধান কার্যালয়ে সরাসরি ক্ষেপণাস্ত্র হামলা চালিয়েছে ইয়েমেনের সশস্ত্র গোষ্ঠী হুতিরা। মঙ্গলবার রাতে দেশটির পূর্বাঞ্চলীয় শহর ধাহরানে অবস্থিত আরামকোর সদর দপ্তরের একটি...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আন্তর্জাতিক এই সংঘাত জ্বালানি তেলের বৈশ্বিক বাজার অস্থিতিশীল করে জনজীবনে ব্যয়বৃদ্ধির ঝুঁকি তৈরি করছে। এমন পরিস্থিতিতে সাধারণ মানুষকে জ্বালানি ব্যবহারে মিতব্যয়ী হতে হবে এবং স্থানীয় অর্থনীতির সুরক্ষায় সতর্ক থাকতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/international/314218/আরামকোর-সদর-দপ্তর-ও-রিয়াদ-বিমানবন্দরে-হুতিদের-হামলা\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "সৌদি আরবের রাজধানী সানায় সৌদি জোটের বিমান হামলার প্রতিশোধ হিসেবে রাষ্ট্রায়ত্ত তেল কোম্পানি আরামকোর প্রধান কার্যালয়ে সরাসরি ক্ষেপণাস্ত্র হামলা চালিয়েছে ইয়েমেনের সশস্ত্র গোষ্ঠী হুতিরা। মঙ্গলবার রাতে দেশটির পূর্বাঞ্চলীয় শহর ধাহরানে অবস্থিত আরামকোর সদর দপ্তরের একটি...",
-      "sourceUrl": "https://www.bd-journal.com/international/314218/আরামকোর-সদর-দপ্তর-ও-রিয়াদ-বিমানবন্দরে-হুতিদের-হামলা",
-      "sourceName": "বাংলাদেশ জার্নাল",
-      "imageCredit": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rssbd42d93726cfb4",
-      "slug": "ভবিষ্যৎ-নিয়ে-দুশ্চিন্তা-তবু-খরচ-করছেন-বে",
-      "title": "ভবিষ্যৎ নিয়ে দুশ্চিন্তা, তবু খরচ করছেন বেশি? কেন এমন হয়",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/%E0%A6%AD%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%AF%E0%A7%8E-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%A4%E0%A6%AC%E0%A7%81-%E0%A6%96%E0%A6%B0%E0%A6%9A-%E0%A6%95%E0%A6%B0%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AC%E0%A7%87.webp",
-      "publishedAt": "2026-10-15T01:59:09.781Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>চাকরি থাকবে তো? ভবিষ্যতে নিজের বাড়ি কেনা সম্ভব হবে? জিনিসপত্রের দাম যেভাবে বাড়ছে, তাতে সঞ্চয় করে আদৌ লাভ কী? ভবিষ্যৎ নিয়ে এমন অনিশ্চয়তার মধ্যে কেউ কেউ খরচ কমানোর বদলে উল্টো বেশি খরচ করতে শুরু করেন। দুশ্চিন্তা ভুলতে কেনেন পছন্দের পোশাক, দামি গ্যাজেট কিংবা ঘুরতে যাওয়ার টিকিট। মনোবিজ্ঞানে এ প্রবণতাকে ব</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ভবিষ্যৎ অনিশ্চয়তা থেকে সাময়িক স্বস্তি পেতে অতিরিক্ত খরচের প্রবণতা দীর্ঘমেয়াদে আর্থিক নিরাপত্তার পথে বড় বাধা। চাকরিপ্রার্থীদের উচিত আবেগী কেনাকাটার বদলে সুশৃঙ্খল বাজেট ও সঞ্চয়ের অভ্যাস গড়ে তোলা, যা পেশাগত অস্থিরতা মোকাবিলায় মানসিক শক্তি জোগাবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/lifestyle/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF/974580/%E0%A6%AD%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%AF%E0%A7%8E-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%A4%E0%A6%AC%E0%A7%81-%E0%A6%96%E0%A6%B0%E0%A6%9A-%E0%A6%95%E0%A6%B0%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%95%E0%A7%87%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "চাকরি থাকবে তো? ভবিষ্যতে নিজের বাড়ি কেনা সম্ভব হবে? জিনিসপত্রের দাম যেভাবে বাড়ছে, তাতে সঞ্চয় করে আদৌ লাভ কী? ভবিষ্যৎ নিয়ে এমন অনিশ্চয়তার মধ্যে কেউ কেউ খরচ কমানোর বদলে উল্টো বেশি খরচ করতে শুরু করেন। দুশ্চিন্তা ভুলতে কেনেন পছন্দের পোশাক, দামি গ্যাজেট কিংবা ঘুরতে যাওয়ার টিকিট। মনোবিজ্ঞানে এ প্রবণতাকে ব",
-      "sourceUrl": "https://www.banglatribune.com/lifestyle/%E0%A6%85%E0%A6%A8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%AF/974580/%E0%A6%AD%E0%A6%AC%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%AF%E0%A7%8E-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%B6%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%BE-%E0%A6%A4%E0%A6%AC%E0%A7%81-%E0%A6%96%E0%A6%B0%E0%A6%9A-%E0%A6%95%E0%A6%B0%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF-%E0%A6%95%E0%A7%87%E0%A6%A8",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss03ee7063ab720e",
-      "slug": "আমাদের-কেমন-পুলিশ-দরকার",
-      "title": "আমাদের কেমন পুলিশ দরকার",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%AE%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%87%E0%A6%AE%E0%A6%A8-%E0%A6%AA%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B6-%E0%A6%A6%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0.avif",
-      "publishedAt": "2026-10-15T01:59:09.744Z",
-      "tags": [
-        "প্রথম আলো"
-      ],
-      "body": "<p>মানবসভ্যতার আদিকাল থেকেই সমাজকে অনিয়ম ও অনাচার থেকে সুরক্ষিত রাখতে পুলিশের ধারণাটি গড়ে উঠেছে। সমাজবিজ্ঞানীদের মতে, প্রকৃতির সম্পদের ওপর শক্তিশালী ব্যক্তিদের নিয়ন্ত্রণ প্রতিষ্ঠার পর সেই আধিপত্য টিকিয়ে রাখার স্বার্থেই পুলিশের উদ্ভব হয়। মূলত কমিউনিটি পুলিশিংয়ের মাধ্যমেই এই ব্যবস্থার যাত্রা শুরু হয়েছিল, যেখানে একদিকে যেমন সম্পদশালীদের নিরাপত্তার বিষয়টি প্রাধান্য পেয়েছে, অন্যদিকে দুর্বৃত্তদের হাত থেকে রক্ষা পেতে দুর্বলদের ঐক্যবদ্ধ হওয়ার চেষ্টাও ছিল। তাত্ত্বিকভাবে পুলিশিং ব্যবস্থার উদ্দেশ্য ন্যায়বিচার প্রতিষ্ঠা মনে করা হলেও, ঐতিহাসিকভাবে এটি মূলত বিরাজমান সামাজিক স্থিতিশীলতা ও শৃঙ্খলার রক্ষাকবচ হিসেবেই কাজ করে আসছে।</p>\n<p>রাষ্ট্র ও সমাজের প্রেক্ষাপটে শৃঙ্খলার অর্থ হলো বিদ্যমান কাঠামোকে অটুট রাখা। ইতিহাস পর্যালোচনা করলে দেখা যায়, শক্তিশালী কেন্দ্রীয় কর্তৃপক্ষের অনুপস্থিতিতে সমাজে ‘মাৎস্যন্যায়’ বা অরাজক পরিস্থিতির সৃষ্টি হয়, যা জনজীবনকে স্থবির করে দেয়। বাংলার পাল সাম্রাজ্যের পূর্বে শশাঙ্কের শাসনকাল বা বিভিন্ন যুগের অস্থিরতা এর প্রকৃষ্ট উদাহরণ। সমাজবিজ্ঞানীদের অভিমত অনুযায়ী, সমাজ বিকাশের ধারায় রাষ্ট্র ও সমাজের শৃঙ্খলা বজায় রাখতে শক্তিশালী কেন্দ্রীয় কর্তৃপক্ষের কোনো বিকল্প নেই এবং সেই কর্তৃপক্ষের অন্যতম প্রধান হাতিয়ার হলো পুলিশিং ব্যবস্থা। রাষ্ট্র তার স্বকীয়তা ও নিয়ন্ত্রণ বজায় রাখতে পুলিশের ওপরই নির্ভর করে।</p>\n<p>তবে পুলিশিং ব্যবস্থার এই ভূমিকা নিয়ে দীর্ঘকাল ধরে বিতর্ক বিদ্যমান। সাধারণ মানুষের মধ্যে এমন ধারণা প্রবল যে, পুলিশ প্রায়শই ক্ষমতাসীন বা বিত্তবানদের স্বার্থ রক্ষায় কাজ করে। ১৮২৯ সালে ব্রিটিশ পার্লামেন্টে এ নিয়ে বিতর্কের সূত্রপাত হয় যে, পুলিশের মাধ্যমে অতিরিক্ত নিয়ন্ত্রণ চর্চা করলে তা স্বৈরতন্ত্রের জন্ম দিতে পারে এবং ব্যক্তিগত স্বাধীনতা সংকুচিত হতে পারে। আধুনিক রাষ্ট্রব্যবস্থায় পুলিশকে যেমন আইন প্রয়োগ ও অধিকার প্রতিষ্ঠায় বৈষম্য দূর করতে হয়, তেমনি ক্ষমতাসীন দলের নির্দেশনায় শৃঙ্খলা রক্ষা করার ক্ষেত্রেও বিভিন্ন চ্যালেঞ্জ মোকাবিলা করতে হয়।</p>\n<p>বর্তমানে পুলিশকে দায়িত্ব পালন করতে গিয়ে রাজনৈতিক কর্মসূচি, বিশৃঙ্খল জনতা এবং রাষ্ট্রীয় নীতিমালায় প্রভাব বিস্তারকারী অদৃশ্য শক্তির মতো নেতিবাচক বিষয়গুলোর মুখোমুখি হতে হয়। একদিকে সরকারের নির্দেশনা পালন এবং অন্যদিকে জনগণের জানমালের নিরাপত্তা নিশ্চিত করা—এই দ্বিমুখী সংকটের মাঝে পুলিশকে অত্যন্ত কৌশলী, ধৈর্যশীল ও সংবেদনশীল হতে হয়। পুলিশের মূল দায়িত্ব জনগণের নিরাপত্তা নিশ্চিত করা, অথচ শৃঙ্খলা প্রতিষ্ঠায় অনেক সময় তাদের কঠোর কর্তৃত্ব প্রদর্শন করতে হয়। তাই সমাজের অসহায় মানুষের অভিভাবক হিসেবে এবং সব ধরনের বাধা-বন্ধনহীনভাবে দায়িত্ব পালন করাই আধুনিক পুলিশিংয়ের মূল লক্ষ্য হওয়া উচিত।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আইনশৃঙ্খলা বাহিনীর নিরপেক্ষ ও সাহসী ভূমিকা ছাড়া জননিরাপত্তা নিশ্চিত করা অসম্ভব। নাগরিক অধিকার রক্ষায় পুলিশকে রাজনৈতিক প্রভাবমুক্ত হয়ে পেশাদারিত্বের পরিচয় দিতে হবে এবং জনগণকেও সজাগ থেকে সুশৃঙ্খল পরিবেশ বজায় রাখতে সহায়তা করতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/opinion/column/36lty9ouru\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
-      "summary": "প্রচলিত রাষ্ট্রব্যবস্থায় সবলরা যখন দুর্বল হয়, তখন শৃঙ্খলা ভেঙে পড়ে, অরাজকতার সৃষ্টি হয়, আইনশৃঙ্খলার অবনতি ঘটতে থাকে, সমাজে অনাচার-বিশৃঙ্খলা সৃষ্টি হয়, জনজীবন অচল হয়ে পড়ে।",
-      "sourceUrl": "https://www.prothomalo.com/opinion/column/36lty9ouru",
-      "sourceName": "প্রথম আলো",
-      "imageCredit": "প্রথম আলো"
     }
   ],
   "ads": [
