@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "updatedAt": "2026-10-01T08:55:10.217Z",
+  "version": 9,
+  "updatedAt": "2026-11-01T12:57:43.829Z",
   "news": [
     {
       "id": "tongi-extortion-hasan-mia",
@@ -52,7 +52,7 @@
       "link": "\/news\/thy-recruitment-2026",
       "html": "",
       "youtube": "",
-      "enabled": false,
+      "enabled": true,
       "editorial": true
     }
   ]
