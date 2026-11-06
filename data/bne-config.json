@@ -1,6 +1,6 @@
 {
-  "version": 2289,
-  "updatedAt": "2026-11-06T18:00:49.549Z",
+  "version": 2290,
+  "updatedAt": "2026-11-06T18:15:39.541Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,57 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rss095825ffaf1972",
+      "slug": "লারা-লোটাস-দীর্ঘ-বিরতি-শেষে-সিনেমায়-ফিরছ",
+      "title": "লারা লোটাস দীর্ঘ বিরতি শেষে সিনেমায় ফিরছেন",
+      "category": "বিনোদন",
+      "lead": false,
+      "image": "/img/%E0%A6%B2%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%B2%E0%A7%8B%E0%A6%9F%E0%A6%BE%E0%A6%B8-%E0%A6%A6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%98-%E0%A6%AC%E0%A6%BF%E0%A6%B0%E0%A6%A4%E0%A6%BF-%E0%A6%B6%E0%A7%87%E0%A6%B7%E0%A7%87-%E0%A6%B8%E0%A6%BF%E0%A6%A8%E0%A7%87%E0%A6%AE%E0%A6%BE%E0%A7%9F-%E0%A6%AB%E0%A6%BF%E0%A6%B0%E0%A6%9B.jpg",
+      "publishedAt": "2026-11-06T18:14:25.760Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>অভিনেত্রী লারা লোটাস দীর্ঘদিনের বিরতি কাটিয়ে আবারও বড় পর্দায় অভিনয় করতে যাচ্ছেন। জুলফিকার জাহেদি পরিচালিত ‘জানালার ওপারে কেউ নেই’ সিনেমায় নতুন একটি চরিত্রে দেখা...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">দীর্ঘ বিরতির পর লারা লোটাসের প্রত্যাবর্তন বাংলা চলচ্চিত্রের ধারায় নতুন বৈচিত্র্য নিয়ে আসবে। দক্ষ শিল্পীর এমন প্রত্যাবর্তন দর্শকদের মধ্যে যেমন প্রত্যাশা জাগায়, তেমনি ইন্ডাস্ট্রির গুণগত মানোন্নয়নেও ইতিবাচক ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/entertainment/540774\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "অভিনেত্রী লারা লোটাস দীর্ঘদিনের বিরতি কাটিয়ে আবারও বড় পর্দায় অভিনয় করতে যাচ্ছেন। জুলফিকার জাহেদি পরিচালিত ‘জানালার ওপারে কেউ নেই’ সিনেমায় নতুন একটি চরিত্রে দেখা...",
+      "sourceUrl": "https://www.daily-bangladesh.com/entertainment/540774",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss653c81ed226ce7",
+      "slug": "জীবননগর-সীমান্তে-গুলি-করে-বাংলাদেশিকে-ধর",
+      "title": "জীবননগর সীমান্তে গুলি করে বাংলাদেশিকে ধরে নিয়ে গেছে বিএসএফ",
+      "category": "ধর্ম",
+      "lead": false,
+      "image": "/img/%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A6%A8%E0%A6%97%E0%A6%B0-%E0%A6%B8%E0%A7%80%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A7%87-%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A6%BF-%E0%A6%95%E0%A6%B0%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%87-%E0%A6%A7%E0%A6%B0.jpg",
+      "publishedAt": "2026-11-06T18:14:25.757Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>চুয়াডাঙ্গার জীবননগর সীমান্তে স্বর্ণ পাচারের চেষ্টাকালে ভারতীয় সীমান্তরক্ষী বাহিনীর (বিএসএফ) গুলিতে মনিরুল ইসলাম মনির (২৬) নামে এক বাংলাদেশি আহত হয়েছেন। পরে তাকে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সীমান্তে এ ধরনের সহিংসতা মানবিক অধিকারের চরম লঙ্ঘন এবং প্রতিবেশী দেশগুলোর মধ্যে পারস্পরিক আস্থার সংকট তৈরি করে। অপরাধপ্রবণতা রোধে বলপ্রয়োগের চেয়ে কূটনৈতিক আলোচনার মাধ্যমে সংঘাত নিরসনই ধর্মীয় ও নৈতিক মূল্যবোধের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/540775\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "চুয়াডাঙ্গার জীবননগর সীমান্তে স্বর্ণ পাচারের চেষ্টাকালে ভারতীয় সীমান্তরক্ষী বাহিনীর (বিএসএফ) গুলিতে মনিরুল ইসলাম মনির (২৬) নামে এক বাংলাদেশি আহত হয়েছেন। পরে তাকে...",
+      "sourceUrl": "https://www.daily-bangladesh.com/country/540775",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rssa65e8209385bfb",
+      "slug": "অলিম্পিকের-স্বর্ণপদক-চুরি-সাবেক-হকি-অধিন",
+      "title": "অলিম্পিকের স্বর্ণপদক চুরি সাবেক হকি অধিনায়কের বাড়ি থেকে",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%85%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A3%E0%A6%AA%E0%A6%A6%E0%A6%95-%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%B9%E0%A6%95%E0%A6%BF-%E0%A6%85%E0%A6%A7%E0%A6%BF%E0%A6%A8.jpg",
+      "publishedAt": "2026-11-06T18:14:25.754Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>সোনার গয়না, নগদ টাকা তো ছিলই, চোরেরা হাতিয়ে নিয়ে গেল অলিম্পিকের সোনার পদকও! ভারতের সাবেক হকি অধিনায়ক এমএম সোমায়ার বাড়িতে চুরির ঘটনায় রীতিমতো চাঞ্চল্য তৈরি হয়েছ...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">একজন কিংবদন্তি খেলোয়াড়ের অলিম্পিক পদক চুরি কেবল ব্যক্তিগত ক্ষতি নয়, বরং ক্রীড়া ইতিহাসের অমূল্য স্মারক হারানো। এই ঘটনা ক্রীড়াবিদদের ব্যক্তিগত নিরাপত্তা নিশ্চিতের প্রয়োজনীয়তা ও জাতীয় ঐতিহ্যের সুরক্ষায় কঠোর সতর্কতার বার্তা দেয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/sports/540776\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "সোনার গয়না, নগদ টাকা তো ছিলই, চোরেরা হাতিয়ে নিয়ে গেল অলিম্পিকের সোনার পদকও! ভারতের সাবেক হকি অধিনায়ক এমএম সোমায়ার বাড়িতে চুরির ঘটনায় রীতিমতো চাঞ্চল্য তৈরি হয়েছ...",
+      "sourceUrl": "https://www.daily-bangladesh.com/sports/540776",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
     },
     {
       "id": "rss74ebce33a5d3c8",
@@ -3696,7 +3747,7 @@
       "ogImageHeight": 630,
       "imageCredit": "বাংলা ট্রিবিউন",
       "imageSourceUrl": "https://cdn.banglatribune.net/contents/cache/images/1200x630x1xxxxx1/uploads/media/2026/11/06/a30b79b73d0e7dc67cd50f8ba634a0a6-6aecfbe679faf.jpg",
-      "imageFetchedAt": "2026-11-06T18:00:54.175Z"
+      "imageFetchedAt": "2026-11-06T18:15:43.472Z"
     },
     {
       "id": "rss6c64922590bffb",
@@ -4913,7 +4964,7 @@
       "ogImageHeight": 630,
       "imageCredit": "প্রথম আলো",
       "imageSourceUrl": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-05%2F54cfrt1p%2F%E0%A6%9F%E0%A7%87%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%93-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%81-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF-%E0%A6%9C%E0%A6%AF%E0%A6%BC%E0%A7%80-%E0%A6%9A%E0%A6%B2%E0%A6%9A%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A6%E0%A6%BE%E0%A6%B0-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%B9%E0%A7%87%E0%A6%BE%E0%A6%B2-%E0%A6%95%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B0.jpg?rect=0%2C0%2C2100%2C1103&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
-      "imageFetchedAt": "2026-11-06T18:00:54.309Z"
+      "imageFetchedAt": "2026-11-06T18:15:43.665Z"
     },
     {
       "id": "rss9446b408200eb1",
@@ -8413,57 +8464,6 @@
       "body": "<p>হাত-পা অচল, কথাও বলতে পারেন না, এমন বহুমাত্রিক শারীরিক প্রতিবন্ধকতা নিয়ে এসএসসি ও এইচএসসি পরীক্ষায় ভালোভাবে উত্তীর্ণ হয়েছেন রংপুরের নিভৃতপল্লির এক যুবক জুবায়ের হোসেন উজ্জ্বল। হাত-পা কাজ না করায় মুখই হয়ে উঠেছে তার শরীরের সর্বাধিক কর্মক্ষম অঙ্গ। মুখ দিয়ে কলম ধরে চলেছে লেখাপড়া। এখন পরনির্ভরশীলতা কাটিয়ে</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রযুক্তিগত সহায়ক উপকরণের সহজলভ্যতা উজ্জ্বলদের মতো অদম্য মেধাবীদের জন্য নতুন দিগন্ত উন্মোচন করতে পারে। প্রতিবন্ধকতা জয় করে টিকে থাকার লড়াইয়ে প্রযুক্তি যেন কেবল বিলাসিতা নয়, বরং আত্মনির্ভরশীল হওয়ার প্রধান হাতিয়ার হিসেবে বিবেচিত হওয়া জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/819116/%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A7%9C-%E0%A6%A1%E0%A6%BF%E0%A6%99%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%8F%E0%A6%97%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%89%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A7%8D%E0%A6%AC%E0%A6%B2\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
       "summary": "হাত-পা অচল, কথাও বলতে পারেন না, এমন বহুমাত্রিক শারীরিক প্রতিবন্ধকতা নিয়ে এসএসসি ও এইচএসসি পরীক্ষায় ভালোভাবে উত্তীর্ণ হয়েছেন রংপুরের নিভৃতপল্লির এক যুবক জুবায়ের হোসেন উজ্জ্বল। হাত-পা কাজ না করায় মুখই হয়ে উঠেছে তার শরীরের সর্বাধিক কর্মক্ষম অঙ্গ। মুখ দিয়ে কলম ধরে চলেছে লেখাপড়া। এখন পরনির্ভরশীলতা কাটিয়ে",
       "sourceUrl": "https://www.ittefaq.com.bd/819116/%E0%A6%AC%E0%A6%BE%E0%A6%A7%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A7%9C-%E0%A6%A1%E0%A6%BF%E0%A6%99%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%8F%E0%A6%97%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%9A%E0%A7%8D%E0%A6%9B%E0%A7%87%E0%A6%A8-%E0%A6%89%E0%A6%9C%E0%A7%8D%E0%A6%9C%E0%A7%8D%E0%A6%AC%E0%A6%B2",
-      "sourceName": "ইত্তেফাক",
-      "imageCredit": "ইত্তেফাক"
-    },
-    {
-      "id": "rssad21a5c21362bf",
-      "slug": "সৌদি-আরবের-সঙ্গে-প্রতিরক্ষা-চুক্তি-স্বাক",
-      "title": "সৌদি আরবের সঙ্গে প্রতিরক্ষা চুক্তি স্বাক্ষর করল সিরিয়া",
-      "category": "আন্তর্জাতিক",
-      "lead": false,
-      "image": "/img/rssad21a5c21362bf-1200x630.jpg",
-      "publishedAt": "2026-11-04T23:14:23.191Z",
-      "tags": [
-        "যুগান্তর"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KTXBudlVLMnJSQlJkMzE5enJnUlFqckhlZjIyQWpwRC1ZeWQ4RkRUamNOR0JFclJtd2N6VkJhUDl0b1ZqX0pPOEF2S0JXYXJiTGZYM3Z0Q2lsZw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;সৌদি আরবের সঙ্গে প্রতিরক্ষা চুক্তি স্বাক্ষর করল সিরিয়া&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মধ্যপ্রাচ্যের ভূ-রাজনৈতিক মেরুকরণে এই চুক্তিটি আঞ্চলিক স্থিতিশীলতা পুনরুদ্ধারের ইঙ্গিত দেয়, যা বাংলাদেশের কূটনৈতিক ভারসাম্যের জন্যও ইতিবাচক। আরব বিশ্বের এমন পুনর্মিলন মুসলিম দেশগুলোর সাথে বাংলাদেশের কৌশলগত সম্পর্ক ও সহযোগিতার নতুন পথ প্রশস্ত করতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KTXBudlVLMnJSQlJkMzE5enJnUlFqckhlZjIyQWpwRC1ZeWQ4RkRUamNOR0JFclJtd2N6VkJhUDl0b1ZqX0pPOEF2S0JXYXJiTGZYM3Z0Q2lsZw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KTXBudlVLMnJSQlJkMzE5enJnUlFqckhlZjIyQWpwRC1ZeWQ4RkRUamNOR0JFclJtd2N6VkJhUDl0b1ZqX0pPOEF2S0JXYXJiTGZYM3Z0Q2lsZw?oc=5\" target=\"_blank\"&gt;সৌদি আরবের সঙ্গে প্রতিরক্ষা চুক্তি স্বাক্ষর করল সিরিয়া&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KTXBudlVLMnJSQlJkMzE5enJnUlFqckhlZjIyQWpwRC1ZeWQ4RkRUamNOR0JFclJtd2N6VkJhUDl0b1ZqX0pPOEF2S0JXYXJiTGZYM3Z0Q2lsZw?oc=5",
-      "sourceName": "যুগান্তর",
-      "imageCredit": "যুগান্তর"
-    },
-    {
-      "id": "rss443159c745b83c",
-      "slug": "বড়-দায়িত্ব-থেকে-মুক্ত-হলাম-রাকসু-ছেড়ে",
-      "title": "‘বড় দায়িত্ব থেকে মুক্ত হলাম’, রাকসু ছেড়ে কোথায় যাচ্ছেন আম্মার",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%AC%E0%A6%A1%E0%A6%BC-%E0%A6%A6%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%B9%E0%A6%B2%E0%A6%BE%E0%A6%AE-%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%B8%E0%A7%81-%E0%A6%9B%E0%A7%87%E0%A6%A1%E0%A6%BC%E0%A7%87.webp",
-      "publishedAt": "2026-11-04T22:59:23.156Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>রাজশাহী বিশ্ববিদ্যালয় কেন্দ্রীয় ছাত্র সংসদের (রাকসু) ১৭তম সাধারণ সম্পাদক (জিএস) সালাহউদ্দিন আম্মার দায়িত্বের মেয়াদ শেষ হওয়ার আট দিন পর নিজের দফতর ছেড়েছেন। রাকসুর কোষাধ্যক্ষের চিঠির পরিপ্রেক্ষিতে বুধবার (৪ নভেম্বর) রাতে তিনি দফতর ছাড়েন। বুধবার রাত ৮টার দিকে সামাজিক যোগাযোগমাধ্যম ফেসবুকে দেওয়া এক পোস্</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ছাত্র সংসদ থেকে বিদায় নেওয়ার এই ঘটনা ক্যাম্পাসের গণতান্ত্রিক চর্চাকে স্থবিরতার দিকে ঠেলে দিচ্ছে, যা সাধারণ শিক্ষার্থীদের অধিকার আদায়ের পথকে সংকীর্ণ করবে। রাজনৈতিক নেতৃত্বের এমন বিদায় বিশ্ববিদ্যালয়ের প্রশাসনিক স্বচ্ছতার ওপর বড় প্রশ্নচিহ্ন তোলে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/978890/%E2%80%98%E0%A6%AC%E0%A6%A1%E0%A6%BC-%E0%A6%A6%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%B9%E0%A6%B2%E0%A6%BE%E0%A6%AE%E2%80%99-%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%B8%E0%A7%81-%E0%A6%9B%E0%A7%87%E0%A6%A1%E0%A6%BC%E0%A7%87-%E0%A6%95%E0%A7%8B%E0%A6%A5%E0%A6%BE%E0%A6%AF%E0%A6%BC\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "রাজশাহী বিশ্ববিদ্যালয় কেন্দ্রীয় ছাত্র সংসদের (রাকসু) ১৭তম সাধারণ সম্পাদক (জিএস) সালাহউদ্দিন আম্মার দায়িত্বের মেয়াদ শেষ হওয়ার আট দিন পর নিজের দফতর ছেড়েছেন। রাকসুর কোষাধ্যক্ষের চিঠির পরিপ্রেক্ষিতে বুধবার (৪ নভেম্বর) রাতে তিনি দফতর ছাড়েন। বুধবার রাত ৮টার দিকে সামাজিক যোগাযোগমাধ্যম ফেসবুকে দেওয়া এক পোস্",
-      "sourceUrl": "https://www.banglatribune.com/country/978890/%E2%80%98%E0%A6%AC%E0%A6%A1%E0%A6%BC-%E0%A6%A6%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4-%E0%A6%B9%E0%A6%B2%E0%A6%BE%E0%A6%AE%E2%80%99-%E0%A6%B0%E0%A6%BE%E0%A6%95%E0%A6%B8%E0%A7%81-%E0%A6%9B%E0%A7%87%E0%A6%A1%E0%A6%BC%E0%A7%87-%E0%A6%95%E0%A7%8B%E0%A6%A5%E0%A6%BE%E0%A6%AF%E0%A6%BC",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssdc62eea271df99",
-      "slug": "প্রতিদিন-কমছে-তাপমাত্রা-তিন-মাসে-ছয়-শৈত্",
-      "title": "প্রতিদিন কমছে তাপমাত্রা, তিন মাসে ছয় শৈত্যপ্রবাহের পূর্বাভাস",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%95%E0%A6%AE%E0%A6%9B%E0%A7%87-%E0%A6%A4%E0%A6%BE%E0%A6%AA%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%9B%E0%A7%9F-%E0%A6%B6%E0%A7%88%E0%A6%A4%E0%A7%8D.webp",
-      "publishedAt": "2026-11-04T22:44:23.185Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>কার্তিকের সূচনা থেকেই তাপমাত্রা নামছে। কুয়াশাও দশ প্রহরণ মেলছে। গ্রামীণ জনপদে শেষ রাতে শীতের আমেজ অনুভূত হচ্ছে ক্রমশ। বিশেষ করে নদনদীর অববাহিকা এবং দেশের কিছু এলাকায় মাঝারি থেকে ঘন কুয়াশা দেখা দিচ্ছে। এর মধ্যে গতকাল বুধবার আবহাওয়া অধিদপ্তরের দীর্ঘমেয়াদি পূর্বাভাসে বলা হয়েছে, দেশে শীতের মৌসুমে কয়েক দ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শৈত্যপ্রবাহের এই দীর্ঘ পূর্বাভাস চাকরিপ্রার্থীদের জন্য যাতায়াত ও পরীক্ষার প্রস্তুতিতে বাড়তি চ্যালেঞ্জ তৈরি করবে। ঘন কুয়াশায় পরিবহন সংকট ও সময়সূচি বিঘ্নিত হওয়ার সম্ভাবনা থাকায়, এখন থেকেই পরীক্ষার কেন্দ্রমুখী যাতায়াতের পরিকল্পনায় বাড়তি সতর্কতা অবলম্বন জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/819115/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%95%E0%A6%AE%E0%A6%9B%E0%A7%87-%E0%A6%A4%E0%A6%BE%E0%A6%AA%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%9B%E0%A7%9F-%E0%A6%B6%E0%A7%88%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "কার্তিকের সূচনা থেকেই তাপমাত্রা নামছে। কুয়াশাও দশ প্রহরণ মেলছে। গ্রামীণ জনপদে শেষ রাতে শীতের আমেজ অনুভূত হচ্ছে ক্রমশ। বিশেষ করে নদনদীর অববাহিকা এবং দেশের কিছু এলাকায় মাঝারি থেকে ঘন কুয়াশা দেখা দিচ্ছে। এর মধ্যে গতকাল বুধবার আবহাওয়া অধিদপ্তরের দীর্ঘমেয়াদি পূর্বাভাসে বলা হয়েছে, দেশে শীতের মৌসুমে কয়েক দ",
-      "sourceUrl": "https://www.ittefaq.com.bd/819115/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%95%E0%A6%AE%E0%A6%9B%E0%A7%87-%E0%A6%A4%E0%A6%BE%E0%A6%AA%E0%A6%AE%E0%A6%BE%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BE-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%9B%E0%A7%9F-%E0%A6%B6%E0%A7%88%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%87%E0%A6%B0",
       "sourceName": "ইত্তেফাক",
       "imageCredit": "ইত্তেফাক"
     }
