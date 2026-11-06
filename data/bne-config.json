@@ -1,6 +1,6 @@
 {
-  "version": 2241,
-  "updatedAt": "2026-11-06T06:00:50.572Z",
+  "version": 2242,
+  "updatedAt": "2026-11-06T06:15:27.656Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,57 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rss0ec2197efded62",
+      "slug": "তিন-মাসে-দেশে-৬-শৈত্যপ্রবাহের-আভাস",
+      "title": "তিন মাসে দেশে ৬ শৈত্যপ্রবাহের আভাস",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A7%AC-%E0%A6%B6%E0%A7%88%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%AD%E0%A6%BE%E0%A6%B8.webp",
+      "publishedAt": "2026-11-06T06:14:24.966Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>ঋতুর পালাবদলে শীত কড়া নাড়ছে দুয়ারে। শেষরাতে গ্রামাঞ্চলে ঠান্ডার অনুভূতির পাশাপাশি বিস্তীর্ণ প্রান্তর আর নদীতীর ঢাকতে শুরু করেছে কুয়াশায়। এর মাঝেই শীত নিয়ে বড় বার্তা দিয়েছে আবহাওয়া অধিদফতর। জানানো হয়েছে, আগামী তিন মাসে দেশের ওপর দিয়ে চার থেকে ছয়টি মৃদু থেকে মাঝারি ধরনের শৈত্যপ্রবাহ বয়ে যেতে পারে। চলতি নভেম্বর থেকে আগামী জানুয়ারি পর্যন্ত সময়ের এই দীর্ঘমেয়াদি পূর্বাভাসে বলা হয়েছে, শীত মৌসুমে দেশে... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/weather/979145/%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A7%AC-%E0%A6%B6%E0%A7%88%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%AD%E0%A6%BE%E0%A6%B8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "ঋতুর পালাবদলে শীত কড়া নাড়ছে দুয়ারে। শেষরাতে গ্রামাঞ্চলে ঠান্ডার অনুভূতির পাশাপাশি বিস্তীর্ণ প্রান্তর আর নদীতীর ঢাকতে শুরু করেছে কুয়াশায়। এর মাঝেই শীত নিয়ে বড় বার্তা দিয়েছে আবহাওয়া অধিদফতর। জানানো হয়েছে, আগামী তিন মাসে দেশের ওপর দিয়ে চার থেকে ছয়টি মৃদু থেকে মাঝারি ধরনের শৈত্যপ্রবাহ বয়ে যেতে পারে। চলত",
+      "sourceUrl": "https://www.banglatribune.com/weather/979145/%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AE%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87-%E0%A7%AC-%E0%A6%B6%E0%A7%88%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%AD%E0%A6%BE%E0%A6%B8",
+      "sourceName": "বাংলা ট্রিবিউন",
+      "imageCredit": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssabb85bdb517146",
+      "slug": "তালা-ভেঙে-বিএনপি-কার্যালয়-থেকে-টিভি-চেয়া",
+      "title": "তালা ভেঙে বিএনপি কার্যালয় থেকে টিভি-চেয়ার চুরি",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BE-%E0%A6%AD%E0%A7%87%E0%A6%99%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A6%BE.webp",
+      "publishedAt": "2026-11-06T06:14:24.960Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>পটুয়াখালীর দশমিনায় চরবোরহান ইউনিয়ন বিএনপির অস্থায়ী কার্যালয়ের তালা ভেঙে টেলিভিশন, চেয়ারসহ বিভিন্ন মালামাল চুরির অভিযোগ উঠেছে। চুরি হওয়া মালামালের আনুমানিক মূল্য ৫০ হাজার টাকা। এ ঘটনায় প্রতিবাদ জানিয়ে বিক্ষোভ মিছিল ও পথসভা করেছেন বিএনপি এবং সহযোগী সংগঠনের নেতাকর্মীরা। বৃহস্পতিবার (৫ নভেম্বর) সন্ধ্যায় উপজেলার পাগলা বাজার এলাকায় কার্যালয়ের তালা ভাঙা এবং ভেতরে মালামাল না থাকার বিষয়টি তাদের নজরে... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/barishal/979146/%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BE-%E0%A6%AD%E0%A7%87%E0%A6%99%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "পটুয়াখালীর দশমিনায় চরবোরহান ইউনিয়ন বিএনপির অস্থায়ী কার্যালয়ের তালা ভেঙে টেলিভিশন, চেয়ারসহ বিভিন্ন মালামাল চুরির অভিযোগ উঠেছে। চুরি হওয়া মালামালের আনুমানিক মূল্য ৫০ হাজার টাকা। এ ঘটনায় প্রতিবাদ জানিয়ে বিক্ষোভ মিছিল ও পথসভা করেছেন বিএনপি এবং সহযোগী সংগঠনের নেতাকর্মীরা। বৃহস্পতিবার (৫ নভেম্বর) সন্ধ্যায়",
+      "sourceUrl": "https://www.banglatribune.com/country/barishal/979146/%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A6%BE-%E0%A6%AD%E0%A7%87%E0%A6%99%E0%A7%87-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%9F-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%9A%E0%A7%81%E0%A6%B0%E0%A6%BF",
+      "sourceName": "বাংলা ট্রিবিউন",
+      "imageCredit": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss45d6f6ab4199ea",
+      "slug": "ইসরায়েলে-সরকার-গঠনের-দায়িত্ব-কার-জানা-যা",
+      "title": "ইসরায়েলে সরকার গঠনের দায়িত্ব কার, জানা যাবে রবিবার",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%87%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%97%E0%A6%A0%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%AF%E0%A6%BE.webp",
+      "publishedAt": "2026-11-06T06:14:24.958Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>গত মাসের পার্লামেন্ট নির্বাচনের পর রাজনৈতিক দলগুলোর সঙ্গে আলোচনা শেষে রবিবার নতুন সরকার গঠনের দায়িত্ব কার হাতে যাবে, তা ঘোষণা করবেন ইসরায়েলের প্রেসিডেন্ট আইজাক হারজোগ। মদিনায় হুথিদের ক্ষেপণাস্ত্র হামলার চেষ্টার নিন্দা জানালো আরব বিশ্ব ইসরায়েলি সংবাদমাধ্যম ওয়াইনেট-এ প্রকাশিত এক ভিডিও বার্তায় আইজাক হারজোগ জানান, ১২০ আসনের নেসেটের মধ্যে ৬৭ জন সদস্যের প্রতিনিধিত্বকারী দলগুলো ইয়াসার পার্টির... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/middle-east/979147/%E0%A6%87%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%97%E0%A6%A0%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%B0%E0%A6%AC%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "গত মাসের পার্লামেন্ট নির্বাচনের পর রাজনৈতিক দলগুলোর সঙ্গে আলোচনা শেষে রবিবার নতুন সরকার গঠনের দায়িত্ব কার হাতে যাবে, তা ঘোষণা করবেন ইসরায়েলের প্রেসিডেন্ট আইজাক হারজোগ। মদিনায় হুথিদের ক্ষেপণাস্ত্র হামলার চেষ্টার নিন্দা জানালো আরব বিশ্ব ইসরায়েলি সংবাদমাধ্যম ওয়াইনেট-এ প্রকাশিত এক ভিডিও বার্তায় আইজাক হা",
+      "sourceUrl": "https://www.banglatribune.com/foreign/middle-east/979147/%E0%A6%87%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B2%E0%A7%87-%E0%A6%B8%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%97%E0%A6%A0%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%A6%E0%A6%BE%E0%A7%9F%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%AC-%E0%A6%95%E0%A6%BE%E0%A6%B0-%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE-%E0%A6%AF%E0%A6%BE%E0%A6%AC%E0%A7%87-%E0%A6%B0%E0%A6%AC%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B0",
+      "sourceName": "বাংলা ট্রিবিউন",
+      "imageCredit": "বাংলা ট্রিবিউন"
     },
     {
       "id": "rssda6bef0532d8af",
@@ -1269,7 +1320,7 @@
       "ogImageHeight": 630,
       "imageCredit": "বাংলা ট্রিবিউন",
       "imageSourceUrl": "https://cdn.banglatribune.net/contents/cache/images/1200x630x1xxxxx1/uploads/media/2026/11/06/a30b79b73d0e7dc67cd50f8ba634a0a6-6aecfbe679faf.jpg",
-      "imageFetchedAt": "2026-11-06T06:00:54.576Z"
+      "imageFetchedAt": "2026-11-06T06:15:30.143Z"
     },
     {
       "id": "rss6c64922590bffb",
@@ -2486,7 +2537,7 @@
       "ogImageHeight": 630,
       "imageCredit": "প্রথম আলো",
       "imageSourceUrl": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-05%2F54cfrt1p%2F%E0%A6%9F%E0%A7%87%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%93-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%81-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF-%E0%A6%9C%E0%A6%AF%E0%A6%BC%E0%A7%80-%E0%A6%9A%E0%A6%B2%E0%A6%9A%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A6%E0%A6%BE%E0%A6%B0-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%B9%E0%A7%87%E0%A6%BE%E0%A6%B2-%E0%A6%95%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B0.jpg?rect=0%2C0%2C2100%2C1103&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
-      "imageFetchedAt": "2026-11-06T06:00:54.820Z"
+      "imageFetchedAt": "2026-11-06T06:15:30.202Z"
     },
     {
       "id": "rss9446b408200eb1",
@@ -8434,57 +8485,6 @@
       "body": "<p>যুক্তরাষ্ট্রের মধ্যবর্তী নির্বাচনে ডেমোক্র্যাটরা প্রতিনিধি পরিষদ ও সিনেট উভয় কক্ষের নিয়ন্ত্রণ ছিনিয়ে নেওয়ার পর ওয়াশিংটনে ক্ষমতার ভারসাম্য রাতারাতি বদলে গেছে। তবে এই নির্বাচনের ফলকে যুক্তরাষ্ট্রের ইরান নীতি শিথিল হওয়ার সংকেত হিসেবে না দেখতে দেশের মানুষের প্রতি আহ্বান জানিয়েছেন ইরানের সর্বোচ্চ নেতা ম</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মার্কিন অভ্যন্তরীণ রাজনীতির এই পরিবর্তনকে কেন্দ্র করে ইরানের সতর্ক অবস্থান মধ্যপ্রাচ্যের ভূ-রাজনীতিতে অনিশ্চয়তা দীর্ঘস্থায়ী করবে। বাংলাদেশের কূটনৈতিক স্বার্থে আন্তর্জাতিক এই অস্থিরতার প্রভাব মোকাবিলায় নিরপেক্ষ ও ভারসাম্যপূর্ণ পররাষ্ট্রনীতি বজায় রাখা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/middle-east/978802/%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AB%E0%A6%B2-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A6%BF%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "যুক্তরাষ্ট্রের মধ্যবর্তী নির্বাচনে ডেমোক্র্যাটরা প্রতিনিধি পরিষদ ও সিনেট উভয় কক্ষের নিয়ন্ত্রণ ছিনিয়ে নেওয়ার পর ওয়াশিংটনে ক্ষমতার ভারসাম্য রাতারাতি বদলে গেছে। তবে এই নির্বাচনের ফলকে যুক্তরাষ্ট্রের ইরান নীতি শিথিল হওয়ার সংকেত হিসেবে না দেখতে দেশের মানুষের প্রতি আহ্বান জানিয়েছেন ইরানের সর্বোচ্চ নেতা ম",
       "sourceUrl": "https://www.banglatribune.com/foreign/middle-east/978802/%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A6%BF%E0%A6%A8-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%9A%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AB%E0%A6%B2-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%87%E0%A6%B0%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%96%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A6%BF%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss64dc9a59e08dae",
-      "slug": "টেস্ট-নেগেটিভ-আসার-পরও-কি-ডেঙ্গু-হতে-পারে",
-      "title": "টেস্ট ‘নেগেটিভ’ আসার পরও কি ডেঙ্গু হতে পারে?",
-      "category": "শিক্ষা",
-      "lead": false,
-      "image": "/img/%E0%A6%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%A8%E0%A7%87%E0%A6%97%E0%A7%87%E0%A6%9F%E0%A6%BF%E0%A6%AD-%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%93-%E0%A6%95%E0%A6%BF-%E0%A6%A1%E0%A7%87%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%81-%E0%A6%B9%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%87.webp",
-      "publishedAt": "2026-11-04T12:44:22.648Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>ডেঙ্গুর লক্ষণ থাকার পরও পরীক্ষার রিপোর্ট নেগেটিভ আসতে পারে। বিশেষ করে জ্বরের কোন পর্যায়ে পরীক্ষা করা হচ্ছে, তার ওপর ফলাফল নির্ভর করে। জ্বর শুরুর প্রথম পাঁচ দিনের মধ্যে এনএস১ অ্যান্টিজেন পরীক্ষা করা উচিত। এই সময় পার হওয়ার পর পরীক্ষা করলে রক্তে অ্যান্টিজেনের পরিমাণ কমে যেতে পারে। ফলে শরীরে ডেঙ্গু ভাইর</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পরীক্ষায় নেগেটিভ এলেই নিশ্চিন্ত হওয়ার অবকাশ নেই, বরং উপসর্গের ধরন অনুযায়ী সঠিক সময়ে পুনরায় পরামর্শ নেওয়া জরুরি। ভুল পরীক্ষার ফলে চিকিৎসা বিলম্বিত হওয়া শিক্ষার্থী ও অভিভাবকদের জন্য বড় ঝুঁকি। তাই শারীরিক অসুস্থতায় কেবল রিপোর্টের ওপর নির্ভর না করে চিকিৎসকের নিবিড় পর্যবেক্ষণে থাকা শ্রেয়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/lifestyle/health-style/978790/%E0%A6%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E2%80%98%E0%A6%A8%E0%A7%87%E0%A6%97%E0%A7%87%E0%A6%9F%E0%A6%BF%E0%A6%AD%E2%80%99-%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%93-%E0%A6%95%E0%A6%BF-%E0%A6%A1%E0%A7%87%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%81-%E0%A6%B9%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "ডেঙ্গুর লক্ষণ থাকার পরও পরীক্ষার রিপোর্ট নেগেটিভ আসতে পারে। বিশেষ করে জ্বরের কোন পর্যায়ে পরীক্ষা করা হচ্ছে, তার ওপর ফলাফল নির্ভর করে। জ্বর শুরুর প্রথম পাঁচ দিনের মধ্যে এনএস১ অ্যান্টিজেন পরীক্ষা করা উচিত। এই সময় পার হওয়ার পর পরীক্ষা করলে রক্তে অ্যান্টিজেনের পরিমাণ কমে যেতে পারে। ফলে শরীরে ডেঙ্গু ভাইর",
-      "sourceUrl": "https://www.banglatribune.com/lifestyle/health-style/978790/%E0%A6%9F%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E2%80%98%E0%A6%A8%E0%A7%87%E0%A6%97%E0%A7%87%E0%A6%9F%E0%A6%BF%E0%A6%AD%E2%80%99-%E0%A6%86%E0%A6%B8%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%93-%E0%A6%95%E0%A6%BF-%E0%A6%A1%E0%A7%87%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%81-%E0%A6%B9%E0%A6%A4%E0%A7%87-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A7%87",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss285f1b59ee942b",
-      "slug": "ঢাকায়-পাকিস্তানের-সঙ্গে-জার্সি-বদল-এমনকি",
-      "title": "ঢাকায় পাকিস্তানের সঙ্গে জার্সি বদল, এমনকি জড়িয়ে ধরতেও রাজি ভারত",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A6%BF-%E0%A6%AC%E0%A6%A6%E0%A6%B2-%E0%A6%8F%E0%A6%AE%E0%A6%A8%E0%A6%95%E0%A6%BF.webp",
-      "publishedAt": "2026-11-04T12:44:22.647Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>ভারত-পাকিস্তান ম্যাচ মানেই বাড়তি উত্তেজনা। দুই দেশের রাজনৈতিক ও ক্রীড়াঙ্গনের বৈরিতার কারণে ক্রিকেটে এই লড়াই ঘিরে মাঠের বাইরেও থাকে নানা আলোচনা। তবে ফুটবলে সেই উত্তাপকে আলাদা করে দেখতে চান না ভারতের কোচ নওশাদ মুসা। ঢাকায় সাফ চ্যাম্পিয়নশিপে পাকিস্তানের বিপক্ষে ম্যাচের আগে তার বার্তা, মাঠে লড়াই হলেও মা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মাঠের লড়াই ছাপিয়ে খেলোয়াড়দের পারস্পরিক শ্রদ্ধাবোধ ফুটবলের চিরন্তন সৌন্দর্যকে জয়ী করে। রাজনৈতিক বৈরিতা ভুলে এই সৌজন্যমূলক আচরণ দক্ষিণ এশীয় ফুটবলের নতুন দিগন্ত উন্মোচনে ইতিবাচক ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/football/978791/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A6%BF-%E0%A6%AC%E0%A6%A6%E0%A6%B2-%E0%A6%8F%E0%A6%AE%E0%A6%A8%E0%A6%95%E0%A6%BF-%E0%A6%9C%E0%A7%9C%E0%A6%BF%E0%A7%9F%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "ভারত-পাকিস্তান ম্যাচ মানেই বাড়তি উত্তেজনা। দুই দেশের রাজনৈতিক ও ক্রীড়াঙ্গনের বৈরিতার কারণে ক্রিকেটে এই লড়াই ঘিরে মাঠের বাইরেও থাকে নানা আলোচনা। তবে ফুটবলে সেই উত্তাপকে আলাদা করে দেখতে চান না ভারতের কোচ নওশাদ মুসা। ঢাকায় সাফ চ্যাম্পিয়নশিপে পাকিস্তানের বিপক্ষে ম্যাচের আগে তার বার্তা, মাঠে লড়াই হলেও মা",
-      "sourceUrl": "https://www.banglatribune.com/sport/football/978791/%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A6%BF-%E0%A6%AC%E0%A6%A6%E0%A6%B2-%E0%A6%8F%E0%A6%AE%E0%A6%A8%E0%A6%95%E0%A6%BF-%E0%A6%9C%E0%A7%9C%E0%A6%BF%E0%A7%9F%E0%A7%87",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssf39300b4a47877",
-      "slug": "নীল-সুনামিতে-ট্রাম্প-ও-ইসরায়েলের-শঙ্কা-দ",
-      "title": "‘নীল সুনামিতে’ ট্রাম্প ও ইসরায়েলের শঙ্কা দেখছে ইসরায়েলি মিডিয়া",
-      "category": "আন্তর্জাতিক",
-      "lead": false,
-      "image": "/img/%E0%A6%A8%E0%A7%80%E0%A6%B2-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA-%E0%A6%93-%E0%A6%87%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BE-%E0%A6%A6.webp",
-      "publishedAt": "2026-11-04T12:44:22.644Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>যুক্তরাষ্ট্রের মধ্যবর্তী নির্বাচনে রিপাবলিকানদের হারিয়ে ডেমোক্র্যাটরা প্রতিনিধি পরিষদ ও সিনেট উভয় কক্ষের নিয়ন্ত্রণ ছিনিয়ে নেওয়ার ঘটনাকে প্রেসিডেন্ট ডোনাল্ড ট্রাম্প এবং ইসরায়েলের জন্য একটি ‘বড় ধাক্কা’ হিসেবে আখ্যা দিয়েছে ইসরায়েলের সংবাদমাধ্যম। গাজায় ইসরায়েলের নীতি ও মার্কিন সামরিক সহায়তার তীব্র সমালো</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">যুক্তরাষ্ট্রের নীতিনির্ধারণী পর্যায়ে এই ক্ষমতার পরিবর্তন বাংলাদেশের জন্য ভূ-রাজনৈতিক কৌশল পুনর্বিবেচনার দাবি রাখে। বিশেষত মধ্যপ্রাচ্য নীতিতে বড় ধরনের পরিবর্তনের আভাস ঢাকার কূটনৈতিক তৎপরতাকে নতুন চ্যালেঞ্জের মুখে ফেলতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/foreign/middle-east/978793/%E2%80%98%E0%A6%A8%E0%A7%80%E0%A6%B2-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A7%87%E2%80%99-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA-%E0%A6%93-%E0%A6%87%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%9B%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "যুক্তরাষ্ট্রের মধ্যবর্তী নির্বাচনে রিপাবলিকানদের হারিয়ে ডেমোক্র্যাটরা প্রতিনিধি পরিষদ ও সিনেট উভয় কক্ষের নিয়ন্ত্রণ ছিনিয়ে নেওয়ার ঘটনাকে প্রেসিডেন্ট ডোনাল্ড ট্রাম্প এবং ইসরায়েলের জন্য একটি ‘বড় ধাক্কা’ হিসেবে আখ্যা দিয়েছে ইসরায়েলের সংবাদমাধ্যম। গাজায় ইসরায়েলের নীতি ও মার্কিন সামরিক সহায়তার তীব্র সমালো",
-      "sourceUrl": "https://www.banglatribune.com/foreign/middle-east/978793/%E2%80%98%E0%A6%A8%E0%A7%80%E0%A6%B2-%E0%A6%B8%E0%A7%81%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A7%87%E2%80%99-%E0%A6%9F%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA-%E0%A6%93-%E0%A6%87%E0%A6%B8%E0%A6%B0%E0%A6%BE%E0%A7%9F%E0%A7%87%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%99%E0%A7%8D%E0%A6%95%E0%A6%BE-%E0%A6%A6%E0%A7%87%E0%A6%96%E0%A6%9B%E0%A7%87",
       "sourceName": "বাংলা ট্রিবিউন",
       "imageCredit": "বাংলা ট্রিবিউন"
     }
