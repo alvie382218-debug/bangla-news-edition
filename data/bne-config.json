@@ -1,6 +1,6 @@
 {
-  "version": 2272,
-  "updatedAt": "2026-11-06T13:45:33.666Z",
+  "version": 2273,
+  "updatedAt": "2026-11-06T14:00:45.656Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,57 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rss8651301585320c",
+      "slug": "জলবায়ু-পরিবর্তনের-ঝুঁকিতে-৯-কোটি-বাস্তুচ",
+      "title": "জলবায়ু পরিবর্তনের ঝুঁকিতে ৯ কোটি বাস্তুচ্যুত মানুষ: জাতিসংঘ",
+      "category": "আন্তর্জাতিক",
+      "lead": false,
+      "image": "/img/%E0%A6%9C%E0%A6%B2%E0%A6%AC%E0%A6%BE%E0%A7%9F%E0%A7%81-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%9D%E0%A7%81%E0%A6%81%E0%A6%95%E0%A6%BF%E0%A6%A4%E0%A7%87-%E0%A7%AF-%E0%A6%95%E0%A7%8B%E0%A6%9F%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%81%E0%A6%9A.jpg",
+      "publishedAt": "2026-11-06T13:59:25.542Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>জলবায়ু পরিবর্তনের কারণে সৃষ্ট খরা, বন্যা ও তীব্র তাপপ্রবাহের ঝুঁকিতে আছেন বিশ্বের প্রায় ৯ কোটি বাস্তুচ্যুত মানুষ। জাতিসংঘের শরণার্থীবিষয়ক সংস্থা ইউএনএইচসিআর শুক...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জলবায়ু পরিবর্তনের ফলে সৃষ্ট এই মানবিক সংকট বাংলাদেশের মতো বদ্বীপ রাষ্ট্রগুলোর জন্য বড় ধরনের কূটনৈতিক ও নিরাপত্তা চ্যালেঞ্জ তৈরি করবে। বাস্তুচ্যুতি মোকাবিলায় আন্তর্জাতিক সহায়তা নিশ্চিত করতে এখন থেকেই বহুপাক্ষিক জোরালো কূটনীতি ও টেকসই দীর্ঘমেয়াদী পরিকল্পনা গ্রহণ জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/540760\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "জলবায়ু পরিবর্তনের কারণে সৃষ্ট খরা, বন্যা ও তীব্র তাপপ্রবাহের ঝুঁকিতে আছেন বিশ্বের প্রায় ৯ কোটি বাস্তুচ্যুত মানুষ। জাতিসংঘের শরণার্থীবিষয়ক সংস্থা ইউএনএইচসিআর শুক...",
+      "sourceUrl": "https://www.daily-bangladesh.com/national/540760",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rssa33acd2414959a",
+      "slug": "টেকনাফের-পাহাড়ে-৩-মরদেহ-উদ্ধারে-যৌথবাহিন",
+      "title": "টেকনাফের পাহাড়ে ৩ মরদেহ, উদ্ধারে যৌথবাহিনীর অভিযান অব্যাহত",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%9F%E0%A7%87%E0%A6%95%E0%A6%A8%E0%A6%BE%E0%A6%AB%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A7%9C%E0%A7%87-%E0%A7%A9-%E0%A6%AE%E0%A6%B0%E0%A6%A6%E0%A7%87%E0%A6%B9-%E0%A6%89%E0%A6%A6%E0%A7%8D%E0%A6%A7%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%AF%E0%A7%8C%E0%A6%A5%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A6%BF%E0%A6%A8.jpg",
+      "publishedAt": "2026-11-06T13:59:25.529Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>কক্সবাজারের টেকনাফের হ্নীলা ইউনিয়নে দুর্গম পাহাড়ে তিনজনের মরদেহ পড়ে থাকার খবর পাওয়া গেছে। মরদেহ উদ্ধারে চেষ্টা চালাচ্ছে আইনশৃঙ্খলা রক্ষাকারী বাহিনী। মানবপাচারকারী চক্রের সাথে গোলাগুলিতে সেনাসদস্য মো. তিতাস শেখ নিহতের ঘটনার পর পাহাড়ে যৌথ বাহিনীর অভিযান...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পাহাড়ি এলাকায় চলমান অস্থিরতা ও নিরাপত্তাহীনতা স্থানীয় ক্রীড়াঙ্গনের সুষ্ঠু পরিবেশকে মারাত্মকভাবে বাধাগ্রস্ত করছে। এ ধরনের অস্থিতিশীল পরিস্থিতি দীর্ঘস্থায়ী হলে তরুণ প্রজন্মের শারীরিক চর্চা ও আঞ্চলিক ক্রীড়া প্রতিযোগিতা আয়োজন অসম্ভব হয়ে পড়বে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315296/টেকনাফের-পাহাড়ে-৩-মরদেহ-উদ্ধারে-যৌথবাহিনীর-অভিযান-অব্যাহত\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "কক্সবাজারের টেকনাফের হ্নীলা ইউনিয়নে দুর্গম পাহাড়ে তিনজনের মরদেহ পড়ে থাকার খবর পাওয়া গেছে। মরদেহ উদ্ধারে চেষ্টা চালাচ্ছে আইনশৃঙ্খলা রক্ষাকারী বাহিনী। মানবপাচারকারী চক্রের সাথে গোলাগুলিতে সেনাসদস্য মো. তিতাস শেখ নিহতের ঘটনার পর পাহাড়ে যৌথ বাহিনীর অভিযান...",
+      "sourceUrl": "https://www.bd-journal.com/bangladesh/315296/টেকনাফের-পাহাড়ে-৩-মরদেহ-উদ্ধারে-যৌথবাহিনীর-অভিযান-অব্যাহত",
+      "sourceName": "বাংলাদেশ জার্নাল",
+      "imageCredit": "বাংলাদেশ জার্নাল"
+    },
+    {
+      "id": "rss59f60f1187bf0d",
+      "slug": "৭-নভেম্বর-ছিল-বাংলাদেশের-শত্রু-মিত্র-চিহ",
+      "title": "৭ নভেম্বর ছিল বাংলাদেশের শত্রু মিত্র চিহ্নিত করার দিন: প্রধানমন্ত্রী",
+      "category": "রাজনীতি",
+      "lead": false,
+      "image": "/img/%E0%A7%AD-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%9B%E0%A6%BF%E0%A6%B2-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%81-%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%9A%E0%A6%BF%E0%A6%B9.webp",
+      "publishedAt": "2026-11-06T13:59:25.519Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>প্রধানমন্ত্রী তারেক রহমান বলেছেন, ৭ নভেম্বর, ২০২৬। ঐতিহাসিক জাতীয় বিপ্লব ও সংহতি দিবস। ১৯৭৫ সালের ৭ নভেম্বরের এই দিনে দেশের সিপাহি-জনতা ঐক্যবদ্ধভাবে বাংলাদেশের স্বাধীনতা-সার্বভৌমত্বের বিরুদ্ধে সকল চক্রান্ত রুখে দিয়েছিল। দেশের ইতিহাসে ঐতিহাসিক ৭ নভেম্বর ছিল বাংলাদেশের শত্রু মিত্র চিহ্নিত করার দিন। শু</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">৭ নভেম্বরের চেতনাকে রাজনৈতিক মেরুকরণের হাতিয়ার হিসেবে ব্যবহারের এই বার্তা ভবিষ্যৎ জাতীয় সংহতির ক্ষেত্রে বড় চ্যালেঞ্জ তৈরি করতে পারে। এমন বিভাজনমূলক দৃষ্টিভঙ্গি সাধারণ মানুষের মাঝে অস্থিরতা বাড়িয়ে সামাজিক অস্থিতিশীলতা সৃষ্টির ঝুঁকি তৈরি করে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/national/979251/%E0%A7%AD-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%9B%E0%A6%BF%E0%A6%B2-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%81-%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%9A%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "প্রধানমন্ত্রী তারেক রহমান বলেছেন, ৭ নভেম্বর, ২০২৬। ঐতিহাসিক জাতীয় বিপ্লব ও সংহতি দিবস। ১৯৭৫ সালের ৭ নভেম্বরের এই দিনে দেশের সিপাহি-জনতা ঐক্যবদ্ধভাবে বাংলাদেশের স্বাধীনতা-সার্বভৌমত্বের বিরুদ্ধে সকল চক্রান্ত রুখে দিয়েছিল। দেশের ইতিহাসে ঐতিহাসিক ৭ নভেম্বর ছিল বাংলাদেশের শত্রু মিত্র চিহ্নিত করার দিন। শু",
+      "sourceUrl": "https://www.banglatribune.com/national/979251/%E0%A7%AD-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%9B%E0%A6%BF%E0%A6%B2-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A7%81-%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%9A%E0%A6%BF%E0%A6%B9%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%A4-%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%B0",
+      "sourceName": "বাংলা ট্রিবিউন",
+      "imageCredit": "বাংলা ট্রিবিউন"
     },
     {
       "id": "rsse10f40fb9ede2c",
@@ -1631,7 +1682,7 @@
       "title": "জয়পুরহাট সার্কিট হাউস মাঠে নবনির্মিত ‘মুক্তমঞ্চ’-এর শুভ উদ্বোধন",
       "category": "জাতীয়",
       "lead": false,
-      "image": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026November/joypurhatpic11-copy-1861x1148-1793944501.jpg",
+      "image": "/images/national.jpg",
       "publishedAt": "2026-11-06T05:59:27.232Z",
       "tags": [
         "ডেইলি বাংলাদেশ"
@@ -2835,7 +2886,7 @@
       "ogImageHeight": 630,
       "imageCredit": "বাংলা ট্রিবিউন",
       "imageSourceUrl": "https://cdn.banglatribune.net/contents/cache/images/1200x630x1xxxxx1/uploads/media/2026/11/06/a30b79b73d0e7dc67cd50f8ba634a0a6-6aecfbe679faf.jpg",
-      "imageFetchedAt": "2026-11-06T13:45:38.123Z"
+      "imageFetchedAt": "2026-11-06T14:00:53.275Z"
     },
     {
       "id": "rss6c64922590bffb",
@@ -3065,7 +3116,7 @@
       "tags": [
         "যুগান্তর"
       ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CTGtETURXRklYbHZoZVBxY19wWnVOc1psb2dsX1lSSVdaLW1qTjk3Y0dTZTNlOWhhWG9FczU0NW5PQVItVFJQUEV0Znhrbi1aLTQ5WlRlV0Y?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ব্রাহ্মণবাড়িয়ায় মোবাইলে উচ্চস্বরে গান বাজানো নিয়ে সংঘর্ষ, আহত ২০&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CTGtETURXRklYbHZoZVBxY19wWnVOc1psb2dsX1lSSVdaLW1qTjk3Y0dTZTNlOWhhWG9FczU0NW5PQVItVFJQUEV0Znhrbi1aLTQ5WlRlV0Y?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CTGtETURXRklYbHZoZVBxY19wWnVOc1psb2dsX1lSSVdaLW1qTjk3Y0dTZTNlOWhhWG9FczU0NW5PQVItVFJQUEV0Znhrbi1aLTQ5WlRlV0Y?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ব্রাহ্মণবাড়িয়ায় মোবাইলে উচ্চস্বরে গান বাজানো নিয়ে সংঘর্ষ, আহত ২০&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font col</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিনোদন যখন সুস্থ বিনোদনের সীমারেখা অতিক্রম করে অন্যের অস্বস্তির কারণ হয়ে দাঁড়ায়, তখন তা সামাজিক অস্থিরতার জন্ম দেয়। শিল্পচর্চার নামে অসহিষ্ণুতা ও ব্যক্তিগত রুচির দাপট প্রদর্শন যে কোনো সভ্য সমাজের জন্য উদ্বেগের এবং তা রুখতে সামাজিক সচেতনতা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CTGtETURXRklYbHZoZVBxY19wWnVOc1psb2dsX1lSSVdaLW1qTjk3Y0dTZTNlOWhhWG9FczU0NW5PQVItVFJQUEV0Znhrbi1aLTQ5WlRlV0Y?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CTGtETURXRklYbHZoZVBxY19wWnVOc1psb2dsX1lSSVdaLW1qTjk3Y0dTZTNlOWhhWG9FczU0NW5PQVItVFJQUEV0Znhrbi1aLTQ5WlRlV0Y?oc=5\" target=\"_blank\"&gt;ব্রাহ্মণবাড়িয়ায় মোবাইলে উচ্চস্বরে গান বাজানো নিয়ে সংঘর্ষ, আহত ২০&lt;/a&gt;&nbsp;&nbsp;&lt;font col",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CTGtETURXRklYbHZoZVBxY19wWnVOc1psb2dsX1lSSVdaLW1qTjk3Y0dTZTNlOWhhWG9FczU0NW5PQVItVFJQUEV0Znhrbi1aLTQ5WlRlV0Y?oc=5",
       "sourceName": "যুগান্তর"
@@ -3081,7 +3132,7 @@
       "tags": [
         "ডেইলি বাংলাদেশ"
       ],
-      "body": "<p>ফুটবলের দেড়শ বছরের ইতিহাসে দুই দশকের দীর্ঘ আধিপত্যের পর ২০২৬ সালে আন্তর্জাতিক ফুটবলের মঞ্চ থেকে চিরতরে বিদায় নিয়েছেন লিওনেল মেসি ও ক্রিশ্চিয়ানো রোনালদো। একই বছরে দুই মহাতারকার প্রস্থান ঘটলেও তাদের বিদায়বেলার দৃশ্যপট ছিল সম্পূর্ণ ভিন্ন। পরিসংখ্যানের বিচারে রোনালদো এগিয়ে থাকলেও, আবেগের লড়াইয়ে মেসি পেয়েছেন এক বর্ণাঢ্য ও রাজকীয় বিদায়।</p>\n<p>পরিসংখ্যান বলছে, পর্তুগালের জার্সিতে ২৩৪ ম্যাচে ১৪৬টি গোল করে আন্তর্জাতিক ফুটবলের সর্বোচ্চ গোলদাতা হিসেবে মাঠ ছেড়েছেন রোনালদো। অন্যদিকে, আর্জেন্টিনার হয়ে ২০৮ ম্যাচে ১২৬টি গোল করেছেন মেসি। কিন্তু গোলসংখ্যা বা রেকর্ডের চেয়ে বিদায় মুহূর্তের সম্মান ও ভালোবাসার ক্ষেত্রে মেসি অনেক বেশি ভাগ্যবান ছিলেন। যেখানে মেসির বিদায়ে অশ্রুসিক্ত শ্রদ্ধা ও জাঁকজমকপূর্ণ আয়োজন ছিল, সেখানে রোনালদোর বিদায় হয়েছে বিতর্ক আর তিক্ততায় ভরা।</p>\n<p>পর্তুগালের জার্সিতে দীর্ঘ ২৩ বছরের ক্যারিয়ারের শেষ দিকে এসে কোচ জর্জ জেসুসের সঙ্গে দ্বন্দ্বে জড়িয়ে পড়েন রোনালদো। নরওয়ের বিপক্ষে একটি প্রীতি ম্যাচে একাদশে জায়গা না পেয়ে ক্ষুব্ধ হয়ে দলের সফর ছাড়েন তিনি। কোচের প্রকাশ্য অসন্তোষ এবং পরবর্তীতে ফেডারেশনের দেওয়া শৃঙ্খলাভঙ্গের শাস্তির মাঝেই এক ভিডিও বার্তার মাধ্যমে আন্তর্জাতিক ক্যারিয়ারের ইতি টানেন এই তারকা। কোনো সতীর্থের আলিঙ্গন বা সম্মানজনক বিদায় ছাড়াই ড্রেসিংরুমের গৃহযুদ্ধ ও বিতর্কের মধ্য দিয়ে তার প্রস্থান ঘটেছে।</p>\n<p>বিপরীত চিত্র দেখা গেছে মেসির ক্ষেত্রে। গত ৩১ আগস্ট অবসরের ঘোষণা দেওয়া মেসির জন্য আর্জেন্টিনা ফুটবল অ্যাসোসিয়েশন ৬ অক্টোবর বেনিনের বিপক্ষে এক স্মরণীয় বিদায়ী ম্যাচের আয়োজন করে। ২০২২ বিশ্বকাপ জয়ের পর সব স্বপ্ন পূরণ হওয়ার কথা জানিয়েই তিনি আন্তর্জাতিক ফুটবলকে বিদায় জানান। কোচ লিওনেল স্কালোনি ও সতীর্থদের আবেগঘন ভালোবাসায় সিক্ত হয়ে মাঠ ছাড়েন এই ফুটবল জাদুকর। ২০০৬ থেকে শুরু হওয়া স্কালোনি-মেসি জুটির অটুট বন্ধন তাদের ক্যারিয়ারকে পূর্ণতা দিয়েছে, যা পর্তুগিজ ড্রেসিংরুমের ইগোর সংঘাতের তুলনায় সম্পূর্ণ বিপরীত এক উদাহরণ তৈরি করেছে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/sports/540700\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "body": "<p>ফুটবলের দেড়শ বছরের ইতিহাসে দুই দশকের দীর্ঘ আধিপত্যের পর ২০২৬ সালে আন্তর্জাতিক ফুটবলের মঞ্চ থেকে চিরতরে বিদায় নিয়েছেন লিওনেল মেসি ও ক্রিশ্চিয়ানো রোনালদো। একই বছরে দুই মহাতারকার প্রস্থান ঘটলেও তাদের বিদায়বেলার দৃশ্যপট ছিল সম্পূর্ণ ভিন্ন। পরিসংখ্যানের বিচারে রোনালদো এগিয়ে থাকলেও, আবেগের লড়াইয়ে মেসি পেয়েছেন এক বর্ণাঢ্য ও রাজকীয় বিদায়।</p>\n<p>পরিসংখ্যান বলছে, পর্তুগালের জার্সিতে ২৩৪ ম্যাচে ১৪৬টি গোল করে আন্তর্জাতিক ফুটবলের সর্বোচ্চ গোলদাতা হিসেবে মাঠ ছেড়েছেন রোনালদো। অন্যদিকে, আর্জেন্টিনার হয়ে ২০৮ ম্যাচে ১২৬টি গোল করেছেন মেসি। কিন্তু গোলসংখ্যা বা রেকর্ডের চেয়ে বিদায় মুহূর্তের সম্মান ও ভালোবাসার ক্ষেত্রে মেসি অনেক বেশি ভাগ্যবান ছিলেন। যেখানে মেসির বিদায়ে অশ্রুসিক্ত শ্রদ্ধা ও জাঁকজমকপূর্ণ আয়োজন ছিল, সেখানে রোনালদোর বিদায় হয়েছে বিতর্ক আর তিক্ততায় ভরা।</p>\n<p>পর্তুগালের জার্সিতে দীর্ঘ ২৩ বছরের ক্যারিয়ারের শেষ দিকে এসে কোচ জর্জ জেসুসের সঙ্গে দ্বন্দ্বে জড়িয়ে পড়েন রোনালদো। নরওয়ের বিপক্ষে একটি প্রীতি ম্যাচে একাদশে জায়গা না পেয়ে ক্ষুব্ধ হয়ে দলের সফর ছাড়েন তিনি। কোচের প্রকাশ্য অসন্তোষ এবং পরবর্তীতে ফেডারেশনের দেওয়া শৃঙ্খলাভঙ্গের শাস্তির মাঝেই এক ভিডিও বার্তার মাধ্যমে আন্তর্জাতিক ক্যারিয়ারের ইতি টানেন এই তারকা। কোনো সতীর্থের আলিঙ্গন বা সম্মানজনক বিদায় ছাড়াই ড্রেসিংরুমের গৃহযুদ্ধ ও বিতর্কের মধ্য দিয়ে তার প্রস্থান ঘটেছে।</p>\n<p>বিপরীত চিত্র দেখা গেছে মেসির ক্ষেত্রে। গত ৩১ আগস্ট অবসরের ঘোষণা দেওয়া মেসির জন্য আর্জেন্টিনা ফুটবল অ্যাসোসিয়েশন ৬ অক্টোবর বেনিনের বিপক্ষে এক স্মরণীয় বিদায়ী ম্যাচের আয়োজন করে। ২০২২ বিশ্বকাপ জয়ের পর সব স্বপ্ন পূরণ হওয়ার কথা জানিয়েই তিনি আন্তর্জাতিক ফুটবলকে বিদায় জানান। কোচ লিওনেল স্কালোনি ও সতীর্থদের আবেগঘন ভালোবাসায় সিক্ত হয়ে মাঠ ছাড়েন এই ফুটবল জাদুকর। ২০০৬ থেকে শুরু হওয়া স্কালোনি-মেসি জুটির অটুট বন্ধন তাদের ক্যারিয়ারকে পূর্ণতা দিয়েছে, যা পর্তুগিজ ড্রেসিংরুমের ইগোর সংঘাতের তুলনায় সম্পূর্ণ বিপরীত এক উদাহরণ তৈরি করেছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">দুই মহাতারকার এই বিদায়লগ্নে বিশ্ব ফুটবল এক নতুন যুগের সন্ধিক্ষণে দাঁড়িয়ে আছে। তাদের অর্জনের উত্তরাধিকার ধরে রাখা বর্তমান প্রজন্মের জন্য যেমন বড় চ্যালেঞ্জ, তেমনি ফুটবলের জনপ্রিয়তা ধরে রাখতে নতুন নেতৃত্বের উত্থান এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/sports/540700\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "ফুটবলের প্রায় দেড় শতাব্দীর ইতিহাসে এমন দ্বৈরথ পৃথিবী আগে কখনও দেখেনি। টানা দুই দশক ধরে বিশ্ব ফুটবলের সিংহাসন নিজেদের মধ্যে ভাগ করে নিয়েছিলেন তারা দুজন। একজন বাঁ...",
       "sourceUrl": "https://daily-bangladesh.com/sports/540700",
       "sourceName": "ডেইলি বাংলাদেশ",
@@ -3098,7 +3149,7 @@
       "tags": [
         "যুগান্তর"
       ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4bEJhMWFjcVg4U2psMGs4Ni1DTS1nYkpCSWN6SnJER2RseUV5S2ZjQXduMmw4YThWSzU4cnAweVpHWlBWRHllR3JSUkJCLTBOclF1SklPdw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;কচুরিপানার নতুন পরিচয়&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4bEJhMWFjcVg4U2psMGs4Ni1DTS1nYkpCSWN6SnJER2RseUV5S2ZjQXduMmw4YThWSzU4cnAweVpHWlBWRHllR3JSUkJCLTBOclF1SklPdw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4bEJhMWFjcVg4U2psMGs4Ni1DTS1nYkpCSWN6SnJER2RseUV5S2ZjQXduMmw4YThWSzU4cnAweVpHWlBWRHllR3JSUkJCLTBOclF1SklPdw?oc=5&quot; target=&quot;_blank&quot;&amp;gt;কচুরিপানার নতুন পরিচয়&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">কচুরিপানার বহুমুখী ব্যবহার নিশ্চিত করা গেলে পরিবেশ রক্ষা ও গ্রামীণ অর্থনীতিতে নতুন সম্ভাবনার দ্বার উন্মোচিত হবে। এটি সাধারণ মানুষের জন্য আয়ের নতুন উৎস তৈরির পাশাপাশি সম্পদের টেকসই ব্যবস্থাপনায় গুরুত্বপূর্ণ ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4bEJhMWFjcVg4U2psMGs4Ni1DTS1nYkpCSWN6SnJER2RseUV5S2ZjQXduMmw4YThWSzU4cnAweVpHWlBWRHllR3JSUkJCLTBOclF1SklPdw?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4bEJhMWFjcVg4U2psMGs4Ni1DTS1nYkpCSWN6SnJER2RseUV5S2ZjQXduMmw4YThWSzU4cnAweVpHWlBWRHllR3JSUkJCLTBOclF1SklPdw?oc=5\" target=\"_blank\"&gt;কচুরিপানার নতুন পরিচয়&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Jugantor&lt;/font&gt;",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4bEJhMWFjcVg4U2psMGs4Ni1DTS1nYkpCSWN6SnJER2RseUV5S2ZjQXduMmw4YThWSzU4cnAweVpHWlBWRHllR3JSUkJCLTBOclF1SklPdw?oc=5",
       "sourceName": "যুগান্তর"
@@ -4052,7 +4103,7 @@
       "ogImageHeight": 630,
       "imageCredit": "প্রথম আলো",
       "imageSourceUrl": "https://media.prothomalo.com/prothomalo-bangla%2F2026-11-05%2F54cfrt1p%2F%E0%A6%9F%E0%A7%87%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%93-%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%81-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BF-%E0%A6%9C%E0%A6%AF%E0%A6%BC%E0%A7%80-%E0%A6%9A%E0%A6%B2%E0%A6%9A%E0%A7%8D%E0%A6%9A%E0%A6%BF%E0%A6%A4%E0%A7%8D%E0%A6%B0-%E0%A6%B8%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0-%E0%A6%AC%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A6%E0%A6%BE%E0%A6%B0-%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%B9%E0%A7%87%E0%A6%BE%E0%A6%B2-%E0%A6%95%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%B0.jpg?rect=0%2C0%2C2100%2C1103&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&overlay=https%3A%2F%2Fmedia.prothomalo.com%2Fprothomalo-bangla%2F2025-11-23%2F1558a7oz%2Fdefaultog.webp&overlay_position=bottom&overlay_width_pct=1",
-      "imageFetchedAt": "2026-11-06T13:45:38.297Z"
+      "imageFetchedAt": "2026-11-06T14:00:53.332Z"
     },
     {
       "id": "rss9446b408200eb1",
@@ -8421,57 +8472,6 @@
       "sourceUrl": "https://www.prothomalo.com/bangladesh/district/spmgo29zci",
       "sourceName": "প্রথম আলো",
       "imageCredit": "প্রথম আলো"
-    },
-    {
-      "id": "rss40cc9e1ca2954b",
-      "slug": "আজ-দক্ষিণ-এশিয়ার-ফুটবল-শ্রেষ্ঠত্বের-লড়াই",
-      "title": "আজ দক্ষিণ এশিয়ার ফুটবল শ্রেষ্ঠত্বের লড়াই: দেখবেন যেভাবে",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%9C-%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BF%E0%A6%A3-%E0%A6%8F%E0%A6%B6%E0%A6%BF%E0%A7%9F%E0%A6%BE%E0%A6%B0-%E0%A6%AB%E0%A7%81%E0%A6%9F%E0%A6%AC%E0%A6%B2-%E0%A6%B6%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A7%9C%E0%A6%BE%E0%A6%87.jpg",
-      "publishedAt": "2026-11-04T18:29:22.947Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>দক্ষিণ এশিয়ার ফুটবলের শ্রেষ্ঠত্বের লড়াই আজ বৃহস্পতিবার থেকে ঢাকার মাঠে শুরু হচ্ছে। দীর্ঘ প্রতীক্ষার অবসান ঘটিয়ে আঞ্চলিক ফুটবলের এই মহাযজ্ঞে অংশ নিতে যাচ্ছে দক্ষিণ এশিয়ার বিভিন্ন দেশ। উদ্বোধনী দিনেই চিরপ্রতিদ্বন্দ্বী ভারত ও পাকিস্তানের মধ্যকার হাইভোল্টেজ ম্যাচ দিয়ে টুর্নামেন্টের পর্দা উঠবে। একই দিনে মাঠে নামবে স্বাগতিক বাংলাদেশ, যাদের প্রতিপক্ষ ভুটান।</p>\n<p>মাঠের লড়াই সরাসরি দেখার সুযোগ রাখা হয়েছে টেলিভিশন ও ডিজিটাল প্ল্যাটফর্মে। খেলাগুলো সম্প্রচার করবে টি স্পোর্টস। পাশাপাশি দর্শকরা বাংলালিংকের ওটিটি প্ল্যাটফর্ম টফি এবং স্পোর্টজিফাই অ্যাপের মাধ্যমেও অনলাইনে প্রতিটি ম্যাচ উপভোগ করতে পারবেন।</p>\n<p>বাংলাদেশ ফুটবল ফেডারেশন (বাফুফে) ও সাফ কর্তৃপক্ষের সিদ্ধান্ত অনুযায়ী, দর্শকরা একটি টিকিটেই দিনের দুটি ম্যাচ দেখার সুযোগ পাবেন। গ্রুপ পর্ব এবং সেমিফাইনালের প্রতিটি ম্যাচ-ডেতে এই নিয়ম প্রযোজ্য হবে। দর্শকদের সুবিধার্থে প্রতিদিনের প্রথম ম্যাচ শুরুর দেড় ঘণ্টা আগে স্টেডিয়ামের প্রবেশপথ খুলে দেওয়া হবে। টিকিট সংক্রান্ত সব তথ্য বাফুফে ও সাফ কর্মকর্তাদের সমন্বয় সভায় চূড়ান্ত করা হয়েছে।</p>\n<p>টুর্নামেন্ট শুরুর ঠিক আগের মুহূর্তেও গ্যালারির বড় অংশ এখনো ফাঁকা পড়ে আছে, যা আয়োজকদের জন্য উদ্বেগের কারণ হয়ে দাঁড়িয়েছে। স্বাগতিক দলকে ঘিরে সাধারণ দর্শকদের মধ্যে যে ধরনের উন্মাদনা থাকার কথা ছিল, তা এখন পর্যন্ত দৃশ্যমান নয়। টুর্নামেন্টকে কেন্দ্র করে বাফুফের প্রচারণার অভাবও লক্ষ্য করা যাচ্ছে। অথচ আগামী ম্যাচেই লাল-সবুজ প্রতিনিধিদের মাঠে নামার কথা রয়েছে।</p>\n<p>দর্শক সমাগম কম হওয়ার পেছনে বেশ কয়েকটি কারণকে দায়ী করা হচ্ছে। এর মধ্যে টিকিটের উচ্চমূল্য, সাম্প্রতিক সময়ে বাংলাদেশ দলের আশানুরূপ পারফরম্যান্সের অভাব এবং তারকা খেলোয়াড়দের অনুপস্থিতি দর্শকদের আগ্রহ কমিয়ে দিয়েছে বলে ধারণা করা হচ্ছে। গুরুত্বপূর্ণ এই আসরে দর্শকদের এমন শীতল সাড়া আয়োজক কর্তৃপক্ষের প্রত্যাশার বিপরীত হিসেবেই দেখা দিয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আঞ্চলিক ফুটবলের এই মহারণ নতুন প্রতিভার বিকাশে ও পেশাদারিত্বের মানোন্নয়নে বড় ভূমিকা রাখবে। এই আসর দক্ষিণ এশিয়ার দলগুলোর মধ্যে প্রতিযোগিতামূলক মানসিকতা বাড়িয়ে ভবিষ্যতে মহাদেশীয় পর্যায়ে ভালো করার পথ প্রশস্ত করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/sports/540580\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "দক্ষিণ এশিয়ার ফুটবলপ্রেমীদের অপেক্ষার অবসান হতে যাচ্ছে। আজ বৃহস্পতিবার ঢাকার মাঠে গড়াচ্ছে সাফ চ্যাম্পিয়নশিপের নতুন আসর। আঞ্চলিক ফুটবলের শ্রেষ্ঠত্বের লড়াইয়ে মুখো...",
-      "sourceUrl": "https://www.daily-bangladesh.com/sports/540580",
-      "sourceName": "ডেইলি বাংলাদেশ",
-      "imageCredit": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss23b99cd3ffa88f",
-      "slug": "আমি-কাজ-করতে-চাই-বড়-পর্দায়-পারসা-ইভানা",
-      "title": "আমি কাজ করতে চাই বড় পর্দায়: পারসা ইভানা",
-      "category": "বিনোদন",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%AE%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%9C-%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87-%E0%A6%9A%E0%A6%BE%E0%A6%87-%E0%A6%AC%E0%A7%9C-%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%A6%E0%A6%BE%E0%A7%9F-%E0%A6%AA%E0%A6%BE%E0%A6%B0%E0%A6%B8%E0%A6%BE-%E0%A6%87%E0%A6%AD%E0%A6%BE%E0%A6%A8%E0%A6%BE.jpg",
-      "publishedAt": "2026-11-04T18:29:22.945Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>জনপ্রিয় অভিনয়শিল্পী ও নৃত্যশিল্পী পারসা ইভানা এবার বড় পর্দায় কাজ করার আগ্রহ প্রকাশ করেছেন। দীর্ঘ ক্যারিয়ারে ছোট পর্দায় নিজের অবস্থান পোক্ত করার পর এবার চলচ্চিত্রে নাম লেখানোর সুপ্ত ইচ্ছা রয়েছে তার। সিনেমার ক্ষেত্রে সহশিল্পী বা তারকাখ্যাতির চেয়ে তিনি চিত্রনাট্য, নির্মাতার দৃষ্টিভঙ্গি এবং চরিত্রের গভীরতাকেই প্রধান্য দিচ্ছেন। পর্দায় তাকে কীভাবে উপস্থাপন করা হবে, তা নিয়েও তিনি বেশ সচেতন।</p>\n<p>সম্প্রতি নাট্যাঙ্গনের কাস্টিং প্রক্রিয়ায় পেশাদারত্বের অভাব নিয়ে তীব্র ক্ষোভ প্রকাশ করেছেন এই তারকা। গত ২৯ অক্টোবর নিজের ভেরিফায়েড ফেসবুক পেজে এক পোস্টে তিনি অভিযোগ করেন যে, অনেক সময় কোনো পূর্বঘোষণা ছাড়াই শুটিংয়ের একদম শেষ মুহূর্তে অভিনয়শিল্পীদের বাদ দেওয়া হয়। এমন আচরণ শিল্পীদের জন্য অত্যন্ত বিব্রতকর এবং অপেশাদার বলে মন্তব্য করেন তিনি।</p>\n<p>এই ধরনের পোস্ট দেওয়ার পেছনের কারণ ব্যাখ্যা করতে গিয়ে পারসা জানান, ভিনদেশের একটি পডকাস্ট দেখার পর তার মনে হয়েছে বাংলাদেশের নাটক নিয়েও এমন সুস্থ ও খোলামেলা আলোচনার প্রয়োজন রয়েছে। তার মতে, আমাদের নাট্যাঙ্গনে এমন কোনো প্ল্যাটফর্ম থাকলে কাজের অনেক ত্রুটি বা অব্যবস্থাপনার দিকগুলো প্রকাশ্যে আলোচনা করা সম্ভব হতো, যা সাধারণত কেউ বলতে চান না।</p>\n<p>তবে এই অভিনেত্রীর দাবি, তার ফেসবুক পোস্টের উদ্দেশ্য কাউকে ব্যক্তিগতভাবে আক্রমণ করা ছিল না। বরং নির্মাণশৈলী ও কাস্টিংয়ের মতো গুরুত্বপূর্ণ বিষয়গুলোতে পেশাদারিত্ব ও সচেতনতা বৃদ্ধির আহ্বান জানানোই ছিল তার মূল লক্ষ্য। তিনি মনে করেন, শিল্পের মান উন্নয়নে এই জায়গাগুলোতে সংস্কার ও দায়বদ্ধতা জরুরি।</p>\n<p>চলতি বছর পারসা ইভানা অভিনয়ের ক্ষেত্রে বেশ ব্যস্ত সময় পার করছেন। ‘মিস্টার বাদল’ নাটকে অভিনয় করে তিনি দর্শকদের কাছ থেকে ইতিবাচক সাড়া পেয়েছেন। এই ধারাবাহিকতায় গত সাত থেকে আট মাসে তিনি পাঁচটি নতুন নাটকের শুটিং সফলভাবে সম্পন্ন করেছেন। ছোট পর্দার এই সফলতার পাশাপাশি বড় পর্দায় নিজের নতুন অধ্যায় শুরু করার অপেক্ষায় রয়েছেন তিনি।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ছোট পর্দার জনপ্রিয়তার গণ্ডি পেরিয়ে বড় পর্দায় শিল্পীর পদার্পণ নতুন ধারার অভিনয়ের সুযোগ তৈরি করে। এ ধরনের আকাঙ্ক্ষা চলচ্চিত্রের বৈচিত্র্যময় চরিত্রের প্রসারে এবং নতুন দর্শকদের প্রেক্ষাগৃহে ফেরাতে ইতিবাচক ভূমিকা রাখতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/entertainment/540581\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "জনপ্রিয় অভিনয়শিল্পী ও নৃত্যশিল্পী পারসা ইভানা চলচ্চিত্রে কাজ করার তীব্র আগ্রহের কথা জানিয়েছেন। সম্প্রতি আলাপকালে সিনেমার পর্দায় নাম লেখানোর সুপ্ত ইচ্ছার কথা প্র...",
-      "sourceUrl": "https://www.daily-bangladesh.com/entertainment/540581",
-      "sourceName": "ডেইলি বাংলাদেশ",
-      "imageCredit": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss1a88448fd847a7",
-      "slug": "ভারত-পাকিস্তানের-লড়াই-ঢাকায়-এবার-কি-হ্যা",
-      "title": "ভারত-পাকিস্তানের লড়াই ঢাকায়: এবার কি হ্যান্ডশেক করবেন",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%AD%E0%A6%BE%E0%A6%B0%E0%A6%A4-%E0%A6%AA%E0%A6%BE%E0%A6%95%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A7%9C%E0%A6%BE%E0%A6%87-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A7%9F-%E0%A6%8F%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%95%E0%A6%BF-%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%BE.jpg",
-      "publishedAt": "2026-11-04T18:29:22.940Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>ঢাকার মাঠে শুরু হতে যাচ্ছে সাফ চ্যাম্পিয়নশিপ, আর টুর্নামেন্টের উদ্বোধনী ম্যাচেই মুখোমুখি হচ্ছে দুই চিরপ্রতিদ্বন্দ্বী ভারত ও পাকিস্তান। বৃহস্পতিবার জাতীয় স্টেডিয়ামে অনুষ্ঠেয় এই ম্যাচকে ঘিরে মাঠের লড়াই ছাপিয়ে আলোচনার কেন্দ্রে উঠে এসেছে দুই দলের খেলোয়াড়দের পারস্পরিক সৌজন্যবোধ। সাধারণত ক্রিকেট মাঠে ভারত ও পাকিস্তানের লড়াইয়ে খেলোয়াড়দের মধ্যে উত্তাপ ও বৈরিতা দৃশ্যমান হলেও, ফুটবলের ক্ষেত্রে এই দুই দেশ ভিন্ন বার্তা দিয়েছে।</p>\n<p>সংবাদ সম্মেলনে ভারত ও পাকিস্তানের খেলোয়াড় এবং কোচদের কণ্ঠে ছিল বন্ধুত্বের সুর। ভারত অধিনায়ক নাথান রদ্রিগেজ স্পষ্টভাবে জানিয়েছেন, প্রতিপক্ষের সঙ্গে সৌজন্য বিনিময় বা জার্সি বদল নিয়ে তার কোনো দ্বিধা নেই। বিষয়টিকে বড় করে না দেখে ভারতের কোচ নওশাদ মুসা আরও এক ধাপ এগিয়ে মন্তব্য করেছেন, প্রয়োজনের মুহূর্তে প্রতিপক্ষ খেলোয়াড়কে জড়িয়ে ধরতেও তাদের কোনো আপত্তি নেই।</p>\n<p>একই সুর শোনা গেছে পাকিস্তান শিবিরেও। পাকিস্তান অধিনায়ক আলমগীর গাজীর মতে, ক্রিকেট ও ফুটবলের পরিবেশ এক নয়, আর ফুটবলকে সুন্দর খেলা বলা হয় বলেই এর মাঠে সৌজন্য বজায় রাখা সম্ভব। খেলা শেষে প্রতিপক্ষের দিকে হাত বাড়িয়ে দিতে তিনি একেবারেই দ্বিধাবোধ করবেন না বলে জানিয়েছেন। উল্লেখ্য, পাকিস্তান দল গতকাল সন্ধ্যায় ঢাকায় পৌঁছালেও তাদের আজকের নির্ধারিত অনুশীলন বাতিল করা হয়েছে। ফলে কোনো রকম পূর্ব প্রস্তুতি ছাড়াই সরাসরি ভারতের বিপক্ষে মাঠে নামতে হবে তাদের।</p>\n<p>সাফ চ্যাম্পিয়নশিপের ইতিহাস ঘাঁটলে দেখা যায়, ২০০৩ সালেও ঢাকায় টুর্নামেন্টের যাত্রা শুরু হয়েছিল এই দুই দলের লড়াই দিয়ে, যেখানে জয় পেয়েছিল পাকিস্তান। সেই পুরনো স্মৃতি মনে রেখে এবারও জয়ের স্বপ্ন দেখছেন আলমগীর গাজী। তিনি আশা প্রকাশ করেছেন, গ্যালারিতে উপস্থিত বাংলাদেশি ফুটবলপ্রেমীদের সমর্থন তাদের বাড়তি প্রেরণা যোগাবে। মাঠের বাইরে খেলোয়াড়দের এই সৌহার্দ্যপূর্ণ অবস্থান শেষ পর্যন্ত লড়াইয়ের উত্তাপ কতটা নিয়ন্ত্রণ করতে পারে, এখন সেটিই দেখার বিষয়।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">উত্তেজনাপূর্ণ ম্যাচে সৌজন্যবোধ বজায় রাখা খেলায় সুস্থ সংস্কৃতির পরিচায়ক। মাঠের বাইরের রাজনৈতিক বৈরিতা ছাপিয়ে খেলোয়াড়ি মনোভাব বজায় থাকলে তা দক্ষিণ এশীয় ফুটবলের প্রসারে ইতিবাচক দৃষ্টান্ত স্থাপন করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/sports/540582\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "হাত মেলানোর রীতিটাই যেন হারিয়ে যায় ক্রিকেটের মাঠে ভারত-পাকিস্তান মুখোমুখি হলে। ফুটবলের মঞ্চে সেই ছায়া পড়বে কি না—প্রশ্নই ধেয়ে এসেছিল দুই দলের দিকে। বৃহস্পত...",
-      "sourceUrl": "https://www.daily-bangladesh.com/sports/540582",
-      "sourceName": "ডেইলি বাংলাদেশ",
-      "imageCredit": "ডেইলি বাংলাদেশ"
     }
   ],
   "ads": [
