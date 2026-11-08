@@ -1,6 +1,6 @@
 {
-  "version": 2460,
-  "updatedAt": "2026-11-08T11:00:44.263Z",
+  "version": 2461,
+  "updatedAt": "2026-11-08T11:15:27.609Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,57 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rss2b27c33cffadca",
+      "slug": "প্রতিটি-বাংলাদেশির-মাথায়-৬৪৬-ডলারের-বৈদে",
+      "title": "প্রতিটি বাংলাদেশির মাথায় ৬৪৬ ডলারের বৈদেশিক ঋণ: বিশ্বব্যাংক",
+      "category": "অর্থনীতি",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%9F%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%BF%E0%A6%B0-%E0%A6%AE%E0%A6%BE%E0%A6%A5%E0%A6%BE%E0%A7%9F-%E0%A7%AC%E0%A7%AA%E0%A7%AC-%E0%A6%A1%E0%A6%B2%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%88%E0%A6%A6%E0%A7%87.jpg",
+      "publishedAt": "2026-11-08T11:14:30.094Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>বাংলাদেশের মোট বৈদেশিক ঋণের পরিমাণ দাঁড়িয়েছে ১১৩ দশমিক ৪৪ বিলিয়ন বা ১১ হাজার ৩৪৪ কোটি ডলার। বিশ্বব্যাংকের হিসাবে, দেশের ১৭ কোটি ৫৭ লাখ মানুষের মধ্যে এই ঋণ ভাগ ক...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">মাথাপিছু ঋণের এই ঊর্ধ্বগতি দেশের ভবিষ্যৎ অর্থনৈতিক স্থিতিশীলতা ও রাজস্ব ব্যবস্থাপনার ওপর বাড়তি চাপ সৃষ্টি করবে। ঋণ পরিশোধের দায়ভার বৃদ্ধি পাওয়ায় সরকারি উন্নয়ন বাজেটে সংকোচন ও সাধারণ মানুষের ওপর করের বোঝা বাড়ার ঝুঁকি তৈরি হয়েছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/540970\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "বাংলাদেশের মোট বৈদেশিক ঋণের পরিমাণ দাঁড়িয়েছে ১১৩ দশমিক ৪৪ বিলিয়ন বা ১১ হাজার ৩৪৪ কোটি ডলার। বিশ্বব্যাংকের হিসাবে, দেশের ১৭ কোটি ৫৭ লাখ মানুষের মধ্যে এই ঋণ ভাগ ক...",
+      "sourceUrl": "https://www.daily-bangladesh.com/national/540970",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss1cb5b53600c022",
+      "slug": "করাচির-রেস্তোরাঁয়-খাবার-পরিবেশনে-রোবট",
+      "title": "করাচির রেস্তোরাঁয় খাবার পরিবেশনে রোবট",
+      "category": "প্রযুক্তি",
+      "lead": false,
+      "image": "/img/%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%9A%E0%A6%BF%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8B%E0%A6%B0%E0%A6%BE%E0%A6%81%E0%A6%AF%E0%A6%BC-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87-%E0%A6%B0%E0%A7%8B%E0%A6%AC%E0%A6%9F.webp",
+      "publishedAt": "2026-11-08T11:14:30.069Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>পাকিস্তানের বন্দরনগরী করাচির একটি রেস্তোরাঁয় টেবিলের মাঝ দিয়ে খাবার পরিবেশন করছে রোবট ওয়েট্রেস। যুক্তরাষ্ট্র বা চীনের মতো উন্নত বিশ্বে রেস্তোরাঁয় রোবটের ব্যবহার বাড়লেও দক্ষিণ এশিয়ার দেশ পাকিস্তানে এই দৃশ্য এখনও বেশ বিরল। ফরাসি বার্তা সংস্থা এএফপির এক প্রতিবেদনে এ তথ্য উঠে এসেছে। টেসলার সাইবারট্</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রেস্তোরাঁয় রোবটের ব্যবহার দক্ষিণ এশীয় গ্রাহকদের সেবার নতুন অভিজ্ঞতার সাথে পরিচয় করিয়ে দিচ্ছে। যন্ত্রের মাধ্যমে খাবার পরিবেশন একদিকে যেমন কর্মদক্ষতা বাড়াবে, তেমনি প্রযুক্তি ব্যবহারে সাধারণ মানুষের অভ্যস্ততাকেও ত্বরান্বিত করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/tech-and-gadget/tech-news/979591/%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%9A%E0%A6%BF%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8B%E0%A6%B0%E0%A6%BE%E0%A6%81%E0%A6%AF%E0%A6%BC-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87-%E0%A6%B0%E0%A7%8B%E0%A6%AC%E0%A6%9F\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "পাকিস্তানের বন্দরনগরী করাচির একটি রেস্তোরাঁয় টেবিলের মাঝ দিয়ে খাবার পরিবেশন করছে রোবট ওয়েট্রেস। যুক্তরাষ্ট্র বা চীনের মতো উন্নত বিশ্বে রেস্তোরাঁয় রোবটের ব্যবহার বাড়লেও দক্ষিণ এশিয়ার দেশ পাকিস্তানে এই দৃশ্য এখনও বেশ বিরল। ফরাসি বার্তা সংস্থা এএফপির এক প্রতিবেদনে এ তথ্য উঠে এসেছে। টেসলার সাইবারট্",
+      "sourceUrl": "https://www.banglatribune.com/tech-and-gadget/tech-news/979591/%E0%A6%95%E0%A6%B0%E0%A6%BE%E0%A6%9A%E0%A6%BF%E0%A6%B0-%E0%A6%B0%E0%A7%87%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8B%E0%A6%B0%E0%A6%BE%E0%A6%81%E0%A6%AF%E0%A6%BC-%E0%A6%96%E0%A6%BE%E0%A6%AC%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%A8%E0%A7%87-%E0%A6%B0%E0%A7%8B%E0%A6%AC%E0%A6%9F",
+      "sourceName": "বাংলা ট্রিবিউন",
+      "imageCredit": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rssce0ce4293dfa20",
+      "slug": "সিলেটে-জিততে-রেকর্ড-গড়তে-হবে-বাংলাদেশকে",
+      "title": "সিলেটে জিততে রেকর্ড গড়তে হবে বাংলাদেশকে",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%B8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%9C%E0%A6%BF%E0%A6%A4%E0%A6%A4%E0%A7%87-%E0%A6%B0%E0%A7%87%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A1-%E0%A6%97%E0%A7%9C%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%AC%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%95%E0%A7%87.webp",
+      "publishedAt": "2026-11-08T11:14:30.067Z",
+      "tags": [
+        "বাংলা ট্রিবিউন"
+      ],
+      "body": "<p>কাভেম হজের অপরাজিত ১৪০ রানের দুর্দান্ত ইনিংসে সিলেট টেস্টের চতুর্থ দিন শেষে চালকের আসনে ওয়েস্ট ইন্ডিজ। দ্বিতীয় ইনিংসে ৩ উইকেটে ৩৪৫ রান তোলার পর আলোকস্বল্পতায় দিনের খেলা শেষ করে দেন আম্পায়াররা। তাতে শেষ দিনের আগে বাংলাদেশের বিপক্ষে তাদের লিড দাঁড়িয়েছে ৩১৫ রানের। ডানহাতি ব্যাটার হজ ১৮৯ বল খেলে নিজের ট</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রেকর্ড গড়ার চ্যালেঞ্জ মোকাবিলায় বাংলাদেশ দলের ব্যাটারদের ধৈর্য ও কৌশলী মানসিকতা প্রদর্শন এখন সময়ের দাবি। পিচের আচরণ ও প্রতিপক্ষের বোলিং সামলে পঞ্চম দিনে দৃঢ় ব্যাটিং করতে পারলে ম্যাচটি অমীমাংসিত রাখার সুযোগ এখনো রয়েছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/sport/cricket/979594/%E0%A6%B8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%9C%E0%A6%BF%E0%A6%A4%E0%A6%A4%E0%A7%87-%E0%A6%B0%E0%A7%87%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A1-%E0%A6%97%E0%A7%9C%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%AC%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%95%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "summary": "কাভেম হজের অপরাজিত ১৪০ রানের দুর্দান্ত ইনিংসে সিলেট টেস্টের চতুর্থ দিন শেষে চালকের আসনে ওয়েস্ট ইন্ডিজ। দ্বিতীয় ইনিংসে ৩ উইকেটে ৩৪৫ রান তোলার পর আলোকস্বল্পতায় দিনের খেলা শেষ করে দেন আম্পায়াররা। তাতে শেষ দিনের আগে বাংলাদেশের বিপক্ষে তাদের লিড দাঁড়িয়েছে ৩১৫ রানের। ডানহাতি ব্যাটার হজ ১৮৯ বল খেলে নিজের ট",
+      "sourceUrl": "https://www.banglatribune.com/sport/cricket/979594/%E0%A6%B8%E0%A6%BF%E0%A6%B2%E0%A7%87%E0%A6%9F%E0%A7%87-%E0%A6%9C%E0%A6%BF%E0%A6%A4%E0%A6%A4%E0%A7%87-%E0%A6%B0%E0%A7%87%E0%A6%95%E0%A6%B0%E0%A7%8D%E0%A6%A1-%E0%A6%97%E0%A7%9C%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%AC%E0%A7%87-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B6%E0%A6%95%E0%A7%87",
+      "sourceName": "বাংলা ট্রিবিউন",
+      "imageCredit": "বাংলা ট্রিবিউন"
     },
     {
       "id": "rssc092ab80d22869",
@@ -1776,7 +1827,7 @@
       "tags": [
         "বাংলা ট্রিবিউন"
       ],
-      "body": "<p>স্বরাষ্ট্রমন্ত্রী সালাহউদ্দিন আহমদ বলেছেন, ১৯৭৫ সালের ৭ নভেম্বর শহীদ রাষ্ট্রপতি জিয়াউর রহমান এ দেশের অরক্ষিত স্বাধীনতা ও সার্বভৌমত্বকে চূড়ান্তভাবে রক্ষা করেছিলেন। শনিবার (৭ নভেম্বর) রাতে ‘জাতীয় বিপ্লব ও সংহতি দিবস ২০২৬’ উপলক্ষে আজ রাতে অফিসার্স ক্লাব ঢাকা আয়োজিত আলোচনা ও সাংস্কৃতিক অনুষ্ঠানে প্রধান অতিথির বক্তব্যে এ কথা বলেন তিনি। স্বরাষ্ট্রমন্ত্রী বলেন, ১৯৭১ সালের মহান মুক্তিযুদ্ধের পর এ... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/national/979492/%E0%A7%AD-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "body": "<p>স্বরাষ্ট্রমন্ত্রী সালাহউদ্দিন আহমদ বলেছেন, ১৯৭৫ সালের ৭ নভেম্বর শহীদ রাষ্ট্রপতি জিয়াউর রহমান এ দেশের অরক্ষিত স্বাধীনতা ও সার্বভৌমত্বকে চূড়ান্তভাবে রক্ষা করেছিলেন। শনিবার (৭ নভেম্বর) রাতে ‘জাতীয় বিপ্লব ও সংহতি দিবস ২০২৬’ উপলক্ষে আজ রাতে অফিসার্স ক্লাব ঢাকা আয়োজিত আলোচনা ও সাংস্কৃতিক অনুষ্ঠানে প্রধান </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">৭ নভেম্বরের চেতনাকে জাতীয় সংহতির প্রতীক হিসেবে উপস্থাপন করা রাজনৈতিক মেরুকরণকে আরও স্পষ্ট করে তুলছে। রাষ্ট্রীয় পর্যায়ে এমন উদযাপন সাধারণ মানুষের মনে জাতীয় ইতিহাসের ভিন্ন ভিন্ন দৃষ্টিভঙ্গি ও বিভাজনকে আরও জোরালো করার সম্ভাবনা রাখে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/national/979492/%E0%A7%AD-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "স্বরাষ্ট্রমন্ত্রী সালাহউদ্দিন আহমদ বলেছেন, ১৯৭৫ সালের ৭ নভেম্বর শহীদ রাষ্ট্রপতি জিয়াউর রহমান এ দেশের অরক্ষিত স্বাধীনতা ও সার্বভৌমত্বকে চূড়ান্তভাবে রক্ষা করেছিলেন। শনিবার (৭ নভেম্বর) রাতে ‘জাতীয় বিপ্লব ও সংহতি দিবস ২০২৬’ উপলক্ষে আজ রাতে অফিসার্স ক্লাব ঢাকা আয়োজিত আলোচনা ও সাংস্কৃতিক অনুষ্ঠানে প্রধান ",
       "sourceUrl": "https://www.banglatribune.com/national/979492/%E0%A7%AD-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A7%81%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%AE%E0%A7%80-%E0%A6%AE%E0%A6%BE%E0%A6%A8%E0%A7%81%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%9C%E0%A6%A8%E0%A7%80%E0%A6%A8",
       "sourceName": "বাংলা ট্রিবিউন",
@@ -1793,7 +1844,7 @@
       "tags": [
         "বাংলা ট্রিবিউন"
       ],
-      "body": "<p>সবুজে ঢাকা পাহাড়, পাথরের বুক ছুঁয়ে বয়ে চলা স্বচ্ছ জলধারা, নাম না-জানা বনফুলের সুবাস আর পাখির ডাক। প্রকৃতির এমন নিবিড় সান্নিধ্য পেতে চাইলে ঘুরে আসতে পারেন মৌলভীবাজারের পাথারিয়া পাহাড় থেকে। বড়লেখা উপজেলায় অবস্থিত এই পাহাড়ের আগের নাম ছিল আদম আইল। এখানকার পাহাড়ি ঝরনা ও সবুজ অরণ্য প্রকৃতিপ্রেমীদের কাছে এক অন্যরকম আকর্ষণ। পাথারিয়া পাহাড়ের ঢাল বেয়ে নেমে আসা জলধারাই তৈরি করেছে বিখ্যাত মাধবকুণ্ড... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/journey/979424/%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%93-%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A6%BE-%E0%A6%B0%E0%A7%82%E0%A6%AA%E0%A7%87%E0%A6%93-%E0%A6%85%E0%A6%A8%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%BE%E0%A6%A5%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%A1%E0%A6%BC\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
+      "body": "<p>সবুজে ঢাকা পাহাড়, পাথরের বুক ছুঁয়ে বয়ে চলা স্বচ্ছ জলধারা, নাম না-জানা বনফুলের সুবাস আর পাখির ডাক। প্রকৃতির এমন নিবিড় সান্নিধ্য পেতে চাইলে ঘুরে আসতে পারেন মৌলভীবাজারের পাথারিয়া পাহাড় থেকে। বড়লেখা উপজেলায় অবস্থিত এই পাহাড়ের আগের নাম ছিল আদম আইল। এখানকার পাহাড়ি ঝরনা ও সবুজ অরণ্য প্রকৃতিপ্রেমীদের </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পাথারিয়া পাহাড়ের প্রাকৃতিক সৌন্দর্য স্থানীয় পর্যটন বিকাশে নতুন সম্ভাবনা তৈরি করেছে। স্থানীয়দের উচিত পরিবেশ দূষণ রোধে সচেতন হওয়া এবং দায়িত্বশীল পর্যটন ব্যবস্থা গড়ে তোলা, যাতে পাহাড়ের ভারসাম্য ও জীববৈচিত্র্য দীর্ঘমেয়াদে অক্ষুণ্ণ থাকে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/journey/979424/%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%93-%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A6%BE-%E0%A6%B0%E0%A7%82%E0%A6%AA%E0%A7%87%E0%A6%93-%E0%A6%85%E0%A6%A8%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%BE%E0%A6%A5%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%A1%E0%A6%BC\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "সবুজে ঢাকা পাহাড়, পাথরের বুক ছুঁয়ে বয়ে চলা স্বচ্ছ জলধারা, নাম না-জানা বনফুলের সুবাস আর পাখির ডাক। প্রকৃতির এমন নিবিড় সান্নিধ্য পেতে চাইলে ঘুরে আসতে পারেন মৌলভীবাজারের পাথারিয়া পাহাড় থেকে। বড়লেখা উপজেলায় অবস্থিত এই পাহাড়ের আগের নাম ছিল আদম আইল। এখানকার পাহাড়ি ঝরনা ও সবুজ অরণ্য প্রকৃতিপ্রেমীদের ",
       "sourceUrl": "https://www.banglatribune.com/journey/979424/%E0%A6%A8%E0%A6%BE%E0%A6%AE%E0%A7%87%E0%A6%93-%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A6%BE-%E0%A6%B0%E0%A7%82%E0%A6%AA%E0%A7%87%E0%A6%93-%E0%A6%85%E0%A6%A8%E0%A6%A8%E0%A7%8D%E0%A6%AF-%E0%A6%AA%E0%A6%BE%E0%A6%A5%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A7%9F%E0%A6%BE-%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%A1%E0%A6%BC",
       "sourceName": "বাংলা ট্রিবিউন",
@@ -8387,57 +8438,6 @@
       "body": "<p>&amp;lrm;শেরপুরের ঝিনাইগাতীতে মসজিদ কমিটি গঠন নিয়ে বিরোধের জেরে প্রতিপক্ষের হামলায় সালেহ আহমেদ (৬০) নামে এক বিএনপি নেতার মৃত্যু হয়েছে। শুক্রবার (৬ নভেম্বর) দুপুরে উপজেলার নলকুড়া ইউনিয়নের ভারুয়া কেন্দ্রীয় জামে মসজিদে জুমার নামাজের সময় খুতবার আগে ঘটনা ঘটে। নিহত আবু সালেহ আহমেদ একই গ্রামের মরহুম আব্দুর রহম</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ধর্মীয় উপাসনালয়কে কেন্দ্র করে এমন সহিংসতা সামাজিক অস্থিরতার বহিঃপ্রকাশ, যা স্থানীয় শান্তি ও নিরাপত্তা বিঘ্নিত করছে। বিবাদ নিরসনে স্থানীয় গণ্যমান্য ব্যক্তিদের মধ্যস্থতা এবং আইনের শাসন নিশ্চিত করা জরুরি। গোষ্ঠীগত কোন্দল এড়িয়ে পারস্পরিক সহনশীলতাই এমন অনাকাঙ্ক্ষিত প্রাণহানি রোধের একমাত্র পথ।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/819457/%E0%A6%AE%E0%A6%B8%E0%A6%9C%E0%A6%BF%E0%A6%A6-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3-%E0%A6%97%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
       "summary": "&lrm;শেরপুরের ঝিনাইগাতীতে মসজিদ কমিটি গঠন নিয়ে বিরোধের জেরে প্রতিপক্ষের হামলায় সালেহ আহমেদ (৬০) নামে এক বিএনপি নেতার মৃত্যু হয়েছে। শুক্রবার (৬ নভেম্বর) দুপুরে উপজেলার নলকুড়া ইউনিয়নের ভারুয়া কেন্দ্রীয় জামে মসজিদে জুমার নামাজের সময় খুতবার আগে ঘটনা ঘটে। নিহত আবু সালেহ আহমেদ একই গ্রামের মরহুম আব্দুর রহম",
       "sourceUrl": "https://www.ittefaq.com.bd/819457/%E0%A6%AE%E0%A6%B8%E0%A6%9C%E0%A6%BF%E0%A6%A6-%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%9F%E0%A6%BF-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8D%E0%A6%AC%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%B2%E0%A6%BE-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3-%E0%A6%97%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E0%A6%8F%E0%A6%A8%E0%A6%AA%E0%A6%BF",
-      "sourceName": "ইত্তেফাক",
-      "imageCredit": "ইত্তেফাক"
-    },
-    {
-      "id": "rssb44a2ff17e594d",
-      "slug": "রাজধানীতে-হঠাৎ-থানার-সাম-নে-দুই-কক-টেল-বি-স",
-      "title": "রাজধানীতে হঠাৎ থানার সাম‌নে দুই কক‌টেল বি‌স্ফোরণ",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A7%87-%E0%A6%B9%E0%A6%A0%E0%A6%BE%E0%A7%8E-%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE-%E0%A6%A8%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%95%E0%A6%95-%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF-%E0%A6%B8.webp",
-      "publishedAt": "2026-11-06T17:44:25.620Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>রাজধানীর আদাবর থানার সামনে দুটি ককটেল বিস্ফোরণের ঘটনা ঘটেছে। তবে এ ঘটনায় কোনও হতাহতের খবর পাওয়া যায়নি। শুক্রবার (৬ নভেম্বর) রাত সোয়া ৯টার দি‌কে এ ঘটনা ঘটে। আদাবর থানার ভারপ্রাপ্ত কর্মকর্তা (ও‌সি) জা‌হিদুল ইসলাম বাংলা ট্রিবিউন‌কে ব‌লেন, মোটরসাইকেলে করে কয়েকজন দুর্বৃত্ত এসে হঠাৎ থানার ‌বিপরীত পাশ থে</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনবহুল এলাকায় এমন আকস্মিক বিস্ফোরণ জনমনে আতঙ্ক সৃষ্টি করছে, যা নাগরিক নিরাপত্তার জন্য গভীর উদ্বেগের বিষয়। স্থানীয় বাসিন্দাদের এ ধরনের অস্বাভাবিক পরিস্থিতিতে আতঙ্কিত না হয়ে আইনশৃঙ্খলা বাহিনীকে দ্রুত তথ্য দিয়ে সহযোগিতা করতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/law-and-crime/979285/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80-%E0%A6%B9%E0%A6%A0%E0%A6%BE%E0%A7%8E-%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E2%80%8C%E0%A6%A8%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%95%E0%A6%95%E2%80%8C%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E2%80%8C%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%87%E0%A6%BE%E0%A6%B0%E0%A6%A3%C2%A0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "রাজধানীর আদাবর থানার সামনে দুটি ককটেল বিস্ফোরণের ঘটনা ঘটেছে। তবে এ ঘটনায় কোনও হতাহতের খবর পাওয়া যায়নি। শুক্রবার (৬ নভেম্বর) রাত সোয়া ৯টার দি‌কে এ ঘটনা ঘটে। আদাবর থানার ভারপ্রাপ্ত কর্মকর্তা (ও‌সি) জা‌হিদুল ইসলাম বাংলা ট্রিবিউন‌কে ব‌লেন, মোটরসাইকেলে করে কয়েকজন দুর্বৃত্ত এসে হঠাৎ থানার ‌বিপরীত পাশ থে",
-      "sourceUrl": "https://www.banglatribune.com/law-and-crime/979285/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80-%E0%A6%B9%E0%A6%A0%E0%A6%BE%E0%A7%8E-%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%BE%E0%A6%AE%E2%80%8C%E0%A6%A8%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%87-%E0%A6%95%E0%A6%95%E2%80%8C%E0%A6%9F%E0%A7%87%E0%A6%B2-%E0%A6%AC%E0%A6%BF%E2%80%8C%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%87%E0%A6%BE%E0%A6%B0%E0%A6%A3%C2%A0",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss12e79efe429db2",
-      "slug": "সাজেকে-ক্ষতিগ্রস্তদের-পুনর্বাসনে-পদক্ষ",
-      "title": "সাজেকে ক্ষতিগ্রস্তদের পুনর্বাসনে পদক্ষেপ নেওয়ার সুপারিশ সংসদীয় কমিটির",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%A8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7.webp",
-      "publishedAt": "2026-11-06T17:44:25.589Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>খাগড়াছড়ির সাজেকে ক্ষতিগ্রস্ত ব্যক্তিদের বিষয়ে কী কী পদক্ষেপ নেওয়া হয়েছে, তা বিস্তারিত জানিয়ে মন্ত্রণালয়কে প্রতিবেদন দেওয়ার সুপারিশ করেছে পার্বত্য চট্টগ্রামবিষয়ক মন্ত্রণালয়&amp;ndash;সম্পর্কিত সংসদীয় স্থায়ী কমিটি। বৃহস্পতিবার (৫ নভেম্বর) জাতীয় সংসদ ভবনে অনুষ্ঠিত কমিটির বৈঠকে এ সুপারিশ করা হয়। বৈঠক </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পাহাড়ি এলাকায় সরকারি উন্নয়ন ও পুনর্বাসন প্রক্রিয়া গতিশীল হলে স্থানীয় পর্যায়ে নতুন কর্মসংস্থানের সুযোগ সৃষ্টি হবে। ক্ষতিগ্রস্তদের যথাযথ পুনর্বাসন নিশ্চিত করা গেলে পর্যটন ও সংশ্লিষ্ট খাতগুলোতে স্থিতিশীলতা ফিরে আসবে, যা চাকরিপ্রার্থীদের জন্য দীর্ঘমেয়াদী সুযোগ তৈরি করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/819453/%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%A8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%AA-%E0%A6%A8%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "খাগড়াছড়ির সাজেকে ক্ষতিগ্রস্ত ব্যক্তিদের বিষয়ে কী কী পদক্ষেপ নেওয়া হয়েছে, তা বিস্তারিত জানিয়ে মন্ত্রণালয়কে প্রতিবেদন দেওয়ার সুপারিশ করেছে পার্বত্য চট্টগ্রামবিষয়ক মন্ত্রণালয়&ndash;সম্পর্কিত সংসদীয় স্থায়ী কমিটি। বৃহস্পতিবার (৫ নভেম্বর) জাতীয় সংসদ ভবনে অনুষ্ঠিত কমিটির বৈঠকে এ সুপারিশ করা হয়। বৈঠক ",
-      "sourceUrl": "https://www.ittefaq.com.bd/819453/%E0%A6%B8%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A4%E0%A6%BF%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A7%81%E0%A6%A8%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A6%A8%E0%A7%87-%E0%A6%AA%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%AA-%E0%A6%A8%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0",
-      "sourceName": "ইত্তেফাক",
-      "imageCredit": "ইত্তেফাক"
-    },
-    {
-      "id": "rss60f86025707bf8",
-      "slug": "গাজী-নজরুলের-পর-আমির-হামজার-ঘটনায়-জামায়া",
-      "title": "গাজী নজরুলের পর আমির হামজার ঘটনায় জামায়াত ‘গুম’ হয়ে গেছে: রাশেদ খাঁন",
-      "category": "রাজনীতি",
-      "lead": false,
-      "image": "/img/%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A7%80-%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%86%E0%A6%AE%E0%A6%BF%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A6%BE.webp",
-      "publishedAt": "2026-11-06T17:44:25.584Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>গাজী নজরুলের পর আমির হামজার ঘটনায় দল হিসেবে জামায়াত ‘গুম’ হয়ে গেছে বলে মন্তব্য করেছেন প্রধানমন্ত্রীর রাজনৈতিক সহকারী রাশেদ খাঁন। শুক্রবার (৬ নভেম্বর) সামাজিক যোগাযোগমাধ্যম ফেসবুকে দেওয়া এক পোস্টে এ মন্তব্য করেন তিনি। পোস্টে রাশেদ খাঁন লেখেন, ‘কুষ্টিয়া-৩ আসনের এমপি আমির হামজার সঙ্গে কোনো সাংবাদিক যোগ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক মিত্রতার প্রশ্নে জামায়াতের নীরবতা তাদের আদর্শিক ও কৌশলগত অবস্থান নিয়ে জনমনে নতুন সংশয় তৈরি করেছে। এ ধরনের দ্বিমুখী আচরণ সাধারণ নাগরিকের কাছে রাজনৈতিক দলগুলোর স্বচ্ছতা ও নৈতিক দায়বদ্ধতা নিয়ে বড় ধরনের প্রশ্নচিহ্ন রেখে যায়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/819455/%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A7%80-%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%86%E0%A6%AE%E0%A6%BF%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%A4-%E2%80%98%E0%A6%97%E0%A7%81%E0%A6%AE%E2%80%99\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "গাজী নজরুলের পর আমির হামজার ঘটনায় দল হিসেবে জামায়াত ‘গুম’ হয়ে গেছে বলে মন্তব্য করেছেন প্রধানমন্ত্রীর রাজনৈতিক সহকারী রাশেদ খাঁন। শুক্রবার (৬ নভেম্বর) সামাজিক যোগাযোগমাধ্যম ফেসবুকে দেওয়া এক পোস্টে এ মন্তব্য করেন তিনি। পোস্টে রাশেদ খাঁন লেখেন, ‘কুষ্টিয়া-৩ আসনের এমপি আমির হামজার সঙ্গে কোনো সাংবাদিক যোগ",
-      "sourceUrl": "https://www.ittefaq.com.bd/819455/%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A7%80-%E0%A6%A8%E0%A6%9C%E0%A6%B0%E0%A7%81%E0%A6%B2%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%86%E0%A6%AE%E0%A6%BF%E0%A6%B0-%E0%A6%B9%E0%A6%BE%E0%A6%AE%E0%A6%9C%E0%A6%BE%E0%A6%B0-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%9C%E0%A6%BE%E0%A6%AE%E0%A6%BE%E0%A7%9F%E0%A6%BE%E0%A6%A4-%E2%80%98%E0%A6%97%E0%A7%81%E0%A6%AE%E2%80%99",
       "sourceName": "ইত্তেফাক",
       "imageCredit": "ইত্তেফাক"
     }
