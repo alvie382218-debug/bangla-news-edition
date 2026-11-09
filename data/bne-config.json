@@ -1,6 +1,6 @@
 {
-  "version": 2569,
-  "updatedAt": "2026-11-09T13:31:00.161Z",
+  "version": 2570,
+  "updatedAt": "2026-11-09T13:45:35.448Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,57 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rss130f17f742eea7",
+      "slug": "জয়পুরহাটে-আলোচনাসভায়-বঙ্গবন্ধু-ও-জাতির-প",
+      "title": "জয়পুরহাটে আলোচনাসভায় ‘বঙ্গবন্ধু’ ও ‘জাতির পিতা’ বলায় হট্টগোল,জিয়া পরিষদের সেই নেতা বহিষ্কার",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%9C%E0%A7%9F%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A6%B9%E0%A6%BE%E0%A6%9F%E0%A7%87-%E0%A6%86%E0%A6%B2%E0%A7%8B%E0%A6%9A%E0%A6%A8%E0%A6%BE%E0%A6%B8%E0%A6%AD%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%81-%E0%A6%93-%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%AA.jpg",
+      "publishedAt": "2026-11-09T13:44:31.823Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>জয়পুরহাটে জাতীয় বিপ্লব ও সংহতি দিবসের আলোচনা সভায় শেখ মুজিবুর রহমানকে ‘বঙ্গবন্ধু’ ও ‘জাতির পিতা’ হিসেবে উল্লেখ করে বক্তব্য দেওয়ায় জিয়া পরিষদের পৌর শাখার সাধারণ...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক পরিমণ্ডলের এই বিশৃঙ্খলা ক্রীড়াঙ্গনের সুষ্ঠু পরিবেশের জন্য উদ্বেগজনক, কারণ দলীয় মতাদর্শের সংঘাত মাঠপর্যায়ের ক্রীড়া কর্মকাণ্ডে নেতিবাচক প্রভাব ফেলতে পারে। মাঠের শৃঙ্খলা বজায় রাখতে রাজনৈতিক প্রভাবমুক্ত ও পারস্পরিক শ্রদ্ধাশীল চর্চা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/541119\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "জয়পুরহাটে জাতীয় বিপ্লব ও সংহতি দিবসের আলোচনা সভায় শেখ মুজিবুর রহমানকে ‘বঙ্গবন্ধু’ ও ‘জাতির পিতা’ হিসেবে উল্লেখ করে বক্তব্য দেওয়ায় জিয়া পরিষদের পৌর শাখার সাধারণ...",
+      "sourceUrl": "https://daily-bangladesh.com/country/541119",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss53fdc59d386a49",
+      "slug": "এমপি-লুৎফুল্লাহেল-মাজেদের-বাবা-মারা-গেছে",
+      "title": "এমপি লুৎফুল্লাহেল মাজেদের বাবা মারা গেছেন, দোয়া কামনা",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%8F%E0%A6%AE%E0%A6%AA%E0%A6%BF-%E0%A6%B2%E0%A7%81%E0%A7%8E%E0%A6%AB%E0%A7%81%E0%A6%B2%E0%A7%8D%E0%A6%B2%E0%A6%BE%E0%A6%B9%E0%A7%87%E0%A6%B2-%E0%A6%AE%E0%A6%BE%E0%A6%9C%E0%A7%87%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%BE-%E0%A6%AE%E0%A6%BE%E0%A6%B0%E0%A6%BE-%E0%A6%97%E0%A7%87%E0%A6%9B%E0%A7%87.jpg",
+      "publishedAt": "2026-11-09T13:44:31.820Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>ময়মনসিংহ-৮ (ঈশ্বরগঞ্জ) আসনের এমপি লুৎফুল্লাহেল মাজেদের বাবা মো. জসিম উদ্দিন মারা গেছেন (ইন্না লিল্লাহি ওয়া ইন্না ইলাইহি রাজিউন)।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">জনপ্রতিনিধির ব্যক্তিগত শোকের এই মুহূর্তটি স্থানীয় মানুষের সাথে তার আত্মিক বন্ধন আরও গভীর করার সুযোগ তৈরি করে। শোকের ছায়ায় স্বজন হারানোর বেদনা সাধারণ নাগরিকের জীবনে সহমর্মিতার বার্তা নিয়ে আসে, যা সামাজিকভাবে পারস্পরিক সুসম্পর্ক বজায় রাখে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/541120\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "ময়মনসিংহ-৮ (ঈশ্বরগঞ্জ) আসনের এমপি লুৎফুল্লাহেল মাজেদের বাবা মো. জসিম উদ্দিন মারা গেছেন (ইন্না লিল্লাহি ওয়া ইন্না ইলাইহি রাজিউন)।",
+      "sourceUrl": "https://daily-bangladesh.com/country/541120",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss19766900c65156",
+      "slug": "শিল্পাঞ্চলে-১০০-শয্যার-৬-হাসপাতাল-নির্মা",
+      "title": "শিল্পাঞ্চলে ১০০ শয্যার ৬ হাসপাতাল নির্মাণের ঘোষণা প্রধানমন্ত্রীর",
+      "category": "স্বাস্থ্য",
+      "lead": false,
+      "image": "/img/%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A7%A7%E0%A7%A6%E0%A7%A6-%E0%A6%B6%E0%A6%AF%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B0-%E0%A7%AC-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B2-%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%8D%E0%A6%AE%E0%A6%BE.jpg",
+      "publishedAt": "2026-11-09T13:44:31.808Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>শ্রমজীবী মানুষের চিকিৎসায় দেশের ছয় শিল্পাঞ্চলে ১০০ শয্যার হাসপাতাল নির্মাণের পরিকল্পনা নেওয়ার কথা জানিয়েছেন প্রধানমন্ত্রী তারেক রহমান। সোমবার (৯ নভেম্বর) ত্রয়োদশ জাতীয় সংসদের চতুর্থ অধিবেশনে বিএনপির সংসদ সদস্য শামসুর রহমান শিমুল বিশ্বাসের এক প্রশ্নের জবাবে কথা...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শিল্পাঞ্চলে বিশেষায়িত হাসপাতাল নির্মাণ শ্রমজীবী মানুষের স্বাস্থ্যঝুঁকি কমিয়ে কর্মক্ষমতা ও উৎপাদনশীলতা বাড়াতে সহায়ক হবে। এই উদ্যোগ বাস্তবায়নে পর্যাপ্ত চিকিৎসক ও আধুনিক চিকিৎসা সরঞ্জামের নিশ্চয়তা দেওয়া জরুরি। প্রান্তিক পর্যায়ে স্বাস্থ্যসেবা পৌঁছে দিতে এটি একটি সময়োপযোগী পদক্ষেপ।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315432/শিল্পাঞ্চলে-১০০-শয্যার-৬-হাসপাতাল-নির্মাণের-ঘোষণা-প্রধানমন্ত্রীর\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "শ্রমজীবী মানুষের চিকিৎসায় দেশের ছয় শিল্পাঞ্চলে ১০০ শয্যার হাসপাতাল নির্মাণের পরিকল্পনা নেওয়ার কথা জানিয়েছেন প্রধানমন্ত্রী তারেক রহমান। সোমবার (৯ নভেম্বর) ত্রয়োদশ জাতীয় সংসদের চতুর্থ অধিবেশনে বিএনপির সংসদ সদস্য শামসুর রহমান শিমুল বিশ্বাসের এক প্রশ্নের জবাবে কথা...",
+      "sourceUrl": "https://www.bd-journal.com/bangladesh/315432/শিল্পাঞ্চলে-১০০-শয্যার-৬-হাসপাতাল-নির্মাণের-ঘোষণা-প্রধানমন্ত্রীর",
+      "sourceName": "বাংলাদেশ জার্নাল",
+      "imageCredit": "বাংলাদেশ জার্নাল"
     },
     {
       "id": "rss8882edec3c15bb",
@@ -154,7 +205,7 @@
       "tags": [
         "ডেইলি বাংলাদেশ"
       ],
-      "body": "<p>কিশোরগঞ্জের পাকুন্দিয়ায় নিষিদ্ধ ঘোষিত সংগঠন ছাত্রলীগের নেতাকর্মীদের মিছিলকে কেন্দ্র করে চারজনকে আটক করেছে পুলিশ। সোমবার সকাল সাড়ে ৬টার দিকে উপজেলার কোর্ট বিল্ডি...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক অস্থিরতা এড়াতে জননিরাপত্তা নিশ্চিত করা এখন সময়ের দাবি। বিশৃঙ্খলা এড়াতে স্থানীয় বাসিন্দাদের সতর্ক থাকার পাশাপাশি যেকোনো সন্দেহজনক কর্মকাণ্ড সম্পর্কে আইন-শৃঙ্খলা বাহিনীকে দ্রুত অবহিত করা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/541118\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "body": "<p>কিশোরগঞ্জের পাকুন্দিয়ায় নিষিদ্ধ ঘোষিত সংগঠন ছাত্রলীগের একটি মিছিলকে কেন্দ্র করে চারজনকে আটক করেছে পুলিশ। সোমবার সকাল সাড়ে ৬টার দিকে উপজেলার কোর্ট বিল্ডিং এলাকা থেকে মিছিলটি বের করা হয়। মিছিলটি পাকুন্দিয়া বাজারের নিকটবর্তী স্থানে পৌঁছালে পুলিশি বাধার মুখে পড়ে। এ সময় পুলিশ ধাওয়া দিয়ে ওই চারজনকে আটক করে।</p>\n<p>আটককৃতদের মধ্যে রয়েছেন চালিয়াগোপ এলাকার ইউসুফ ও তুহিন, সুখিয়া এলাকার রানা এবং বীর পাকুন্দিয়া এলাকার ইকতিয়ার হোসেন। তাদের বাবার নাম যথাক্রমে আজিজ মিয়া, আসাদ মিয়া, চান মিয়া এবং জুয়েল মিয়া।</p>\n<p>ছাত্রলীগের এই মিছিলের পরপরই পাকুন্দিয়া পৌরসদর বাজারে বিএনপি ও এর অঙ্গসংগঠনের নেতাকর্মীরা পাল্টা বিক্ষোভ মিছিল করেন। সোমবার সকাল থেকে বিকেল পর্যন্ত বাজারের বিভিন্ন এলাকায় তারা দফায় দফায় এই কর্মসূচি পালন করেন।</p>\n<p>পাকুন্দিয়া থানার ভারপ্রাপ্ত কর্মকর্তা মো. হেলাল উদ্দিন পিপিএম জানান, আইনশৃঙ্খলা পরিস্থিতি নিয়ন্ত্রণে রাখতে পুলিশের এ ধরনের অভিযান আগামী দিনগুলোতেও অব্যাহত থাকবে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক অস্থিরতা এড়াতে জননিরাপত্তা নিশ্চিত করা এখন সময়ের দাবি। বিশৃঙ্খলা এড়াতে স্থানীয় বাসিন্দাদের সতর্ক থাকার পাশাপাশি যেকোনো সন্দেহজনক কর্মকাণ্ড সম্পর্কে আইন-শৃঙ্খলা বাহিনীকে দ্রুত অবহিত করা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/541118\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "কিশোরগঞ্জের পাকুন্দিয়ায় নিষিদ্ধ ঘোষিত সংগঠন ছাত্রলীগের নেতাকর্মীদের মিছিলকে কেন্দ্র করে চারজনকে আটক করেছে পুলিশ। সোমবার সকাল সাড়ে ৬টার দিকে উপজেলার কোর্ট বিল্ডি...",
       "sourceUrl": "https://www.daily-bangladesh.com/country/541118",
       "sourceName": "ডেইলি বাংলাদেশ",
@@ -2879,7 +2930,7 @@
       "tags": [
         "বিডিনিউজ২৪"
       ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LZl9pLVNaZkdfZXg4VjVGYVAxZVkyMjVHSlFZNk5faHNaRTB1ZURLZWJUdVZwQjFPM3hQQ1p1dElSblRaMG1oekJiUTlQOHRaek9iNllIbDgzUUNiMlE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;বাংলাদেশে আসছেন ডাচেস সোফি&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.com&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LZl9pLVNaZkdfZXg4VjVGYVAxZVkyMjVHSlFZNk5faHNaRTB1ZURLZWJUdVZwQjFPM3hQQ1p1dElSblRaMG1oekJiUTlQOHRaek9iNllIbDgzUUNiMlE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LZl9pLVNaZkdfZXg4VjVGYVAxZVkyMjVHSlFZNk5faHNaRTB1ZURLZWJUdVZwQjFPM3hQQ1p1dElSblRaMG1oekJiUTlQOHRaek9iNllIbDgzUUNiMlE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;বাংলাদেশে আসছেন ডাচেস সোফি&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;bdnews24.com&amp;lt;/f</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আন্তর্জাতিক অঙ্গনে বাংলাদেশের ভাবমূর্তি উজ্জ্বল করতে এমন সফর বিশেষ গুরুত্ব বহন করে। উচ্চপর্যায়ের এসব কূটনৈতিক যোগাযোগ ভবিষ্যতে উন্নয়নমূলক অংশীদারিত্ব বৃদ্ধি ও জনজীবনের মানোন্নয়নে ইতিবাচক ভূমিকা রাখবে বলে আশা করা যায়।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LZl9pLVNaZkdfZXg4VjVGYVAxZVkyMjVHSlFZNk5faHNaRTB1ZURLZWJUdVZwQjFPM3hQQ1p1dElSblRaMG1oekJiUTlQOHRaek9iNllIbDgzUUNiMlE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বিডিনিউজ২৪</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LZl9pLVNaZkdfZXg4VjVGYVAxZVkyMjVHSlFZNk5faHNaRTB1ZURLZWJUdVZwQjFPM3hQQ1p1dElSblRaMG1oekJiUTlQOHRaek9iNllIbDgzUUNiMlE?oc=5\" target=\"_blank\"&gt;বাংলাদেশে আসছেন ডাচেস সোফি&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;bdnews24.com&lt;/f",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LZl9pLVNaZkdfZXg4VjVGYVAxZVkyMjVHSlFZNk5faHNaRTB1ZURLZWJUdVZwQjFPM3hQQ1p1dElSblRaMG1oekJiUTlQOHRaek9iNllIbDgzUUNiMlE?oc=5",
       "sourceName": "বিডিনিউজ২৪"
@@ -2895,7 +2946,7 @@
       "tags": [
         "ইত্তেফাক"
       ],
-      "body": "<p>পাবনার ভাঙ্গুড়া উপজেলায় ‘গরু ছাড়াই দুধ’ তৈরির চক্র বেপরোয়া। ভ্রাম্যমাণ আদালত পরিচালনা করেও নকল দুধ উত্পাদন বন্ধ করা যাচ্ছে না। কিছু কেমিক্যাল দিয়ে দুধ বানিয়ে লাখ লাখ টাকা কামানো যায় বিধায় এরা জরিমানাকে পাত্তা দেয় না। ভ্রাম্যমাণ আদালত জরিমানা করলে সেই জরিমানা পরিশোধ করে ফের নেমে পড়ে একই অপকর্মে। বিব্রত হওয়া কিংবা ভয় পাওয়ার পরিবর্তে তারা খুঁজে বের করে তাদের দুধ তৈরির কেমিক্যালের... বিস্তারিত</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/819846/%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%81%E0%A7%9C%E0%A6%BE%E0%A7%9F-%E2%80%98%E0%A6%97%E0%A6%B0%E0%A7%81-%E0%A6%9B%E0%A6%BE%E0%A7%9C%E0%A6%BE%E0%A6%87-%E0%A6%A6%E0%A7%81%E0%A6%A7%E2%80%99-%E0%A6%A4%E0%A7%88%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%AA%E0%A6%B0%E0%A7%8B%E0%A7%9F%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
+      "body": "<p>পাবনার ভাঙ্গুড়া উপজেলায় ‘গরু ছাড়াই দুধ’ তৈরির চক্র বেপরোয়া। ভ্রাম্যমাণ আদালত পরিচালনা করেও নকল দুধ উত্পাদন বন্ধ করা যাচ্ছে না। কিছু কেমিক্যাল দিয়ে দুধ বানিয়ে লাখ লাখ টাকা কামানো যায় বিধায় এরা জরিমানাকে পাত্তা দেয় না। ভ্রাম্যমাণ আদালত জরিমানা করলে সেই জরিমানা পরিশোধ করে ফের নেমে পড়ে একই অপকর্মে। বিব্</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ভেজাল খাদ্যদ্রব্য উৎপাদন জনস্বাস্থ্যের জন্য চরম ঝুঁকি তৈরি করছে, যা শুধু আইনি জরিমানায় নিয়ন্ত্রণ করা অসম্ভব। স্থানীয় প্রশাসনকে কঠোর নজরদারির পাশাপাশি অসাধু চক্রের বিরুদ্ধে নিয়মিত মামলা ও দীর্ঘমেয়াদী শাস্তির ব্যবস্থা করতে হবে। সচেতন নাগরিক হিসেবে ভেজাল পণ্য বর্জন করাই এখন প্রধান সুরক্ষা।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/819846/%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%81%E0%A7%9C%E0%A6%BE%E0%A7%9F-%E2%80%98%E0%A6%97%E0%A6%B0%E0%A7%81-%E0%A6%9B%E0%A6%BE%E0%A7%9C%E0%A6%BE%E0%A6%87-%E0%A6%A6%E0%A7%81%E0%A6%A7%E2%80%99-%E0%A6%A4%E0%A7%88%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%AA%E0%A6%B0%E0%A7%8B%E0%A7%9F%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
       "summary": "পাবনার ভাঙ্গুড়া উপজেলায় ‘গরু ছাড়াই দুধ’ তৈরির চক্র বেপরোয়া। ভ্রাম্যমাণ আদালত পরিচালনা করেও নকল দুধ উত্পাদন বন্ধ করা যাচ্ছে না। কিছু কেমিক্যাল দিয়ে দুধ বানিয়ে লাখ লাখ টাকা কামানো যায় বিধায় এরা জরিমানাকে পাত্তা দেয় না। ভ্রাম্যমাণ আদালত জরিমানা করলে সেই জরিমানা পরিশোধ করে ফের নেমে পড়ে একই অপকর্মে। বিব্",
       "sourceUrl": "https://www.ittefaq.com.bd/819846/%E0%A6%AD%E0%A6%BE%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%81%E0%A7%9C%E0%A6%BE%E0%A7%9F-%E2%80%98%E0%A6%97%E0%A6%B0%E0%A7%81-%E0%A6%9B%E0%A6%BE%E0%A7%9C%E0%A6%BE%E0%A6%87-%E0%A6%A6%E0%A7%81%E0%A6%A7%E2%80%99-%E0%A6%A4%E0%A7%88%E0%A6%B0%E0%A6%BF%E0%A6%B0-%E0%A6%9A%E0%A6%95%E0%A7%8D%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%AA%E0%A6%B0%E0%A7%8B%E0%A7%9F%E0%A6%BE",
       "sourceName": "ইত্তেফাক",
@@ -2912,7 +2963,7 @@
       "tags": [
         "যুগান্তর"
       ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrZjZOSjJkUzY0a2tuUGd5dURPWTExUHhaeTRveG5QV2xIS0Ixa0Vmd2tyLWRLTGF3VHpPTlMtV3pGVVFfaW1OcHRiTnhqOGJMbnVz?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ঢাকা দক্ষিণ বিএনপির নতুন আহ্বায়ক আব্দুস সালাম, সদস্যসচিব রবিন&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrZjZOSjJkUzY0a2tuUGd5dURPWTExUHhaeTRveG5QV2xIS0Ixa0Vmd2tyLWRLTGF3VHpPTlMtV3pGVVFfaW1OcHRiTnhqOGJMbnVz?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrZjZOSjJkUzY0a2tuUGd5dURPWTExUHhaeTRveG5QV2xIS0Ixa0Vmd2tyLWRLTGF3VHpPTlMtV3pGVVFfaW1OcHRiTnhqOGJMbnVz?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ঢাকা দক্ষিণ বিএনপির নতুন আহ্বায়ক আব্দুস সালাম, সদস্যসচিব রবিন&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">দলের গুরুত্বপূর্ণ ইউনিটের এই পুনর্গঠন রাজপথে আন্দোলনের গতি বাড়াতে বিএনপির নতুন কৌশল হিসেবেই দেখছেন বিশ্লেষকরা। এই নেতৃত্বের পরিবর্তনের ফলে রাজপথের কর্মসূচিতে কতটা সক্রিয়তা আসে, সেটিই এখন সাধারণ মানুষের নজর কেড়েছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrZjZOSjJkUzY0a2tuUGd5dURPWTExUHhaeTRveG5QV2xIS0Ixa0Vmd2tyLWRLTGF3VHpPTlMtV3pGVVFfaW1OcHRiTnhqOGJMbnVz?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
       "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrZjZOSjJkUzY0a2tuUGd5dURPWTExUHhaeTRveG5QV2xIS0Ixa0Vmd2tyLWRLTGF3VHpPTlMtV3pGVVFfaW1OcHRiTnhqOGJMbnVz?oc=5\" target=\"_blank\"&gt;ঢাকা দক্ষিণ বিএনপির নতুন আহ্বায়ক আব্দুস সালাম, সদস্যসচিব রবিন&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrZjZOSjJkUzY0a2tuUGd5dURPWTExUHhaeTRveG5QV2xIS0Ixa0Vmd2tyLWRLTGF3VHpPTlMtV3pGVVFfaW1OcHRiTnhqOGJMbnVz?oc=5",
       "sourceName": "যুগান্তর"
@@ -3846,7 +3897,7 @@
       "ogImageHeight": 450,
       "imageCredit": "ডেইলি বাংলাদেশ",
       "imageSourceUrl": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026November/2-1794162456.JPG",
-      "imageFetchedAt": "2026-11-09T13:31:05.501Z"
+      "imageFetchedAt": "2026-11-09T13:45:40.461Z"
     },
     {
       "id": "rss894a57ae62e1c3",
@@ -4324,7 +4375,7 @@
       "ogImageHeight": 450,
       "imageCredit": "ডেইলি বাংলাদেশ",
       "imageSourceUrl": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026September/uploads/sundarbans photo-3_1790689971.jpg",
-      "imageFetchedAt": "2026-11-09T13:31:05.509Z"
+      "imageFetchedAt": "2026-11-09T13:45:40.468Z"
     },
     {
       "id": "rss428ed068cc5cb7",
@@ -8396,57 +8447,6 @@
       "sourceUrl": "https://www.banglatribune.com/business/979447/%E0%A6%AE%E0%A7%82%E0%A6%B2%E0%A7%8D%E0%A6%AF%E0%A6%B8%E0%A7%8D%E0%A6%AB%E0%A7%80%E0%A6%A4%E0%A6%BF%E0%A6%B0-%E0%A6%9A%E0%A6%BE%E0%A6%AA%E0%A7%87-%E0%A6%95%E0%A7%87%E0%A6%A8%E0%A6%BE%E0%A6%95%E0%A6%BE%E0%A6%9F%E0%A6%BE%E0%A7%9F-%E0%A6%95%E0%A6%BE%E0%A6%9F%E0%A6%9B%E0%A6%BE%E0%A6%81%E0%A6%9F-%E0%A6%9A%E0%A6%BE%E0%A6%AA%E0%A7%87-%E0%A6%96%E0%A7%81%E0%A6%9A%E0%A6%B0%E0%A6%BE",
       "sourceName": "বাংলা ট্রিবিউন",
       "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss2bad0a030d00a7",
-      "slug": "এইচএসসির-খাতা-পুনঃনিরীক্ষণে-আবেদনের-সময়",
-      "title": "এইচএসসির খাতা পুনঃনিরীক্ষণে আবেদনের সময় বাড়ল",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/%E0%A6%8F%E0%A6%87%E0%A6%9A%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%81%E0%A6%A8%E0%A6%83%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A7%87-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%9F.webp",
-      "publishedAt": "2026-11-07T18:14:29.396Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>এইচএসসি ও সমমান পরীক্ষার উত্তরপত্র পুনর্নিরীক্ষণের আবেদনের সময় আরও ১২ ঘণ্টা বাড়ানো হয়েছে। অনলাইনে কারিগরি জটিলতার কারণে অনেক শিক্ষার্থী নির্ধারিত সময়ের মধ্যে আবেদন করতে না পারায় এ সিদ্ধান্ত নিয়েছে আন্তঃশিক্ষা বোর্ড পরীক্ষা নিয়ন্ত্রক কমিটি। নতুন সিদ্ধান্ত অনুযায়ী, শনিবার রাত ১২টার পরিবর্তে রোববার (৮ </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">প্রযুক্তিগত জটিলতার কারণে প্রাপ্ত এই বাড়তি সময় আবেদনকারীদের জন্য একটি গুরুত্বপূর্ণ সুযোগ, যা তাদের প্রাতিষ্ঠানিক ভুল সংশোধনের পথ প্রশস্ত করেছে। এমন সংকটময় মুহূর্তে দ্রুত ব্যবস্থা নেওয়া শিক্ষার্থীর ভবিষ্যৎ অনিশ্চয়তা কাটানোর ক্ষেত্রে সহায়ক ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/819639/%E0%A6%8F%E0%A6%87%E0%A6%9A%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%81%E0%A6%A8%E0%A6%B0%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A7%87-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%9F-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%B2\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "এইচএসসি ও সমমান পরীক্ষার উত্তরপত্র পুনর্নিরীক্ষণের আবেদনের সময় আরও ১২ ঘণ্টা বাড়ানো হয়েছে। অনলাইনে কারিগরি জটিলতার কারণে অনেক শিক্ষার্থী নির্ধারিত সময়ের মধ্যে আবেদন করতে না পারায় এ সিদ্ধান্ত নিয়েছে আন্তঃশিক্ষা বোর্ড পরীক্ষা নিয়ন্ত্রক কমিটি। নতুন সিদ্ধান্ত অনুযায়ী, শনিবার রাত ১২টার পরিবর্তে রোববার (৮ ",
-      "sourceUrl": "https://www.ittefaq.com.bd/819639/%E0%A6%8F%E0%A6%87%E0%A6%9A%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF%E0%A6%B0-%E0%A6%96%E0%A6%BE%E0%A6%A4%E0%A6%BE-%E0%A6%AA%E0%A7%81%E0%A6%A8%E0%A6%B0%E0%A7%8D%E0%A6%A8%E0%A6%BF%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A3%E0%A7%87-%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%AE%E0%A7%9F-%E0%A6%AC%E0%A6%BE%E0%A7%9C%E0%A6%B2",
-      "sourceName": "ইত্তেফাক",
-      "imageCredit": "ইত্তেফাক"
-    },
-    {
-      "id": "rss6a81eac919465f",
-      "slug": "জুলাই-আন্দোলনে-লুট-হওয়া-৩৭-রাউন্ড-গুলিসহ",
-      "title": "জুলাই আন্দোলনে লুট হওয়া ৩৭ রাউন্ড গু’লিসহ গ্রেপ্তার ১",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87-%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8B%E0%A6%B2%E0%A6%A8%E0%A7%87-%E0%A6%B2%E0%A7%81%E0%A6%9F-%E0%A6%B9%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A7%A9%E0%A7%AD-%E0%A6%B0%E0%A6%BE%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A1-%E0%A6%97%E0%A7%81%E0%A6%B2%E0%A6%BF%E0%A6%B8%E0%A6%B9.webp",
-      "publishedAt": "2026-11-07T18:14:29.391Z",
-      "tags": [
-        "ইত্তেফাক"
-      ],
-      "body": "<p>সাভারে ২০২৪ সালের জুলাই গণ-অভ্যুত্থানের সময় পুলিশের স্থাপনা থেকে লুট হওয়া ৩৭ রাউন্ড গুলিসহ মুহিত সোবহান (২০) নামে এক অস্ত্রধারীকে গ্রেপ্তার করেছে ঢাকা জেলা উত্তর গোয়েন্দা পুলিশ। শনিবার (৭ নভেম্বর) ভোরে সাভারের কাউন্দিয়া ইউনিয়নের সিংগাসার এলাকা থেকে তাকে গ্রেপ্তার করা হয়। পুলিশ জানায়, প্রাথমিক জিজ্ঞা</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">লুটের আগ্নেয়াস্ত্র ও গোলাবারুদ সাধারণ মানুষের নিরাপত্তা ও জনশৃঙ্খলার জন্য বড় হুমকি। স্থানীয় বাসিন্দাদের উচিত যেকোনো সন্দেহজনক অস্ত্রধারীর তথ্য দ্রুত প্রশাসনকে জানানো এবং নিজ নিজ এলাকায় সজাগ দৃষ্টি রাখা।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.ittefaq.com.bd/819640/%C2%A0%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87-%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8B%E0%A6%B2%E0%A6%A8%E0%A7%87-%E0%A6%B2%E0%A7%81%E0%A6%9F-%E0%A6%B9%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A7%A9%E0%A7%AD-%E0%A6%B0%E0%A6%BE%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A1-%E0%A6%97%E0%A7%81%E2%80%99%E0%A6%B2%E0%A6%BF%E0%A6%B8%E0%A6%B9\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ইত্তেফাক</a></p>",
-      "summary": "সাভারে ২০২৪ সালের জুলাই গণ-অভ্যুত্থানের সময় পুলিশের স্থাপনা থেকে লুট হওয়া ৩৭ রাউন্ড গুলিসহ মুহিত সোবহান (২০) নামে এক অস্ত্রধারীকে গ্রেপ্তার করেছে ঢাকা জেলা উত্তর গোয়েন্দা পুলিশ। শনিবার (৭ নভেম্বর) ভোরে সাভারের কাউন্দিয়া ইউনিয়নের সিংগাসার এলাকা থেকে তাকে গ্রেপ্তার করা হয়। পুলিশ জানায়, প্রাথমিক জিজ্ঞা",
-      "sourceUrl": "https://www.ittefaq.com.bd/819640/%C2%A0%E0%A6%9C%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%87-%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A6%E0%A7%8B%E0%A6%B2%E0%A6%A8%E0%A7%87-%E0%A6%B2%E0%A7%81%E0%A6%9F-%E0%A6%B9%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A7%A9%E0%A7%AD-%E0%A6%B0%E0%A6%BE%E0%A6%89%E0%A6%A8%E0%A7%8D%E0%A6%A1-%E0%A6%97%E0%A7%81%E2%80%99%E0%A6%B2%E0%A6%BF%E0%A6%B8%E0%A6%B9",
-      "sourceName": "ইত্তেফাক",
-      "imageCredit": "ইত্তেফাক"
-    },
-    {
-      "id": "rss789fc6483e64ab",
-      "slug": "সাফ-চ্যাম্পিয়নশিপে-স্বাস্থ্যসেবায়-ইউনা",
-      "title": "সাফ চ্যাম্পিয়নশিপে স্বাস্থ্যসেবায় ইউনাইটেড মেডিকেল কলেজ হাসপাতাল",
-      "category": "খেলা",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%BE%E0%A6%AB-%E0%A6%9A%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%BF%E0%A7%9F%E0%A6%A8%E0%A6%B6%E0%A6%BF%E0%A6%AA%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF%E0%A6%B8%E0%A7%87%E0%A6%AC%E0%A6%BE%E0%A7%9F-%E0%A6%87%E0%A6%89%E0%A6%A8%E0%A6%BE.avif",
-      "publishedAt": "2026-11-07T18:14:29.349Z",
-      "tags": [
-        "প্রথম আলো"
-      ],
-      "body": "<p>সাউথ এশিয়ান ফুটবল ফেডারেশন বা সাফ আয়োজিত বর্তমান ফুটবল টুর্নামেন্টে খেলোয়াড় ও দর্শকদের স্বাস্থ্য সুরক্ষায় বিশেষ উদ্যোগ গ্রহণ করেছে ইউনাইটেড মেডিকেল কলেজ হাসপাতাল। আন্তর্জাতিক প্রোটোকল মেনে এই স্বাস্থ্যসেবা কার্যক্রম পরিচালনা করছে প্রতিষ্ঠানটি, যা টুর্নামেন্টের সার্বিক নিরাপত্তা নিশ্চিত করতে গুরুত্বপূর্ণ ভূমিকা পালন করছে।</p>\n<p>টুর্নামেন্টের মেডিকেল চাহিদা অনুযায়ী, জাতীয় স্টেডিয়ামে আগত দেশি ও বিদেশি ফুটবলার এবং দর্শকদের জরুরি সেবা দেওয়ার জন্য হাসপাতালটি পূর্ণ প্রস্তুতি নিয়েছে। এই সেবার আওতায় সার্বক্ষণিক প্রস্তুত রাখা হয়েছে তিনটি অ্যাডভান্সড লাইফ সাপোর্ট অ্যাম্বুলেন্স। এছাড়া মাঠের চিকিৎসা ব্যবস্থাপনায় যুক্ত রয়েছেন চারজন বিশেষজ্ঞ চিকিৎসক, চারজন দক্ষ নার্স এবং আটজন হেলথকেয়ার প্রফেশনাল, যারা যেকোনো জরুরি প্রয়োজনে তাৎক্ষণিক ব্যবস্থা নিতে সক্ষম।</p>\n<p>মাঠের ভেতরে বা দর্শক গ্যালারিতে অনাকাঙ্ক্ষিত পরিস্থিতি মোকাবিলায় বিশেষ মেডিকেল রুমের ব্যবস্থাও রাখা হয়েছে। জরুরি সেবার মান বাড়াতে মাঠেই মজুদ রাখা হয়েছে ফার্স্ট এইড কিট, দুটি এইডি মেশিন, স্ট্রেচার, হুইলচেয়ারসহ যাবতীয় প্রয়োজনীয় ওষুধ ও চিকিৎসা সরঞ্জাম। আন্তর্জাতিক মানদণ্ড অনুসরণ করে খেলোয়াড় ও দর্শকদের দ্রুত চিকিৎসাসেবা নিশ্চিত করাই এই উদ্যোগের মূল লক্ষ্য।</p>\n<p>বাংলাদেশে বিশ্বমানের স্বাস্থ্যসেবা প্রসারে ইউনাইটেড মেডিকেল কলেজ হাসপাতাল ধারাবাহিকভাবে কাজ করে যাচ্ছে। সাফ চ্যাম্পিয়নশিপে এই ধরনের আন্তর্জাতিক প্রোটোকল ভিত্তিক স্বাস্থ্যসেবা প্রদানের সুযোগ প্রতিষ্ঠানটির জরুরি ব্যবস্থাপনা এবং মেডিকেল সেবার অভিজ্ঞতাকে আরও সমৃদ্ধ করবে বলে আশা করা হচ্ছে। এই সামগ্রিক আয়োজন টুর্নামেন্টের অংশ নেওয়া ক্রীড়াবিদ ও দর্শকদের জন্য নিরাপদ পরিবেশ নিশ্চিত করছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আন্তর্জাতিক মানসম্পন্ন স্বাস্থ্যসেবা নিশ্চিত করা সাফ চ্যাম্পিয়নশিপের মতো বড় আসরের সফল আয়োজনে অত্যন্ত জরুরি। এমন পেশাদার মেডিকেল সহায়তা খেলোয়াড়দের আত্মবিশ্বাস বাড়ানোর পাশাপাশি টুর্নামেন্টের মান ও নিরাপত্তা নিশ্চিতে নতুন মাত্রা যোগ করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/e0m8h5mtpw\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
-      "summary": "সাফ আয়োজনে খেলোয়াড় ও দর্শকদের নিরাপত্তা নিশ্চিতে ইউনাইটেড মেডিকেল কলেজ হাসপাতাল আন্তর্জাতিক প্রোটোকল অনুসরণে চিকিৎসাসেবা দিচ্ছে সাউথ এশিয়ান ফুটবল ফেডারেশন (সাফ) আয়োজিত টুর্নামেন্টে অংশগ্রহণকারী খেলোয়াড় ও দর্শকদের জরুরি স্বাস্থ্যসেবা দিচ্ছে ইউনাইটেড মেডিকেল কলেজ হাসপাতাল। সাফ নির্ধারিত মেডিকেল চাহিদা",
-      "sourceUrl": "https://www.prothomalo.com/bangladesh/e0m8h5mtpw",
-      "sourceName": "প্রথম আলো",
-      "imageCredit": "প্রথম আলো"
     }
   ],
   "ads": [
