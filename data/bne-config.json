@@ -1,6 +1,6 @@
 {
-  "version": 2986,
-  "updatedAt": "2026-11-13T19:30:39.075Z",
+  "version": 2987,
+  "updatedAt": "2026-11-13T19:45:30.724Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -60,6 +60,40 @@
       "imageCredit": "সংগৃহীত"
     },
     {
+      "id": "rss316b1505647f7d",
+      "slug": "রাজধানীর-জুরাইনে-স্যানিটারি-মিস্ত্রিকে",
+      "title": "রাজধানীর জুরাইনে স্যানিটারি মিস্ত্রিকে ছুরিকাঘাতে হত্যা",
+      "category": "শিক্ষা",
+      "lead": false,
+      "image": "/img/%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A6%A7%E0%A6%BE%E0%A6%A8%E0%A7%80%E0%A6%B0-%E0%A6%9C%E0%A7%81%E0%A6%B0%E0%A6%BE%E0%A6%87%E0%A6%A8%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%AE%E0%A6%BF%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%87.avif",
+      "publishedAt": "2026-11-13T19:44:37.034Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>রাত পৌনে ১১টার দিকে মিন্টুর মরদেহ উদ্ধার করে ঢাকা মেডিকেল কলেজের মর্গে পাঠানো হয়। তাঁর দুই পা, পিঠসহ শরীরের বিভিন্ন স্থানে ছুরিকাঘাতের জখম রয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শহরের অলিগলিতে নিরাপত্তাহীনতার এমন চিত্র শিক্ষার্থীদের জন্য উদ্বেগের কারণ। সন্তানদের চলাচল ও সান্ধ্যকালীন নিরাপত্তার বিষয়ে অভিভাবকদের এখন আরও সতর্ক ও সচেতন হওয়া জরুরি। অপরাধপ্রবণ এলাকা এড়িয়ে চলাই এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/capital/iwmrhx9x99\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "রাত পৌনে ১১টার দিকে মিন্টুর মরদেহ উদ্ধার করে ঢাকা মেডিকেল কলেজের মর্গে পাঠানো হয়। তাঁর দুই পা, পিঠসহ শরীরের বিভিন্ন স্থানে ছুরিকাঘাতের জখম রয়েছে।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/capital/iwmrhx9x99",
+      "sourceName": "প্রথম আলো",
+      "imageCredit": "প্রথম আলো"
+    },
+    {
+      "id": "rssb5fc99a6ea499b",
+      "slug": "পর্যাপ্ত-সময়-হাতে-নিয়ে-দর্শকদের-স্টেডিয়া",
+      "title": "পর্যাপ্ত সময় হাতে নিয়ে দর্শকদের স্টেডিয়ামে আসার অনুরোধ ডিএমপির",
+      "category": "আন্তর্জাতিক",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%A4-%E0%A6%B8%E0%A6%AE%E0%A7%9F-%E0%A6%B9%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%A6%E0%A6%B0%E0%A7%8D%E0%A6%B6%E0%A6%95%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A7%8D%E0%A6%9F%E0%A7%87%E0%A6%A1%E0%A6%BF%E0%A7%9F%E0%A6%BE.avif",
+      "publishedAt": "2026-11-13T19:44:37.029Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>সূচি অনুযায়ী শনিবার বিকেল তিনটায় প্রথম সেমিফাইনালে মুখোমুখি হবে ভারত ও ভুটান। রাত সাড়ে আটটায় দ্বিতীয় সেমিফাইনালে খেলবে বাংলাদেশ ও পাকিস্তান।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আন্তর্জাতিক ক্রীড়া ইভেন্টে দর্শকদের শৃঙ্খলা বজায় রাখা দেশের ভাবমূর্তি উজ্জ্বল করার পাশাপাশি সুষ্ঠু ব্যবস্থাপনার সক্ষমতা প্রদর্শন করে। কূটনৈতিক শিষ্টাচার ও নিরাপত্তা নিশ্চিত করা বাংলাদেশের দায়িত্ব, যা প্রতিবেশী দেশগুলোর সাথে আমাদের ভ্রাতৃত্বপূর্ণ সম্পর্ককে আরও সুদৃঢ় করবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/capital/qhva0wiyf2\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "সূচি অনুযায়ী শনিবার বিকেল তিনটায় প্রথম সেমিফাইনালে মুখোমুখি হবে ভারত ও ভুটান। রাত সাড়ে আটটায় দ্বিতীয় সেমিফাইনালে খেলবে বাংলাদেশ ও পাকিস্তান।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/capital/qhva0wiyf2",
+      "sourceName": "প্রথম আলো",
+      "imageCredit": "প্রথম আলো"
+    },
+    {
       "id": "rssd97632ba002fe1",
       "slug": "সাঘাটায়-ফতেয়ার-খাবার-খেয়ে-অসুস্থ-সহস্রাধ",
       "title": "সাঘাটায় ফতেয়ার খাবার খেয়ে অসুস্থ সহস্রাধিক",
@@ -104,7 +138,7 @@
       "tags": [
         "প্রথম আলো"
       ],
-      "body": "<p>পরীক্ষা শেষে নির্ধারিত জায়গায় ভাইকে পাননি তরুণী। পুলিশের কাছে জানতে পারেন, ভাইকে বংশাল থানায় নেওয়া হয়েছে।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/crime/d4lj91g6wu\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "body": "<p>শুক্রবার পুরান ঢাকার আরমানিটোলা উচ্চবিদ্যালয়ে নয়টি ব্যাংক ও দুটি আর্থিক প্রতিষ্ঠানের সিনিয়র অফিসার পদের সমন্বিত নিয়োগ পরীক্ষা অনুষ্ঠিত হয়। পরীক্ষা চলাকালীন কেন্দ্রের ফটকের বাইরে থেকে দুই তরুণকে আটক করে বংশাল থানায় নিয়ে যায় পুলিশ। এর মধ্যে এক তরুণকে হাতকড়া পরিয়ে গাড়িতে তোলা হয় এবং ১০ মিনিট পর দ্বিতীয় আরেক তরুণকে জোর করে গাড়িতে তোলা হয়। দ্বিতীয় ওই তরুণ একজন সরকারি ব্যাংক কর্মকর্তা। ঘটনার সময় পরীক্ষাকেন্দ্রের বাইরে থাকা অভিভাবকদের মধ্যে আতঙ্ক ছড়িয়ে পড়ে।</p>\n<p>পরীক্ষা শেষে বেরিয়ে নির্ধারিত স্থানে নিজের ভাইকে খুঁজে পাননি এক তরুণী। তাঁর ব্যবহৃত মুঠোফোন ও ব্যাগ ভাইয়ের কাছে থাকায় তিনি বিপাকে পড়েন। পরবর্তীতে পুলিশ সদস্যরা তাঁকে জানান যে তাঁর ভাইকে থানায় নেওয়া হয়েছে এবং রিকশায় করে থানায় যাওয়ার ব্যবস্থা করে দেন। থানায় পৌঁছানোর পর ওই তরুণী দেখতে পান, তাঁর ভাইসহ আটক হওয়া দুই তরুণকে জিজ্ঞাসাবাদ করা হচ্ছে। প্রায় ছয় ঘণ্টা আটকে রাখার পর রাত সাড়ে নয়টার দিকে তাঁদের ছেড়ে দেওয়া হয়।</p>\n<p>ঘটনার সূত্রপাত হয় পরীক্ষা শুরুর পর, যখন নিরাপত্তার খাতিরে দায়িত্বরত পুলিশ সদস্যরা কেন্দ্রের ফটকের বাইরে থাকা অভিভাবকদের বেরিয়ে যাওয়ার নির্দেশ দেন। এ সময় কয়েকজনের সঙ্গে পুলিশের কথা-কাটাকাটি হয়। পুলিশের অভিযোগ, আটক হওয়া প্রথম তরুণ সেখানে বিশৃঙ্খলা সৃষ্টির চেষ্টা করেছিলেন এবং পুলিশ সদস্যের ওপর আক্রমণের প্রয়াস চালিয়েছিলেন। তবে আটক হওয়া দুই তরুণের দাবি, পুলিশের সঙ্গে বাগবিতণ্ডার জের ধরেই তাঁদের থানায় এনে দীর্ঘ সময় বসিয়ে রাখা হয়েছে এবং মোবাইল ফোন কেড়ে নেওয়া হয়েছে।</p>\n<p>থানায় থাকা অবস্থায় ওই তরুণীর ক্ষোভ ছিল, কোনো অন্যায় না করা সত্ত্বেও তাঁর ভাইকে অহেতুক হয়রানি করা হয়েছে। আটকের পর পুলিশ ওই দুই তরুণের নাম-পরিচয় যাচাইয়ের পাশাপাশি তাঁদের রাজনৈতিক মতাদর্শ সম্পর্কে খোঁজখবরও নেয়। বংশাল থানার ভারপ্রাপ্ত কর্মকর্তা মো. আশিক ইকবাল জানান, পরীক্ষাকেন্দ্রে অনাকাঙ্ক্ষিত পরিস্থিতি এড়ানোর লক্ষ্যে তাঁদের হেফাজতে নেওয়া হয়েছিল। মুক্তি পাওয়ার পর আটক দুই তরুণ বিস্তারিত কোনো মন্তব্য করতে রাজি হননি, তবে একজন এটিকে ‘বিচিত্র অভিজ্ঞতা’ বলে বর্ণনা করেন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/crime/d4lj91g6wu\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
       "summary": "পরীক্ষা শেষে নির্ধারিত জায়গায় ভাইকে পাননি তরুণী। পুলিশের কাছে জানতে পারেন, ভাইকে বংশাল থানায় নেওয়া হয়েছে।",
       "sourceUrl": "https://www.prothomalo.com/bangladesh/crime/d4lj91g6wu",
       "sourceName": "প্রথম আলো",
@@ -160,6 +194,23 @@
       "sourceUrl": "https://www.ittefaq.com.bd/820846/%E0%A6%8F%E0%A6%87%E0%A6%9A%E0%A6%8F%E0%A6%B8%E0%A6%B8%E0%A6%BF-%E0%A6%B8%E0%A6%BE%E0%A6%AA%E0%A7%8D%E0%A6%B2%E0%A6%BF%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%BF-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE-%E0%A7%A7%E0%A7%A6-%E0%A6%AC%E0%A7%8B%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A7%87-%E0%A7%A7-%E0%A6%B2%E0%A6%BE%E0%A6%96-%E0%A7%AB%E0%A7%AE",
       "sourceName": "ইত্তেফাক",
       "imageCredit": "ইত্তেফাক"
+    },
+    {
+      "id": "rss4d4470e522eb00",
+      "slug": "বাজারে-প্রকাশ্যে-যুবককে-ছুরিকাঘাত-রক্তা",
+      "title": "বাজারে প্রকাশ্যে যুবককে ছুরিকাঘাত, রক্তাক্ত অবস্থায় ফেসবুক লাইভে বললেন হামলাকারীর নাম",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%AC%E0%A6%BE%E0%A6%9C%E0%A6%BE%E0%A6%B0%E0%A7%87-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A7%8D%E0%A6%AF%E0%A7%87-%E0%A6%AF%E0%A7%81%E0%A6%AC%E0%A6%95%E0%A6%95%E0%A7%87-%E0%A6%9B%E0%A7%81%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%98%E0%A6%BE%E0%A6%A4-%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%A4%E0%A6%BE.avif",
+      "publishedAt": "2026-11-13T19:14:36.926Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>চট্টগ্রামের ফটিকছড়িতে বাজারে প্রকাশ্যে মো. বেলাল উদ্দিন নামের এক যুবককে ছুরিকাঘাত করা হয়েছে। তিনি ‘ফটিকছড়ি সংলাপ’ নামে সংবাদভিত্তিক একটি ফেসবুক পেজের অ্যাডমিন।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/district/82nfewhdvc\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "চট্টগ্রামের ফটিকছড়িতে বাজারে প্রকাশ্যে মো. বেলাল উদ্দিন নামের এক যুবককে ছুরিকাঘাত করা হয়েছে। তিনি ‘ফটিকছড়ি সংলাপ’ নামে সংবাদভিত্তিক একটি ফেসবুক পেজের অ্যাডমিন।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/district/82nfewhdvc",
+      "sourceName": "প্রথম আলো",
+      "imageCredit": "প্রথম আলো"
     },
     {
       "id": "rss241c7fd1ad1fc1",
@@ -911,7 +962,7 @@
       "title": "১১ দলের সিলেটমুখী লংমার্চ স্থগিত",
       "category": "ধর্ম",
       "lead": false,
-      "image": "https://media.prothomalo.com/prothomalo-bangla/2026-10-31/5sx4lq39/jamat.jpeg",
+      "image": "/images/politics.jpg",
       "publishedAt": "2026-11-13T15:29:36.946Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -5196,7 +5247,7 @@
       "ogImageHeight": 630,
       "imageCredit": "বাংলা ট্রিবিউন",
       "imageSourceUrl": "https://cdn.banglatribune.net/contents/cache/images/1200x630x1xxxxx1/uploads/media/2026/11/12/ff8380504177badd955a78ecf13011f5-6af5fad2a1842.jpg",
-      "imageFetchedAt": "2026-11-13T19:30:42.604Z"
+      "imageFetchedAt": "2026-11-13T19:45:34.071Z"
     },
     {
       "id": "rss592c19abef0f62",
@@ -7428,7 +7479,7 @@
       "ogImageHeight": 480,
       "imageCredit": "ডেইলি বাংলাদেশ",
       "imageSourceUrl": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026November/bangladesh-gov-1794466327.jpg",
-      "imageFetchedAt": "2026-11-13T19:30:42.462Z"
+      "imageFetchedAt": "2026-11-13T19:45:33.991Z"
     },
     {
       "id": "rss2a549755a2d744",
@@ -8424,55 +8475,6 @@
       "sourceUrl": "https://www.banglatribune.com/country/dhaka/980400/%E0%A6%95%E0%A6%BE%E0%A6%B6%E0%A6%BF%E0%A6%AE%E0%A6%AA%E0%A7%81%E0%A6%B0-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A6%BE%E0%A6%97%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A7%9F%E0%A7%87%E0%A6%A6%E0%A6%BF%E0%A6%B0-%E0%A6%AA%E0%A7%87%E0%A6%9F-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%AC%E0%A7%87%E0%A6%B0-%E0%A6%95%E0%A6%B0%E0%A6%BE-%E0%A6%B9%E0%A6%B2%E0%A7%8B",
       "sourceName": "বাংলা ট্রিবিউন",
       "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss942992a0ebc990",
-      "slug": "গাজার-নাসের-হাসপাতালে-ইসরায়েলি-বিমান-হাম",
-      "title": "গাজার নাসের হাসপাতালে ইসরায়েলি বিমান হামলায় নিহত ৬, আহত ২০",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/images/health.jpg",
-      "publishedAt": "2026-11-12T02:14:34.980Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>ফিলিস্তিনের অবরুদ্ধ গাজা উপত্যকার দক্ষিণাঞ্চলীয় শহর খান ইউনিসের নাসের মেডিকেল কমপ্লেক্সে আবারও ভয়াবহ বিমান হামলা চালিয়েছে ইসরায়েলি বাহিনী। হাসপাতালটির দ্বিতীয় তলায় চালানো এই আকস্মিক হামলায় অন্তত ৬ জন ফিলিস্তিনি নিহত এবং ২০ জনেরও বেশি আহত...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">চিকিৎসাকেন্দ্রের মতো সুরক্ষালয়কে লক্ষ্যবস্তু করা আন্তর্জাতিক মানবিক আইনের চরম লঙ্ঘন। এটি সাধারণ মানুষের বেঁচে থাকার শেষ অবলম্বনটুকুও কেড়ে নিচ্ছে, যা অবিলম্বে বন্ধ হওয়া জরুরি। বিশ্বসম্প্রদায়কে এই জঘন্য কর্মকাণ্ডের বিরুদ্ধে কঠোর অবস্থান নিতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/international/315537/গাজার-নাসের-হাসপাতালে-ইসরায়েলি-বিমান-হামলায়-নিহত-৬-আহত-২০\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "ফিলিস্তিনের অবরুদ্ধ গাজা উপত্যকার দক্ষিণাঞ্চলীয় শহর খান ইউনিসের নাসের মেডিকেল কমপ্লেক্সে আবারও ভয়াবহ বিমান হামলা চালিয়েছে ইসরায়েলি বাহিনী। হাসপাতালটির দ্বিতীয় তলায় চালানো এই আকস্মিক হামলায় অন্তত ৬ জন ফিলিস্তিনি নিহত এবং ২০ জনেরও বেশি আহত...",
-      "sourceUrl": "https://www.bd-journal.com/international/315537/গাজার-নাসের-হাসপাতালে-ইসরায়েলি-বিমান-হামলায়-নিহত-৬-আহত-২০",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rssbe2a7427edb727",
-      "slug": "শীতের-সন্ধ্যায়-বানিয়ে-ফেলুন-স্বাস্থ্যকর",
-      "title": "শীতের সন্ধ্যায় বানিয়ে ফেলুন স্বাস্থ্যকর ভেজিটেবল স্যুপ",
-      "category": "স্বাস্থ্য",
-      "lead": false,
-      "image": "/img/%E0%A6%B6%E0%A7%80%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B2%E0%A7%81%E0%A6%A8-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0.webp",
-      "publishedAt": "2026-11-12T02:14:34.967Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>শীতের মৌসুমে বাজারে পাওয়া যায় নানা রকম তাজা সবজি। গাজর, ফুলকপি, বাঁধাকপি, শিম, মটরশুঁটি কিংবা সুইট কর্ন সবই স্বাদে ও পুষ্টিগুণে ভরপুর। প্রতিদিনের চেনা রান্নার বাইরে এই সবজি দিয়েই বানিয়ে ফেলতে পারেন স্বাস্থ্যকর ভেজিটেবল স্যুপ। শীতের সন্ধ্যায় কিংবা সকালের নাশতায় এক বাটি গরম স্যুপ যেমন মন ভরাবে, তেমনই </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শীতের মৌসুমে পুষ্টিকর সবজির স্যুপ শরীরের রোগ প্রতিরোধ ক্ষমতা বৃদ্ধিতে কার্যকর ভূমিকা রাখে। এমন স্বাস্থ্যকর খাদ্যাভ্যাস গড়ে তোলার পাশাপাশি খাদ্যমান বজায় রাখতে রান্নায় কৃত্রিম মশলার ব্যবহার বর্জন করা জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/lifestyle/980288/%E0%A6%B6%E0%A7%80%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B2%E0%A7%81%E0%A6%A8-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0-%E0%A6%AD%E0%A7%87%E0%A6%9C%E0%A6%BF%E0%A6%9F%E0%A7%87%E0%A6%AC%E0%A6%B2\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "শীতের মৌসুমে বাজারে পাওয়া যায় নানা রকম তাজা সবজি। গাজর, ফুলকপি, বাঁধাকপি, শিম, মটরশুঁটি কিংবা সুইট কর্ন সবই স্বাদে ও পুষ্টিগুণে ভরপুর। প্রতিদিনের চেনা রান্নার বাইরে এই সবজি দিয়েই বানিয়ে ফেলতে পারেন স্বাস্থ্যকর ভেজিটেবল স্যুপ। শীতের সন্ধ্যায় কিংবা সকালের নাশতায় এক বাটি গরম স্যুপ যেমন মন ভরাবে, তেমনই ",
-      "sourceUrl": "https://www.banglatribune.com/lifestyle/980288/%E0%A6%B6%E0%A7%80%E0%A6%A4%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%A8%E0%A7%8D%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A7%9F-%E0%A6%AC%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%87-%E0%A6%AB%E0%A7%87%E0%A6%B2%E0%A7%81%E0%A6%A8-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%8D%E0%A6%A5%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0-%E0%A6%AD%E0%A7%87%E0%A6%9C%E0%A6%BF%E0%A6%9F%E0%A7%87%E0%A6%AC%E0%A6%B2",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss9bcb74565f8ab6",
-      "slug": "আজ-ঢাকায়-আসছেন-মিয়ানমার-বিষয়ক-জাতিসংঘ",
-      "title": "আজ ঢাকায় আসছেন মিয়ানমার বিষয়ক জাতিসংঘের বিশেষ র‌্যাপোর্টিয়ার",
-      "category": "আন্তর্জাতিক",
-      "lead": false,
-      "image": "/images/international.jpg",
-      "publishedAt": "2026-11-12T02:14:34.945Z",
-      "tags": [
-        "যুগান্তর"
-      ],
-      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yQWtRWHptcmNfQXZiSTRaVDFPbXR2eEc1TEd2SUFaZ0c0aVdQc1pFWmVVY2h1dEkyby1FQ2xnTGljV1hGZHVSekdPQ3ZRYUhNTjdN?oc=5&quot; target=&quot;_blank&quot;&amp;gt;আজ ঢাকায় আসছেন মিয়ানমার বিষয়ক জাতিসংঘের বিশেষ র‌্যাপোর্টিয়ার&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রোহিঙ্গা সংকটের টেকসই সমাধানে জাতিসংঘের এই সফর আন্তর্জাতিক চাপ বৃদ্ধির ক্ষেত্রে গুরুত্বপূর্ণ ভূমিকা রাখতে পারে। মিয়ানমারের ওপর কূটনৈতিক চাপ প্রয়োগের মাধ্যমে বাস্তুচ্যুত মানুষের নিরাপদ প্রত্যাবাসন নিশ্চিত করাই এখন বাংলাদেশের বড় চ্যালেঞ্জ।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yQWtRWHptcmNfQXZiSTRaVDFPbXR2eEc1TEd2SUFaZ0c0aVdQc1pFWmVVY2h1dEkyby1FQ2xnTGljV1hGZHVSekdPQ3ZRYUhNTjdN?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
-      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yQWtRWHptcmNfQXZiSTRaVDFPbXR2eEc1TEd2SUFaZ0c0aVdQc1pFWmVVY2h1dEkyby1FQ2xnTGljV1hGZHVSekdPQ3ZRYUhNTjdN?oc=5\" target=\"_blank\"&gt;আজ ঢাকায় আসছেন মিয়ানমার বিষয়ক জাতিসংঘের বিশেষ র‌্যাপোর্টিয়ার&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yQWtRWHptcmNfQXZiSTRaVDFPbXR2eEc1TEd2SUFaZ0c0aVdQc1pFWmVVY2h1dEkyby1FQ2xnTGljV1hGZHVSekdPQ3ZRYUhNTjdN?oc=5",
-      "sourceName": "যুগান্তর"
     }
   ],
   "ads": [
