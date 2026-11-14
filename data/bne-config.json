@@ -1,6 +1,6 @@
 {
-  "version": 3034,
-  "updatedAt": "2026-11-14T07:00:40.699Z",
+  "version": 3035,
+  "updatedAt": "2026-11-14T07:15:30.895Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,54 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rss9e109ad98d4285",
+      "slug": "বরিশাল-বিভাগের-সংবাদ",
+      "title": "বরিশাল বিভাগের সংবাদ",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/images/national.jpg",
+      "publishedAt": "2026-11-14T07:11:59.070Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3bTRqYks0QmR5a0FOOGJIYjNaWVBHWHdkU3BabXJVWTRaakR5T3FuanIwSXRNYUM2QjE4akZ3dGhLUjVPU213QzVUQjZvYzVBUENZTUdBN2VZNkJCei1N?oc=5&quot; target=&quot;_blank&quot;&amp;gt;বরিশাল বিভাগের সংবাদ&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Daily Bangladesh&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3bTRqYks0QmR5a0FOOGJIYjNaWVBHWHdkU3BabXJVWTRaakR5T3FuanIwSXRNYUM2QjE4akZ3dGhLUjVPU213QzVUQjZvYzVBUENZTUdBN2VZNkJCei1N?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3bTRqYks0QmR5a0FOOGJIYjNaWVBHWHdkU3BabXJVWTRaakR5T3FuanIwSXRNYUM2QjE4akZ3dGhLUjVPU213QzVUQjZvYzVBUENZTUdBN2VZNkJCei1N?oc=5\" target=\"_blank\"&gt;বরিশাল বিভাগের সংবাদ&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Daily Bangladesh&lt;/fo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3bTRqYks0QmR5a0FOOGJIYjNaWVBHWHdkU3BabXJVWTRaakR5T3FuanIwSXRNYUM2QjE4akZ3dGhLUjVPU213QzVUQjZvYzVBUENZTUdBN2VZNkJCei1N?oc=5",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss43d51543b3a80e",
+      "slug": "ঢাকা-বিভাগের-সংবাদ",
+      "title": "ঢাকা বিভাগের সংবাদ",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/images/national.jpg",
+      "publishedAt": "2026-11-14T07:11:59.064Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QZHpyellOSDVyM0FscUhJSEtjVzhOX3JsVUJ0OHAtU1p5YkVJUFMxU1BESVg5WTlhbi03VlZaUnE3X095M3dQTksteXpkRjRScnVreGxHUktLLUE?oc=5&quot; target=&quot;_blank&quot;&amp;gt;ঢাকা বিভাগের সংবাদ&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Daily Bangladesh&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QZHpyellOSDVyM0FscUhJSEtjVzhOX3JsVUJ0OHAtU1p5YkVJUFMxU1BESVg5WTlhbi03VlZaUnE3X095M3dQTksteXpkRjRScnVreGxHUktLLUE?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QZHpyellOSDVyM0FscUhJSEtjVzhOX3JsVUJ0OHAtU1p5YkVJUFMxU1BESVg5WTlhbi03VlZaUnE3X095M3dQTksteXpkRjRScnVreGxHUktLLUE?oc=5\" target=\"_blank\"&gt;ঢাকা বিভাগের সংবাদ&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Daily Bangladesh&lt;/font&gt;",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5QZHpyellOSDVyM0FscUhJSEtjVzhOX3JsVUJ0OHAtU1p5YkVJUFMxU1BESVg5WTlhbi03VlZaUnE3X095M3dQTksteXpkRjRScnVreGxHUktLLUE?oc=5",
+      "sourceName": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss7b42c878049614",
+      "slug": "চট্টগ্রাম-বিভাগের-সংবাদ",
+      "title": "চট্টগ্রাম বিভাগের সংবাদ",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/images/national.jpg",
+      "publishedAt": "2026-11-14T07:11:59.062Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiYkFVX3lxTE05ZVJPOW4td0x1c2NCSVJiSXNaTGIyT0Vfa0x5X2dkejhDcWRYbkhRbV9hbndrcVFUcFIzNXVIM1Y2VGdpb0g0bEUtcHlmQWJpVjFVTGhIVVhZM1RxLWhLYkFB?oc=5&quot; target=&quot;_blank&quot;&amp;gt;চট্টগ্রাম বিভাগের সংবাদ&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Daily Bangladesh&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE05ZVJPOW4td0x1c2NCSVJiSXNaTGIyT0Vfa0x5X2dkejhDcWRYbkhRbV9hbndrcVFUcFIzNXVIM1Y2VGdpb0g0bEUtcHlmQWJpVjFVTGhIVVhZM1RxLWhLYkFB?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE05ZVJPOW4td0x1c2NCSVJiSXNaTGIyT0Vfa0x5X2dkejhDcWRYbkhRbV9hbndrcVFUcFIzNXVIM1Y2VGdpb0g0bEUtcHlmQWJpVjFVTGhIVVhZM1RxLWhLYkFB?oc=5\" target=\"_blank\"&gt;চট্টগ্রাম বিভাগের সংবাদ&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"&gt;Daily Bangladesh",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05ZVJPOW4td0x1c2NCSVJiSXNaTGIyT0Vfa0x5X2dkejhDcWRYbkhRbV9hbndrcVFUcFIzNXVIM1Y2VGdpb0g0bEUtcHlmQWJpVjFVTGhIVVhZM1RxLWhLYkFB?oc=5",
+      "sourceName": "ডেইলি বাংলাদেশ"
     },
     {
       "id": "rss502731a2761a72",
@@ -690,7 +738,7 @@
       "title": "মার্কিন এমকিউ-১ ড্রোন ভূপাতিত করলো ইরান",
       "category": "বিনোদন",
       "lead": false,
-      "image": "https://cdn.ittefaqbd.com/contents/cache/images/300x300x1/uploads/media/2026/09/15/81ad84790bb61a93513464bc43b81aa6-6aa8fdff73696.jpg?jadewits_media_id=311198",
+      "image": "/images/economy.jpg",
       "publishedAt": "2026-11-14T03:59:37.541Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -4686,7 +4734,7 @@
       "title": "ঢাকা-চট্টগ্রাম মহাসড়কে ১৩ কিলোমিটার যানজট",
       "category": "জাতীয়",
       "lead": false,
-      "image": "https://dbs3.sgp1.cdn.digitaloceanspaces.com/imgAll/2026November/ctg-1794547798.jpg",
+      "image": "/images/national.jpg",
       "publishedAt": "2026-11-13T08:14:36.422Z",
       "tags": [
         "বাংলাদেশ জার্নাল"
@@ -7522,7 +7570,7 @@
       "ogImageHeight": 630,
       "imageCredit": "বাংলা ট্রিবিউন",
       "imageSourceUrl": "https://cdn.banglatribune.net/contents/cache/images/1200x630x1xxxxx1/uploads/media/2026/11/12/ff8380504177badd955a78ecf13011f5-6af5fad2a1842.jpg",
-      "imageFetchedAt": "2026-11-14T07:00:43.491Z"
+      "imageFetchedAt": "2026-11-14T07:15:33.804Z"
     },
     {
       "id": "rss592c19abef0f62",
@@ -8416,56 +8464,6 @@
       "sourceUrl": "https://daily-bangladesh.com/country/541527",
       "sourceName": "ডেইলি বাংলাদেশ",
       "imageCredit": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss7c586b8d263acd",
-      "slug": "তুরস্কের-ফার্স্ট-লেডির-মধ্যাহ্নভোজে-যোগ",
-      "title": "তুরস্কের ফার্স্ট লেডির মধ্যাহ্নভোজে যোগ দিলেন জুবাইদা রহমান",
-      "category": "ধর্ম",
-      "lead": false,
-      "image": "/img/%E0%A6%A4%E0%A7%81%E0%A6%B0%E0%A6%B8%E0%A7%8D%E0%A6%95%E0%A7%87%E0%A6%B0-%E0%A6%AB%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B8%E0%A7%8D%E0%A6%9F-%E0%A6%B2%E0%A7%87%E0%A6%A1%E0%A6%BF%E0%A6%B0-%E0%A6%AE%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B9%E0%A7%8D%E0%A6%A8%E0%A6%AD%E0%A7%8B%E0%A6%9C%E0%A7%87-%E0%A6%AF%E0%A7%8B%E0%A6%97.jpg",
-      "publishedAt": "2026-11-12T13:44:35.716Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>তুরস্কের আনতালিয়ার রেগনাম হোটেলে আয়োজিত এক মধ্যাহ্নভোজে অংশ নিয়েছেন বাংলাদেশের প্রধানমন্ত্রী তারেক রহমানের সহধর্মিণী ডা. জুবাইদা রহমান। তুরস্কের ফার্স্ট লেডি এমিনে এরদোয়ান বিশ্বের বিভিন্ন দেশের রাষ্ট্র ও সরকারপ্রধানদের স্ত্রী এবং আমন্ত্রিত বিশিষ্ট ব্যক্তিবর্গের সম্মানে এই বিশেষ মধ্যাহ্নভোজের আয়োজন করেন। বৃহস্পতিবার অনুষ্ঠিত এই আয়োজনে ডা. জুবাইদা রহমান উপস্থিত ছিলেন।</p>\n<p>অনুষ্ঠানে তুরস্কের ফার্স্ট লেডি এমিনে এরদোয়ান বাংলাদেশের প্রধানমন্ত্রীর সহধর্মিণীকে উষ্ণ অভ্যর্থনা জানান। এ সময় দুই দেশের প্রতিনিধির মধ্যে অত্যন্ত সৌহার্দ্যপূর্ণ পরিবেশে কুশল বিনিময় ও আলাপচারিতা অনুষ্ঠিত হয়। প্রধানমন্ত্রীর উপপ্রেস সচিব হাসান শিপলু বিষয়টি নিশ্চিত করেছেন।</p>\n<p>মধ্যাহ্নভোজে বিশ্বের বিভিন্ন প্রান্ত থেকে আসা রাষ্ট্রপ্রধান ও সরকারপ্রধানদের সহধর্মিণীরা যোগ দেন। মূল আনুষ্ঠানিকতার পাশাপাশি ডা. জুবাইদা রহমান অন্যান্য দেশের প্রতিনিধিদের সঙ্গেও শুভেচ্ছা বিনিময় করেন, যা এই আয়োজনে উপস্থিত অতিথিদের মধ্যে পারস্পরিক সম্প্রীতির পরিবেশ তৈরি করে।</p>\n<p>বর্তমানে তুরস্কের আনতালিয়ায় জাতিসংঘের জলবায়ু পরিবর্তনবিষয়ক সম্মেলন বা কপ-৩১ অনুষ্ঠিত হচ্ছে। এই গুরুত্বপূর্ণ আন্তর্জাতিক সম্মেলন উপলক্ষে বিশ্বের বিভিন্ন দেশের রাষ্ট্র ও সরকারপ্রধানদের পাশাপাশি তাদের সহধর্মিণীরা এখন তুরস্কে অবস্থান করছেন।</p>\n<p>প্রধানমন্ত্রী তারেক রহমানের তিন দিনের এই সরকারি সফরের সঙ্গী হিসেবে ডা. জুবাইদা রহমান বর্তমানে তুরস্কে রয়েছেন। আন্তর্জাতিক এই সম্মেলনের ফাঁকে আয়োজিত বিভিন্ন কূটনৈতিক ও সামাজিক অনুষ্ঠানে তারা বাংলাদেশের প্রতিনিধিত্ব করছেন।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আন্তর্জাতিক পরিমণ্ডলে এমন কূটনৈতিক ও সামাজিক মেলবন্ধন পারস্পরিক ভ্রাতৃত্ববোধ ও ধর্মীয় সম্প্রীতি সুদৃঢ় করার অনন্য সুযোগ তৈরি করে। এ ধরনের সৌজন্য সাক্ষাৎ মূলত অভিন্ন মূল্যবোধের চর্চা এবং বৈশ্বিক প্রেক্ষাপটে পারস্পরিক সহযোগিতার পথ প্রশস্ত করে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/541524\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "তুরস্কের প্রেসিডেন্ট রিসেপ তাইয়েপ এরদোয়ানের স্ত্রী এমিনে এরদোয়ানের আয়োজিত মধ্যাহ্নভোজে যোগ দিয়েছেন বাংলাদেশের প্রধানমন্ত্রী তারেক রহমানের সহধর্মিণী ডা. জুবাইদা...",
-      "sourceUrl": "https://www.daily-bangladesh.com/national/541524",
-      "sourceName": "ডেইলি বাংলাদেশ",
-      "imageCredit": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss5a929cca3cbeee",
-      "slug": "রোহিঙ্গা-প্রত্যাবাসন-ও-জলবায়ু-অর্থায়নে-য",
-      "title": "রোহিঙ্গা প্রত্যাবাসন ও জলবায়ু অর্থায়নে যুক্তরাজ্যের সহযোগিতা চাইলেন প্রধানমন্ত্রী",
-      "category": "প্রবাস",
-      "lead": false,
-      "image": "/images/politics.jpg",
-      "publishedAt": "2026-11-12T13:44:35.699Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>রোহিঙ্গাদের নিরাপদ ও মর্যাদাপূর্ণ প্রত্যাবাসন এবং জলবায়ু পরিবর্তনের প্রভাব মোকাবিলায় বাংলাদেশের অভিযোজন কার্যক্রমে যুক্তরাজ্যের সহযোগিতা চেয়েছেন প্রধানমন্ত্রী তারেক রহমান। পাশাপাশি অভিবাসন ও দুই দেশের অর্থনৈতিক সম্পর্ক জোরদারসহ পারস্পরিক স্বার্থসংশ্লিষ্ট বিভিন্ন বিষয় নিয়ে আলোচনা করেছেন তিনি। বৃহস্পত</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রোহিঙ্গাদের প্রত্যাবাসন ও জলবায়ু ঝুঁকি মোকাবিলায় যুক্তরাজ্যের সহযোগিতা নিশ্চিত হলে প্রবাসীদের জন্য কূটনৈতিক ও অর্থনৈতিক সম্পর্ক আরও সুদৃঢ় হবে। এ ধরনের দ্বিপাক্ষিক আলোচনা লন্ডনে বসবাসরত বাংলাদেশিদের জন্য নতুন সুযোগ ও বিনিয়োগের পথ প্রশস্ত করতে পারে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315578/রোহিঙ্গা-প্রত্যাবাসন-ও-জলবায়ু-অর্থায়নে-যুক্তরাজ্যের-সহযোগিতা-চাইলেন-প্রধানমন্ত্রী\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "রোহিঙ্গাদের নিরাপদ ও মর্যাদাপূর্ণ প্রত্যাবাসন এবং জলবায়ু পরিবর্তনের প্রভাব মোকাবিলায় বাংলাদেশের অভিযোজন কার্যক্রমে যুক্তরাজ্যের সহযোগিতা চেয়েছেন প্রধানমন্ত্রী তারেক রহমান। পাশাপাশি অভিবাসন ও দুই দেশের অর্থনৈতিক সম্পর্ক জোরদারসহ পারস্পরিক স্বার্থসংশ্লিষ্ট বিভিন্ন বিষয় নিয়ে আলোচনা করেছেন তিনি। বৃহস্পত",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/315578/রোহিঙ্গা-প্রত্যাবাসন-ও-জলবায়ু-অর্থায়নে-যুক্তরাজ্যের-সহযোগিতা-চাইলেন-প্রধানমন্ত্রী",
-      "sourceName": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rssf413d3ae4c5aca",
-      "slug": "আর্থিক-প্রতিষ্ঠানের-শীর্ষ-তিন-পদে-নিয়োগে",
-      "title": "আর্থিক প্রতিষ্ঠানের শীর্ষ তিন পদে নিয়োগের যোগ্যতা নির্ধারণ",
-      "category": "চাকরি",
-      "lead": false,
-      "image": "/img/%E0%A6%86%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%B7-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AA%E0%A6%A6%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97%E0%A7%87.webp",
-      "publishedAt": "2026-11-12T13:44:35.684Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>দেশের আর্থিক প্রতিষ্ঠানগুলোর শীর্ষ পর্যায়ের আরও তিনটি পদে নিয়োগের যোগ্যতা ও মানদণ্ড নির্ধারণ করে দিয়েছে বাংলাদেশ ব্যাংক। এখন থেকে প্রধান আর্থিক কর্মকর্তা (সিএফও), প্রধান তথ্যপ্রযুক্তি কর্মকর্তা (সিটিও) এবং কোম্পানি সচিব পদে নিয়োগের ক্ষেত্রে সংশ্লিষ্ট ব্যক্তির শিক্ষাগত যোগ্যতা, পেশাগত দক্ষতা ও কাজের </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আর্থিক খাতের শীর্ষ পদগুলোতে কঠোর মানদণ্ড নির্ধারণের ফলে পেশাদারিত্ব ও দায়বদ্ধতা নিশ্চিত হবে। চাকরিপ্রত্যাশীদের জন্য এখন থেকে প্রয়োজনীয় কারিগরি দক্ষতা ও প্রাতিষ্ঠানিক যোগ্যতার সমন্বয় ঘটানো আবশ্যিক হয়ে দাঁড়িয়েছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/business/news/980548/%E0%A6%86%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%B7-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AA%E0%A6%A6%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%A4%E0%A6%BE\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "দেশের আর্থিক প্রতিষ্ঠানগুলোর শীর্ষ পর্যায়ের আরও তিনটি পদে নিয়োগের যোগ্যতা ও মানদণ্ড নির্ধারণ করে দিয়েছে বাংলাদেশ ব্যাংক। এখন থেকে প্রধান আর্থিক কর্মকর্তা (সিএফও), প্রধান তথ্যপ্রযুক্তি কর্মকর্তা (সিটিও) এবং কোম্পানি সচিব পদে নিয়োগের ক্ষেত্রে সংশ্লিষ্ট ব্যক্তির শিক্ষাগত যোগ্যতা, পেশাগত দক্ষতা ও কাজের ",
-      "sourceUrl": "https://www.banglatribune.com/business/news/980548/%E0%A6%86%E0%A6%B0%E0%A7%8D%E0%A6%A5%E0%A6%BF%E0%A6%95-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B7%E0%A7%8D%E0%A6%A0%E0%A6%BE%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A7%80%E0%A6%B0%E0%A7%8D%E0%A6%B7-%E0%A6%A4%E0%A6%BF%E0%A6%A8-%E0%A6%AA%E0%A6%A6%E0%A7%87-%E0%A6%A8%E0%A6%BF%E0%A7%9F%E0%A7%8B%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%AF%E0%A7%8B%E0%A6%97%E0%A7%8D%E0%A6%AF%E0%A6%A4%E0%A6%BE",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
     }
   ],
   "ads": [
