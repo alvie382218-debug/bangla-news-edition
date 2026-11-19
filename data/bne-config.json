@@ -1,6 +1,6 @@
 {
-  "version": 3583,
-  "updatedAt": "2026-11-19T21:15:38.659Z",
+  "version": 3584,
+  "updatedAt": "2026-11-19T21:30:58.990Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,23 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rssdea947f318ca38",
+      "slug": "রোহিঙ্গা-নিধনের-ঘটনায়-জেনোসাইডে-দোষী-সাব",
+      "title": "রোহিঙ্গা নিধনের ঘটনায় জেনোসাইডে দোষী সাব্যস্ত মিয়ানমার",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/img/%E0%A6%B0%E0%A7%8B%E0%A6%B9%E0%A6%BF%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A6%BE-%E0%A6%A8%E0%A6%BF%E0%A6%A7%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%98%E0%A6%9F%E0%A6%A8%E0%A6%BE%E0%A7%9F-%E0%A6%9C%E0%A7%87%E0%A6%A8%E0%A7%8B%E0%A6%B8%E0%A6%BE%E0%A6%87%E0%A6%A1%E0%A7%87-%E0%A6%A6%E0%A7%8B%E0%A6%B7%E0%A7%80-%E0%A6%B8%E0%A6%BE%E0%A6%AC.avif",
+      "publishedAt": "2026-11-19T21:27:31.466Z",
+      "tags": [
+        "প্রথম আলো"
+      ],
+      "body": "<p>আন্তর্জাতিক বিচার আদালতের রায়ে প্রথমবারের মতো জেনোসাইডের জন্য কোনো রাষ্ট্রকে দোষী সাব্যস্ত করা হলো।</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.prothomalo.com/bangladesh/uw24cwv5t5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">প্রথম আলো</a></p>",
+      "summary": "আন্তর্জাতিক বিচার আদালতের রায়ে প্রথমবারের মতো জেনোসাইডের জন্য কোনো রাষ্ট্রকে দোষী সাব্যস্ত করা হলো।",
+      "sourceUrl": "https://www.prothomalo.com/bangladesh/uw24cwv5t5",
+      "sourceName": "প্রথম আলো",
+      "imageCredit": "প্রথম আলো"
     },
     {
       "id": "rss8d712fa3ecb125",
@@ -310,6 +327,22 @@
       "sourceName": "বাংলাদেশ ব্যাংক"
     },
     {
+      "id": "rss88e682c8a1d133",
+      "slug": "বাংলাদেশ-ব্যাংক-3",
+      "title": "বাংলাদেশ ব্যাংক",
+      "category": "অর্থনীতি",
+      "lead": false,
+      "image": "/images/economy.jpg",
+      "publishedAt": "2026-11-19T20:12:31.292Z",
+      "tags": [
+        "বাংলাদেশ ব্যাংক"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMid0FVX3lxTE9QOEs4Y3lnTW1nSGt0TTM2MEpBLVhubDE3OS02NVhCbUNvQkFsa19BVFhkQXFERHlGU1ZMX3JYZ2ZBbVkxTVBIQ0VJTVphc3Z3MUJ2Rmp0Wm1mN2N2Y1VWa1BSQ0ZRRkhrUFpsU0hOSmpJWUxZN19N?oc=5&quot; target=&quot;_blank&quot;&amp;gt;বাংলাদেশ ব্যাংক&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Bangladesh Bank&amp;lt;/font&amp;gt;</p>\n<p><a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9QOEs4Y3lnTW1nSGt0TTM2MEpBLVhubDE3OS02NVhCbUNvQkFsa19BVFhkQXFERHlGU1ZMX3JYZ2ZBbVkxTVBIQ0VJTVphc3Z3MUJ2Rmp0Wm1mN2N2Y1VWa1BSQ0ZRRkhrUFpsU0hOSmpJWUxZN19N?oc=5\" rel=\"nofollow noopener\" target=\"_blank\">আনুষ্ঠানিক ঘোষণাটি দেখুন →</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE9QOEs4Y3lnTW1nSGt0TTM2MEpBLVhubDE3OS02NVhCbUNvQkFsa19BVFhkQXFERHlGU1ZMX3JYZ2ZBbVkxTVBIQ0VJTVphc3Z3MUJ2Rmp0Wm1mN2N2Y1VWa1BSQ0ZRRkhrUFpsU0hOSmpJWUxZN19N?oc=5\" target=\"_blank\"&gt;বাংলাদেশ ব্যাংক&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6f6f\"",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9QOEs4Y3lnTW1nSGt0TTM2MEpBLVhubDE3OS02NVhCbUNvQkFsa19BVFhkQXFERHlGU1ZMX3JYZ2ZBbVkxTVBIQ0VJTVphc3Z3MUJ2Rmp0Wm1mN2N2Y1VWa1BSQ0ZRRkhrUFpsU0hOSmpJWUxZN19N?oc=5",
+      "sourceName": "বাংলাদেশ ব্যাংক"
+    },
+    {
       "id": "rss7d6e8297588494",
       "slug": "রোহিঙ্গাদের-কষ্টের-রাতের-অবসান-হোক-জামায়",
       "title": "রোহিঙ্গাদের কষ্টের রাতের অবসান হোক: জামায়াত আমির",
@@ -410,6 +443,22 @@
       "sourceUrl": "https://www.banglatribune.com/country/dhaka/982065/%E0%A6%97%E0%A7%8B%E0%A6%AA%E0%A6%BE%E0%A6%B2%E0%A6%97%E0%A6%9E%E0%A7%8D%E0%A6%9C%E0%A7%87-%E0%A6%B9%E0%A6%BE%E0%A6%B8%E0%A6%AA%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%B2%E0%A7%87-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A6%86%E0%A6%A8%E0%A7%8D%E0%A6%A4%E0%A6%B0%E0%A7%8D%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A6%BF%E0%A6%95-%E0%A6%86%E0%A6%87%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%B2%E0%A6%99%E0%A7%8D%E0%A6%98%E0%A6%A8",
       "sourceName": "বাংলা ট্রিবিউন",
       "imageCredit": "বাংলা ট্রিবিউন"
+    },
+    {
+      "id": "rss5d6dcbca2411b6",
+      "slug": "আশুলিয়ায়-তৃতীয়-লিঙ্গের-ব্যক্তি-খুন-৫",
+      "title": "আশুলিয়ায় তৃতীয় লিঙ্গের ব্যক্তি খুন, ৫ বছর পর রহস্য উদঘাটন",
+      "category": "জাতীয়",
+      "lead": false,
+      "image": "/images/national.jpg",
+      "publishedAt": "2026-11-19T19:42:31.462Z",
+      "tags": [
+        "যুগান্তর"
+      ],
+      "body": "<p>&amp;lt;a href=&quot;https://news.google.com/rss/articles/CBMiWEFVX3lxTE10UG9fOVd2bURSYjdZRjFmTE1vVFFDS2h0ekJsMS1ObzJSYnJ0WnRFVTNKUDF5clI2Y0pYd1dQcmZFbmJmaEFuYzlabWtHRjlpOWdxVHBPR0c?oc=5&quot; target=&quot;_blank&quot;&amp;gt;আশুলিয়ায় তৃতীয় লিঙ্গের ব্যক্তি খুন, ৫ বছর পর রহস্য উদঘাটন&amp;lt;/a&amp;gt;&amp;nbsp;&amp;nbsp;&amp;lt;font color=&quot;#6f6f6f&quot;&amp;gt;Jugantor&amp;lt;/font&amp;gt;</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE10UG9fOVd2bURSYjdZRjFmTE1vVFFDS2h0ekJsMS1ObzJSYnJ0WnRFVTNKUDF5clI2Y0pYd1dQcmZFbmJmaEFuYzlabWtHRjlpOWdxVHBPR0c?oc=5\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">যুগান্তর</a></p>",
+      "summary": "&lt;a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE10UG9fOVd2bURSYjdZRjFmTE1vVFFDS2h0ekJsMS1ObzJSYnJ0WnRFVTNKUDF5clI2Y0pYd1dQcmZFbmJmaEFuYzlabWtHRjlpOWdxVHBPR0c?oc=5\" target=\"_blank\"&gt;আশুলিয়ায় তৃতীয় লিঙ্গের ব্যক্তি খুন, ৫ বছর পর রহস্য উদঘাটন&lt;/a&gt;&nbsp;&nbsp;&lt;font color=\"#6f6",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10UG9fOVd2bURSYjdZRjFmTE1vVFFDS2h0ekJsMS1ObzJSYnJ0WnRFVTNKUDF5clI2Y0pYd1dQcmZFbmJmaEFuYzlabWtHRjlpOWdxVHBPR0c?oc=5",
+      "sourceName": "যুগান্তর"
     },
     {
       "id": "rsse8ab3f8d78c149",
@@ -8444,57 +8493,6 @@
       "body": "<p>কুমিল্লায় কার্যক্রম নিষিদ্ধ আওয়ামী লীগের দক্ষিণ জেলা কার্যালয় এবং দলটির সাবেক সংসদ সদস্য আ ক ম বাহাউদ্দিন বাহারের বাড়ি ও ব্যক্তিগত কার্যালয়ে আবারও অগ্নিসংযোগের ঘটনা ঘটেছে। মঙ্গলবার (১৭ নভেম্বর) রাতে নগরের রামঘাট ও মুন্সেফবাড়ি এলাকায় এসব ঘটনা ঘটে। এ নিয়ে টানা তৃতীয়বারের মতো বাহারের বাসভবন ও রাজনৈতিক </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বারবার অগ্নিসংযোগের ঘটনা জননিরাপত্তার জন্য উদ্বেগের কারণ, যা স্থানীয় এলাকায় অস্থিরতা ও আতঙ্ক তৈরি করছে। প্রশাসনের উচিত কঠোর নজরদারি নিশ্চিত করে আইনের শাসন বজায় রাখা। সাধারণ মানুষকেও গুজবে কান না দিয়ে শান্তি বজায় রাখতে দায়িত্বশীল হতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/chitagong/981652/%E0%A6%A4%E0%A7%83%E0%A6%A4%E0%A7%80%E0%A7%9F%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A4%E0%A7%8B-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%8F%E0%A6%AE%E0%A6%AA%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
       "summary": "কুমিল্লায় কার্যক্রম নিষিদ্ধ আওয়ামী লীগের দক্ষিণ জেলা কার্যালয় এবং দলটির সাবেক সংসদ সদস্য আ ক ম বাহাউদ্দিন বাহারের বাড়ি ও ব্যক্তিগত কার্যালয়ে আবারও অগ্নিসংযোগের ঘটনা ঘটেছে। মঙ্গলবার (১৭ নভেম্বর) রাতে নগরের রামঘাট ও মুন্সেফবাড়ি এলাকায় এসব ঘটনা ঘটে। এ নিয়ে টানা তৃতীয়বারের মতো বাহারের বাসভবন ও রাজনৈতিক ",
       "sourceUrl": "https://www.banglatribune.com/country/chitagong/981652/%E0%A6%A4%E0%A7%83%E0%A6%A4%E0%A7%80%E0%A7%9F%E0%A6%AC%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%AE%E0%A6%A4%E0%A7%8B-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A6%A6%E0%A7%87%E0%A6%93%E0%A7%9F%E0%A6%BE-%E0%A6%B9%E0%A6%B2%E0%A7%8B-%E0%A6%B8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%95-%E0%A6%8F%E0%A6%AE%E0%A6%AA%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss981f0f5f07f96a",
-      "slug": "পিরোজপুরে-দুটি-বাসে-দুর্বৃত্তদের-আগুন-ঘু",
-      "title": "পিরোজপুরে দুটি বাসে দুর্বৃত্তদের আগুন, ঘুমিয়ে থাকা হেলপারের মর্মান্তিক মৃত্যু",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%AA%E0%A6%BF%E0%A6%B0%E0%A7%8B%E0%A6%9C%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%9F%E0%A6%BF-%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%A6%E0%A7%81%E0%A6%B0%E0%A7%8D%E0%A6%AC%E0%A7%83%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A6%A6%E0%A7%87%E0%A6%B0-%E0%A6%86%E0%A6%97%E0%A7%81%E0%A6%A8-%E0%A6%98%E0%A7%81.jpg",
-      "publishedAt": "2026-11-18T03:57:04.166Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>পিরোজপুরের ভান্ডারিয়া বাসস্ট্যান্ডে পার্ক করে রাখা দুটি যাত্রীবাহী বাসে অগ্নিসংযোগ করেছে দুর্বৃত্তরা। এ সময় বাসের ভেতর ঘুমিয়ে থাকা সিয়াম (২৫) নামের এক হেলপারের আগুনে পুড়ে মর্মান্তিক মৃত্যু হয়েছে। বুধবার (১৮ নভেম্বর) ভোরের দিকে এই নাশকতার...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">পাবলিক পরিবহনে এমন সহিংস নাশকতা সাধারণ মানুষের চলাচলের নিরাপত্তাকে চরম অনিশ্চয়তার মুখে ঠেলে দিয়েছে। কর্মজীবী মানুষের জীবনের নিরাপত্তা নিশ্চিত করতে প্রশাসনের কঠোর নজরদারি ও অপরাধীদের দ্রুত আইনের আওতায় আনা এখন সময়ের দাবি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315823/পিরোজপুরে-দুটি-বাসে-দুর্বৃত্তদের-আগুন-ঘুমিয়ে-থাকা-হেলপারের-মর্মান্তিক-মৃত্যু\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "পিরোজপুরের ভান্ডারিয়া বাসস্ট্যান্ডে পার্ক করে রাখা দুটি যাত্রীবাহী বাসে অগ্নিসংযোগ করেছে দুর্বৃত্তরা। এ সময় বাসের ভেতর ঘুমিয়ে থাকা সিয়াম (২৫) নামের এক হেলপারের আগুনে পুড়ে মর্মান্তিক মৃত্যু হয়েছে। বুধবার (১৮ নভেম্বর) ভোরের দিকে এই নাশকতার...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/315823/পিরোজপুরে-দুটি-বাসে-দুর্বৃত্তদের-আগুন-ঘুমিয়ে-থাকা-হেলপারের-মর্মান্তিক-মৃত্যু",
-      "sourceName": "বাংলাদেশ জার্নাল",
-      "imageCredit": "বাংলাদেশ জার্নাল"
-    },
-    {
-      "id": "rss3f12fadc9e5d91",
-      "slug": "জবির-নৃবিজ্ঞান-বিভাগের-নতুন-চেয়ারম্যান-অ",
-      "title": "জবির নৃবিজ্ঞান বিভাগের নতুন চেয়ারম্যান অধ্যাপক মাঈন উদ্দিন",
-      "category": "জাতীয়",
-      "lead": false,
-      "image": "/img/%E0%A6%9C%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A7%83%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%85.webp",
-      "publishedAt": "2026-11-18T03:57:04.154Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>জগন্নাথ বিশ্ববিদ্যালয়ের (জবি) নৃবিজ্ঞান বিভাগের নতুন চেয়ারম্যান হিসেবে দায়িত্ব গ্রহণ করেছেন অধ্যাপক মাঈন উদ্দিন। অধ্যাপক হাবিবা সুলতানার চেয়ারম্যান নিয়োগের মেয়াদ পূর্ণ হওয়ায় তাকে নতুন নিয়োগ দেওয়া হয়েছে। মঙ্গলবার (১৭ নভেম্বর) বিশ্ববিদ্যালয়ের ভারপ্রাপ্ত রেজিস্ট্রার অধ্যাপক মো. শেখ গিয়াস উদ্দিন সই করা </p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিভাগীয় প্রধানের এই পরিবর্তন প্রশাসনিক ধারাবাহিকতা বজায় রাখার পাশাপাশি শিক্ষার্থীদের একাডেমিক কার্যক্রমে গতিশীলতা আনবে। দায়িত্বশীল নেতৃত্বের মাধ্যমে নতুন চেয়ারম্যান বিভাগের শৃঙ্খলা ও শিক্ষার মানোন্নয়নে যথাযথ পদক্ষেপ নেবেন বলে প্রত্যাশা করি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/educations/981649/%E0%A6%9C%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A7%83%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%85%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A6%95\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "জগন্নাথ বিশ্ববিদ্যালয়ের (জবি) নৃবিজ্ঞান বিভাগের নতুন চেয়ারম্যান হিসেবে দায়িত্ব গ্রহণ করেছেন অধ্যাপক মাঈন উদ্দিন। অধ্যাপক হাবিবা সুলতানার চেয়ারম্যান নিয়োগের মেয়াদ পূর্ণ হওয়ায় তাকে নতুন নিয়োগ দেওয়া হয়েছে। মঙ্গলবার (১৭ নভেম্বর) বিশ্ববিদ্যালয়ের ভারপ্রাপ্ত রেজিস্ট্রার অধ্যাপক মো. শেখ গিয়াস উদ্দিন সই করা ",
-      "sourceUrl": "https://www.banglatribune.com/educations/981649/%E0%A6%9C%E0%A6%AC%E0%A6%BF%E0%A6%B0-%E0%A6%A8%E0%A7%83%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8-%E0%A6%AC%E0%A6%BF%E0%A6%AD%E0%A6%BE%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%9A%E0%A7%87%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A6%AE%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%85%E0%A6%A7%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%AA%E0%A6%95",
-      "sourceName": "বাংলা ট্রিবিউন",
-      "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rssf3fda0d28febb8",
-      "slug": "সংঘর্ষের-পর-গাজীপুরের-শিল্পাঞ্চলে-স্বস্",
-      "title": "সংঘর্ষের পর গাজীপুরের শিল্পাঞ্চলে স্বস্তি, কাজে ফিরছেন শ্রমিকরা",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A7%80%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D.webp",
-      "publishedAt": "2026-11-18T03:57:04.142Z",
-      "tags": [
-        "বাংলা ট্রিবিউন"
-      ],
-      "body": "<p>দিনভর শ্রমিক বিক্ষোভ ও সংঘর্ষের পর গাজীপুরের শিল্পাঞ্চলে স্বাভাবিক হতে শুরু করেছে পরিস্থিতি। খুলে দেওয়া হয়েছে অধিকাংশ পোশাক কারখানা। বুধবার (১৮ নভেম্বর) সকাল থেকেই বিভিন্ন কারখানায় শ্রমিকদের সারিবদ্ধভাবে প্রবেশ করে কাজে যোগ দিতে দেখা গেছে। কর্মস্থলে ফিরতে পেরে শ্রমিকদের মধ্যেও স্বস্তি দেখা গেছে। বুধ</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শিল্পাঞ্চলে স্থিতিশীলতা ফেরায় উৎপাদন স্বাভাবিক হওয়া স্থানীয় অর্থনীতির জন্য ইতিবাচক। শ্রমিকদের কর্মস্পৃহা ধরে রাখতে মালিকপক্ষকে যৌক্তিক দাবি পূরণে আন্তরিক হতে হবে। অস্থিরতা পরিহারে উভয় পক্ষকে আলোচনার মাধ্যমে টেকসই সমাধান নিশ্চিত করতে হবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.banglatribune.com/country/dhaka/981650/%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A7%80%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%9C%E0%A7%87\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলা ট্রিবিউন</a></p>",
-      "summary": "দিনভর শ্রমিক বিক্ষোভ ও সংঘর্ষের পর গাজীপুরের শিল্পাঞ্চলে স্বাভাবিক হতে শুরু করেছে পরিস্থিতি। খুলে দেওয়া হয়েছে অধিকাংশ পোশাক কারখানা। বুধবার (১৮ নভেম্বর) সকাল থেকেই বিভিন্ন কারখানায় শ্রমিকদের সারিবদ্ধভাবে প্রবেশ করে কাজে যোগ দিতে দেখা গেছে। কর্মস্থলে ফিরতে পেরে শ্রমিকদের মধ্যেও স্বস্তি দেখা গেছে। বুধ",
-      "sourceUrl": "https://www.banglatribune.com/country/dhaka/981650/%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%B0%E0%A7%8D%E0%A6%B7%E0%A7%87%E0%A6%B0-%E0%A6%AA%E0%A6%B0-%E0%A6%97%E0%A6%BE%E0%A6%9C%E0%A7%80%E0%A6%AA%E0%A7%81%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B6%E0%A6%BF%E0%A6%B2%E0%A7%8D%E0%A6%AA%E0%A6%BE%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2%E0%A7%87-%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%B8%E0%A7%8D%E0%A6%A4%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%9C%E0%A7%87",
       "sourceName": "বাংলা ট্রিবিউন",
       "imageCredit": "বাংলা ট্রিবিউন"
     }
