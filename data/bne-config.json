@@ -1,6 +1,6 @@
 {
-  "version": 3529,
-  "updatedAt": "2026-11-19T08:15:33.323Z",
+  "version": 3530,
+  "updatedAt": "2026-11-19T08:30:42.918Z",
   "syncedFrom": "https://bne.147-224-13-31.nip.io",
   "settings": {
     "siteName": "বাংলা নিউজ এডিশন",
@@ -58,6 +58,56 @@
       "sourceUrl": "",
       "sourceName": "",
       "imageCredit": "সংগৃহীত"
+    },
+    {
+      "id": "rssf893152223ac63",
+      "slug": "প্রতিহিংসা-নয়-প্রয়োজন-ইতিহাস-থেকে-শিক্ষা",
+      "title": "প্রতিহিংসা নয়- প্রয়োজন ইতিহাস থেকে শিক্ষা নেওয়ার মানসিকতা",
+      "category": "খেলা",
+      "lead": false,
+      "image": "/img/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BF%E0%A6%82%E0%A6%B8%E0%A6%BE-%E0%A6%A8%E0%A7%9F-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A7%8B%E0%A6%9C%E0%A6%A8-%E0%A6%87%E0%A6%A4%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B8-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%B6%E0%A6%BF%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE.jpg",
+      "publishedAt": "2026-11-19T08:27:18.251Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>একটি জাতির পরিচয় কেবল তার ভূখণ্ড, মানচিত্র কিংবা ভৌগোলিক সীমানার মধ্যে সীমাবদ্ধ নয়। একটি জাতির প্রকৃত পরিচয় গড়ে ওঠে তার ইতিহাস, আত্মপরিচয়, ভাষা, সংস্কৃতি, ঐতিহ্...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ক্রীড়াঙ্গনে সুস্থ প্রতিদ্বন্দ্বিতার চেয়ে প্রতিহিংসার চর্চা দীর্ঘমেয়াদে অখেলোয়াড়সুলভ সংস্কৃতির জন্ম দেয়। ইতিহাস থেকে শিক্ষা নিয়ে পারস্পরিক শ্রদ্ধাবোধ গড়ে তুলতে পারলে তা মাঠের পারফরম্যান্স ও দেশের ভাবমূর্তি উজ্জ্বল করতে গুরুত্বপূর্ণ ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/opinion/542334\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "একটি জাতির পরিচয় কেবল তার ভূখণ্ড, মানচিত্র কিংবা ভৌগোলিক সীমানার মধ্যে সীমাবদ্ধ নয়। একটি জাতির প্রকৃত পরিচয় গড়ে ওঠে তার ইতিহাস, আত্মপরিচয়, ভাষা, সংস্কৃতি, ঐতিহ্...",
+      "sourceUrl": "https://daily-bangladesh.com/opinion/542334",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rssee0de677df73b5",
+      "slug": "আ-লীগের-নৈরাজ্য-ঠেকাতে-দৌলতখানে-রাত-জেগে",
+      "title": "আ.লীগের নৈরাজ্য ঠেকাতে দৌলতখানে রাত জেগে যুবদলের মহড়া",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/img/%E0%A6%86-%E0%A6%B2%E0%A7%80%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%A8%E0%A7%88%E0%A6%B0%E0%A6%BE%E0%A6%9C%E0%A7%8D%E0%A6%AF-%E0%A6%A0%E0%A7%87%E0%A6%95%E0%A6%BE%E0%A6%A4%E0%A7%87-%E0%A6%A6%E0%A7%8C%E0%A6%B2%E0%A6%A4%E0%A6%96%E0%A6%BE%E0%A6%A8%E0%A7%87-%E0%A6%B0%E0%A6%BE%E0%A6%A4-%E0%A6%9C%E0%A7%87%E0%A6%97%E0%A7%87.jpg",
+      "publishedAt": "2026-11-19T08:27:18.242Z",
+      "tags": [
+        "ডেইলি বাংলাদেশ"
+      ],
+      "body": "<p>আওয়ামী লীগের নৈরাজ্য ও ষড়যন্ত্রের প্রতিবাদ করতে ভোলার দৌলতখান উপজেলায় রাত জেগে মহড়া দিয়েছে যুবদলের নেতাকর্মীরা।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক অস্থিরতার মুখে স্থানীয় জননিরাপত্তা নিশ্চিত করা এখন বড় চ্যালেঞ্জ হয়ে দাঁড়িয়েছে। রাজনৈতিক দলগুলোর এমন পাল্টা মহড়া জনমনে ভীতি তৈরি করতে পারে, তাই শান্তি বজায় রাখতে প্রশাসনকে কঠোর নজরদারি বাড়াতে হবে এবং নাগরিক সচেতনতা আবশ্যক।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/542335\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "summary": "আওয়ামী লীগের নৈরাজ্য ও ষড়যন্ত্রের প্রতিবাদ করতে ভোলার দৌলতখান উপজেলায় রাত জেগে মহড়া দিয়েছে যুবদলের নেতাকর্মীরা।",
+      "sourceUrl": "https://daily-bangladesh.com/country/542335",
+      "sourceName": "ডেইলি বাংলাদেশ",
+      "imageCredit": "ডেইলি বাংলাদেশ"
+    },
+    {
+      "id": "rss27819a972b4147",
+      "slug": "রাজধানীতে-২৪-ঘণ্টায়-গ্রেপ্তার-৫৩৭-আওয়ামী",
+      "title": "রাজধানীতে ২৪ ঘণ্টায় গ্রেপ্তার ৫৩৭, ‘আওয়ামী লীগের’ ১০৭ জন",
+      "category": "সারাদেশ",
+      "lead": false,
+      "image": "/images/national.jpg",
+      "publishedAt": "2026-11-19T08:27:18.230Z",
+      "tags": [
+        "বাংলাদেশ জার্নাল"
+      ],
+      "body": "<p>রাজধানীতে গত ২৪ ঘণ্টায় বিশেষ অভিযান চালিয়ে মোট ৫৩৭ জনকে গ্রেপ্তার করেছে ঢাকা মহানগর পুলিশ (ডিএমপি)। গ্রেপ্তার ব্যক্তিদের মধ্যে কার্যক্রম নিষিদ্ধ আওয়ামী লীগ ও এর সহযোগী সংগঠনের ১০৭ জন নেতা-কর্মী রয়েছেন। বৃহস্পতিবার (১৯ নভেম্বর) সকালে...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আইনশৃঙ্খলা রক্ষাকারী বাহিনীর এমন ব্যাপক ধরপাকড় জনমনে কিছুটা স্বস্তি আনলেও নিরপেক্ষতা বজায় রাখা জরুরি। রাজনৈতিক সম্পৃক্ততার বাইরে সাধারণ মানুষ যেন হয়রানির শিকার না হয়, সে বিষয়ে পুলিশকে সতর্ক থাকতে হবে এবং নাগরিক সচেতনতা বৃদ্ধি করা প্রয়োজন।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315897/রাজধানীতে-২৪-ঘণ্টায়-গ্রেপ্তার-৫৩৭-আওয়ামী-লীগের-১০৭-জন\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
+      "summary": "রাজধানীতে গত ২৪ ঘণ্টায় বিশেষ অভিযান চালিয়ে মোট ৫৩৭ জনকে গ্রেপ্তার করেছে ঢাকা মহানগর পুলিশ (ডিএমপি)। গ্রেপ্তার ব্যক্তিদের মধ্যে কার্যক্রম নিষিদ্ধ আওয়ামী লীগ ও এর সহযোগী সংগঠনের ১০৭ জন নেতা-কর্মী রয়েছেন। বৃহস্পতিবার (১৯ নভেম্বর) সকালে...",
+      "sourceUrl": "https://www.bd-journal.com/bangladesh/315897/রাজধানীতে-২৪-ঘণ্টায়-গ্রেপ্তার-৫৩৭-আওয়ামী-লীগের-১০৭-জন",
+      "sourceName": "বাংলাদেশ জার্নাল"
     },
     {
       "id": "rss9cc5dbecd6c723",
@@ -256,7 +306,7 @@
       "tags": [
         "ডেইলি বাংলাদেশ"
       ],
-      "body": "<p>পার্বত্য অঞ্চলের বেকার যুবকদের কারিগরি দক্ষতা বাড়িয়ে কর্মসংস্থানের সুযোগ সৃষ্টির লক্ষ্যে বান্দরবানে তিন সপ্তাহব্যাপী যানবাহন রক্ষণাবেক্ষণ প্রশিক্ষণ কর্মসূচি সম্...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/542320\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "body": "<p>পার্বত্য অঞ্চলের বেকার যুবকদের কারিগরি দক্ষতা বাড়িয়ে কর্মসংস্থানের সুযোগ সৃষ্টির লক্ষ্যে বান্দরবানে তিন সপ্তাহব্যাপী যানবাহন রক্ষণাবেক্ষণ প্রশিক্ষণ কর্মসূচি সম্...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">কারিগরি দক্ষতা অর্জনের মাধ্যমে পার্বত্য অঞ্চলের যুবকদের জন্য আত্মকর্মসংস্থানের নতুন দুয়ার উন্মোচিত হলো। এমন বিশেষায়িত প্রশিক্ষণ সনদ অর্জনের পাশাপাশি নিজেদের দক্ষ করে গড়ে তোলা আধুনিক শ্রমবাজারে চাকরিপ্রার্থীদের জন্য দীর্ঘমেয়াদী সুবিধা বয়ে আনবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/542320\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "পার্বত্য অঞ্চলের বেকার যুবকদের কারিগরি দক্ষতা বাড়িয়ে কর্মসংস্থানের সুযোগ সৃষ্টির লক্ষ্যে বান্দরবানে তিন সপ্তাহব্যাপী যানবাহন রক্ষণাবেক্ষণ প্রশিক্ষণ কর্মসূচি সম্...",
       "sourceUrl": "https://daily-bangladesh.com/country/542320",
       "sourceName": "ডেইলি বাংলাদেশ",
@@ -273,7 +323,7 @@
       "tags": [
         "ডেইলি বাংলাদেশ"
       ],
-      "body": "<p>আগুনের শিখা দেখে সে কখনো অস্বস্তি বা ভয় অনুভব করতে পারে। আবার কৌতূহলবশত আগুনের দিকে হাতও বাড়াতে পারে। এই বিষয়টি আমাদের সামনে একটি গুরুত্বপূর্ণ প্রশ্ন তুলে ধর...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/science/542312\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "body": "<p>আগুনের শিখা দেখে সে কখনো অস্বস্তি বা ভয় অনুভব করতে পারে। আবার কৌতূহলবশত আগুনের দিকে হাতও বাড়াতে পারে। এই বিষয়টি আমাদের সামনে একটি গুরুত্বপূর্ণ প্রশ্ন তুলে ধর...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">ব্যক্তিগত আচরণ গঠনে বংশগতির পাশাপাশি পরিবেশের প্রভাব অনস্বীকার্য, যা আমাদের দৈনন্দিন সিদ্ধান্ত গ্রহণে গভীর ছাপ ফেলে। সচেতন অভিভাবকত্ব ও সুষ্ঠু সামাজিক পরিবেশ নিশ্চিত করা গেলে ক্ষতিকর প্রবণতা কমিয়ে ইতিবাচক মানসিকতা গড়ে তোলা সম্ভব।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/science/542312\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "আগুনের শিখা দেখে সে কখনো অস্বস্তি বা ভয় অনুভব করতে পারে। আবার কৌতূহলবশত আগুনের দিকে হাতও বাড়াতে পারে। এই বিষয়টি আমাদের সামনে একটি গুরুত্বপূর্ণ প্রশ্ন তুলে ধর...",
       "sourceUrl": "https://daily-bangladesh.com/science/542312",
       "sourceName": "ডেইলি বাংলাদেশ",
@@ -290,7 +340,7 @@
       "tags": [
         "ডেইলি বাংলাদেশ"
       ],
-      "body": "<p>সিরাজগঞ্জে কার্যক্রম নিষিদ্ধ আওয়ামী লীগের জেলা কার্যালয় ও দলটির সাবেক সংসদ সদস্য (এমপি) হাবিবে মিল্লাত মুন্নার বাড়িতে বুধবার সন্ধ্যায় আগুন দেওয়া হয়। তাছাড়া একই...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/542313\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "body": "<p>সিরাজগঞ্জে কার্যক্রম নিষিদ্ধ আওয়ামী লীগের জেলা কার্যালয় ও দলটির সাবেক সংসদ সদস্য (এমপি) হাবিবে মিল্লাত মুন্নার বাড়িতে বুধবার সন্ধ্যায় আগুন দেওয়া হয়। তাছাড়া একই...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">রাজনৈতিক অস্থিরতার এই বহিঃপ্রকাশ জনমনে নিরাপত্তার সংকট ও শঙ্কার পরিবেশ তৈরি করছে। ধারাবাহিক সংঘাত ও ভাঙচুরের এমন ঘটনা নাগরিক জীবনে অস্থিরতা বাড়িয়ে তুলছে, যা অবিলম্বে আইনের শাসন ও রাজনৈতিক স্থিতিশীলতা নিশ্চিত করার দাবি রাখে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/country/542313\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "সিরাজগঞ্জে কার্যক্রম নিষিদ্ধ আওয়ামী লীগের জেলা কার্যালয় ও দলটির সাবেক সংসদ সদস্য (এমপি) হাবিবে মিল্লাত মুন্নার বাড়িতে বুধবার সন্ধ্যায় আগুন দেওয়া হয়। তাছাড়া একই...",
       "sourceUrl": "https://daily-bangladesh.com/country/542313",
       "sourceName": "ডেইলি বাংলাদেশ",
@@ -307,7 +357,7 @@
       "tags": [
         "ডেইলি বাংলাদেশ"
       ],
-      "body": "<p>২৫ কোটি টাকা আত্মসাৎ করে হুন্ডির মাধ্যমে বিদেশে পাচারের মামলায় সাবেক ভূমিমন্ত্রী সাইফুজ্জামান চৌধুরী জাবেদকে ১৫ বছরের কারাদণ্ড দিয়েছেন আদালত। একই সঙ্গে তাকে ৫০...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/law-and-court/542314\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "body": "<p>২৫ কোটি টাকা আত্মসাৎ করে হুন্ডির মাধ্যমে বিদেশে পাচারের মামলায় সাবেক ভূমিমন্ত্রী সাইফুজ্জামান চৌধুরী জাবেদকে ১৫ বছরের কারাদণ্ড দিয়েছেন আদালত। একই সঙ্গে তাকে ৫০...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">আইনি এই কঠোর পদক্ষেপ প্রবাসী বাংলাদেশিদের বৈধ পথে রেমিট্যান্স পাঠাতে আরও সতর্ক ও উৎসাহিত করবে। হুন্ডি বা অনৈতিক লেনদেন রোধে এ ধরনের রায় বিদেশে দেশের ভাবমূর্তি পুনরুদ্ধারে এবং আর্থিক খাতের শৃঙ্খলা ফেরাতে কার্যকর ভূমিকা রাখবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://daily-bangladesh.com/law-and-court/542314\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "২৫ কোটি টাকা আত্মসাৎ করে হুন্ডির মাধ্যমে বিদেশে পাচারের মামলায় সাবেক ভূমিমন্ত্রী সাইফুজ্জামান চৌধুরী জাবেদকে ১৫ বছরের কারাদণ্ড দিয়েছেন আদালত। একই সঙ্গে তাকে ৫০...",
       "sourceUrl": "https://daily-bangladesh.com/law-and-court/542314",
       "sourceName": "ডেইলি বাংলাদেশ",
@@ -324,7 +374,7 @@
       "tags": [
         "ডেইলি বাংলাদেশ"
       ],
-      "body": "<p>সিরাজগঞ্জে শীতের আমেজ ক্রমেই বাড়ছে । সন্ধ্যার পর থেকেই কুয়াশা নামতে শুরু করছে, ভোরে তা ঘন হয়ে ঢেকে দিচ্ছে চারপাশ। বৃহস্পতিবার সকালেও হিমেল বাতাসের সঙ্গে কুয়াশার...</p>\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/542306\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
+      "body": "<p>সিরাজগঞ্জে শীতের আমেজ ক্রমেই বাড়ছে । সন্ধ্যার পর থেকেই কুয়াশা নামতে শুরু করছে, ভোরে তা ঘন হয়ে ঢেকে দিচ্ছে চারপাশ। বৃহস্পতিবার সকালেও হিমেল বাতাসের সঙ্গে কুয়াশার...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">শীতের আগমনে নিম্ন ও মধ্যবিত্ত মানুষের নিত্যপ্রয়োজনীয় গরম কাপড়ের চাহিদা ও ব্যয় একযোগে বাড়ছে। ক্রমবর্ধমান এই চাহিদার বাজারে সাধারণ ক্রেতাদের সাধ্যের মধ্যে মানসম্মত শীতবস্ত্র নিশ্চিত করা এখন জরুরি হয়ে পড়েছে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/542306\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
       "summary": "সিরাজগঞ্জে শীতের আমেজ ক্রমেই বাড়ছে । সন্ধ্যার পর থেকেই কুয়াশা নামতে শুরু করছে, ভোরে তা ঘন হয়ে ঢেকে দিচ্ছে চারপাশ। বৃহস্পতিবার সকালেও হিমেল বাতাসের সঙ্গে কুয়াশার...",
       "sourceUrl": "https://www.daily-bangladesh.com/country/542306",
       "sourceName": "ডেইলি বাংলাদেশ",
@@ -8471,57 +8521,6 @@
       "sourceUrl": "https://www.banglatribune.com/business/news/981572/%E0%A6%A8%E0%A6%A4%E0%A7%81%E0%A6%A8-%E0%A6%AE%E0%A6%9C%E0%A7%81%E0%A6%B0%E0%A6%BF-%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF%E0%A6%95%E0%A6%B0-%E0%A7%A7-%E0%A6%A1%E0%A6%BF%E0%A6%B8%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%A5%E0%A7%87%E0%A6%95%E0%A7%87-%E0%A6%98%E0%A7%8B%E0%A6%B7%E0%A6%A3%E0%A6%BE-%E0%A6%95%E0%A6%AC%E0%A7%87",
       "sourceName": "বাংলা ট্রিবিউন",
       "imageCredit": "বাংলা ট্রিবিউন"
-    },
-    {
-      "id": "rss2c697f2a37387c",
-      "slug": "রোড-রোলারের-সঙ্গে-অটোরিকশার-সংঘর্ষ-প্রাণ",
-      "title": "রোড রোলারের সঙ্গে অটোরিকশার সংঘর্ষ, প্রাণ গেল যাত্রীর",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A6%B0%E0%A7%8B%E0%A6%A1-%E0%A6%B0%E0%A7%8B%E0%A6%B2%E0%A6%BE%E0%A6%B0%E0%A7%87%E0%A6%B0-%E0%A6%B8%E0%A6%99%E0%A7%8D%E0%A6%97%E0%A7%87-%E0%A6%85%E0%A6%9F%E0%A7%8B%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A6%B6%E0%A6%BE%E0%A6%B0-%E0%A6%B8%E0%A6%82%E0%A6%98%E0%A6%B0%E0%A7%8D%E0%A6%B7-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%A3.jpg",
-      "publishedAt": "2026-11-17T14:57:03.531Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>ভোলার বোরহানউদ্দিন উপজেলায় একটি সড়ক দুর্ঘটনায় মো. জসিম (২৮) নামে এক অটোরিকশা যাত্রী প্রাণ হারিয়েছেন। মঙ্গলবার সকালে উপজেলার বড় মানিকা ইউনিয়নের ইদারার মোড় এলাকায় ভোলা-চরফ্যাশন আঞ্চলিক মহাসড়কে এ দুর্ঘটনা ঘটে। অটোরিকশাটি নিয়ন্ত্রণ হারিয়ে সড়কের পাশে পার্ক করে রাখা একটি রোড রোলারের পেছনে সজোরে ধাক্কা দিলে এই মর্মান্তিক ঘটনাটি ঘটে।</p>\n<p>নিহত জসিম চরফ্যাশন উপজেলার আলী আহম্মেদ মুন্সির ছেলে। দুর্ঘটনায় আহত হয়েছেন অন্য দুই যাত্রী, যাদের নাম আমেনা বেগম (২০) ও হাবীব (৩২)। আমেনা লালমোহন উপজেলার এবং হাবীব বরিশালের বাকেরগঞ্জ উপজেলার বাসিন্দা। দুর্ঘটনাকবলিত অটোরিকশাটির চালক ঘটনার পর পরই দ্রুত ঘটনাস্থল ত্যাগ করেছেন।</p>\n<p>স্থানীয় সূত্রে জানা গেছে, ভোলা থেকে যাত্রী নিয়ে অটোরিকশাটি চরফ্যাশনের দিকে যাচ্ছিল। পথিমধ্যে ইদারার মোড় এলাকায় পৌঁছালে চালক নিয়ন্ত্রণ হারালে অটোরিকশাটি দুমড়ে-মুচড়ে যায়। খবর পেয়ে বোরহানউদ্দিন ফায়ার সার্ভিসের একটি উদ্ধারকারী দল দ্রুত ঘটনাস্থলে পৌঁছে আহতদের উদ্ধার করে ভোলা সদর হাসপাতালে নিয়ে যায়। সেখানে প্রাথমিক চিকিৎসা শেষে জসিমের অবস্থার অবনতি হলে তাকে উন্নত চিকিৎসার জন্য বরিশাল পাঠানো হয়। পরবর্তীতে অ্যাম্বুলেন্সে করে ঢাকায় নেওয়ার পথে মঙ্গলবার দুপুরে তার মৃত্যু হয়।</p>\n<p>বোরহানউদ্দিন থানার ভারপ্রাপ্ত কর্মকর্তা (ওসি) মো. আশ্রাব আলী দুর্ঘটনার সত্যতা নিশ্চিত করেছেন। তিনি জানিয়েছেন, দুর্ঘটনার খবর পাওয়ার পরপরই পুলিশের একটি দল ঘটনাস্থল পরিদর্শন করেছে। এই ঘটনায় নিহতের পরিবারের পক্ষ থেকে আইনি পদক্ষেপ গ্রহণের প্রক্রিয়া চলছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সড়কের পাশে অরক্ষিত ভারী যানবাহন রেখে দেওয়ার প্রবণতা সাধারণ যাত্রীদের জীবনের ঝুঁকি বহুগুণ বাড়িয়ে দিচ্ছে। দুর্ঘটনা রোধে চালকদের সতর্কতার পাশাপাশি যথাযথ পার্কিং নীতিমালা নিশ্চিত করতে স্থানীয় প্রশাসনের তদারকি বাড়ানো জরুরি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/country/542109\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "ভোলার বোরহানউদ্দিনে সড়কের পাশে দাঁড়িয়ে থাকা রোড রোলারের সঙ্গে সিএনজিচালিত অটোরিকশার সংঘর্ষে মো. জসিম (২৮) নামে এক যাত্রী নিহত হয়েছেন। এ ঘটনায় আহত হয়েছেন আরও দুই...",
-      "sourceUrl": "https://www.daily-bangladesh.com/country/542109",
-      "sourceName": "ডেইলি বাংলাদেশ",
-      "imageCredit": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rsse66f5f81152573",
-      "slug": "২১-নভেম্বর-ঢাকা-সেনানিবাসে-যান-চলাচল-সীম",
-      "title": "২১ নভেম্বর ঢাকা সেনানিবাসে যান চলাচল সীমিত থাকবে",
-      "category": "সারাদেশ",
-      "lead": false,
-      "image": "/img/%E0%A7%A8%E0%A7%A7-%E0%A6%A8%E0%A6%AD%E0%A7%87%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%B0-%E0%A6%A2%E0%A6%BE%E0%A6%95%E0%A6%BE-%E0%A6%B8%E0%A7%87%E0%A6%A8%E0%A6%BE%E0%A6%A8%E0%A6%BF%E0%A6%AC%E0%A6%BE%E0%A6%B8%E0%A7%87-%E0%A6%AF%E0%A6%BE%E0%A6%A8-%E0%A6%9A%E0%A6%B2%E0%A6%BE%E0%A6%9A%E0%A6%B2-%E0%A6%B8%E0%A7%80%E0%A6%AE.jpg",
-      "publishedAt": "2026-11-17T14:57:03.530Z",
-      "tags": [
-        "ডেইলি বাংলাদেশ"
-      ],
-      "body": "<p>সশস্ত্র বাহিনী দিবস উপলক্ষে আগামী ২১ নভেম্বর ঢাকা সেনানিবাস এলাকায় যান চলাচল সীমিত রাখার সিদ্ধান্ত নেওয়া হয়েছে। দিনব্যাপী বিভিন্ন কর্মসূচি সুষ্ঠুভাবে সম্পন্ন করতে এবং সেনানিবাসের প্রধান সড়কগুলোতে যানজট নিরসনে সাধারণ যানবাহন চালকদের এই বিশেষ নির্দেশনা মেনে চলার অনুরোধ জানিয়েছে আন্তঃবাহিনী জনসংযোগ পরিদপ্তর (আইএসপিআর)।</p>\n<p>মঙ্গলবার এক বিজ্ঞপ্তির মাধ্যমে আইএসপিআর জানিয়েছে, ২১ নভেম্বর ঢাকা সেনানিবাসের প্রধান সড়কগুলো ব্যবহারের ক্ষেত্রে নির্দিষ্ট সময়সীমা নির্ধারণ করা হয়েছে। বিশেষ করে শহীদ জাহাঙ্গীর গেট থেকে স্টাফ রোড পর্যন্ত বিস্তৃত প্রধান সড়কটিতে ওইদিন সাধারণ যানবাহন চলাচল এড়িয়ে চলার পরামর্শ দেওয়া হয়েছে।</p>\n<p>বিজ্ঞপ্তিতে জানানো হয়েছে, আগামী ২১ নভেম্বর সকাল ৭টা থেকে বেলা ১১টা পর্যন্ত এবং দুপুর ১২টা থেকে সন্ধ্যা ৭টা পর্যন্ত সাধারণ কোনো যানবাহন এই পথ দিয়ে যাতায়াত করতে পারবে না। তবে সেনানিবাসের অভ্যন্তরে বসবাসকারী ব্যক্তিবর্গ এবং অনুষ্ঠানে আমন্ত্রিত অতিথিদের বহনকারী যানবাহনের ক্ষেত্রে এই বিধিনিষেধ প্রযোজ্য হবে না।</p>\n<p>সশস্ত্র বাহিনী দিবসের কর্মসূচি চলাকালীন সেনানিবাস এলাকায় বিশৃঙ্খলা এড়াতে ও নিরাপত্তা নিশ্চিত করতে সাধারণ মানুষকে বিকল্প পথ ব্যবহারের আহ্বান জানিয়েছে কর্তৃপক্ষ। আইএসপিআরের এই নির্দেশনাটি মূলত সেনানিবাস এলাকার প্রধান সড়কগুলোতে তীব্র যানজট প্রশমিত করার লক্ষ্যে গ্রহণ করা হয়েছে। সংশ্লিষ্ট সবাইকে নির্ধারিত সময়ের মধ্যে এই রুট পরিহার করে চলাচলের অনুরোধ করা হয়েছে।</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">সশস্ত্র বাহিনী দিবস উপলক্ষে যান চলাচলে সীমাবদ্ধতা সাময়িক হলেও ঢাকা সেনানিবাস সংলগ্ন এলাকার বাসিন্দাদের যাতায়াতে বাড়তি প্রস্তুতির প্রয়োজন রয়েছে। ভোগান্তি এড়াতে নাগরিকরা বিকল্প পথ ব্যবহারের পাশাপাশি সময় হাতে নিয়ে বের হলে জনদুর্ভোগ অনেকাংশে কমবে।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.daily-bangladesh.com/national/542115\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">ডেইলি বাংলাদেশ</a></p>",
-      "summary": "সশস্ত্র বাহিনী দিবস উপলক্ষে আগামী ২১ নভেম্বর ঢাকা সেনানিবাস এলাকার প্রধান সড়কে নির্দিষ্ট সময়ে সাধারণ যানবাহন চলাচল পরিহারের অনুরোধ জানিয়েছে আন্তঃবাহিনী জনসংয...",
-      "sourceUrl": "https://www.daily-bangladesh.com/national/542115",
-      "sourceName": "ডেইলি বাংলাদেশ",
-      "imageCredit": "ডেইলি বাংলাদেশ"
-    },
-    {
-      "id": "rss69189ae8a76c1d",
-      "slug": "লন্ডনে-নাহিদদের-ওপর-সহিংসতার-নিন্দা-সরকা",
-      "title": "লন্ডনে নাহিদদের ওপর ‘সহিংসতার’ নিন্দা সরকারের",
-      "category": "ধর্ম",
-      "lead": false,
-      "image": "/img/rss69189ae8a76c1d-1200x630.jpg",
-      "publishedAt": "2026-11-17T14:57:03.526Z",
-      "tags": [
-        "বাংলাদেশ জার্নাল"
-      ],
-      "body": "<p>লন্ডনে জাতীয় নাগরিক পার্টির আহ্বায়ক নাহিদ ইসলাম এবং বাংলাদেশি কমিউনিটির সদস্যদের ওপর চালানো সহিংসতার কড়া নিন্দা জানিয়েছে বাংলাদেশ সরকার। মঙ্গলবার (১৭ নভেম্বর) এক বিবৃতিতে এ বিষয়ে প্রতিক্রিয়া জানিয়ে পররাষ্ট্র মন্ত্রণালয় বলেছে, যুক্তরাজ্য সফরে থাকা জাতীয় নাগরিক...</p>\n<!--BNE-ED--><div class=\"bne-editorial\" style=\"margin:22px 0;padding:14px 16px;border-left:4px solid #c8102e;background:#faf7f7;border-radius:0 6px 6px 0\"><div style=\"font-weight:700;color:#c8102e;margin-bottom:6px;font-size:.95em\">বাংলা নিউজ এডিশন — সম্পাদকীয় বিশ্লেষণ</div><p style=\"margin:0\">বিদেশের মাটিতে রাজনৈতিক ও ধর্মীয় পরিচয়কে কেন্দ্র করে এ ধরনের সহিংসতা অসহিষ্ণুতা ও উগ্রবাদের বহিঃপ্রকাশ। রাষ্ট্রীয় পর্যায়ে এর নিন্দা জানানো জরুরি হলেও, প্রবাসে সংহতি ও পারস্পরিক শ্রদ্ধাবোধ বজায় রাখা সামাজিক শান্তি রক্ষার মূল চাবিকাঠি।</p></div><!--/BNE-ED-->\n<p style=\"margin-top:20px;padding-top:14px;border-top:1px solid #e3e3e3;font-size:.94em;color:#444\">মূল খবর: <a href=\"https://www.bd-journal.com/bangladesh/315810/লন্ডনে-নাহিদদের-ওপর-সহিংসতার-নিন্দা-সরকারের\" rel=\"nofollow noopener\" target=\"_blank\" style=\"color:#c8102e;text-decoration:none;font-weight:600\">বাংলাদেশ জার্নাল</a></p>",
-      "summary": "লন্ডনে জাতীয় নাগরিক পার্টির আহ্বায়ক নাহিদ ইসলাম এবং বাংলাদেশি কমিউনিটির সদস্যদের ওপর চালানো সহিংসতার কড়া নিন্দা জানিয়েছে বাংলাদেশ সরকার। মঙ্গলবার (১৭ নভেম্বর) এক বিবৃতিতে এ বিষয়ে প্রতিক্রিয়া জানিয়ে পররাষ্ট্র মন্ত্রণালয় বলেছে, যুক্তরাজ্য সফরে থাকা জাতীয় নাগরিক...",
-      "sourceUrl": "https://www.bd-journal.com/bangladesh/315810/লন্ডনে-নাহিদদের-ওপর-সহিংসতার-নিন্দা-সরকারের",
-      "sourceName": "বাংলাদেশ জার্নাল",
-      "imageCredit": "বাংলাদেশ জার্নাল"
     }
   ],
   "ads": [
